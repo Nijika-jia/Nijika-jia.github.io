@@ -1,0 +1,41 @@
+// you can custom css here
+:root {
+  --yun-c-cloud-light: #E9D37D;
+  --yun-c-cloud-dark: #FF5722;
+}
+
+.yun-cloud {
+  --yun-c-cloud: var(--yun-c-cloud-light); /* 默认浅色主题 */
+}
+
+.dark .yun-cloud {
+  --yun-c-cloud: var(--yun-c-cloud-dark); /* 深色主题覆盖 */
+}
+
+  
+body {
+  cursor: url('/cur/NormalSelect.cur'), auto;
+}
+
+// styles/css-vars.scss
+:root {
+  // 白天模式下文章框的底色
+  --va-c-bg-light: rgba(255, 255, 255, 0.8);
+  // 边栏背景图片
+  // --yun-sidebar-bg-img: url('https://cdn.yuumi.link/images/settings/Yuumi_Icon.png');
+  // 边栏背景颜色透明
+  --yun-sidebar-bg-color: rgba(255, 255, 255, 0);
+}
+
+// 夜晚模式下文章框的底色
+html.dark{
+  --va-c-bg-light:rgba(5, 16, 29, 0.8);
+}
+
+// 首页大字两边的背景
+.char-left {
+  border-right:0px solid rgba(255,255,255, 0)
+}
+.char-right {
+  border-left:0px solid rgba(255,255,255, 0)
+}

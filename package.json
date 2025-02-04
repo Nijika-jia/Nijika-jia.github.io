@@ -1,0 +1,29 @@
+{
+  "name": " Nijikajia",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "npm run build:ssg",
+    "build:spa": "valaxy build",
+    "build:ssg": "valaxy build --ssg",
+    "dev": "valaxy",
+    "rss": "valaxy rss",
+    "serve": "vite preview",
+    "new": "valaxy new"
+  },
+  "dependencies": {
+    "valaxy": "0.22.6",
+    "valaxy-addon-components": "^0.1.0",
+    "valaxy-addon-lightgallery": "^0.0.4",
+    "valaxy-addon-live2d": "^0.3.0",
+    "valaxy-addon-meting": "^0.1.4",
+    "valaxy-addon-twikoo": "^0.0.3",
+    "valaxy-addon-waline": "^0.2.0",
+    "valaxy-theme-yun": "0.22.6"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2",
+    "valaxy-addon-algolia": "^0.1.0"
+  }
+}
