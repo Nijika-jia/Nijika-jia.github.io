@@ -16,7 +16,7 @@ pnpm build
 cd yourname.github.io
 rm -rf ./*
 cp -r ../dist/* .
-git add .
+git add .v
 git commit -m "Update blog content"
 git push origin main
 ```

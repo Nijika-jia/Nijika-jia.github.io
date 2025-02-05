@@ -18,13 +18,20 @@ projects:
         url: "https://nijika-jia.github.io/SnakeGame/"
         emoji: "🐍"
         github: "Nijika-jia/SnakeGame"
-      - name: "飞机大作战(孤独摇滚版)"
+      - name: "飞机大作战(虹版)"
         desc: ""
         color: "#FAAA91"
         gradient: true
         url: "https://bocchi-the-rock-airplane-game.nijikajia.top/"
         emoji: "🎸"
         github: "Nijika-jia/BOCCHI-THE-ROCK-airplane-game"
+      - name: "吃豆人(凉版)"
+        desc: ""
+        color: "#2652A5"
+        gradient: true
+        url: "https://pacman.nijikajia.top/"
+        emoji: "🌿"
+        github: "https://github.com/Nijika-jia/pacman"
 #   tools:
 #     title: "工具库"
 #     emoji: "🛠️"
