@@ -35,7 +35,6 @@ declare module 'vue-router/auto-routes' {
     '/posts/给你的GitHubpage用上Cloudflare(只有域名即可)': RouteRecordInfo<'/posts/给你的GitHubpage用上Cloudflare(只有域名即可)', '/posts/给你的GitHubpage用上Cloudflare(只有域名即可)', Record<never, never>, Record<never, never>>,
     '/posts/更好的在.md文件粘贴图片-Paste image VScode插件推荐': RouteRecordInfo<'/posts/更好的在.md文件粘贴图片-Paste image VScode插件推荐', '/posts/更好的在/md文件粘贴图片-Paste image VScode插件推荐', Record<never, never>, Record<never, never>>,
     '/posts/新年快乐': RouteRecordInfo<'/posts/新年快乐', '/posts/新年快乐', Record<never, never>, Record<never, never>>,
-    '/posts/git命令更新仓库笔记': RouteRecordInfo<'/posts/git命令更新仓库笔记', '/posts/git命令更新仓库笔记', Record<never, never>, Record<never, never>>,
     '/posts/hello': RouteRecordInfo<'/posts/hello', '/posts/hello', Record<never, never>, Record<never, never>>,
     '/posts/TypePost': RouteRecordInfo<'/posts/TypePost', '/posts/TypePost', Record<never, never>, Record<never, never>>,
     '/projects/': RouteRecordInfo<'/projects/', '/projects', Record<never, never>, Record<never, never>>,
