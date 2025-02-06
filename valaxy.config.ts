@@ -119,7 +119,7 @@ export default defineValaxyConfig<UserThemeConfig>({
       }
     },
     colors: {
-      primary: '#FFA500' // 设置为橙色
+      primary: '#D5C63A' // 设置为橙色
     },
     fireworks: {
       enable: true,
