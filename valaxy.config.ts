@@ -28,8 +28,8 @@ export default defineValaxyConfig<UserThemeConfig>({
     outlineTitle : '伊地知佳の小站',
     bg_image : {
       enable : true,
-      url : 'https://pic1.imgdb.cn/item/678fee71d0e0a243d4f6447a.png',
-      dark : 'https://pic1.imgdb.cn/item/678ff18fd0e0a243d4f6448e.jpg',
+      url : '/bg/bg1.jpg',
+      dark : '/bg/bg2.jpg',
       opacity : 0.5
     },
     // menu: {
