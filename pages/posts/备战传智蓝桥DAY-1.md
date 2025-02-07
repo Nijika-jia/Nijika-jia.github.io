@@ -3,8 +3,8 @@ layout: post
 title: 备战传智蓝桥DAY-1
 date: 2025-02-07 20:05:59
 tags: 
-    - 标签
-categories: 分类
+    - 算法
+categories: 爱记录
 #top : 1 #置顶数值(越大越在前面)
 draft: false #true为草稿记得改false发布时
 #time_warning: 30 #过多少天会警告
