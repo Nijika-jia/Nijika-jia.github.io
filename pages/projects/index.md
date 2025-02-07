@@ -31,7 +31,7 @@ projects:
         gradient: true
         url: "https://pacman.nijikajia.top/"
         emoji: "🌿"
-        github: "https://github.com/Nijika-jia/pacman"
+        github: "Nijika-jia/pacman"
 #   tools:
 #     title: "工具库"
 #     emoji: "🛠️"

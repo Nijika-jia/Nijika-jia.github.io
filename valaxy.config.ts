@@ -80,7 +80,7 @@ export default defineValaxyConfig<UserThemeConfig>({
     notice :{
       enable : true,
       hideInPages : true,
-      content: '<center style ="font-Size : 25px">Notice</center>正在做好玩的小项目(当然在AI的帮助下)。',
+      content: '<center style ="font-Size : 25px">公告栏</center>学习图论(😪)',
 
     },
     // nav:[

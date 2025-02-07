@@ -13,4 +13,8 @@ albums:
     cover: "/albums/code/板子.png"
     caption: "代码截图"
     desc: "代码记录"
+  - url: "/ablums/gallery3"
+    cover: "/albums/game/20250105005646_1.jpg"
+    caption: "游戏时刻"
+    desc: "游戏时刻"
 ---
