@@ -32,13 +32,15 @@ projects:
         url: "https://pacman.nijikajia.top/"
         emoji: "🌿"
         github: "Nijika-jia/pacman"
-#   tools:
-#     title: "工具库"
-#     emoji: "🛠️"
-#     collection:
-#       - name: "Yun CLI"
-#         desc: "云游君的脚手架工具"
-#         color: "#ff6b6b"
-#         textColor: "white"
-#         github: "YunYouJun/yun-cli"
+  tools:
+    title: "工具库"
+    emoji: "🛠️"
+    collection:
+      - name: "图论编辑器"
+        desc: "图论的好助手!!!"
+        color: "#2D2D2D"
+        textColor: "white"
+        emoji: "🕸️"
+        url: "https://graphtheorytools.nijikajia.top/"
+        github: "Nijika-jia/Graph-theory-tools"
 ---
