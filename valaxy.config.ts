@@ -123,7 +123,7 @@ export default defineValaxyConfig<UserThemeConfig>({
     },
     fireworks: {
       enable: true,
-      colors: ['#FF5722', '#4CAF50'] // 自定义颜色
+      colors: ['#D5C63A', '#FCBDC5'] // 自定义颜色
     },
     // nav: [
     //   { text: 'Home', link: '/' },
