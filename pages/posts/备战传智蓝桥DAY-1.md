@@ -31,14 +31,14 @@ cover : /posts/备战传智蓝桥DAY-1_2025-02-07-21-21-27.png
 - **今日目标完成情况**：
   - ✅ **完成**：完成 6 道题目。
   >蓝桥云课
-  - [发现环](https://www.lanqiao.cn/problems/108/learning/) - 拓扑排序 + 证自环 || dfs + 并查集(只有查)[困难]
-  - [恋爱通关游戏](https://www.lanqiao.cn/problems/2947/learning/) - 拓扑排序 + dp[困难]
-  - [阿霖的旅游计划](https://www.lanqiao.cn/problems/5011/learning/) - 拓扑排序 + dp[简单]
-  - [最小字典序排列](https://www.lanqiao.cn/problems/3351/learning/) - 拓扑排序(板子,加了个优先队列强调顺序而已)[简单]
+  - [发现环](https://www.lanqiao.cn/problems/108/learning/) - 拓扑排序 + 证自环 || dfs + 并查集(只有查)[困难🔴]
+  - [恋爱通关游戏](https://www.lanqiao.cn/problems/2947/learning/) - 拓扑排序 + dp[困难🔴]
+  - [阿霖的旅游计划](https://www.lanqiao.cn/problems/5011/learning/) - 拓扑排序 + dp[简单🟢]
+  - [最小字典序排列](https://www.lanqiao.cn/problems/3351/learning/) - 拓扑排序(板子,加了个优先队列强调顺序而已)[简单🟢]
   >xfxcy
   - [奖金](https://www.xfxcy.com/p/P0249) - 拓扑排序 + dp[不知道]
   > 洛谷
-  - [家谱树](https://www.luogu.com.cn/problem/B3644) - 拓扑排序(板子)[普及-]
+  - [家谱树](https://www.luogu.com.cn/problem/B3644) - 拓扑排序(板子)[普及-🟠]
 ---
 
 ### 💡 **解题思路与总结**
@@ -73,7 +73,7 @@ cover : /posts/备战传智蓝桥DAY-1_2025-02-07-21-21-27.png
 ---
 
 ### 📝 **附注**
-- ✏️ 晚点再让ai做点有用的小项目
+- ✏️ 晚点再让ai做点有用的小项目(图论常常用到的)
 ### 🍕封面图
 ![](/posts/备战传智蓝桥DAY-1_2025-02-07-21-21-27.png)
 ---
