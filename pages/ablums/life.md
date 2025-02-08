@@ -56,6 +56,9 @@ photos :
   - src: '/albums/life/TempDragFile_20250208_213212.png'
     caption: "朦胧?"
     desc: 
+  - src: '/albums/life/IMG_20241105_183003.jpg'
+    caption: "虹门!"
+    desc: 
   - src: '/albums/life/TempDragFile_20250208_213533.png'
     caption: "在这一下午也没学会游泳"
     desc: 
