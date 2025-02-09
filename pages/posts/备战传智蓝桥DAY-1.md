@@ -13,6 +13,7 @@ draft: false #true为草稿记得改false发布时
 sponsor: false 
 copyright: false
 cover : /posts/备战传智蓝桥DAY-1_2025-02-07-21-21-27.png
+codeHeightLimit: 300
 ---
 
 ### 🎯 **今日目标**
@@ -48,9 +49,66 @@ cover : /posts/备战传智蓝桥DAY-1_2025-02-07-21-21-27.png
 - **遇到的问题**：不会找自环。
 - **解决方案**：看题解有思路,发现只要把所有入度为1(双向建边)的点删去,其余就是环。
 ![](/posts/备战传智蓝桥DAY-1_2025-02-07-21-05-35.png)
-#### 总结:
+```cpp:line-numbers
+#include<bits/stdc++.h>
+#define int long long
+#define PII pair<int,int>
+#define ULL unsigned long long
+#define all(v) v.begin(), v.end()
+#define debug(a) cout<<#a<<"="<<a<<endl;
+using namespace std;
+constexpr int N =  1 * 1e6 + 10,M = 5 * 1e3 + 10,inf = 0x3f3f3f3f;
+
+int n;
+int in[N],f[N];
+void dfs(int u)
+{
+    if(in[u] == 1)
+    {
+        in[u]--;
+        in[f[u]] --;
+        dfs(f[u]);
+    }
+}
+void solve()
+{
+    cin >> n;
+    for(int i=0;i<n;i++)
+    {
+        int a,b;
+        cin >> a >> b;
+        in[a] ++ , in[b] ++;
+        f[b] = a;
+    }
+
+    for(int i=1;i<=n;i++) dfs(i);
+    for(int i=1;i<=n;i++)
+    {
+        if(in[i] > 1) cout << i << ' ';
+    }
+}
+signed main()
+{
+    ios::sync_with_stdio(0);cin.tie(nullptr),cout.tie(nullptr);
+    int _=1;
+    // cin>>_;
+    while(_--)
+    {
+        solve();
+    }
+    return 0;
+}
+
+/**
+ *    author: Nijika_jia
+ *    created: 2025.02.07 20:53:33
+ */
+```
+#### 额外收获:
 - 感觉求什么最大(旅游,恋爱),最少(奖金)的题目拓扑排序就是在给dp打辅助,不会dp照样白瞎
 ![](/posts/备战传智蓝桥DAY-1_2025-02-07-21-09-08.png)
+- 高中的记忆开始攻击我,让我想起来等差公式求和
+![](/posts/备战传智蓝桥DAY-1_2025-02-07-21-36-16.png)
 ---
 
 ### 🔧 **改进计划**
@@ -58,14 +116,6 @@ cover : /posts/备战传智蓝桥DAY-1_2025-02-07-21-21-27.png
   - 📖 **复习**：巩固未掌握的知识点（如堆(小根堆的优先队列都不会写了)、递归优化,lamda表达式）。
   - 📊 **刷题**：增加某类题目练习，如图论题或搜索题。
   - ⏳ **时间管理**：减少不必要的时间浪费，限定每题时间。
-  - 👣 **额外收获**: 高中的记忆开始攻击我,让我想起来等差公式求和
-  ![](/posts/备战传智蓝桥DAY-1_2025-02-07-21-36-16.png)
----
-
-### 🩺 **状态反馈**
-- **身体状态**：😪。
-- **心理状态**：🕹️。
-
 ---
 
 ### 📖 **明日计划**
