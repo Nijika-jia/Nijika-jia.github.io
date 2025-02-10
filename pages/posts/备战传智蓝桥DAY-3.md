@@ -363,7 +363,7 @@ signed main()
  *    created: 2025.02.09 19:37:27
  */
 ```
-::: warning 以前错的地方,被访问过得你也加进去是吧?
+::: warning 以前错的地方:被访问过得你也加进去是吧?
 ```cpp
 int bfs(int s, int limt) {
     memset(st, false, sizeof st);
