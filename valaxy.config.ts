@@ -142,6 +142,12 @@ export default defineValaxyConfig<UserThemeConfig>({
     // },
     
   },
+  markdown: {
+    theme:{
+      light : 'material-theme-lighter',
+      dark : 'material-theme-darker'
+    }
+  },
   addons: [
     addonLightGallery(),
     addonWaline({
