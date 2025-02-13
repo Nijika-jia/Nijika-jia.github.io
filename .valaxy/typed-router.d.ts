@@ -38,6 +38,7 @@ declare module 'vue-router/auto-routes' {
     '/posts/备战传智蓝桥DAY-4': RouteRecordInfo<'/posts/备战传智蓝桥DAY-4', '/posts/备战传智蓝桥DAY-4', Record<never, never>, Record<never, never>>,
     '/posts/备战传智蓝桥DAY-5': RouteRecordInfo<'/posts/备战传智蓝桥DAY-5', '/posts/备战传智蓝桥DAY-5', Record<never, never>, Record<never, never>>,
     '/posts/备战传智蓝桥DAY-6': RouteRecordInfo<'/posts/备战传智蓝桥DAY-6', '/posts/备战传智蓝桥DAY-6', Record<never, never>, Record<never, never>>,
+    '/posts/备战传智蓝桥DAY-7': RouteRecordInfo<'/posts/备战传智蓝桥DAY-7', '/posts/备战传智蓝桥DAY-7', Record<never, never>, Record<never, never>>,
     '/posts/崩溃了,AI': RouteRecordInfo<'/posts/崩溃了,AI', '/posts/崩溃了,AI', Record<never, never>, Record<never, never>>,
     '/posts/给你的GitHubpage用上Cloudflare(只有域名即可)': RouteRecordInfo<'/posts/给你的GitHubpage用上Cloudflare(只有域名即可)', '/posts/给你的GitHubpage用上Cloudflare(只有域名即可)', Record<never, never>, Record<never, never>>,
     '/posts/更好的在.md文件粘贴图片-Paste image VScode插件推荐': RouteRecordInfo<'/posts/更好的在.md文件粘贴图片-Paste image VScode插件推荐', '/posts/更好的在/md文件粘贴图片-Paste image VScode插件推荐', Record<never, never>, Record<never, never>>,
