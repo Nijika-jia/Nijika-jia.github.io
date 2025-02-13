@@ -12,7 +12,7 @@ draft: false #true为草稿记得改false发布时
 #postTitleClass: "custom-title" #更改文章列表标题颜色,自定义的CSS在Style文件夹里index.scss
 sponsor: false 
 copyright: false
-cover : /posts/备战传智蓝桥DAY-7_2025-02-14-01-12-10.png
+cover : /posts/备战传智蓝桥DAY-7_2025-02-14-02-42-06.png
 codeHeightLimit: 300
 ---
 ### 🕒 **学习与练习计划**
@@ -726,5 +726,5 @@ signed main()
 ### 📝 **附注**
 
 ### 🍕封面图
-![](/posts/备战传智蓝桥DAY-7_2025-02-14-01-12-10.png)
+![](/posts/备战传智蓝桥DAY-7_2025-02-14-02-42-06.png)
 ---
