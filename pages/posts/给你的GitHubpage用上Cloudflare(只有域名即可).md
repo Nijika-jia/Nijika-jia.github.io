@@ -12,11 +12,6 @@ draft: false #true为草稿记得改false发布时
 #color: red  #更改进入页面的标题颜色
 #postTitleClass: "custom-title" #更改文章列表标题颜色,自定义的CSS在Style文件夹里index.scss
 ---
-
-好的，已保持图片的顺序并做了排版上的调整，加入了一些适当的 emoji 以增加趣味性和可读性。以下是更新后的版本：
-
----
-
 ## 🚀 给你的 GitHub Page 用上 Cloudflare（只要有域名即可！）
 
 如果你有自己的 GitHub Pages 网站，可能已经体验过它的简洁和便捷。但如果你想让它看起来更专业、更加快速、并且具备更强的安全性，那么使用自定义域名并将其通过 Cloudflare 进行加速和保护，是一个非常值得尝试的方案！今天我就带你走一遍简单的设置流程，让你的 GitHub Pages 变得更炫酷！✨
