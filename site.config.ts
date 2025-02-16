@@ -4,7 +4,7 @@ export default defineSiteConfig({
   url: 'https://blog.nijikajia.top/',
   lang: 'zh-CN',
   title: '伊地知佳の博客 | Nijikajia`s Blog',
-  subtitle: 'All at sea.',
+  subtitle: '',
   author: {
     name: '伊地知佳',
     avatar:'/avatar/avatar.jpg',
@@ -55,7 +55,7 @@ export default defineSiteConfig({
     enable : true
   },
   
-  description: '私と一生ブログをしてください.',
+  description: '一个看到dp就会睡着的入.',
   social: [
     {
       name: 'RSS',

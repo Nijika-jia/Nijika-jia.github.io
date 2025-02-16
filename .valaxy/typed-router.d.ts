@@ -33,6 +33,7 @@ declare module 'vue-router/auto-routes' {
     '/page/[page]': RouteRecordInfo<'/page/[page]', '/page/:page', { page: ParamValue<true> }, { page: ParamValue<false> }>,
     '/posts/': RouteRecordInfo<'/posts/', '/posts', Record<never, never>, Record<never, never>>,
     '/posts/备战传智蓝桥DAY-1': RouteRecordInfo<'/posts/备战传智蓝桥DAY-1', '/posts/备战传智蓝桥DAY-1', Record<never, never>, Record<never, never>>,
+    '/posts/备战传智蓝桥DAY-10(福利局)': RouteRecordInfo<'/posts/备战传智蓝桥DAY-10(福利局)', '/posts/备战传智蓝桥DAY-10(福利局)', Record<never, never>, Record<never, never>>,
     '/posts/备战传智蓝桥DAY-2': RouteRecordInfo<'/posts/备战传智蓝桥DAY-2', '/posts/备战传智蓝桥DAY-2', Record<never, never>, Record<never, never>>,
     '/posts/备战传智蓝桥DAY-3': RouteRecordInfo<'/posts/备战传智蓝桥DAY-3', '/posts/备战传智蓝桥DAY-3', Record<never, never>, Record<never, never>>,
     '/posts/备战传智蓝桥DAY-4': RouteRecordInfo<'/posts/备战传智蓝桥DAY-4', '/posts/备战传智蓝桥DAY-4', Record<never, never>, Record<never, never>>,
