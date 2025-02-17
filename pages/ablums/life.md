@@ -6,6 +6,9 @@ aside: false
 medium_zoom: true
 layout : gallery
 photos :
+  - src: '/albums/life/081482ad8fdbca2ba22a6b62a500a163.png'
+    caption: "拷打cursor"
+    desc: ""
   - src: '/albums/life/IMG_20240504_102148.jpg'
     caption: "漫展的无料"
     desc: ""
