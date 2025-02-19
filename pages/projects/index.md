@@ -38,9 +38,9 @@ projects:
     collection:
       - name: "图论编辑器"
         desc: "图论的好助手!!!"
-        color: "#2D2D2D"
+        color: "#dd6236"
         textColor: "white"
-        emoji: "🕸️"
+        emoji: "🍕"
         url: "https://graphtheorytools.nijikajia.top/"
         github: "Nijika-jia/Graph-theory-tools"
 ---
