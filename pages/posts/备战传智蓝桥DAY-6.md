@@ -9,7 +9,7 @@ tags:
     - 最短路
     - 图论
     - 二分
-    - DIjkstra
+    - Dijkstra
     - SPFA
     - Floyd
     - DP

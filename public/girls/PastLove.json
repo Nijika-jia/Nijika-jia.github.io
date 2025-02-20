@@ -1,5 +1,19 @@
 [
     {
+        "name": "常陆茉子",
+        "url": "",
+        "avatar": "https://cdn.jsdelivr.net/gh/Nijika-jia/Nijika-jia.github.io@main/public/girls/avatar/常陆茉子.jpg",
+        "from": "千恋万花",
+        "reason": "第一个galgame,进的第一个线"
+    },
+    {
+        "name": "因幡巡",
+        "url": "",
+        "avatar": "https://cdn.jsdelivr.net/gh/Nijika-jia/Nijika-jia.github.io@main/public/girls/avatar/因幡巡.jpg",
+        "from": "魔女的夜宴",
+        "reason": "会陪你打游戏的女生,谁不想要呢"
+    },
+    {
         "name": "伊蕾娜",
         "url": "",
         "avatar": "https://cdn.jsdelivr.net/gh/Nijika-jia/Nijika-jia.github.io@main/public/girls/avatar/伊蕾娜.jpg",
@@ -208,20 +222,6 @@
         "avatar": "https://cdn.jsdelivr.net/gh/Nijika-jia/Nijika-jia.github.io@main/public/girls/avatar/笑面教授.jpg",
         "from": "碧蓝档案",
         "reason": "太有感觉了"
-    },
-    {
-        "name": "常陆茉子",
-        "url": "",
-        "avatar": "https://cdn.jsdelivr.net/gh/Nijika-jia/Nijika-jia.github.io@main/public/girls/avatar/常陆茉子.jpg",
-        "from": "千恋万花",
-        "reason": "第一个galgame,进的第一个线"
-    },
-    {
-        "name": "因幡巡",
-        "url": "",
-        "avatar": "https://cdn.jsdelivr.net/gh/Nijika-jia/Nijika-jia.github.io@main/public/girls/avatar/因幡巡.jpg",
-        "from": "魔女的夜宴",
-        "reason": "会陪你打游戏的女生,谁不想要呢"
     },
     {
         "name": "雏",

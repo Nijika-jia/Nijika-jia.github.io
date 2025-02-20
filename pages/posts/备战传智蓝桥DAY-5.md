@@ -7,7 +7,7 @@ tags:
     - 蓝桥云课
     - 图论
     - 最短路
-    - DIjkstra
+    - Dijkstra
     - SPFA
     - Floyd
     - Floyd记录路径
