@@ -1,6 +1,6 @@
 ---
 layout: post
-title: byd崩溃了,做这个工具,**AI
+title: byd崩溃了,做这个图论工具,**AI
 date: 2025-02-09 01:39:17
 tags: 
     - AI

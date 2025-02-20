@@ -4,6 +4,25 @@ title: 备战传智蓝桥DAY-10(福利局)
 date: 2025-02-17 00:25:06
 tags: 
     - 算法
+    - 最短路
+    - 图论
+    - Dijkstra
+    - SPFA优化
+    - SLF优化
+    - LLL优化
+    - SPFA的SLF,LLL,SLF+LLL,DFS优化
+    - Dijkstra变种
+    - 竞赛模板
+    - 负环检测
+    - Python脚本
+    - Python爬虫
+    - json数据处理
+    - 图床加速
+    - Update girls
+    - 蓝桥云课
+    - 算法赛
+    - 时间管理
+
 categories: 爱记录
 #top : 1 #置顶数值(越大越在前面)
 draft: false #true为草稿记得改false发布时

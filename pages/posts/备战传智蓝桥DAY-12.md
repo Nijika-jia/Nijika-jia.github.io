@@ -4,6 +4,18 @@ title: 备战传智蓝桥DAY-12
 date: 2025-02-20 02:29:32
 tags: 
     - 算法
+    - 图论
+    - 最小生成树
+    - Kruskal
+    - 连通块
+    - 虚拟源点
+    - DFS
+    - 二分
+    - Floyd
+    - 刷题
+    - 洛谷
+    - dotcpp
+    - Update project
 categories: 爱记录
 #top : 1 #置顶数值(越大越在前面)
 draft: false #true为草稿记得改false发布时

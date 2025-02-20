@@ -4,6 +4,23 @@ title: 备战传智蓝桥DAY-5
 date: 2025-02-12 01:07:48
 tags: 
     - 算法
+    - 蓝桥云课
+    - 图论
+    - 最短路
+    - DIjkstra
+    - SPFA
+    - Floyd
+    - Floyd记录路径
+    - DP
+    - BFS
+    - 01-Tire
+    - 二分
+    - 贪心
+    - 最短路径
+    - 位运算
+    - 质数
+    - 有且仅有一个满足
+    - 未完成
 categories: 爱记录
 #top : 1 #置顶数值(越大越在前面)
 draft: false #true为草稿记得改false发布时

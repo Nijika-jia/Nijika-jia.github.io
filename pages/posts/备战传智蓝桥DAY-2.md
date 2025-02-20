@@ -4,6 +4,14 @@ title: 备战传智蓝桥DAY-2
 date: 2025-02-08 14:33:22
 tags: 
     - 算法
+    - 蓝桥杯
+    - 最短路
+    - Dijkstra
+    - 拓扑排序
+    - 图论
+    - 编程
+    - 学习总结
+    - 自我提升
 categories: 爱记录
 #top : 1 #置顶数值(越大越在前面)
 draft: false #true为草稿记得改false发布时

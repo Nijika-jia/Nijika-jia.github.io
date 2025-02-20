@@ -2,8 +2,24 @@
 layout: post
 title: 备战传智蓝桥DAY-4
 date: 2025-02-10 22:27:56
-tags: 
-    - 算法
+tags:
+  - 蓝桥杯
+  - 图论
+  - 最短路算法
+  - SPFA
+  - Dijkstra
+  - Floyd
+  - 动态规划
+  - 拓扑排序
+  - DFS
+  - 连通块
+  - 负环检测
+  - 信息学奥赛
+  - 算法竞赛
+  - C++
+  - 题解
+  - 算法学习
+  - 未完成
 categories: 爱记录
 #top : 1 #置顶数值(越大越在前面)
 draft: false #true为草稿记得改false发布时

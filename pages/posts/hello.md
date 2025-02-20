@@ -4,6 +4,14 @@ date: 2025-01-20
 tags:
   - 博客
   - 庆生
+  - 生活
+  - 成长
+  - 技术分享
+  - 动漫
+  - 游戏
+  - 记录
+  - 分享
+  - 写作
 layout: post
 copyright: false
 cover : 'https://pic1.imgdb.cn/item/678de69fd0e0a243d4f5d14a.jpg'

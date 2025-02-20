@@ -2,8 +2,28 @@
 layout: post
 title: 备战传智蓝桥DAY-7
 date: 2025-02-14 01:10:53
-tags: 
+tags:
     - 算法
+    - 蓝桥云课
+    - 洛谷
+    - xfxcy
+    - 图论
+    - 最小生成树
+    - 最短路
+    - 二分
+    - DFS
+    - Dijkstra
+    - SPFA
+    - BFS
+    - 反图
+    - Kruskal
+    - emplace_back/emplace
+    - 排列组合
+    - 时间管理
+    - 刷题计划
+    - 最短路径算法
+    - 算法竞赛
+
 categories: 爱记录
 #top : 1 #置顶数值(越大越在前面)
 draft: false #true为草稿记得改false发布时
