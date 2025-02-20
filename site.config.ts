@@ -88,15 +88,9 @@ export default defineSiteConfig({
       color: '#FF8EB3',
     },
     {
-      name: 'Twitter',
-      link: 'https://x.com/GghHdyhff',
-      icon: 'i-ri-twitter-x-fill',
-      color: 'black',
-    },
-    {
       name: 'Luogu',
       link: 'https://www.luogu.com.cn/user/1366148',
-      icon: 'i-ri-code-line',
+      icon: 'i-ri-code-s-slash-fill',
       color: '#0088CC',
     },
     {
@@ -114,7 +108,7 @@ export default defineSiteConfig({
     methods: [
       {
         name: '支付宝',
-        url: '/QR/zfb.jpg',
+        url: '/QR/zfb.png',
         color: '#00A3EE',
         icon: 'i-ri-alipay-line',
       },
