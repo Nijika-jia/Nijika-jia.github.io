@@ -47,7 +47,7 @@ export default defineSiteConfig({
   fuse: {
     dataPath: 'valaxy-fuse-list.json', // 搜索数据路径
     options: {
-      keys: ['title', 'tags', 'categories',"excerpt"], // 定义搜索的字段
+      keys: ['title', 'tags', 'categories',"excerpt","content","link","author"], // 定义搜索的字段
     },
   },
   
