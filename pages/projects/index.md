@@ -43,4 +43,16 @@ projects:
         emoji: "🍕"
         url: "https://graphtheorytools.nijikajia.top/"
         github: "Nijika-jia/Graph-theory-tools"
+  plugs:
+    title: "自制插件"
+    emoji: "🧩"
+    collection:
+      - name: "bocchi-the-rock-theme"
+        desc: "四小只的VsCode主题插件!"
+        color: "#E6BDCB"
+        textColor: "white"
+        gradient: true
+        emoji: "🎸"
+        url: "https://github.com/Nijika-jia/bocchi-the-rock-theme"
+        github: "Nijika-jia/bocchi-the-rock-theme"
 ---
