@@ -14,3 +14,20 @@ aside : false
 ---
 
 <YunLinks :links="frontmatter.links" :random="frontmatter.random" />
+
+
+都是随机排序的~
+
+---
+互友链方式:请在下面留言,我一定会看的()
+```json
+{
+    "url": "https://blog.nijikajia.top",
+    "avatar": "https://blog.nijikajia.top/avatar/avatar.jpg",
+    "name": "伊地知佳",
+    "blog": "Nijikajia's blog",
+    "desc": "妙脆性角の重度依存性",
+    "color": "#FCDB7A",
+    "email": "2797435460@qq.com"
+},
+```
