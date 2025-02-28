@@ -9,7 +9,7 @@ export default defineSiteConfig({
     name: '伊地知佳',
     avatar:'/avatar/avatar.jpg',
     status: {
-      emoji : '🌴',
+      emoji : '🎯',
       message : '啵央央~'
     },
     intro : '一个阴暗的虹夏厨'
