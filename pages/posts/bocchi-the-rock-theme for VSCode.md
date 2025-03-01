@@ -25,68 +25,7 @@ cover: /posts/bocchi-the-rock-theme%20for%20VSCode_2025-02-27-16-39-53.png
 # Bocchi The Rock Theme
 ![](/posts/bocchi-the-rock-theme%20for%20VSCode_2025-02-27-16-39-53.png)
 VS Code 主题包，灵感来自《孤独摇滚！》动画。包含了四个主要角色的深色和浅色主题版本。
-
-## 灵感来源
-
-主题的配色方案基于动画中角色的特征配色：
-
-### 后藤一里 (Hitori Gotoh)
-<div align="center">
-  <img src="https://pic1.imgdb.cn/item/67bff29cd0e0a243d406b828.jpg" width="300" alt="Hitori Gotoh">
-</div>
-
-- 基于角色的粉色系配色
-- 主色调：`#F4A5B0`（粉红色）
-- 强调色：`#FE01FE`（亮粉色）
-- 辅助色：`#B4698C`（暗玫瑰色）
-- 配色灵感来自后藤标志性的粉色头发和校服配色
-
-### 伊地知虹夏 (Nijika Ijichi)
-<div align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <img src="https://pic1.imgdb.cn/item/67bff29cd0e0a243d406b82a.jpg" width="300" alt="Nijika Light">
-        <br>
-        <em>浅色主题参考</em>
-      </td>
-      <td align="center">
-        <img src="https://pic1.imgdb.cn/item/67bff347d0e0a243d406b879.jpg" width="300" alt="Nijika Dark">
-        <br>
-        <em>深色主题参考</em>
-      </td>
-    </tr>
-  </table>
-</div>
-
-- 基于角色的金色系配色
-- 主色调：`#F4E8DE`（浅米色）
-- 强调色：`#FEFE01`（金黄色）
-- 辅助色：`#EDCE60`（暗金色）
-- 配色灵感来自虹夏金色的头发和阳光般的性格
-
-### 山田凉 (Ryo Yamada)
-<div align="center">
-  <img src="https://pic1.imgdb.cn/item/67bff29bd0e0a243d406b826.jpg" width="300" alt="Ryo Yamada">
-</div>
-
-- 基于角色的蓝色系配色
-- 主色调：`#375B9D`（深蓝色）
-- 强调色：`#035555`（深青色）
-- 辅助色：`#0C7D7D`（青色）
-- 配色灵感来自凉冷静沉着的性格和深色系穿着
-
-### 喜多郁代 (Ikuyo Kita)
-<div align="center">
-  <img src="https://pic1.imgdb.cn/item/67bff29bd0e0a243d406b827.jpg" width="300" alt="Ikuyo Kita">
-</div>
-
-- 基于角色的红色系配色
-- 主色调：`#FF0000`（亮红色）
-- 强调色：`#A52A2A`（深红色）
-- 辅助色：`#F4A5B0`（粉红色）
-- 配色灵感来自喜多充满活力的性格和红色主题
-
+> 下载地址 [Bocchi The Rock Theme](https://marketplace.visualstudio.com/items?itemName=Nijikajia.bocchi-the-rock-theme)
 ## 主题预览
 
 ### 深色主题
@@ -148,6 +87,68 @@ VS Code 主题包，灵感来自《孤独摇滚！》动画。包含了四个主
     </tr>
   </table>
 </div>
+
+
+## 灵感来源
+
+主题的配色方案基于动画中角色的特征配色：
+
+### 后藤一里 (Hitori Gotoh)
+<div align="center">
+  <img src="https://pic1.imgdb.cn/item/67bff29cd0e0a243d406b828.jpg" width="300" alt="Hitori Gotoh">
+</div>
+
+- 基于角色的粉色系配色
+- 主色调：`#F4A5B0`（粉红色）
+- 强调色：`#FE01FE`（亮粉色）
+- 辅助色：`#B4698C`（暗玫瑰色）
+- 配色灵感来自后藤标志性的粉色头发和校服配色
+
+### 伊地知虹夏 (Nijika Ijichi)
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="https://pic1.imgdb.cn/item/67bff29cd0e0a243d406b82a.jpg" width="300" alt="Nijika Light">
+        <br>
+        <em>浅色主题参考</em>
+      </td>
+      <td align="center">
+        <img src="https://pic1.imgdb.cn/item/67bff347d0e0a243d406b879.jpg" width="300" alt="Nijika Dark">
+        <br>
+        <em>深色主题参考</em>
+      </td>
+    </tr>
+  </table>
+</div>
+
+- 基于角色的金色系配色
+- 主色调：`#F4E8DE`（浅米色）
+- 强调色：`#FEFE01`（金黄色）
+- 辅助色：`#EDCE60`（暗金色）
+- 配色灵感来自虹夏金色的头发和阳光般的性格
+
+### 山田凉 (Ryo Yamada)
+<div align="center">
+  <img src="https://pic1.imgdb.cn/item/67bff29bd0e0a243d406b826.jpg" width="300" alt="Ryo Yamada">
+</div>
+
+- 基于角色的蓝色系配色
+- 主色调：`#375B9D`（深蓝色）
+- 强调色：`#035555`（深青色）
+- 辅助色：`#0C7D7D`（青色）
+- 配色灵感来自凉冷静沉着的性格和深色系穿着
+
+### 喜多郁代 (Ikuyo Kita)
+<div align="center">
+  <img src="https://pic1.imgdb.cn/item/67bff29bd0e0a243d406b827.jpg" width="300" alt="Ikuyo Kita">
+</div>
+
+- 基于角色的红色系配色
+- 主色调：`#FF0000`（亮红色）
+- 强调色：`#A52A2A`（深红色）
+- 辅助色：`#F4A5B0`（粉红色）
+- 配色灵感来自喜多充满活力的性格和红色主题
 
 ## 主题特点
 
