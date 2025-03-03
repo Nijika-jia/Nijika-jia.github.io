@@ -12,7 +12,7 @@ export default defineSiteConfig({
       emoji : '🎯',
       message : '啵央央~'
     },
-    intro : '一个阴暗的虹夏厨'
+    intro : '一只阴暗的虹夏厨'
   },
   favicon : '/avatar/avatar.jpg',
   encrypt: {
