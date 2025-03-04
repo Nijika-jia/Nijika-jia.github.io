@@ -48,6 +48,7 @@ declare module 'vue-router/auto-routes' {
     '/posts/崩溃了,AI': RouteRecordInfo<'/posts/崩溃了,AI', '/posts/崩溃了,AI', Record<never, never>, Record<never, never>>,
     '/posts/给你的GitHubpage用上Cloudflare(只有域名即可)': RouteRecordInfo<'/posts/给你的GitHubpage用上Cloudflare(只有域名即可)', '/posts/给你的GitHubpage用上Cloudflare(只有域名即可)', Record<never, never>, Record<never, never>>,
     '/posts/更好的在.md文件粘贴图片-Paste image VScode插件推荐': RouteRecordInfo<'/posts/更好的在.md文件粘贴图片-Paste image VScode插件推荐', '/posts/更好的在/md文件粘贴图片-Paste image VScode插件推荐', Record<never, never>, Record<never, never>>,
+    '/posts/使用 pyenv 管理多个 Python 版本': RouteRecordInfo<'/posts/使用 pyenv 管理多个 Python 版本', '/posts/使用 pyenv 管理多个 Python 版本', Record<never, never>, Record<never, never>>,
     '/posts/图论可视化工具：一个轻量级的在线图形编辑与分析平台': RouteRecordInfo<'/posts/图论可视化工具：一个轻量级的在线图形编辑与分析平台', '/posts/图论可视化工具：一个轻量级的在线图形编辑与分析平台', Record<never, never>, Record<never, never>>,
     '/posts/新年快乐': RouteRecordInfo<'/posts/新年快乐', '/posts/新年快乐', Record<never, never>, Record<never, never>>,
     '/posts/优先队列自定义排序': RouteRecordInfo<'/posts/优先队列自定义排序', '/posts/优先队列自定义排序', Record<never, never>, Record<never, never>>,
