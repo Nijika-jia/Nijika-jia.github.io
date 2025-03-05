@@ -12,7 +12,7 @@ tags:
     - 虚拟源点
     - K & R
     - 最小生成树
-    - 迪杰斯特拉
+    - Dijkstra
     - SPFA
     - 多源最短路
     - 费用流
@@ -22,10 +22,6 @@ tags:
     - 传智杯
     - 洛谷
     - HDU
-    - 竞赛
-    - 复习笔记
-    - 代码实现
-
 categories: 爱记录
 #top : 1 #置顶数值(越大越在前面)
 draft: false #true为草稿记得改false发布时

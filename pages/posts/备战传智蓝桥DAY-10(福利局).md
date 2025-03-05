@@ -12,7 +12,6 @@ tags:
     - LLL优化
     - SPFA的SLF,LLL,SLF+LLL,DFS优化
     - Dijkstra变种
-    - 竞赛模板
     - 负环检测
     - Python脚本
     - Python爬虫

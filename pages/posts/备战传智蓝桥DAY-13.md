@@ -6,10 +6,8 @@ tags:
     - 算法
     - 二分查找
     - 蓝桥杯
-    - 竞赛
-    - 动态规划
+    - DP
     - 数据结构
-    - 代码优化
 categories: 爱记录
 #top : 1 #置顶数值(越大越在前面)
 draft: false #true为草稿记得改false发布时

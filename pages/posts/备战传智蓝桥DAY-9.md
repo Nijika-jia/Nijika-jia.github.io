@@ -18,20 +18,13 @@ tags:
     - DFS
     - 堆优化
     - Bellman-Ford
-    - DP+最短路
+    - DP
     - A*
-    - 竞赛
     - 蓝桥杯
     - 蓝桥云课
     - 洛谷
     - AcWing
     - Dotcpp
-    - 题解
-    - 代码模板
-    - C++
-    - 竞赛编程
-    - 思维
-
 categories: 爱记录
 #top : 1 #置顶数值(越大越在前面)
 draft: false #true为草稿记得改false发布时

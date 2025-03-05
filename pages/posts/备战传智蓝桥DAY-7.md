@@ -9,7 +9,6 @@ tags:
     - xfxcy
     - 图论
     - 最小生成树
-    - 最短路
     - 二分
     - DFS
     - Dijkstra
@@ -19,11 +18,7 @@ tags:
     - Kruskal
     - emplace_back/emplace
     - 排列组合
-    - 时间管理
-    - 刷题计划
-    - 最短路径算法
-    - 算法竞赛
-
+    - 最短路
 categories: 爱记录
 #top : 1 #置顶数值(越大越在前面)
 draft: false #true为草稿记得改false发布时
