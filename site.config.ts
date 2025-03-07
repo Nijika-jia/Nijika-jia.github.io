@@ -10,7 +10,7 @@ export default defineSiteConfig({
     avatar:'/avatar/avatar.jpg',
     status: {
       emoji : '🎯',
-      message : '啵央央~'
+      message : '虹夏虹夏虹~'
     },
     intro : '一只阴暗的虹夏厨'
   },
