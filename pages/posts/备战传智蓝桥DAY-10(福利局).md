@@ -44,14 +44,14 @@ codeHeightLimit: 300
 - **今日目标完成情况**：
   - ✅ **完成**：完成 1 道题目(今天睡+玩嗨了)
   >蓝桥云课
-  - [曲率驱动【算法赛】](https://www.lanqiao.cn/problems/20052/) - 最短路[中等🟠]
+  - [曲率驱动【算法赛】](https://www.lanqiao.cn/problems/20052/learning/) - 最短路[中等🟠]
   - ❌ **未完成**：
 
 ---
 
 ### 💡 **解题思路与总结**
 
-#### 题目1.[曲率驱动【算法赛】](https://www.lanqiao.cn/problems/20052/)
+#### 题目1.[曲率驱动【算法赛】](https://www.lanqiao.cn/problems/20052/learning/)
 - **解题方法**：跑k+1次Dijkstra
 - **遇到的问题**：试了一下二维dist数组,第二维表示用了几次xor操作,但这样写出来又不对,不知道这个方法能不能行
 - **解决方案**：
