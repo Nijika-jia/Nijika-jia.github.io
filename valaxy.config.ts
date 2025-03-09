@@ -77,12 +77,12 @@ export default defineValaxyConfig<UserThemeConfig>({
         icp: '苏ICP备17038157号',
       },
     },
-    notice :{
-      enable : true,
-      hideInPages : true,
-      content: '<center style ="font-Size : 25px">公告栏</center>学习图论(😪)',
+    // notice :{
+    //   enable : true,
+    //   hideInPages : true,
+    //   content: '<center style ="font-Size : 25px">公告栏</center>学习图论(😪)',
 
-    },
+    // },
     // nav:[
     //   {
     //     icon: '🕹️',

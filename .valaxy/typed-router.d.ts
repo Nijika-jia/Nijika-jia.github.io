@@ -46,6 +46,7 @@ declare module 'vue-router/auto-routes' {
     '/posts/备战传智蓝桥DAY-8': RouteRecordInfo<'/posts/备战传智蓝桥DAY-8', '/posts/备战传智蓝桥DAY-8', Record<never, never>, Record<never, never>>,
     '/posts/备战传智蓝桥DAY-9': RouteRecordInfo<'/posts/备战传智蓝桥DAY-9', '/posts/备战传智蓝桥DAY-9', Record<never, never>, Record<never, never>>,
     '/posts/崩溃了,AI': RouteRecordInfo<'/posts/崩溃了,AI', '/posts/崩溃了,AI', Record<never, never>, Record<never, never>>,
+    '/posts/动漫图片分类助手：一个基于 AI 的动漫角色识别与整理工具': RouteRecordInfo<'/posts/动漫图片分类助手：一个基于 AI 的动漫角色识别与整理工具', '/posts/动漫图片分类助手：一个基于 AI 的动漫角色识别与整理工具', Record<never, never>, Record<never, never>>,
     '/posts/给你的GitHubpage用上Cloudflare(只有域名即可)': RouteRecordInfo<'/posts/给你的GitHubpage用上Cloudflare(只有域名即可)', '/posts/给你的GitHubpage用上Cloudflare(只有域名即可)', Record<never, never>, Record<never, never>>,
     '/posts/更好的在.md文件粘贴图片-Paste image VScode插件推荐': RouteRecordInfo<'/posts/更好的在.md文件粘贴图片-Paste image VScode插件推荐', '/posts/更好的在/md文件粘贴图片-Paste image VScode插件推荐', Record<never, never>, Record<never, never>>,
     '/posts/使用 pyenv 管理多个 Python 版本': RouteRecordInfo<'/posts/使用 pyenv 管理多个 Python 版本', '/posts/使用 pyenv 管理多个 Python 版本', Record<never, never>, Record<never, never>>,

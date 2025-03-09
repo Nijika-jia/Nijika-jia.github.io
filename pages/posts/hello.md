@@ -14,7 +14,7 @@ tags:
   - 写作
 layout: post
 copyright: false
-cover : 'https://pic1.imgdb.cn/item/678de69fd0e0a243d4f5d14a.jpg'
+cover : '/avatar/avatar.jpg'
 ---
 
 # 🎉 我的第一篇博客文章！  
