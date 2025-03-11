@@ -13,4 +13,8 @@ albums:
     cover: "/albums/game/20250105005646_1.jpg"
     caption: "游戏时刻"
     desc: "游戏时刻"
+  - url: "/ablums/nijika"
+    cover: "/albums/nijika/0f6f22f1-6d41-4d21-bc62-2b58c64ded0e.jpg"
+    caption: "虹图"
+    desc: ""
 ---
