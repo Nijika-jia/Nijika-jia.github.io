@@ -2,7 +2,7 @@
 /* 添加字体导入，确保所有人都能看到指定字体 */
 @font-face {
   font-family: 'Maple Mono NF CN';
-  src: url('/fonts/MapleMono-Regular.woff2') format('woff2');
+  src: url('/fonts/MapleMono-NF-CN-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -10,7 +10,7 @@
 
 @font-face {
   font-family: 'Maple Mono NF CN';
-  src: url('/fonts/MapleMono-Bold.woff2') format('woff2');
+  src: url('/fonts/MapleMono-NF-CN-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -18,7 +18,7 @@
 
 @font-face {
   font-family: 'Maple Mono NF CN';
-  src: url('/fonts/MapleMono-Italic.woff2') format('woff2');
+  src: url('/fonts/MapleMono-NF-CN-Italic.ttf') format('truetype');
   font-weight: normal;
   font-style: italic;
   font-display: swap;
@@ -26,7 +26,7 @@
 
 @font-face {
   font-family: 'Maple Mono NF CN';
-  src: url('/fonts/MapleMono-BoldItalic.woff2') format('woff2');
+  src: url('/fonts/MapleMono-NF-CN-BoldItalic.ttf') format('truetype');
   font-weight: bold;
   font-style: italic;
   font-display: swap;
@@ -34,7 +34,7 @@
 
 @font-face {
   font-family: 'Maple Mono NF CN';
-  src: url('/fonts/MapleMono-Light.woff2') format('woff2');
+  src: url('/fonts/MapleMono-NF-CN-Light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -42,7 +42,7 @@
 
 @font-face {
   font-family: 'Maple Mono NF CN';
-  src: url('/fonts/MapleMono-LightItalic.woff2') format('woff2');
+  src: url('/fonts/MapleMono-NF-CN-LightItalic.ttf') format('truetype');
   font-weight: 300;
   font-style: italic;
   font-display: swap;
@@ -50,7 +50,7 @@
 
 @font-face {
   font-family: 'Maple Mono NF CN';
-  src: url('/fonts/MapleMono-Medium.woff2') format('woff2');
+  src: url('/fonts/MapleMono-NF-CN-Medium.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -58,7 +58,7 @@
 
 @font-face {
   font-family: 'Maple Mono NF CN';
-  src: url('/fonts/MapleMono-MediumItalic.woff2') format('woff2');
+  src: url('/fonts/MapleMono-NF-CN-MediumItalic.ttf') format('truetype');
   font-weight: 500;
   font-style: italic;
   font-display: swap;
