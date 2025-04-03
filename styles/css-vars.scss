@@ -1,4 +1,69 @@
 // you can custom css vars here
+/* 添加字体导入，确保所有人都能看到指定字体 */
+@font-face {
+  font-family: 'Maple Mono NF CN';
+  src: url('/fonts/MapleMonoNF-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Maple Mono NF CN';
+  src: url('/fonts/MapleMonoNF-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Maple Mono NF CN';
+  src: url('/fonts/MapleMonoNF-Italic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Maple Mono NF CN';
+  src: url('/fonts/MapleMonoNF-BoldItalic.woff2') format('woff2');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Maple Mono NF CN';
+  src: url('/fonts/MapleMonoNF-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Maple Mono NF CN';
+  src: url('/fonts/MapleMonoNF-LightItalic.woff2') format('woff2');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Maple Mono NF CN';
+  src: url('/fonts/MapleMonoNF-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Maple Mono NF CN';
+  src: url('/fonts/MapleMonoNF-MediumItalic.woff2') format('woff2');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
 .custom-title {
     font-size: 1.5rem;
     font-weight: bold;
@@ -6,7 +71,8 @@
   }
   
   :root {
-    --va-font-serif: Maple Mono NF CN;
-    --va-font-sans: Maple Mono NF CN;
-    --va-font-mono: Maple Mono NF CN;
+    /* 添加备选字体，防止用户没有安装 Maple Mono NF CN 时显示错误 */
+    --va-font-serif: 'Maple Mono NF CN', 'Courier New', serif;
+    --va-font-sans: 'Maple Mono NF CN', Arial, sans-serif;
+    --va-font-mono: 'Maple Mono NF CN', monospace;
   }
