@@ -1,68 +1,68 @@
-// you can custom css vars here
-/* 添加字体导入，确保所有人都能看到指定字体 */
-@font-face {
-  font-family: 'Maple Mono NF CN';
-  src: url('/fonts/MapleMono-NF-CN-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
+// // you can custom css vars here
+// /* 添加字体导入，确保所有人都能看到指定字体 */
+// @font-face {
+//   font-family: 'Maple Mono NF CN';
+//   src: url('/fonts/MapleMono-NF-CN-Regular.ttf') format('truetype');
+//   font-weight: normal;
+//   font-style: normal;
+//   font-display: swap;
+// }
 
-@font-face {
-  font-family: 'Maple Mono NF CN';
-  src: url('/fonts/MapleMono-NF-CN-Bold.ttf') format('truetype');
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
+// @font-face {
+//   font-family: 'Maple Mono NF CN';
+//   src: url('/fonts/MapleMono-NF-CN-Bold.ttf') format('truetype');
+//   font-weight: bold;
+//   font-style: normal;
+//   font-display: swap;
+// }
 
-@font-face {
-  font-family: 'Maple Mono NF CN';
-  src: url('/fonts/MapleMono-NF-CN-Italic.ttf') format('truetype');
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap;
-}
+// @font-face {
+//   font-family: 'Maple Mono NF CN';
+//   src: url('/fonts/MapleMono-NF-CN-Italic.ttf') format('truetype');
+//   font-weight: normal;
+//   font-style: italic;
+//   font-display: swap;
+// }
 
-@font-face {
-  font-family: 'Maple Mono NF CN';
-  src: url('/fonts/MapleMono-NF-CN-BoldItalic.ttf') format('truetype');
-  font-weight: bold;
-  font-style: italic;
-  font-display: swap;
-}
+// @font-face {
+//   font-family: 'Maple Mono NF CN';
+//   src: url('/fonts/MapleMono-NF-CN-BoldItalic.ttf') format('truetype');
+//   font-weight: bold;
+//   font-style: italic;
+//   font-display: swap;
+// }
 
-@font-face {
-  font-family: 'Maple Mono NF CN';
-  src: url('/fonts/MapleMono-NF-CN-Light.ttf') format('truetype');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
+// @font-face {
+//   font-family: 'Maple Mono NF CN';
+//   src: url('/fonts/MapleMono-NF-CN-Light.ttf') format('truetype');
+//   font-weight: 300;
+//   font-style: normal;
+//   font-display: swap;
+// }
 
-@font-face {
-  font-family: 'Maple Mono NF CN';
-  src: url('/fonts/MapleMono-NF-CN-LightItalic.ttf') format('truetype');
-  font-weight: 300;
-  font-style: italic;
-  font-display: swap;
-}
+// @font-face {
+//   font-family: 'Maple Mono NF CN';
+//   src: url('/fonts/MapleMono-NF-CN-LightItalic.ttf') format('truetype');
+//   font-weight: 300;
+//   font-style: italic;
+//   font-display: swap;
+// }
 
-@font-face {
-  font-family: 'Maple Mono NF CN';
-  src: url('/fonts/MapleMono-NF-CN-Medium.ttf') format('truetype');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
+// @font-face {
+//   font-family: 'Maple Mono NF CN';
+//   src: url('/fonts/MapleMono-NF-CN-Medium.ttf') format('truetype');
+//   font-weight: 500;
+//   font-style: normal;
+//   font-display: swap;
+// }
 
-@font-face {
-  font-family: 'Maple Mono NF CN';
-  src: url('/fonts/MapleMono-NF-CN-MediumItalic.ttf') format('truetype');
-  font-weight: 500;
-  font-style: italic;
-  font-display: swap;
-}
+// @font-face {
+//   font-family: 'Maple Mono NF CN';
+//   src: url('/fonts/MapleMono-NF-CN-MediumItalic.ttf') format('truetype');
+//   font-weight: 500;
+//   font-style: italic;
+//   font-display: swap;
+// }
 
 .custom-title {
     font-size: 1.5rem;
@@ -70,9 +70,9 @@
     color: red;
   }
   
-  :root {
-    /* 添加备选字体，防止用户没有安装 Maple Mono NF CN 时显示错误 */
-    --va-font-serif: 'Maple Mono NF CN', 'Courier New', serif;
-    --va-font-sans: 'Maple Mono NF CN', Arial, sans-serif;
-    --va-font-mono: 'Maple Mono NF CN', monospace;
-  }
+  // :root {
+  //   /* 添加备选字体，防止用户没有安装 Maple Mono NF CN 时显示错误 */
+  //   --va-font-serif: 'Maple Mono NF CN', 'Courier New', serif;
+  //   --va-font-sans: 'Maple Mono NF CN', Arial, sans-serif;
+  //   --va-font-mono: 'Maple Mono NF CN', monospace;
+  // }
