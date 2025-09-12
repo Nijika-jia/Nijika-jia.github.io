@@ -133,4 +133,5 @@ export default defineSiteConfig({
   vanillaLazyload: {
     enable: true
   },
+  codeHeightLimit: 300,
 })
