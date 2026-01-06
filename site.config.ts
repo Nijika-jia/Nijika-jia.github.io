@@ -55,7 +55,7 @@ export default defineSiteConfig({
     enable : true
   },
   
-  description: '一个看到dp就会睡着的入.',
+  description: '天空的湛蓝该怎样才能传达给你呢？',
   social: [
     {
       name: 'RSS',
