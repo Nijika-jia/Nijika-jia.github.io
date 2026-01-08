@@ -7,7 +7,7 @@ export default defineSiteConfig({
   subtitle: '',
   author: {
     name: '伊地知佳',
-    avatar:'/avatar/avatar.jpg',
+    avatar:'http://q.qlogo.cn/headimg_dl?dst_uin=2797435460&spec=640',
     status: {
       emoji : '🎯',
       message : '虹夏虹夏虹~'
@@ -133,5 +133,5 @@ export default defineSiteConfig({
   vanillaLazyload: {
     enable: true
   },
-  codeHeightLimit: 300,
+  codeHeightLimit: 1000,
 })
