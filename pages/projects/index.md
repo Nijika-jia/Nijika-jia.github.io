@@ -15,21 +15,21 @@ projects:
         desc: "贪吃不贪玩^^"
         color: "#07BF83"
         gradient: true
-        url: "https://project.nijikajia.top/Games/SnakeGame/"
+        url: "https://nijika-jia.github.io/Projects/Games/SnakeGame/"
         emoji: "🐍"
         github: "Nijika-jia/Projects/tree/gh-pages/Games/SnakeGame"
       - name: "飞机大作战(虹版)"
         desc: "大战发射🌿的凉仙贝吧!"
         color: "#FAAA91"
         gradient: true
-        url: "https://project.nijikajia.top/Games/airplane-game/"
+        url: "https://nijika-jia.github.io/Projects/Games/airplane-game/"
         emoji: "🎸"
         github: "Nijika-jia/Projects/tree/gh-pages/Games/airplane-game"
       - name: "吃豆人(凉版)"
         desc: "逃离归去来兮女士的追杀(顺便吃草)"
         color: "#2652A5"
         gradient: true
-        url: "https://project.nijikajia.top/Games/pacman/"
+        url: "https://nijika-jia.github.io/Projects/Games/pacman/"
         emoji: "🌿"
         github: "Nijika-jia/Projects/tree/gh-pages/Games/pacman"
   tools:
@@ -41,7 +41,7 @@ projects:
         color: "#dd6236"
         textColor: "white"
         emoji: "🍕"
-        url: "https://project.nijikajia.top/Tools/Graph-theory-tools"
+        url: "https://nijika-jia.github.io/Projects/Tools/Graph-theory-tools"
         github: "Nijika-jia/Projects/tree/gh-pages/Tools/Graph-theory-tools"
       - name: "动漫图片分类助手"
         desc: "一个基于 AI 的动漫角色识别与整理工具"
@@ -54,7 +54,7 @@ projects:
         color: "#A0C8D1"
         textColor: "white"
         emoji: "🐔"
-        url: "https://project.nijikajia.top/Tools/ChatAvatarTest"
+        url: "https://nijika-jia.github.io/Projects/Tools/ChatAvatarTest"
         github: "Nijika-jia/Projects/tree/gh-pages/Tools/ChatAvatarTest"
   plugs:
     title: "自制插件(VSCode)"
