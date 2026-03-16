@@ -1,7 +1,7 @@
 import { defineSiteConfig } from 'valaxy'
 
 export default defineSiteConfig({
-  url: 'https://blog.nijikajia.top/',
+  url: 'https://nijika-jia.github.io/',
   lang: 'zh-CN',
   title: '伊地知佳の博客 | Nijikajia`s Blog',
   subtitle: '',

@@ -22,8 +22,8 @@ aside : false
 互友链方式:请在下面留言,我一定会看的()
 ```json
 {
-    "url": "https://blog.nijikajia.top",
-    "avatar": "https://blog.nijikajia.top/avatar/avatar.jpg",
+    "url": "https://nijika-jia.github.io/",
+    "avatar": "https://nijika-jia.github.io/avatar/avatar.jpg",
     "name": "伊地知佳",
     "blog": "Nijikajia's blog",
     "desc": "妙脆性角の重度依存性",

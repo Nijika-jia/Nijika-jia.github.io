@@ -41,7 +41,7 @@ projects:
         color: "#dd6236"
         textColor: "white"
         emoji: "🍕"
-        url: "https://nijika-jia.github.io/Projects/Tools/Graph-theory-tools"
+        url: "https://nijika-jia.github.io/Projects/Tools/Graph-theory-tools/"
         github: "Nijika-jia/Projects/tree/gh-pages/Tools/Graph-theory-tools"
       - name: "动漫图片分类助手"
         desc: "一个基于 AI 的动漫角色识别与整理工具"
