@@ -7,7 +7,7 @@ export default defineSiteConfig({
   subtitle: '',
   author: {
     name: '伊地知佳',
-    avatar:'http://q.qlogo.cn/headimg_dl?dst_uin=2797435460&spec=640',
+    avatar:'https://avatars.githubusercontent.com/u/181221850?v=4',
     status: {
       emoji : '🎯',
       message : '虹夏虹夏虹~'
