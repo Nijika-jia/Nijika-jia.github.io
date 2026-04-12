@@ -12,7 +12,7 @@ export default defineSiteConfig({
       emoji : '🎯',
       message : '虹夏虹夏虹~'
     },
-    intro : '一只阴暗的虹夏厨'
+    intro : '一只虹夏厨'
   },
   favicon : '/avatar/avatar.jpg',
   encrypt: {
@@ -88,8 +88,8 @@ export default defineSiteConfig({
       color: '#FF8EB3',
     },
     {
-      name: 'Luogu',
-      link: 'https://www.luogu.com.cn/user/1366148',
+      name: 'LeetCode',
+      link: 'https://leetcode.cn/u/yi-di-zhi-jia/',
       icon: 'i-ri-code-s-slash-fill',
       color: '#0088CC',
     },
