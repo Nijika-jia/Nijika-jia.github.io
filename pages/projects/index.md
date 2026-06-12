@@ -8,7 +8,7 @@ layout: projects
 
 projects:
   game:
-    title: "小游戏"
+    title: "无聊做的小游戏"
     emoji: "🕹️"
     collection:
       - name: "贪吃蛇"
@@ -33,7 +33,7 @@ projects:
         emoji: "🌿"
         github: "Nijika-jia/Projects/tree/gh-pages/Games/pacman"
   tools:
-    title: "工具库"
+    title: "可食用的工具库"
     emoji: "🛠️"
     collection:
       - name: "在线图论编辑器"
@@ -43,7 +43,7 @@ projects:
         emoji: "🍕"
         url: "https://nijika-jia.github.io/Projects/Tools/Graph-theory-tools/"
         github: "Nijika-jia/Projects/tree/gh-pages/Tools/Graph-theory-tools"
-      - name: "动漫图片分类助手"
+      - name: "AnimeSorter"
         desc: "一个基于 AI 的动漫角色识别与整理工具"
         color: "#4CAF50"
         textColor: "white"
@@ -56,8 +56,23 @@ projects:
         emoji: "🐔"
         url: "https://nijika-jia.github.io/Projects/Tools/ChatAvatarTest"
         github: "Nijika-jia/Projects/tree/gh-pages/Tools/ChatAvatarTest"
+      
+      - name: "X-Media Downloader"
+        desc: "捕获推特上的媒体文件的下载管理器(浏览器扩展)"
+        color: "#0000"
+        textColor: "white"
+        emoji: "🧩"
+        github: "Nijika-jia/X-Media-Downloader"
+
+      - name: "YuKeTang-Fisher-Helper"
+        desc: "雨课堂自动答题(支持AI答题),上课摸鱼的神器"
+        color: "#0969DA"
+        textColor: "white"
+        emoji: "🐠"
+        github: "Nijika-jia/YuKeTang-Fisher-Helper"
+
   plugs:
-    title: "自制插件(VSCode)"
+    title: "VsCode plugs"
     emoji: "🧩"
     collection:
       - name: "bocchi-the-rock-theme"

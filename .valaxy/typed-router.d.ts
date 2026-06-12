@@ -54,7 +54,6 @@ declare module 'vue-router/auto-routes' {
     '/posts/头歌包过教程(对付给看输出的那种)': RouteRecordInfo<'/posts/头歌包过教程(对付给看输出的那种)', '/posts/头歌包过教程(对付给看输出的那种)', Record<never, never>, Record<never, never>>,
     '/posts/图论可视化工具：一个轻量级的在线图形编辑与分析平台': RouteRecordInfo<'/posts/图论可视化工具：一个轻量级的在线图形编辑与分析平台', '/posts/图论可视化工具：一个轻量级的在线图形编辑与分析平台', Record<never, never>, Record<never, never>>,
     '/posts/新年快乐': RouteRecordInfo<'/posts/新年快乐', '/posts/新年快乐', Record<never, never>, Record<never, never>>,
-    '/posts/应用级架构与开发程序题复习': RouteRecordInfo<'/posts/应用级架构与开发程序题复习', '/posts/应用级架构与开发程序题复习', Record<never, never>, Record<never, never>>,
     '/posts/优先队列自定义排序': RouteRecordInfo<'/posts/优先队列自定义排序', '/posts/优先队列自定义排序', Record<never, never>, Record<never, never>>,
     '/posts/bocchi-the-rock-theme for VSCode': RouteRecordInfo<'/posts/bocchi-the-rock-theme for VSCode', '/posts/bocchi-the-rock-theme for VSCode', Record<never, never>, Record<never, never>>,
     '/posts/C++容器操作优化': RouteRecordInfo<'/posts/C++容器操作优化', '/posts/C++容器操作优化', Record<never, never>, Record<never, never>>,
