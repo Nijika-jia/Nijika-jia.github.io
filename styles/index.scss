@@ -13,8 +13,19 @@
 }
 
   
+// 光标样式由 /js/ani-cursor.js 动态加载 .ani 动画光标文件处理
+// 备用静态光标（动画光标加载失败时使用）
 body {
-  cursor: url('/cur/NormalSelect.cur'), auto;
+  cursor: url('/cursor/Normal.ani'), auto;
+}
+a, button, [role="button"], .cursor-pointer {
+  cursor: url('/cursor/Link.ani'), pointer;
+}
+input, textarea, [contenteditable] {
+  cursor: url('/cursor/Text.ani'), text;
+}
+input:active, textarea:active, [contenteditable]:active {
+  cursor: url('/cursor/Text.ani'), text;
 }
 
 // styles/css-vars.scss

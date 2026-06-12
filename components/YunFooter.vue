@@ -3,6 +3,8 @@ import { useScriptTag } from '@vueuse/core'
 import YunFooter from 'valaxy-theme-yun/components/YunFooter.vue'
 
 useScriptTag('//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js')
+// 加载动画光标脚本
+useScriptTag('/js/ani-cursor.js')
 </script>
 
 <template>
