@@ -5,7 +5,6 @@ import { addonWaline } from "valaxy-addon-waline";
 import { addonLive2d } from 'valaxy-addon-live2d'
 import { addonMeting } from 'valaxy-addon-meting'
 import { addonComponents } from 'valaxy-addon-components'
-import YunFooter from 'valaxy-theme-yun/components/YunFooter.vue';
 // add icons what you will need
 const safelist = [
   'i-ri-home-line',
@@ -44,14 +43,12 @@ export default defineValaxyConfig<UserThemeConfig>({
     },
     outlineTitle : '伊地知佳の小站',
     nav: [
-      { text: '首页', link: '/', icon: 'i-ri-home-line' },
       { text: '归档', link: '/archives/', icon: 'i-ri-archive-line' },
       { text: '分类', link: '/categories/', icon: 'i-ri-folder-line' },
       { text: '标签', link: '/tags/', icon: 'i-ri-price-tag-3-line' },
       { text: '友人帐', link: '/links/', icon: 'i-ri-links-line' },
       { text: '相册', link: '/ablums/', icon: 'i-ri-gallery-line' },
       { text: '小项目', link: '/projects/', icon: 'i-ri-puzzle-fill' },
-      { text: '关于', link: '/about/', icon: 'i-ri-user-line' },
     ],
     bg_image : {
       enable : true,
@@ -153,6 +150,7 @@ export default defineValaxyConfig<UserThemeConfig>({
       ]
     }),
     addonLive2d({
+      global: true,
       enableLive2D: ['Tia'],
       live2DCollection: {
         Tia: {
@@ -165,20 +163,21 @@ export default defineValaxyConfig<UserThemeConfig>({
       // tools : ['hitokoto' , 'asteroids'  , 'switch-texture' , 'photo' , 'info' , 'quit']
     }),
     addonMeting({
-      global: false,
+      global: true,
       /** @see https://github.com/metowolf/MetingJS */
       props: {
         id: '12390232',
         server: 'netease',
         type: 'artist',
-        theme : '#4CAF50',
-        order : 'random',
-        preload: 'none', // 禁用预加载
-        storage: false,  // 禁用本地存储
-        loop : 'all',
-        volume : 0.8,
-        mutex : true,
-        autoplay : false
+        fixed: true,
+        theme: '#4CAF50',
+        order: 'random',
+        preload: 'none',
+        storage: false,
+        loop: 'all',
+        volume: 0.8,
+        mutex: true,
+        autoplay: false,
       },
     }),
     addonComponents()
