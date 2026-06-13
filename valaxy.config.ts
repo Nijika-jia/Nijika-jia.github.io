@@ -39,10 +39,12 @@ export default defineValaxyConfig<UserThemeConfig>({
       title: '伊地知佳の小站',
       cloud :{
         enable : true
-      }
+      },
+      duration: 500,
     },
     outlineTitle : '伊地知佳の小站',
     nav: [
+      { text: '文章', link: '/posts/', icon: 'i-ri-article-line' },
       { text: '归档', link: '/archives/', icon: 'i-ri-archive-line' },
       { text: '分类', link: '/categories/', icon: 'i-ri-folder-line' },
       { text: '标签', link: '/tags/', icon: 'i-ri-price-tag-3-line' },
@@ -55,6 +57,10 @@ export default defineValaxyConfig<UserThemeConfig>({
       url : 'https://pic1.imgdb.cn/item/69bf78c3ccd26bacb4d7cc0c.png',
       dark : 'https://pic1.imgdb.cn/item/69bf78ceccd26bacb4d7cc11.jpg',
       opacity : 0.5
+    },
+    editLink: {
+      pattern: 'https://github.com/Nijika-jia/Nijika-jia.github.io/edit/main/:path',
+      text: '在 GitHub 编辑此页',
     },
     // 自定义菜单图标（最右侧）
     // menu: {
@@ -91,14 +97,25 @@ export default defineValaxyConfig<UserThemeConfig>({
         icon: 'i-ri-heart-2-fill',
         color: 'hotpink',
       },
-
     ],
-    
+    types: {
+      link: {
+        color: '#1890ff',
+        icon: 'i-ri-link',
+      },
+      bilibili: {
+        color: '#FF8EB3',
+        icon: 'i-ri-bilibili-line',
+      },
+    },
     footer: {
       since: 2025,
       beian: {
         enable: false,
         icp: '苏ICP备17038157号',
+      },
+      cloud: {
+        enable: true,
       },
     },
     // 公告横幅

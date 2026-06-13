@@ -61,7 +61,7 @@ export default defineSiteConfig({
   orderBy: 'date',
   excerpt: {
     auto: true,
-    length: 200,
+    length: 100,
   },
   social: [
     {

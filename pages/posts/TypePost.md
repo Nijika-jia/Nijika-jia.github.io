@@ -11,6 +11,8 @@ draft: true #记得改false发布时
 #color: red  #更改进入页面的标题颜色
 #postTitleClass: "custom-title" #更改文章列表标题颜色,自定义的CSS在Style文件夹里index.scss
 nav: true
+type: bilibili
+url: https://www.bilibili.com/video/xxx
 ---
 
 ```markdown
