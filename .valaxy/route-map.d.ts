@@ -108,6 +108,111 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/collections/': RouteRecordInfo<
+      '/collections/',
+      '/collections',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/collections/lanqiao/': RouteRecordInfo<
+      '/collections/lanqiao/',
+      '/collections/lanqiao',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/collections/lanqiao/1': RouteRecordInfo<
+      '/collections/lanqiao/1',
+      '/collections/lanqiao/1',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/collections/lanqiao/10': RouteRecordInfo<
+      '/collections/lanqiao/10',
+      '/collections/lanqiao/10',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/collections/lanqiao/11': RouteRecordInfo<
+      '/collections/lanqiao/11',
+      '/collections/lanqiao/11',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/collections/lanqiao/12': RouteRecordInfo<
+      '/collections/lanqiao/12',
+      '/collections/lanqiao/12',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/collections/lanqiao/13': RouteRecordInfo<
+      '/collections/lanqiao/13',
+      '/collections/lanqiao/13',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/collections/lanqiao/2': RouteRecordInfo<
+      '/collections/lanqiao/2',
+      '/collections/lanqiao/2',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/collections/lanqiao/3': RouteRecordInfo<
+      '/collections/lanqiao/3',
+      '/collections/lanqiao/3',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/collections/lanqiao/4': RouteRecordInfo<
+      '/collections/lanqiao/4',
+      '/collections/lanqiao/4',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/collections/lanqiao/5': RouteRecordInfo<
+      '/collections/lanqiao/5',
+      '/collections/lanqiao/5',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/collections/lanqiao/6': RouteRecordInfo<
+      '/collections/lanqiao/6',
+      '/collections/lanqiao/6',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/collections/lanqiao/7': RouteRecordInfo<
+      '/collections/lanqiao/7',
+      '/collections/lanqiao/7',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/collections/lanqiao/8': RouteRecordInfo<
+      '/collections/lanqiao/8',
+      '/collections/lanqiao/8',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/collections/lanqiao/9': RouteRecordInfo<
+      '/collections/lanqiao/9',
+      '/collections/lanqiao/9',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/girls/': RouteRecordInfo<
       '/girls/',
       '/girls',
@@ -160,97 +265,6 @@ declare module 'vue-router/auto-routes' {
     '/posts/图论可视化工具：一个轻量级的在线图形编辑与分析平台': RouteRecordInfo<
       '/posts/图论可视化工具：一个轻量级的在线图形编辑与分析平台',
       '/posts/%E5%9B%BE%E8%AE%BA%E5%8F%AF%E8%A7%86%E5%8C%96%E5%B7%A5%E5%85%B7%EF%BC%9A%E4%B8%80%E4%B8%AA%E8%BD%BB%E9%87%8F%E7%BA%A7%E7%9A%84%E5%9C%A8%E7%BA%BF%E5%9B%BE%E5%BD%A2%E7%BC%96%E8%BE%91%E4%B8%8E%E5%88%86%E6%9E%90%E5%B9%B3%E5%8F%B0',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/备战传智蓝桥DAY-1': RouteRecordInfo<
-      '/posts/备战传智蓝桥DAY-1',
-      '/posts/%E5%A4%87%E6%88%98%E4%BC%A0%E6%99%BA%E8%93%9D%E6%A1%A5DAY-1',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/备战传智蓝桥DAY-10(福利局)': RouteRecordInfo<
-      '/posts/备战传智蓝桥DAY-10(福利局)',
-      '/posts/%E5%A4%87%E6%88%98%E4%BC%A0%E6%99%BA%E8%93%9D%E6%A1%A5DAY-10(%E7%A6%8F%E5%88%A9%E5%B1%80)',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/备战传智蓝桥DAY-11': RouteRecordInfo<
-      '/posts/备战传智蓝桥DAY-11',
-      '/posts/%E5%A4%87%E6%88%98%E4%BC%A0%E6%99%BA%E8%93%9D%E6%A1%A5DAY-11',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/备战传智蓝桥DAY-12': RouteRecordInfo<
-      '/posts/备战传智蓝桥DAY-12',
-      '/posts/%E5%A4%87%E6%88%98%E4%BC%A0%E6%99%BA%E8%93%9D%E6%A1%A5DAY-12',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/备战传智蓝桥DAY-13': RouteRecordInfo<
-      '/posts/备战传智蓝桥DAY-13',
-      '/posts/%E5%A4%87%E6%88%98%E4%BC%A0%E6%99%BA%E8%93%9D%E6%A1%A5DAY-13',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/备战传智蓝桥DAY-2': RouteRecordInfo<
-      '/posts/备战传智蓝桥DAY-2',
-      '/posts/%E5%A4%87%E6%88%98%E4%BC%A0%E6%99%BA%E8%93%9D%E6%A1%A5DAY-2',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/备战传智蓝桥DAY-3': RouteRecordInfo<
-      '/posts/备战传智蓝桥DAY-3',
-      '/posts/%E5%A4%87%E6%88%98%E4%BC%A0%E6%99%BA%E8%93%9D%E6%A1%A5DAY-3',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/备战传智蓝桥DAY-4': RouteRecordInfo<
-      '/posts/备战传智蓝桥DAY-4',
-      '/posts/%E5%A4%87%E6%88%98%E4%BC%A0%E6%99%BA%E8%93%9D%E6%A1%A5DAY-4',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/备战传智蓝桥DAY-5': RouteRecordInfo<
-      '/posts/备战传智蓝桥DAY-5',
-      '/posts/%E5%A4%87%E6%88%98%E4%BC%A0%E6%99%BA%E8%93%9D%E6%A1%A5DAY-5',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/备战传智蓝桥DAY-6': RouteRecordInfo<
-      '/posts/备战传智蓝桥DAY-6',
-      '/posts/%E5%A4%87%E6%88%98%E4%BC%A0%E6%99%BA%E8%93%9D%E6%A1%A5DAY-6',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/备战传智蓝桥DAY-7': RouteRecordInfo<
-      '/posts/备战传智蓝桥DAY-7',
-      '/posts/%E5%A4%87%E6%88%98%E4%BC%A0%E6%99%BA%E8%93%9D%E6%A1%A5DAY-7',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/备战传智蓝桥DAY-8': RouteRecordInfo<
-      '/posts/备战传智蓝桥DAY-8',
-      '/posts/%E5%A4%87%E6%88%98%E4%BC%A0%E6%99%BA%E8%93%9D%E6%A1%A5DAY-8',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/备战传智蓝桥DAY-9': RouteRecordInfo<
-      '/posts/备战传智蓝桥DAY-9',
-      '/posts/%E5%A4%87%E6%88%98%E4%BC%A0%E6%99%BA%E8%93%9D%E6%A1%A5DAY-9',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -433,6 +447,126 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
+    'pages/collections/index.md': {
+      routes:
+        | '/collections/'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/collections/lanqiao/index.md': {
+      routes:
+        | '/collections/lanqiao/'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/collections/lanqiao/1.md': {
+      routes:
+        | '/collections/lanqiao/1'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/collections/lanqiao/10.md': {
+      routes:
+        | '/collections/lanqiao/10'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/collections/lanqiao/11.md': {
+      routes:
+        | '/collections/lanqiao/11'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/collections/lanqiao/12.md': {
+      routes:
+        | '/collections/lanqiao/12'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/collections/lanqiao/13.md': {
+      routes:
+        | '/collections/lanqiao/13'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/collections/lanqiao/2.md': {
+      routes:
+        | '/collections/lanqiao/2'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/collections/lanqiao/3.md': {
+      routes:
+        | '/collections/lanqiao/3'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/collections/lanqiao/4.md': {
+      routes:
+        | '/collections/lanqiao/4'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/collections/lanqiao/5.md': {
+      routes:
+        | '/collections/lanqiao/5'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/collections/lanqiao/6.md': {
+      routes:
+        | '/collections/lanqiao/6'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/collections/lanqiao/7.md': {
+      routes:
+        | '/collections/lanqiao/7'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/collections/lanqiao/8.md': {
+      routes:
+        | '/collections/lanqiao/8'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/collections/lanqiao/9.md': {
+      routes:
+        | '/collections/lanqiao/9'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
     'pages/girls/index.md': {
       routes:
         | '/girls/'
@@ -492,110 +626,6 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/图论可视化工具：一个轻量级的在线图形编辑与分析平台.md': {
       routes:
         | '/posts/图论可视化工具：一个轻量级的在线图形编辑与分析平台'
-      views:
-        | never
-      pathParamNames:
-        | never
-    }
-    'pages/posts/备战传智蓝桥DAY-1.md': {
-      routes:
-        | '/posts/备战传智蓝桥DAY-1'
-      views:
-        | never
-      pathParamNames:
-        | never
-    }
-    'pages/posts/备战传智蓝桥DAY-10(福利局).md': {
-      routes:
-        | '/posts/备战传智蓝桥DAY-10(福利局)'
-      views:
-        | never
-      pathParamNames:
-        | never
-    }
-    'pages/posts/备战传智蓝桥DAY-11.md': {
-      routes:
-        | '/posts/备战传智蓝桥DAY-11'
-      views:
-        | never
-      pathParamNames:
-        | never
-    }
-    'pages/posts/备战传智蓝桥DAY-12.md': {
-      routes:
-        | '/posts/备战传智蓝桥DAY-12'
-      views:
-        | never
-      pathParamNames:
-        | never
-    }
-    'pages/posts/备战传智蓝桥DAY-13.md': {
-      routes:
-        | '/posts/备战传智蓝桥DAY-13'
-      views:
-        | never
-      pathParamNames:
-        | never
-    }
-    'pages/posts/备战传智蓝桥DAY-2.md': {
-      routes:
-        | '/posts/备战传智蓝桥DAY-2'
-      views:
-        | never
-      pathParamNames:
-        | never
-    }
-    'pages/posts/备战传智蓝桥DAY-3.md': {
-      routes:
-        | '/posts/备战传智蓝桥DAY-3'
-      views:
-        | never
-      pathParamNames:
-        | never
-    }
-    'pages/posts/备战传智蓝桥DAY-4.md': {
-      routes:
-        | '/posts/备战传智蓝桥DAY-4'
-      views:
-        | never
-      pathParamNames:
-        | never
-    }
-    'pages/posts/备战传智蓝桥DAY-5.md': {
-      routes:
-        | '/posts/备战传智蓝桥DAY-5'
-      views:
-        | never
-      pathParamNames:
-        | never
-    }
-    'pages/posts/备战传智蓝桥DAY-6.md': {
-      routes:
-        | '/posts/备战传智蓝桥DAY-6'
-      views:
-        | never
-      pathParamNames:
-        | never
-    }
-    'pages/posts/备战传智蓝桥DAY-7.md': {
-      routes:
-        | '/posts/备战传智蓝桥DAY-7'
-      views:
-        | never
-      pathParamNames:
-        | never
-    }
-    'pages/posts/备战传智蓝桥DAY-8.md': {
-      routes:
-        | '/posts/备战传智蓝桥DAY-8'
-      views:
-        | never
-      pathParamNames:
-        | never
-    }
-    'pages/posts/备战传智蓝桥DAY-9.md': {
-      routes:
-        | '/posts/备战传智蓝桥DAY-9'
       views:
         | never
       pathParamNames:

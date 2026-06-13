@@ -13,9 +13,11 @@ const safelist = [
   'i-ri-price-tag-3-line',
   'i-ri-links-line',
   'i-ri-gallery-line',
+  'i-ri-gallery-view',
   'i-ri-puzzle-fill',
   'i-ri-user-line',
   'i-ri-heart-2-fill',
+  'i-ri-article-line',
   // 主题组件响应式断点类（UnoCSS 未扫描 node_modules 时需要手动添加）
   'lg:hidden',
   'lg:contents',
@@ -45,6 +47,7 @@ export default defineValaxyConfig<UserThemeConfig>({
     outlineTitle : '伊地知佳の小站',
     nav: [
       { text: '文章', link: '/posts/', icon: 'i-ri-article-line' },
+      { text: '合集', link: '/collections/', icon: 'i-ri-gallery-view' },
       { text: '归档', link: '/archives/', icon: 'i-ri-archive-line' },
       { text: '分类', link: '/categories/', icon: 'i-ri-folder-line' },
       { text: '标签', link: '/tags/', icon: 'i-ri-price-tag-3-line' },
@@ -57,10 +60,6 @@ export default defineValaxyConfig<UserThemeConfig>({
       url : 'https://pic1.imgdb.cn/item/69bf78c3ccd26bacb4d7cc0c.png',
       dark : 'https://pic1.imgdb.cn/item/69bf78ceccd26bacb4d7cc11.jpg',
       opacity : 0.5
-    },
-    editLink: {
-      pattern: 'https://github.com/Nijika-jia/Nijika-jia.github.io/edit/main/:path',
-      text: '在 GitHub 编辑此页',
     },
     // 自定义菜单图标（最右侧）
     // menu: {
@@ -180,22 +179,21 @@ export default defineValaxyConfig<UserThemeConfig>({
       // tools : ['hitokoto' , 'asteroids'  , 'switch-texture' , 'photo' , 'info' , 'quit']
     }),
     addonMeting({
-      global: false,
-      /** @see https://github.com/metowolf/MetingJS */
-      props: {
-        id: '12390232',
-        server: 'netease',
-        type: 'artist',
-        fixed: true,
-        theme: '#4CAF50',
-        order: 'random',
-        preload: 'none',
-        storage: false,
-        loop: 'all',
-        volume: 0.8,
-        mutex: true,
-        autoplay: true,
-      },
+      // 设为 `global: true` 可在每个页面显示固定播放器
+        global: true,
+        props: {
+          mini: true,
+          fixed: true,
+          theme: '#4CAF50',
+          server: 'netease',
+          type: 'artist',
+          id: '12390232',
+        },
+        options: {
+          animationIn: true,
+          autoHidden: true,
+          lyricHidden: false,
+        },
     }),
     addonComponents()
   ],
