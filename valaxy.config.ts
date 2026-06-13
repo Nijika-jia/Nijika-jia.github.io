@@ -138,7 +138,7 @@ export default defineValaxyConfig<UserThemeConfig>({
   addons: [
     addonLightGallery(),
     addonWaline({
-      serverURL: "https://nijikajia.vercel.app/",		// Waline服务链接
+      serverURL: "https://waline-ler6ydvqd-xsj20040824-2164s-projects.vercel.app/",		// Waline服务链接
       locale: {
         placeholder: "填写qq邮箱或点击登录，可以展示个人头像",
       },
