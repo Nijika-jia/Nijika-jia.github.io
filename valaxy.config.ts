@@ -163,7 +163,7 @@ export default defineValaxyConfig<UserThemeConfig>({
       // tools : ['hitokoto' , 'asteroids'  , 'switch-texture' , 'photo' , 'info' , 'quit']
     }),
     addonMeting({
-      global: true,
+      global: false,
       /** @see https://github.com/metowolf/MetingJS */
       props: {
         id: '12390232',
@@ -177,7 +177,7 @@ export default defineValaxyConfig<UserThemeConfig>({
         loop: 'all',
         volume: 0.8,
         mutex: true,
-        autoplay: false,
+        autoplay: true,
       },
     }),
     addonComponents()
