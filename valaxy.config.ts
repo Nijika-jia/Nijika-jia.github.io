@@ -1,5 +1,5 @@
 import type {UserThemeConfig } from 'valaxy-theme-yun'
-import { defineValaxyConfig, random } from 'valaxy'
+import { defineValaxyConfig } from 'valaxy'
 import { addonLightGallery } from 'valaxy-addon-lightgallery'
 import { addonWaline } from "valaxy-addon-waline";
 import { addonLive2d } from 'valaxy-addon-live2d'
@@ -9,6 +9,23 @@ import YunFooter from 'valaxy-theme-yun/components/YunFooter.vue';
 // add icons what you will need
 const safelist = [
   'i-ri-home-line',
+  'i-ri-archive-line',
+  'i-ri-folder-line',
+  'i-ri-price-tag-3-line',
+  'i-ri-links-line',
+  'i-ri-gallery-line',
+  'i-ri-puzzle-fill',
+  'i-ri-user-line',
+  'i-ri-heart-2-fill',
+  // 主题组件响应式断点类（UnoCSS 未扫描 node_modules 时需要手动添加）
+  'lg:hidden',
+  'lg:contents',
+  'lg:inline-flex',
+  'lg:flex-col',
+  'md:hidden',
+  'md:inline-flex',
+  'sm:inline-flex',
+  'hidden',
 ]
 /**
  * User Config
@@ -26,12 +43,23 @@ export default defineValaxyConfig<UserThemeConfig>({
       }
     },
     outlineTitle : '伊地知佳の小站',
+    nav: [
+      { text: '首页', link: '/', icon: 'i-ri-home-line' },
+      { text: '归档', link: '/archives/', icon: 'i-ri-archive-line' },
+      { text: '分类', link: '/categories/', icon: 'i-ri-folder-line' },
+      { text: '标签', link: '/tags/', icon: 'i-ri-price-tag-3-line' },
+      { text: '友人帐', link: '/links/', icon: 'i-ri-links-line' },
+      { text: '相册', link: '/ablums/', icon: 'i-ri-gallery-line' },
+      { text: '小项目', link: '/projects/', icon: 'i-ri-puzzle-fill' },
+      { text: '关于', link: '/about/', icon: 'i-ri-user-line' },
+    ],
     bg_image : {
       enable : true,
       url : 'https://pic1.imgdb.cn/item/69bf78c3ccd26bacb4d7cc0c.png',
       dark : 'https://pic1.imgdb.cn/item/69bf78ceccd26bacb4d7cc11.jpg',
       opacity : 0.5
     },
+    // 自定义菜单图标（最右侧）
     // menu: {
     //   custom: {
     //     title: 'menu.slides',
@@ -39,9 +67,8 @@ export default defineValaxyConfig<UserThemeConfig>({
     //     icon: 'i-ri-keynote-line'
     //   }
     // },
-    // sidebar: {
-      
-    // },
+    // 侧边栏配置
+    // sidebar: {},
     pages: [
       {
         name: '友人帐',
@@ -77,39 +104,12 @@ export default defineValaxyConfig<UserThemeConfig>({
         icp: '苏ICP备17038157号',
       },
     },
-    // notice :{
-    //   enable : true,
-    //   hideInPages : true,
-    //   content: '<center style ="font-Size : 25px">公告栏</center>学习图论(😪)',
-
-    // },
-    // nav:[
-    //   {
-    //     icon: '🕹️',
-    //     link: '/pages/links',
-    //     text : '友链',
-    //     active : 'yyy'
-    //   },
-    //   {
-    //     icon: '🕹️',
-    //     link: '/pages/posts',
-    //     text : '页面',
-    //     active : 'yyy'
-    //   },
-    //   {
-    //     icon: '🕹️',
-    //     link: '/pages/girls',
-    //     text : '女友',
-    //     active : 'yyy'
-    //   }
-    // ],
-    // menu:{
-    //   custom:{
-    //     title:'123',
-    //     icon:'🕹️',
-    //     url:'/pages/links'
-    //   }
-    // },
+    // 公告横幅
+    notice: {
+      enable: true,
+      hideInPages: true,
+      content: '<center style="font-size: 25px">公告栏</center>学习图论(😪)',
+    },
     say :{
       enable : true,
       api:'https://el-bot-api.elpsy.cn/api/words/young',
@@ -125,20 +125,10 @@ export default defineValaxyConfig<UserThemeConfig>({
       enable: true,
       colors: ['#D5C63A', '#FCBDC5'] // 自定义颜色
     },
-    // nav: [
-    //   { text: 'Home', link: '/' },
-    //   { text: 'About', link: '/about' }
-    // ],
+    // 文章类型标记
     // types: {
     //   tutorial: { color: '#4CAF50', icon: '📘' },
     //   news: { color: '#FF5722', icon: '📰' }
-    // },
-    // menu: {
-    //   custom: {
-    //     title: 'Contact Me',
-    //     url: 'https://example.com',
-    //     icon: 'mdi-email'
-    //   }
     // },
     
   },
@@ -175,7 +165,7 @@ export default defineValaxyConfig<UserThemeConfig>({
       // tools : ['hitokoto' , 'asteroids'  , 'switch-texture' , 'photo' , 'info' , 'quit']
     }),
     addonMeting({
-      global: true,
+      global: false,
       /** @see https://github.com/metowolf/MetingJS */
       props: {
         id: '12390232',

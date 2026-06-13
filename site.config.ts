@@ -42,7 +42,7 @@ export default defineSiteConfig({
   },
   search: {
     enable: true,
-    type: 'fuse', // 使用本地搜索
+    provider: 'fuse',
   },
   fuse: {
     dataPath: 'valaxy-fuse-list.json', // 搜索数据路径
@@ -55,7 +55,14 @@ export default defineSiteConfig({
     enable : true
   },
   
+  timezone: 'Asia/Shanghai',
   description: '天空的湛蓝该怎样才能传达给你呢？',
+  lastUpdated: true,
+  orderBy: 'date',
+  excerpt: {
+    auto: true,
+    length: 200,
+  },
   social: [
     {
       name: 'RSS',
@@ -76,9 +83,9 @@ export default defineSiteConfig({
       color: '#6e5494',
     },
     {
-      name: 'QQ音乐',
-      link: 'https://c6.y.qq.com/base/fcgi-bin/u?__=QJbfapKAzmz1',
-      icon: 'i-ri-music-fill',
+      name: 'Discord',
+      link: 'https://discordapp.com/users/1303909108667121726',
+      icon: 'i-ri-discord-line',
       color: '#13BA74',
     },
     {
