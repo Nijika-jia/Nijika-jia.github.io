@@ -1,0 +1,1 @@
+import{Q as e}from"./theme.D2_amldv.js";var t=e({defaults:{"@type":`AggregateRating`}});export{t as aggregateRatingResolver};
