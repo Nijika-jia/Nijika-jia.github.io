@@ -54,6 +54,7 @@ export default defineValaxyConfig<UserThemeConfig>({
       { text: '友人帐', link: '/links/', icon: 'i-ri-links-line' },
       { text: '相册', link: '/ablums/', icon: 'i-ri-gallery-line' },
       { text: '小项目', link: '/projects/', icon: 'i-ri-puzzle-fill' },
+      { text: '我の推', link: '/girls/', icon: 'i-ri-heart-2-fill' }
     ],
     bg_image : {
       enable : true,
@@ -125,10 +126,10 @@ export default defineValaxyConfig<UserThemeConfig>({
     },
     say :{
       enable : true,
-      api:'https://el-bot-api.elpsy.cn/api/words/young',
+      api:'https://el-bot-api.elpsy.cn/api/setu',
       hitokoto :{
         enable : false,
-        api : 'https://el-bot-api.elpsy.cn/api/words/young'
+        api : 'https://el-bot-api.elpsy.cn/api/setu'
       }
     },
     colors: {

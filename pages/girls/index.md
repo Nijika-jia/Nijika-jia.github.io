@@ -1,5 +1,5 @@
 ---
-title : My Love
+title : 我の推
 color : pink
 nav: false
 toc: false

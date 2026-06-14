@@ -2,7 +2,7 @@
 title: 友人帐
 color : '#7FC1F5'
 keywords: 链接
-description: 云游的小伙伴们
+description: 小伙伴们
 links: '/friends/links.json'
 random: true
 nav : false

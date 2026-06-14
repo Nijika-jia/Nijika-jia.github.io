@@ -1,6 +1,6 @@
 ---
 layout: tags
-title: 佳的小标签
+title: 标签
 icon: i-ri-price-tag-3-line
 nav: false
 comment: false
