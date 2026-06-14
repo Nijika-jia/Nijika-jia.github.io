@@ -119,7 +119,7 @@ export default defineValaxyConfig<UserThemeConfig>({
     },
     // 公告横幅
     notice: {
-      enable: true,
+      enable: false,
       hideInPages: true,
       content: '<center style="font-size: 25px">公告栏</center>学习图论(😪)',
     },
