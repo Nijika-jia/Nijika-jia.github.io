@@ -5,6 +5,8 @@ import { addonWaline } from "valaxy-addon-waline";
 import { addonLive2d } from 'valaxy-addon-live2d'
 import { addonMeting } from 'valaxy-addon-meting'
 import { addonComponents } from 'valaxy-addon-components'
+import { addonHitokoto, HitokotoType } from 'valaxy-addon-hitokoto';
+import { addonBangumi } from 'valaxy-addon-bangumi';
 // add icons what you will need
 const safelist = [
   'i-ri-home-line',
@@ -54,6 +56,7 @@ export default defineValaxyConfig<UserThemeConfig>({
       { text: '友人帐', link: '/links/', icon: 'i-ri-links-line' },
       { text: '相册', link: '/ablums/', icon: 'i-ri-gallery-line' },
       { text: '小项目', link: '/projects/', icon: 'i-ri-puzzle-fill' },
+      { text: '追番', link: '/bangumi/', icon: 'i-ri-tv-line' },
       { text: '我の推', link: '/girls/', icon: 'i-ri-heart-2-fill' }
     ],
     bg_image : {
@@ -122,7 +125,7 @@ export default defineValaxyConfig<UserThemeConfig>({
     notice: {
       enable: false,
       hideInPages: true,
-      content: '<center style="font-size: 25px">公告栏</center>学习图论(😪)',
+      content: '<span>一言: {{ hitokoto.hitokoto }}</span><span>来自: {{ hitokoto.from }}</span>',
     },
     say :{
       enable : true,
@@ -154,6 +157,12 @@ export default defineValaxyConfig<UserThemeConfig>({
   },
   addons: [
     addonLightGallery(),
+    addonBangumi({
+      api: 'https://nijikajia--b31b13a06a5711f1944e1607ee4eb77e.web.val.run',  // 替换成你自己部署的后端
+      bgmEnabled: true,
+      pageSize: 30,
+      bilibiliEnabled:false,
+    }),
     addonWaline({
       serverURL: "https://waline-ler6ydvqd-xsj20040824-2164s-projects.vercel.app/",		// Waline服务链接
       locale: {
@@ -168,7 +177,8 @@ export default defineValaxyConfig<UserThemeConfig>({
     }),
     addonLive2d({
       global: true,
-      enableLive2D: ['Tia','Pio'],
+      enableLive2D: ['Tia', 'Pio'],
+      widthLimit: 290,
       live2DCollection: {
         Tia: {
           message: '来自 Potion Maker 的 Tia 酱 ~',
@@ -176,10 +186,9 @@ export default defineValaxyConfig<UserThemeConfig>({
         },
         Pio: {
           message: '来自 Potion Maker 的 Pio 酱 ~',
-          models: 'https://cdn.jsdelivr.net/gh/fghrsh/live2d_api/model/Potion-Maker/Pio/index.json',
-        }
+          models: 'https://cdn.jsdelivr.net/gh/fghrsh/live2d_api/model/Potion-Maker/Pio/index.json', 
+        },
       },
-      widthLimit: 280,
       skipHello: false,
       tools: {
         'switch-texture': { visible: true },
@@ -207,7 +216,12 @@ export default defineValaxyConfig<UserThemeConfig>({
           lyricHidden: false,
         },
     }),
-    addonComponents()
+    addonComponents(),
+    addonHitokoto({
+      args:[HitokotoType.Animation],
+      minLength:0,
+      maxLength:30
+    })
   ],
   unocss: { safelist},
 })

@@ -101,6 +101,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/bangumi/': RouteRecordInfo<
+      '/bangumi/',
+      '/bangumi',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/categories/': RouteRecordInfo<
       '/categories/',
       '/categories',
@@ -434,6 +441,14 @@ declare module 'vue-router/auto-routes' {
     'pages/archives/index.md': {
       routes:
         | '/archives/'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/bangumi/index.md': {
+      routes:
+        | '/bangumi/'
       views:
         | never
       pathParamNames:

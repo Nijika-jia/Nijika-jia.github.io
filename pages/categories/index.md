@@ -6,6 +6,6 @@ icon: i-ri-folder-2-line
 # You can custom title
 title: 分类
 # comment: false
-aside : true
+aside : false
 comment : false
 ---

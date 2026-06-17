@@ -14,7 +14,9 @@
   },
   "dependencies": {
     "valaxy": "0.28.11",
+    "valaxy-addon-bangumi": "^0.4.0",
     "valaxy-addon-components": "^0.1.0",
+    "valaxy-addon-hitokoto": "^0.0.1",
     "valaxy-addon-lightgallery": "^0.0.4",
     "valaxy-addon-live2d": "^0.4.0",
     "valaxy-addon-meting": "^0.2.0",

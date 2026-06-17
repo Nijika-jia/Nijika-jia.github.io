@@ -11,9 +11,15 @@ importers:
       valaxy:
         specifier: 0.28.11
         version: 0.28.11(@babel/parser@7.29.7)(@nuxt/kit@3.21.8(magicast@0.5.3))(@types/markdown-it@14.1.2)(@types/node@25.9.3)(@vue/compiler-dom@3.5.38)(axios@1.17.0)(eslint@10.5.0(jiti@2.7.0))(typescript@5.9.3)(vue-router@5.1.0(@vue/compiler-sfc@3.5.38)(pinia@3.0.4(typescript@5.9.3)(vue@3.5.38(typescript@5.9.3)))(vite@8.0.16(@types/node@25.9.3)(jiti@2.7.0)(sass@1.101.0)(yaml@2.9.0))(vue@3.5.38(typescript@5.9.3)))(vue@3.5.38(typescript@5.9.3))(yaml@2.9.0)
+      valaxy-addon-bangumi:
+        specifier: ^0.4.0
+        version: 0.4.0(valaxy@0.28.11(@babel/parser@7.29.7)(@nuxt/kit@3.21.8(magicast@0.5.3))(@types/markdown-it@14.1.2)(@types/node@25.9.3)(@vue/compiler-dom@3.5.38)(axios@1.17.0)(eslint@10.5.0(jiti@2.7.0))(typescript@5.9.3)(vue-router@5.1.0(@vue/compiler-sfc@3.5.38)(pinia@3.0.4(typescript@5.9.3)(vue@3.5.38(typescript@5.9.3)))(vite@8.0.16(@types/node@25.9.3)(jiti@2.7.0)(sass@1.101.0)(yaml@2.9.0))(vue@3.5.38(typescript@5.9.3)))(vue@3.5.38(typescript@5.9.3))(yaml@2.9.0))
       valaxy-addon-components:
         specifier: ^0.1.0
         version: 0.1.0
+      valaxy-addon-hitokoto:
+        specifier: ^0.0.1
+        version: 0.0.1
       valaxy-addon-lightgallery:
         specifier: ^0.0.4
         version: 0.0.4(valaxy@0.28.11(@babel/parser@7.29.7)(@nuxt/kit@3.21.8(magicast@0.5.3))(@types/markdown-it@14.1.2)(@types/node@25.9.3)(@vue/compiler-dom@3.5.38)(axios@1.17.0)(eslint@10.5.0(jiti@2.7.0))(typescript@5.9.3)(vue-router@5.1.0(@vue/compiler-sfc@3.5.38)(pinia@3.0.4(typescript@5.9.3)(vue@3.5.38(typescript@5.9.3)))(vite@8.0.16(@types/node@25.9.3)(jiti@2.7.0)(sass@1.101.0)(yaml@2.9.0))(vue@3.5.38(typescript@5.9.3)))(vue@3.5.38(typescript@5.9.3))(yaml@2.9.0))
@@ -1821,6 +1827,9 @@ packages:
     resolution: {integrity: sha512-girxaJ7WZssDOFhzCGZTDKoTa1gk6A1TbflaYTpykLJ4UU9Fz9kx1aREM8JCuoVHbL8X8T/mJg7w2oYSq72Oig==}
     engines: {node: '>=6.0.0'}
     hasBin: true
+
+  bilibili-bangumi-component@0.4.0:
+    resolution: {integrity: sha512-Sf9HOywQuLZ+iNy9ov0at6fAJ2GNcdtX1nVreFtbTvcLEALmbVAU2Xqav8EH+MGA6dZ9l7cd99+gSzRcLp9Yeg==}
 
   binary-extensions@2.3.0:
     resolution: {integrity: sha512-Ceh+7ox5qe7LJuLHoY0feh3pHuUDHAcRUeyL2VYghZwfpkNIy/+8Ocg0a3UuSoYzavmylwuLWQOf3hl0jjMMIw==}
@@ -3726,8 +3735,16 @@ packages:
     peerDependencies:
       valaxy: latest
 
+  valaxy-addon-bangumi@0.4.0:
+    resolution: {integrity: sha512-Nx289+1TY1Hr7ZXpKrLR/6H4HpJ/2oan0CR8k/HAgFXoOW0lTBMVdTH/rr8geWIbrUJhAjCdsb8CTxIPP9pJ6w==}
+    peerDependencies:
+      valaxy: '>=0.22'
+
   valaxy-addon-components@0.1.0:
     resolution: {integrity: sha512-7uCJgUgc2JHISmz/UDQlhBqGSNW4QKmkiRlcwj5WhjhScC/KktK8JtADeKh6FCaAJHbjShovHB/9UPVtnTwORg==}
+
+  valaxy-addon-hitokoto@0.0.1:
+    resolution: {integrity: sha512-N+1dl3gwxeoTraT+r7gvNfTUHIjapBNHXj/urILdKQFfji++s7ELqeCNoyyOLUpvLJJOPSfObkJ9MKDsfCm8FA==}
 
   valaxy-addon-lightgallery@0.0.4:
     resolution: {integrity: sha512-+pQJUBCPXff5Isd5ZfNrgkEqh+oKPvzNvgw74vAxmPEeWKvW8786lftVgkoWByFrNsn92iN7q7h5jt3evmQFDg==}
@@ -5891,6 +5908,8 @@ snapshots:
 
   baseline-browser-mapping@2.10.37: {}
 
+  bilibili-bangumi-component@0.4.0: {}
+
   binary-extensions@2.3.0: {}
 
   birpc@2.9.0: {}
@@ -7933,7 +7952,14 @@ snapshots:
       - react-dom
       - search-insights
 
+  valaxy-addon-bangumi@0.4.0(valaxy@0.28.11(@babel/parser@7.29.7)(@nuxt/kit@3.21.8(magicast@0.5.3))(@types/markdown-it@14.1.2)(@types/node@25.9.3)(@vue/compiler-dom@3.5.38)(axios@1.17.0)(eslint@10.5.0(jiti@2.7.0))(typescript@5.9.3)(vue-router@5.1.0(@vue/compiler-sfc@3.5.38)(pinia@3.0.4(typescript@5.9.3)(vue@3.5.38(typescript@5.9.3)))(vite@8.0.16(@types/node@25.9.3)(jiti@2.7.0)(sass@1.101.0)(yaml@2.9.0))(vue@3.5.38(typescript@5.9.3)))(vue@3.5.38(typescript@5.9.3))(yaml@2.9.0)):
+    dependencies:
+      bilibili-bangumi-component: 0.4.0
+      valaxy: 0.28.11(@babel/parser@7.29.7)(@nuxt/kit@3.21.8(magicast@0.5.3))(@types/markdown-it@14.1.2)(@types/node@25.9.3)(@vue/compiler-dom@3.5.38)(axios@1.17.0)(eslint@10.5.0(jiti@2.7.0))(typescript@5.9.3)(vue-router@5.1.0(@vue/compiler-sfc@3.5.38)(pinia@3.0.4(typescript@5.9.3)(vue@3.5.38(typescript@5.9.3)))(vite@8.0.16(@types/node@25.9.3)(jiti@2.7.0)(sass@1.101.0)(yaml@2.9.0))(vue@3.5.38(typescript@5.9.3)))(vue@3.5.38(typescript@5.9.3))(yaml@2.9.0)
+
   valaxy-addon-components@0.1.0: {}
+
+  valaxy-addon-hitokoto@0.0.1: {}
 
   valaxy-addon-lightgallery@0.0.4(valaxy@0.28.11(@babel/parser@7.29.7)(@nuxt/kit@3.21.8(magicast@0.5.3))(@types/markdown-it@14.1.2)(@types/node@25.9.3)(@vue/compiler-dom@3.5.38)(axios@1.17.0)(eslint@10.5.0(jiti@2.7.0))(typescript@5.9.3)(vue-router@5.1.0(@vue/compiler-sfc@3.5.38)(pinia@3.0.4(typescript@5.9.3)(vue@3.5.38(typescript@5.9.3)))(vite@8.0.16(@types/node@25.9.3)(jiti@2.7.0)(sass@1.101.0)(yaml@2.9.0))(vue@3.5.38(typescript@5.9.3)))(vue@3.5.38(typescript@5.9.3))(yaml@2.9.0)):
     dependencies:
