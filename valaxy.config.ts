@@ -58,7 +58,7 @@ export default defineValaxyConfig<UserThemeConfig>({
     ],
     bg_image : {
       enable : true,
-      url : 'https://pic1.imgdb.cn/item/69bf78c3ccd26bacb4d7cc0c.png',
+      url : 'https://pic1.imgdb.cn/item/69d0b89a75fc555b7336c954.png',
       dark : 'https://pic1.imgdb.cn/item/69bf78ceccd26bacb4d7cc11.jpg',
       opacity : 0.5
     },
@@ -168,16 +168,27 @@ export default defineValaxyConfig<UserThemeConfig>({
     }),
     addonLive2d({
       global: true,
-      enableLive2D: ['Tia'],
+      enableLive2D: ['Tia','Pio'],
       live2DCollection: {
         Tia: {
           message: '来自 Potion Maker 的 Tia 酱 ~',
-          models: 'https://cdn.jsdelivr.net/gh/fghrsh/live2d_api/model/Potion-Maker/Tia/index.json',
-          textures: 'https://api.github.com/repos/fghrsh/live2d_api/contents/model/Potion-Maker/Tia/textures',
+          models: 'https://cdn.jsdelivr.net/gh/fghrsh/live2d_api/model/Potion-Maker/Tia/index.json', 
         },
+        Pio: {
+          message: '来自 Potion Maker 的 Pio 酱 ~',
+          models: 'https://cdn.jsdelivr.net/gh/fghrsh/live2d_api/model/Potion-Maker/Pio/index.json',
+        }
       },
+      widthLimit: 280,
       skipHello: false,
-      // tools : ['hitokoto' , 'asteroids'  , 'switch-texture' , 'photo' , 'info' , 'quit']
+      tools: {
+        'switch-texture': { visible: true },
+        "switch-model" : { visible: true },
+        'hitokoto': { visible: true },
+        'photo': { visible: true },
+        'quit': { visible: true },
+        'asteroids' :{visible:true},
+      },
     }),
     addonMeting({
       // 设为 `global: true` 可在每个页面显示固定播放器
