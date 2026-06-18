@@ -339,6 +339,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/Val Town': RouteRecordInfo<
+      '/posts/Val Town',
+      '/posts/Val%20Town',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/projects/': RouteRecordInfo<
       '/projects/',
       '/projects',
@@ -713,6 +720,14 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/TypePost.md': {
       routes:
         | '/posts/TypePost'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/Val Town.md': {
+      routes:
+        | '/posts/Val Town'
       views:
         | never
       pathParamNames:

@@ -62,7 +62,7 @@ export default defineValaxyConfig<UserThemeConfig>({
     bg_image : {
       enable : true,
       url : 'https://pic1.imgdb.cn/item/69d0b89a75fc555b7336c954.png',
-      dark : 'https://pic1.imgdb.cn/item/69bf78ceccd26bacb4d7cc11.jpg',
+      dark : 'https://pic1.imgdb.cn/item/6a32d53da6693733f7e0caec.png',
       opacity : 0.5
     },
     // 自定义菜单图标（最右侧）
