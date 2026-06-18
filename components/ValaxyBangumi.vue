@@ -4,11 +4,11 @@
  * 添加 localStorage 缓存，避免每次加载都请求 API
  */
 import { isClient } from '@vueuse/core'
-import { onBeforeMount, onMounted, ref } from 'vue'
-import { useAddonBangumi } from 'valaxy-addon-bangumi/client'
+import { useRuntimeConfig } from 'valaxy'
+import { computed, onBeforeMount, onMounted, ref } from 'vue'
 
 const CACHE_PREFIX = 'bangumi_api_cache_'
-const CACHE_TTL = 7 * 24 * 60 * 60 * 1000 // 24小时
+const CACHE_TTL = 24 * 60 * 60 * 1000 // 24小时
 
 // ---- 缓存拦截 ----
 function patchFetch(apiBase: string) {
@@ -18,20 +18,17 @@ function patchFetch(apiBase: string) {
   window.fetch = async function (input: RequestInfo | URL, init?: RequestInit) {
     const url = typeof input === 'string' ? input : (input as Request).url
 
-    // 只拦截追番 API 的请求
     if (!url.startsWith(apiBase)) {
       return originalFetch.call(window, input, init)
     }
 
     const cacheKey = CACHE_PREFIX + url
 
-    // 检查缓存
     try {
       const cached = localStorage.getItem(cacheKey)
       if (cached) {
         const { data, timestamp } = JSON.parse(cached)
         if (Date.now() - timestamp < CACHE_TTL) {
-          // 缓存命中，返回模拟 Response
           return new Response(JSON.stringify(data), {
             status: 200,
             headers: { 'Content-Type': 'application/json' },
@@ -40,28 +37,40 @@ function patchFetch(apiBase: string) {
         localStorage.removeItem(cacheKey)
       }
     }
-    catch { /* 忽略缓存读取错误 */ }
+    catch { /* 忽略 */ }
 
-    // 缓存未命中，发起真实请求
     const response = await originalFetch.call(window, input, init)
 
-    // 缓存响应数据
     try {
       const cloned = response.clone()
       const data = await cloned.json()
       localStorage.setItem(cacheKey, JSON.stringify({ data, timestamp: Date.now() }))
     }
-    catch { /* 缓存写入失败不影响正常功能 */ }
+    catch { /* 忽略 */ }
 
     return response
   }
 }
 
+// ---- 直接读取插件配置(不导入插件模块，避免 pnpm 长路径问题) ----
+const runtimeConfig = useRuntimeConfig()
+const bangumiOptions = computed(() => {
+  const options = (runtimeConfig.value.addons['valaxy-addon-bangumi'] as any)?.options
+  if (!options) return {}
+  return {
+    ...options,
+    bilibiliEnabled: options.bilibiliEnabled ?? true,
+    bgmEnabled: options.bgmEnabled ?? true,
+    pageSize: options.pageSize ?? 15,
+    customEnabled: options.customEnabled ?? false,
+    customLabel: options.customLabel ?? '自定义',
+  }
+})
+
+const { api, bgmEnabled, bgmUid, bilibiliEnabled, bilibiliUid, customCss, customEnabled, customLabel, pageSize } = bangumiOptions.value
+
 const bangumiRef = ref<HTMLElement>()
 const customCssInjected = ref(false)
-
-const bangumiOptions = useAddonBangumi()
-const { api, bgmEnabled, bgmUid, bilibiliEnabled, bilibiliUid, customCss, customEnabled, customLabel, pageSize } = bangumiOptions.value
 
 // 在组件挂载前拦截 fetch
 onBeforeMount(() => {
