@@ -2,17 +2,9 @@
 layout: post
 title: bocchi-the-rock-theme for VSCode
 date: 2025-02-27 16:35:30
-tags: 
-  - VSCode主题
-  - 代码高亮
-  - 主题美化
-  - 前端工具
-  - 配色方案
-  - 孤独摇滚
-  - 动漫主题
-  - UI设计
-  - 开发者工具
-  - 插件推荐
+tags:
+  - VSCode
+  - 动漫
 categories: 爱制作
 #top : 1 #置顶数值(越大越在前面)
 draft: false #true为草稿记得改false发布时

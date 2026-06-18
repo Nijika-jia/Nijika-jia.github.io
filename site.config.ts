@@ -89,12 +89,6 @@ export default defineSiteConfig({
       color: '#13BA74',
     },
     {
-      name: '哔哩哔哩',
-      link: 'https://b23.tv/hi1Qwaz',
-      icon: 'i-ri-bilibili-line',
-      color: '#FF8EB3',
-    },
-    {
       name: 'LeetCode',
       link: 'https://leetcode.cn/u/yi-di-zhi-jia/',
       icon: 'i-ri-code-s-slash-fill',

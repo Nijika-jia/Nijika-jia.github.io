@@ -2,9 +2,8 @@
 layout: post
 title: byd崩溃了,做这个图论工具,**AI
 date: 2025-02-09 01:39:17
-tags: 
+tags:
     - AI
-    - ChatGPT
 categories: 爱吐槽
 #top : 1 #置顶数值(越大越在前面)
 draft: false #true为草稿记得改false发布时

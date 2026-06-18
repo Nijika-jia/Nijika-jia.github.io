@@ -332,6 +332,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/Skill创建随记': RouteRecordInfo<
+      '/posts/Skill创建随记',
+      '/posts/Skill%E5%88%9B%E5%BB%BA%E9%9A%8F%E8%AE%B0',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/TypePost': RouteRecordInfo<
       '/posts/TypePost',
       '/posts/TypePost',
@@ -339,9 +346,9 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/Val Town': RouteRecordInfo<
-      '/posts/Val Town',
-      '/posts/Val%20Town',
+    '/posts/Val Town 折腾笔记': RouteRecordInfo<
+      '/posts/Val Town 折腾笔记',
+      '/posts/Val%20Town%20%E6%8A%98%E8%85%BE%E7%AC%94%E8%AE%B0',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -717,6 +724,14 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
+    'pages/posts/Skill创建随记.md': {
+      routes:
+        | '/posts/Skill创建随记'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
     'pages/posts/TypePost.md': {
       routes:
         | '/posts/TypePost'
@@ -725,9 +740,9 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
-    'pages/posts/Val Town.md': {
+    'pages/posts/Val Town 折腾笔记.md': {
       routes:
-        | '/posts/Val Town'
+        | '/posts/Val Town 折腾笔记'
       views:
         | never
       pathParamNames:

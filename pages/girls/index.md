@@ -10,11 +10,19 @@ aside : false
 ## <center><span style="color:#E2D28A;">♥ ♥ 主推 ♥ ♥</span></center>
 <YunGirls :girls="'/girls/HeavyLove.json'" />
 
-## <center><span style="color:pink;">♥ 推过♥ </span></center>
+## <center><span style="color:#F09199;">♥ Bangumi 角色收藏 ♥</span></center>
+<BangumiGirls />
 
-<YunGirls :girls="'/girls/PastLove.json'" />
+::: tip
 
-## <center><span style="color:#8BC9F2;">原则</span></center>
-- 看着好有感觉
-- 可爱
-- 难忘的剧情体验
+每次都是随机排序的,不区分喜欢程度~!
+
+$原则$
+
+看着好有感觉
+可爱
+难忘的剧情体验
+:::
+<!-- ## <center><span style="color:pink;">♥ 推过♥ </span></center>
+
+<YunGirls :girls="'/girls/PastLove.json'" /> -->

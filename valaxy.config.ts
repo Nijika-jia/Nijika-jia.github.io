@@ -37,6 +37,11 @@ export default defineValaxyConfig<UserThemeConfig>({
   // site config see site.config.ts
 
   theme: 'yun',
+  vite: {
+    optimizeDeps: {
+      include: ['@braintree/sanitize-url'],
+    },
+  },
   themeConfig: {
     banner: {
       enable: true,
@@ -49,9 +54,9 @@ export default defineValaxyConfig<UserThemeConfig>({
     outlineTitle : '伊地知佳の小站',
     nav: [
       { text: '文章', link: '/posts/', icon: 'i-ri-article-line' },
-      { text: '合集', link: '/collections/', icon: 'i-ri-gallery-view' },
+      { text: '合集', link: '/collections/', icon: 'i-ri:dashboard-line' },
       { text: '归档', link: '/archives/', icon: 'i-ri-archive-line' },
-      { text: '分类', link: '/categories/', icon: 'i-ri-folder-line' },
+      { text: '分类', link: '/categories/', icon: 'i-ri:folder-5-line'},
       { text: '标签', link: '/tags/', icon: 'i-ri-price-tag-3-line' },
       { text: '友人帐', link: '/links/', icon: 'i-ri-links-line' },
       { text: '相册', link: '/ablums/', icon: 'i-ri-gallery-line' },
@@ -77,28 +82,34 @@ export default defineValaxyConfig<UserThemeConfig>({
     // sidebar: {},
     pages: [
       {
+        name: '分类',
+        url: '/categories/',
+        icon: 'i-ri-folder-line',
+        color: '#2196F3',
+      },
+      {
+        name: '标签',
+        url: '/tags/',
+        icon: 'i-ri-price-tag-3-line',
+        color: '#FFC107',
+      },
+      {
         name: '友人帐',
         url: '/links/',
         icon: 'i-ri-links-line',
         color: 'dodgerblue',
       },
       {
-        name: '相册',
-        url: '/ablums/',
-        icon: 'i-ri-gallery-line',
-        color: '#FF5722',
+        name: '文章',
+        url: '/posts/',
+        icon: 'i-ri-article-line',
+        color: '#4CAF50',
       },
       {
         name: '小项目',
         url: '/projects/',
         icon: 'i-ri-puzzle-fill',
         color: '#66B5A9',
-      },
-      {
-        name: '我の推',
-        url: '/girls/',
-        icon: 'i-ri-heart-2-fill',
-        color: 'hotpink',
       },
     ],
     types: {
@@ -109,6 +120,14 @@ export default defineValaxyConfig<UserThemeConfig>({
       bilibili: {
         color: '#FF8EB3',
         icon: 'i-ri-bilibili-line',
+      },
+      github: {
+        color: '#6D2783',
+        icon: 'i-ri-github-line',
+      },
+      AI: {
+        color: '#FF5722',
+        icon: 'i-ri:speak-line',
       },
     },
     footer: {

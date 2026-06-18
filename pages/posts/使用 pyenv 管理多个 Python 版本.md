@@ -2,16 +2,9 @@
 layout: post
 title: 使用 pyenv 管理多个 Python 版本
 date: 2025-03-04 23:23:54
-tags: 
+tags:
   - Python
-  - pyenv
-  - 版本管理
   - 开发环境
-  - Windows
-  - 命令行工具
-  - Python工具
-  - 编程技巧
-  - 开发效率
 categories: 爱记录
 #top : 1 #置顶数值(越大越在前面)
 draft: false #true为草稿记得改false发布时
