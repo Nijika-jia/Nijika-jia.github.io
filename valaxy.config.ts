@@ -84,8 +84,8 @@ export default defineValaxyConfig<UserThemeConfig>({
       {
         name: '分类',
         url: '/categories/',
-        icon: 'i-ri-folder-line',
-        color: '#2196F3',
+        icon: 'i-ri:folder-5-line',
+        color: '#FF5722',
       },
       {
         name: '标签',
@@ -98,12 +98,6 @@ export default defineValaxyConfig<UserThemeConfig>({
         url: '/links/',
         icon: 'i-ri-links-line',
         color: 'dodgerblue',
-      },
-      {
-        name: '文章',
-        url: '/posts/',
-        icon: 'i-ri-article-line',
-        color: '#4CAF50',
       },
       {
         name: '小项目',

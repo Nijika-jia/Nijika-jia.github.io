@@ -8,7 +8,7 @@ aside : false
 ---
 
 ## <center><span style="color:#E2D28A;">♥ ♥ 主推 ♥ ♥</span></center>
-<YunGirls :girls="'/girls/HeavyLove.json'" />
+<center><IchijiNijika /></center>
 
 ## <center><span style="color:#F09199;">♥ Bangumi 角色收藏 ♥</span></center>
 <BangumiGirls />
@@ -17,7 +17,7 @@ aside : false
 
 每次都是随机排序的,不区分喜欢程度~!
 
-$原则$
+原则
 
 看着好有感觉
 可爱
