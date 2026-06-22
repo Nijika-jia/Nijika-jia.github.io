@@ -1,20 +1,38 @@
 [
-    {
-      "url": "#",
-      "avatar": "/avatar/avatar.jpg" ,
-      "name": "伊地知佳" ,
-      "blog": "Nijikajia's blog",
-      "desc": "妙脆性角の重度依存性",
-      "color": "#FCDB7A" ,
-      "email": "2797435460@qq.com"
-    },
-    {
-      "url": "http://m.qzcy2.top",
-      "avatar": "https://pic1.imgdb.cn/item/67b88940d0e0a243d4017064.png",
-      "name": "千纸雏鸢" ,
-      "blog": " ",
-      "desc": "算法，永无止境！",
-      "color": "#D0F2DC" ,
-      "email": "yxy3635@gmail.com"
-    }
+  {
+    "url": "#",
+    "avatar": "/avatar/avatar.jpg",
+    "name": "",
+    "blog": "Nijikajia's blog",
+    "desc": "妙脆性角の重度依存性",
+    "color": "#FCDB7A",
+    "email": "2797435460@qq.com"
+  },
+  {
+    "url": "http://m.qzcy2.top",
+    "avatar": "https://pic1.imgdb.cn/item/67b88940d0e0a243d4017064.png",
+    "name": "",
+    "blog": "千纸雏鸢",
+    "desc": "算法，永无止境！",
+    "color": "#D0F2DC",
+    "email": "yxy3635@gmail.com"
+  },
+  {
+    "url": "#",
+    "avatar": "https://pic1.imgdb.cn/item/6a1bc3b26aa5b6be4f5b9ba3.jpg",
+    "name": "fighting27",
+    "blog": "fighting27's blog",
+    "desc": "Trust the process.",
+    "color": "#e4fc7a",
+    "email": "2899411423@qq.com"
+  },
+  {
+    "url": "https://lo-yce.github.io/",
+    "avatar": "https://lo-yce.github.io/favicon/favicon8.png",
+    "name": "",
+    "blog": "Loyce - 个人网站",
+    "desc": "热爱编程 · 追求极致 · 持续学习",
+    "color": "#E7D6C3",
+    "email": "fujian3639@gmail.com"
+  }
 ]

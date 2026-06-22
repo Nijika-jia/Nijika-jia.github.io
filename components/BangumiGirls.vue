@@ -68,7 +68,7 @@ function shuffle<T>(arr: T[]): T[] {
   const a = [...arr]
   for (let i = a.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1))
-    ;[a[i], a[j]] = [a[j], a[i]]
+      ;[a[i], a[j]] = [a[j], a[i]]
   }
   return a
 }
@@ -95,13 +95,35 @@ async function fetchAllFromAPI() {
     _id: c.id,
   }))
 
+  const NAME_OVERRIDES: Record<string, string> = {
+    '女孩的钓鱼慢活': '孤独摇滚', // 精确映射优先
+    'beautiful day dreamer': '碧蓝档案'
+  }
+
+  const EXTRACT_RULES: [RegExp, string][] = [
+    [/蔚蓝档案/, '蔚蓝档案'],
+    [/原神/, '原神'],
+
+  ]
+
+  function resolveSubjectName(rawName: string): string {
+    // 1️⃣ 精确匹配
+    if (NAME_OVERRIDES[rawName]) return NAME_OVERRIDES[rawName]
+    // 2️⃣ 关键词提取
+    for (const [pattern, shortName] of EXTRACT_RULES) {
+      if (pattern.test(rawName)) return shortName
+    }
+    // 3️⃣ 兜底返回原名
+    return rawName
+  }
   // 3. 逐个获取所属作品
   total.value = girls.value.length
   loading.value = false
 
   for (let i = 0; i < girls.value.length; i++) {
     const id = (girls.value[i] as any)._id
-    const subjectName = await fetchSubjectName(id)
+    const rawName = await fetchSubjectName(id)
+    const subjectName = resolveSubjectName(rawName)
     girls.value[i] = { ...girls.value[i], from: subjectName }
     progress.value = i + 1
     await sleep(150)

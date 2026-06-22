@@ -24,7 +24,7 @@ aside : false
 {
     "url": "https://nijika-jia.github.io/",
     "avatar": "https://nijika-jia.github.io/avatar/avatar.jpg",
-    "name": "伊地知佳",
+    "name": "",
     "blog": "Nijikajia's blog",
     "desc": "妙脆性角の重度依存性",
     "color": "#FCDB7A",
