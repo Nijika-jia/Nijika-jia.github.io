@@ -61,18 +61,18 @@ projects:
         desc: "捕获推特上的媒体文件的下载管理器(浏览器扩展)"
         color: "#0000"
         textColor: "white"
-        emoji: "🧩"
+        emoji: "i-ri:twitter-x-fill"
         github: "Nijika-jia/X-Media-Downloader"
 
       - name: "YuKeTang-Fisher-Helper"
         desc: "雨课堂自动答题(支持AI答题),上课摸鱼的神器"
-        color: "#0969DA"
+        color: "#5096F5"
         textColor: "white"
-        emoji: "🐠"
+        emoji: "i-ri:chess-fill"
         github: "Nijika-jia/YuKeTang-Fisher-Helper"
 
-  plugs:
-    title: "VsCode plugs"
+  plugins:
+    title: "VsCode plugins"
     emoji: "🧩"
     collection:
       - name: "bocchi-the-rock-theme"
@@ -80,7 +80,15 @@ projects:
         color: "#E6BDCB"
         textColor: "white"
         gradient: true
-        emoji: "🎸"
-        url: "https://github.com/Nijika-jia/bocchi-the-rock-theme"
+        emoji: "i-ri:t-shirt-2-fill"
+        url: "https://marketplace.visualstudio.com/items?itemName=Nijikajia.bocchi-the-rock-theme"
         github: "Nijika-jia/bocchi-the-rock-theme"
+      - name: "scribbleMD"
+        desc: "ScribbleMD - 在 Markdown 上随手画"
+        color: "#FDFDFD"
+        textColor: "black"
+        gradient: true
+        emoji: "i-ri:markdown-fill"
+        url: "https://marketplace.visualstudio.com/items?itemName=Nijikajia.scribbleMD"
+        github: "Nijika-jia/scribbleMD"
 ---
