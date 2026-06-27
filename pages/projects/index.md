@@ -9,77 +9,83 @@ layout: projects
 projects:
   game:
     title: "无聊做的小游戏"
-    emoji: "🕹️"
+    emoji: ""
     collection:
       - name: "贪吃蛇"
         desc: "贪吃不贪玩^^"
         color: "#07BF83"
-        gradient: true
+        gradient: false
         url: "https://nijika-jia.github.io/Projects/Games/SnakeGame/"
-        emoji: "🐍"
+        emoji: "i-ri:gamepad-fill"
         github: "Nijika-jia/Projects/tree/gh-pages/Games/SnakeGame"
+        textColor: "white"
       - name: "飞机大作战(虹版)"
         desc: "大战发射🌿的凉仙贝吧!"
-        color: "#FAAA91"
-        gradient: true
+        color: "#FAF584"
+        gradient: false
+        textColor: "black"
         url: "https://nijika-jia.github.io/Projects/Games/airplane-game/"
-        emoji: "🎸"
+        emoji: "i-ri:plane-fill"
         github: "Nijika-jia/Projects/tree/gh-pages/Games/airplane-game"
       - name: "吃豆人(凉版)"
         desc: "逃离归去来兮女士的追杀(顺便吃草)"
         color: "#2652A5"
-        gradient: true
+        gradient: false
+        textColor: "white"
         url: "https://nijika-jia.github.io/Projects/Games/pacman/"
-        emoji: "🌿"
+        emoji: "i-ri:game-fill"
         github: "Nijika-jia/Projects/tree/gh-pages/Games/pacman"
   tools:
     title: "可食用的工具库"
-    emoji: "🛠️"
+    emoji: ""
     collection:
       - name: "在线图论编辑器"
         desc: "一个轻量级的在线图形编辑与分析平台"
         color: "#dd6236"
         textColor: "white"
-        emoji: "🍕"
+        emoji: "i-ri:bubble-chart-fill"
         url: "https://nijika-jia.github.io/Projects/Tools/Graph-theory-tools/"
         github: "Nijika-jia/Projects/tree/gh-pages/Tools/Graph-theory-tools"
+        gradient: false
       - name: "AnimeSorter"
         desc: "一个基于 AI 的动漫角色识别与整理工具"
         color: "#4CAF50"
         textColor: "white"
-        emoji: "🖼️"
+        emoji: "i-ri:multi-image-line"
         github: "Nijika-jia/anime-character-sorter"
+        gradient: false
       - name: "聊天头像测试工具"
         desc: "提前看看这个头像合不合适!"
         color: "#A0C8D1"
         textColor: "white"
-        emoji: "🐔"
+        emoji: "i-ri:message-ai-3-fill"
         url: "https://nijika-jia.github.io/Projects/Tools/ChatAvatarTest"
         github: "Nijika-jia/Projects/tree/gh-pages/Tools/ChatAvatarTest"
-      
+        gradient: false
       - name: "X-Media Downloader"
         desc: "捕获推特上的媒体文件的下载管理器(浏览器扩展)"
-        color: "#0000"
+        color: "#1D2021"
         textColor: "white"
         emoji: "i-ri:twitter-x-fill"
         github: "Nijika-jia/X-Media-Downloader"
-
+        gradient: false
       - name: "YuKeTang-Fisher-Helper"
         desc: "雨课堂自动答题(支持AI答题),上课摸鱼的神器"
         color: "#5096F5"
         textColor: "white"
         emoji: "i-ri:chess-fill"
         github: "Nijika-jia/YuKeTang-Fisher-Helper"
+        gradient: false
 
   plugins:
     title: "VsCode plugins"
-    emoji: "🧩"
+    emoji: ""
     collection:
       - name: "bocchi-the-rock-theme"
         desc: "四小只的VsCode主题插件!"
         color: "#E6BDCB"
         textColor: "white"
-        gradient: true
+        gradient: false
         emoji: "i-ri:t-shirt-2-fill"
         url: "https://marketplace.visualstudio.com/items?itemName=Nijikajia.bocchi-the-rock-theme"
         github: "Nijika-jia/bocchi-the-rock-theme"
@@ -87,7 +93,7 @@ projects:
         desc: "ScribbleMD - 在 Markdown 上随手画"
         color: "#FDFDFD"
         textColor: "black"
-        gradient: true
+        gradient: false
         emoji: "i-ri:markdown-fill"
         url: "https://marketplace.visualstudio.com/items?itemName=Nijikajia.scribbleMD"
         github: "Nijika-jia/scribbleMD"
