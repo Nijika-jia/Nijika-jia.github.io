@@ -1,5 +1,7 @@
 ---
-title: 关于我
+title:
+  zh-CN: 关于我
+  en: About Me
 layout: post
 tags:
   - 关于我

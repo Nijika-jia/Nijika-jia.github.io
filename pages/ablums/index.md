@@ -1,5 +1,7 @@
 ---
-title: 相册
+title:
+  zh-CN: 相册
+  en: Albums
 nav: false
 comment: false
 aside: false

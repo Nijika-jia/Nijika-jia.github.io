@@ -1,9 +1,11 @@
-import { defineSiteConfig } from 'valaxy'
+import { $t, defineSiteConfig } from 'valaxy'
 
 export default defineSiteConfig({
   url: 'https://nijika-jia.github.io/',
   lang: 'zh-CN',
-  title: '伊地知佳の博客 | Nijikajia`s Blog',
+  languages: ['zh-CN', 'en'],
+  title: $t('site.title'),
+  description: $t('site.description'),
   subtitle: '',
   author: {
     name: '伊地知佳',
@@ -56,7 +58,6 @@ export default defineSiteConfig({
   },
   
   timezone: 'Asia/Shanghai',
-  description: '天空的湛蓝该怎样才能传达给你呢？',
   lastUpdated: true,
   orderBy: 'date',
   excerpt: {

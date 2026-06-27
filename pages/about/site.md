@@ -1,5 +1,7 @@
 ---
-title: 关于站点
+title:
+  zh-CN: 关于站点
+  en: About Site
 ---
 
 Valaxy + valaxy-theme-yun Demo Site

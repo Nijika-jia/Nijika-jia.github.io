@@ -1,5 +1,7 @@
 ---
-title: 生活の日常
+title:
+  zh-CN: 生活の日常
+  en: Daily Life
 nav: false
 comment: true
 aside: false

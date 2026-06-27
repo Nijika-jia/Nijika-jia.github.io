@@ -1,5 +1,7 @@
 ---
-title: Game
+title:
+  zh-CN: Game
+  en: Game
 nav: false
 comment: true
 aside: false

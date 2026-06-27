@@ -1,5 +1,7 @@
 ---
-title: 友人帐
+title:
+  zh-CN: 友人帐
+  en: Friends
 color : '#7FC1F5'
 keywords: 链接
 description: 小伙伴们

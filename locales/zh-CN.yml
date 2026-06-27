@@ -1,4 +1,9 @@
-# 你可以像这样自定义 i18n
-intro:
-  desc: Valaxy 模版
-  hi: 你好，Valaxy
+site:
+  title: 伊地知佳の博客
+  description: 天空的湛蓝该怎样才能传达给你呢？
+
+pages:
+  categories: 分类
+  tags: 标签
+  links: 友人帐
+  projects: 小项目

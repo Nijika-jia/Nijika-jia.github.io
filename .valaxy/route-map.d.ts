@@ -332,13 +332,6 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/Skill创建随记': RouteRecordInfo<
-      '/posts/Skill创建随记',
-      '/posts/Skill%E5%88%9B%E5%BB%BA%E9%9A%8F%E8%AE%B0',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
     '/posts/TypePost': RouteRecordInfo<
       '/posts/TypePost',
       '/posts/TypePost',
@@ -719,14 +712,6 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/hello.md': {
       routes:
         | '/posts/hello'
-      views:
-        | never
-      pathParamNames:
-        | never
-    }
-    'pages/posts/Skill创建随记.md': {
-      routes:
-        | '/posts/Skill创建随记'
       views:
         | never
       pathParamNames:

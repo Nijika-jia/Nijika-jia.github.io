@@ -1,4 +1,9 @@
-# you can custom locale
-intro:
-  desc: Valaxy Template
-  hi: Hello, Valaxy!
+site:
+  title: Nijikajia's Blog
+  description: How can I convey the azure of the sky to you?
+
+pages:
+  categories: Categories
+  tags: Tags
+  links: Friends
+  projects: Projects

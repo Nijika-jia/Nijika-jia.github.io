@@ -1,5 +1,7 @@
 ---
-title: 虹图
+title:
+  zh-CN: 虹图
+  en: Nijika
 nav: false
 comment: true
 aside: false

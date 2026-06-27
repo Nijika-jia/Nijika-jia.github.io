@@ -1,5 +1,5 @@
 import type {UserThemeConfig } from 'valaxy-theme-yun'
-import { defineValaxyConfig } from 'valaxy'
+import { defineValaxyConfig, $t } from 'valaxy'
 import { addonLightGallery } from 'valaxy-addon-lightgallery'
 import { addonWaline } from "valaxy-addon-waline";
 import { addonLive2d } from 'valaxy-addon-live2d'
@@ -82,25 +82,25 @@ export default defineValaxyConfig<UserThemeConfig>({
     // sidebar: {},
     pages: [
       {
-        name: '分类',
+        name: $t('pages.categories'),
         url: '/categories/',
         icon: 'i-ri:folder-5-line',
         color: '#FF5722',
       },
       {
-        name: '标签',
+        name: $t('pages.tags'),
         url: '/tags/',
         icon: 'i-ri-price-tag-3-line',
         color: '#FFC107',
       },
       {
-        name: '友人帐',
+        name: $t('pages.links'),
         url: '/links/',
         icon: 'i-ri-links-line',
         color: 'dodgerblue',
       },
       {
-        name: '小项目',
+        name: $t('pages.projects'),
         url: '/projects/',
         icon: 'i-ri-puzzle-fill',
         color: '#66B5A9',

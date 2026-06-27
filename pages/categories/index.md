@@ -4,7 +4,9 @@ nav: false
 toc: false
 icon: i-ri-folder-2-line
 # You can custom title
-title: 分类
+title:
+  zh-CN: 分类
+  en: Categories
 # comment: false
 aside : false
 comment : false

@@ -1,5 +1,7 @@
 ---
-title: 小项目
+title:
+  zh-CN: 小项目
+  en: Projects
 color: '#66B5A9'
 nav: false
 comment: false
