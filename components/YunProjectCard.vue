@@ -115,7 +115,7 @@ const isIcon = computed(() => typeof props.project.emoji === 'string' && props.p
     hover="shadow-lg grayscale-0"
     :style="cardStyle"
   >
-    <div v-if="project.emoji" class="mt-4" :class="isIcon ? 'text-3xl' : undefined">
+    <div v-if="project.emoji" class="mt-4" :class="isIcon ? 'text-xl' : undefined">
       <div v-if="isIcon" :class="project.emoji" />
       <template v-else>{{ project.emoji }}</template>
     </div>
