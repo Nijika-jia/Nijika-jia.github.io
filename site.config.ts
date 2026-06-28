@@ -16,7 +16,7 @@ export default defineSiteConfig({
     },
     intro : '一只虹夏厨'
   },
-  favicon : '/avatar/avatar.jpg',
+  favicon : 'https://avatars.githubusercontent.com/u/181221850?v=4',
   encrypt: {
     // 开启加密，默认关闭
     enable: false

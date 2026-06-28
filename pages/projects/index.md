@@ -99,4 +99,16 @@ projects:
         emoji: "i-ri:markdown-fill"
         url: "https://marketplace.visualstudio.com/items?itemName=Nijikajia.scribbleMD"
         github: "Nijika-jia/scribbleMD"
+  Steam:
+    title: "Steam创意工坊"
+    emoji: ""
+    collection:
+      - name: "Wallpaper Engine"
+        desc: "制作的一些Wallpaper的动态壁纸"
+        color: "#07BF83"
+        textColor: "white"
+        emoji: "i-ri:movie-ai-fill"
+        url: "https://steamcommunity.com/id/Nijika_jia/myworkshopfiles/?appid=431960&sort=score&browsefilter=myfiles&view=imagewall"
+        github: "https://steamcommunity.com/id/Nijika_jia/myworkshopfiles/?appid=431960&sort=score&browsefilter=myfiles&view=imagewall"
+        gradient: false
 ---

@@ -66,8 +66,8 @@ export default defineValaxyConfig<UserThemeConfig>({
     ],
     bg_image : {
       enable : true,
-      url : 'https://pic1.imgdb.cn/item/69d0b89a75fc555b7336c954.png',
-      dark : 'https://pic1.imgdb.cn/item/6a32d53da6693733f7e0caec.png',
+      url : 'https://pic1.imgdb.cn/item/6a4164a333bc7bc02d7ba1cc.jpg',
+      dark : 'https://pic1.imgdb.cn/item/6a41664d33bc7bc02d7ba206.jpg',
       opacity : 0.5
     },
     // 自定义菜单图标（最右侧）
