@@ -153,7 +153,7 @@ export default defineValaxyConfig<UserThemeConfig>({
     },
     fireworks: {
       enable: true,
-      colors: ['#D5C63A', '#FCBDC5'] // 自定义颜色
+      colors: ['#C6D9FA', '#E7EF83'] // 自定义颜色
     },
     // 文章类型标记
     // types: {
