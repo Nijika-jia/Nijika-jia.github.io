@@ -11,10 +11,10 @@ export default defineSiteConfig({
     name: '伊地知佳',
     avatar:'https://avatars.githubusercontent.com/u/181221850?v=4',
     status: {
-      emoji : '🎯',
+      emoji : '🍊',
       message : '虹夏虹夏虹~'
     },
-    intro : '一只虹夏厨'
+    intro : '一只虹夏厨，推浮力组'
   },
   favicon : 'https://avatars.githubusercontent.com/u/181221850?v=4',
   encrypt: {
