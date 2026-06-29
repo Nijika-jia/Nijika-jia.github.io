@@ -1,0 +1,1 @@
+import{Q as e,st as t}from"./theme.8oDTXVpH.js";var n=e({cast(e){return typeof e==`number`?{value:e}:e},defaults:{"@type":`QuantitativeValue`}}),r=e({defaults:{"@type":`MonetaryAmount`},resolve(e,r){return typeof e.value!=`number`&&(e.value=t(e.value,r,n)),e}});export{n,r as t};

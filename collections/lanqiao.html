@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html  lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="https://avatars.githubusercontent.com/u/181221850?v=4">
+    <script>
+    ;(function () {
+      const prefersDark =
+        window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches
+      const setting = localStorage.getItem('vueuse-color-scheme') || 'auto'
+      if (setting === 'dark' || (prefersDark && setting !== 'light'))
+        document.documentElement.classList.toggle('dark', true)
+    })()
+    </script>
+  <style type="text/css">
+    :root { color-scheme: light dark; --va-c-bg: #fff; }
+    html.dark { --va-c-bg: #000; }
+    html { background-color: var(--va-c-bg); }
+  </style><style id="valaxy-fouc">body{opacity:0!important}</style><style>body{transition:opacity .15s ease}</style><noscript><style>body{opacity:1!important}</style></noscript><script>(function foucGuardScript(maxDuration) {
+  var done = 0;
+  function reveal() {
+    if (done) return;
+    done = 1;
+    var s = document.getElementById("valaxy-fouc");
+    if (s) s.remove();
+  }
+  function check() {
+    var links = document.querySelectorAll('link[rel="stylesheet"]');
+    for (var i = 0; i < links.length; i++) {
+      if (!links[i].sheet) return;
+    }
+    reveal();
+  }
+  new MutationObserver(check).observe(document.head, {
+    childList: true,
+    attributes: true,
+    attributeFilter: ["media", "rel"]
+  });
+  addEventListener("load", reveal);
+  if (maxDuration)
+    setTimeout(reveal, maxDuration);
+})(5000)</script>
+    <script>
+    const locale = localStorage.getItem('valaxy-locale') || 'zh-CN';
+    document.documentElement.setAttribute('lang', locale);
+    </script>
+    
+  <script type="module" crossorigin src="/assets/index.G7iUocgr.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/rolldown-runtime.CNC7AqOf.js">
+  <link rel="modulepreload" crossorigin href="/assets/framework.C4dqKeUo.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/vue-i18n.CFId1QyY.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/vue-router.CrWzeGtZ.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/dayjs.sEY91t5m.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/pinia.BQZK9j7w.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/@vueuse/motion.CUC8pLln.js">
+  <link rel="modulepreload" crossorigin href="/assets/theme.8oDTXVpH.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/nprogress.Jo7NUwJe.js">
+  <link rel="stylesheet" crossorigin href="/assets/style.Bl5aP0Zj.css">
+<link rel="preload" href="/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_AMS-Regular.DMm9YOAa.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Bold.Dq_IR9rO.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Bold.BEiXGLvX.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Regular.Di6jR-x-.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Regular.CTRA-rTL.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Bold.CL6g_b3V.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Bold.BsDP51OF.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Regular.CTYiF6lA.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Regular.Dxdc4cR9.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Bold.Cx986IdX.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Bold.Jm3AIy58.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-BoldItalic.DxDJ3AOS.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-BoldItalic.SpSLRI95.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Italic.NWA7e6Wa.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Italic.BMLOBm91.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Regular.B22Nviop.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Regular.Dr94JaBh.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-BoldItalic.CZnvNsCZ.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-BoldItalic.iY-2wyZ7.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-Italic.t53AETM-.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-Italic.DA0__PXp.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Bold.D1sUS0GD.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Bold.DbIhKOiC.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Italic.C3H0VqGB.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Italic.DN2j7dab.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Regular.DDBCnlJ7.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Regular.CS6fqUqJ.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Script-Regular.D3wIWfF6.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Script-Regular.D5yQViql.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size1-Regular.mCD8mA8B.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size1-Regular.C195tn64.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size2-Regular.Dy4dx90m.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size2-Regular.oD1tc_U0.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size3-Regular.CTq5MqoE.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size4-Regular.Dl5lxZxV.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size4-Regular.BF-4gkZK.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Typewriter-Regular.CO6r4hn1.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Typewriter-Regular.C0xS9mPB.woff" as="font" type="font/woff" crossorigin>
+<link rel="modulepreload" crossorigin href="/assets/theme.8oDTXVpH.js">
+<link rel="preload" href="/assets/none.DLM1AMsD.jpg" as="image">
+<link rel="preload" href="/assets/bg-img.kXdNMxcF.jpg" as="image">
+<link rel="preload" href="/assets/sidebar-bg-img.mp54gEws.webp" as="image">
+<link rel="preload" href="/assets/lg.CosQH4Cu.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/lg.B0dIV2BS.svg" as="image">
+<link rel="preload" href="/assets/loading.BZOHaeKn.gif" as="image">
+<link rel="modulepreload" crossorigin href="/assets/lanqiao.DOH48jOw.js">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>备战传智蓝桥 - 伊地知佳の博客</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@900&display=swap">
+<meta property="og:locale:alternate" content="en">
+<meta name="description" content="天空的湛蓝该怎样才能传达给你呢？">
+<meta property="og:description" content="天空的湛蓝该怎样才能传达给你呢？">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:site_name" content="伊地知佳の博客">
+<meta property="og:title" content="备战传智蓝桥">
+<meta property="og:image" content="/posts/备战传智蓝桥DAY-1_2025-02-10-14-13-15.png">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://nijika-jia.github.io/">
+<link rel="icon" href="https://avatars.githubusercontent.com/u/181221850?v=4" type="image/png">
+<meta name="generator" content="Valaxy 0.28.11">
+<meta name="theme-color" content="#fff">
+<meta name="msapplication-TileColor" content="#fff">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
+  <div id="app"><!--[--><!--[--><!--[--><!--v-if--><!--v-if--><div class="yun-page-header-gradient"></div><div class="yun-nav-menu z-$yun-z-nav-menu fixed bg-transparent" data-v-1791e522><!--  --><div class="inline-flex justify-start items-center flex-1" data-v-1791e522><button type="button" class="vt-hamburger menu-btn sidebar-toggle leading-4 size-12 lg:hidden" aria-label="mobile navigation" aria-expanded="false" inline-flex cursor="pointer" hover="bg-white/80 dark:bg-black/80" z="$yun-z-menu-btn" data-v-1791e522><span class="vt-hamburger-container"><span class="vt-hamburger-top"></span><span class="vt-hamburger-middle"></span><span class="vt-hamburger-bottom"></span></span></button><a href="/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 data-v-1791e522><!--[--><div class="size-6 i-ri-home-4-line"></div><!--]--></a><div class="hidden lg:contents" data-v-1791e522><!--[--><a href="/posts/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 title="文章" data-v-1791e522><!--[--><div class="size-6 i-ri-article-line"></div><!--]--></a><a href="/collections/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 title="合集" data-v-1791e522><!--[--><div class="size-6 i-ri:dashboard-line"></div><!--]--></a><a href="/archives/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 title="归档" data-v-1791e522><!--[--><div class="size-6 i-ri-archive-line"></div><!--]--></a><a href="/categories/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 title="分类" data-v-1791e522><!--[--><div class="size-6 i-ri:folder-5-line"></div><!--]--></a><a href="/tags/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 title="标签" data-v-1791e522><!--[--><div class="size-6 i-ri-price-tag-3-line"></div><!--]--></a><a href="/links/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 title="友人帐" data-v-1791e522><!--[--><div class="size-6 i-ri-links-line"></div><!--]--></a><a href="/ablums/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 title="相册" data-v-1791e522><!--[--><div class="size-6 i-ri-gallery-line"></div><!--]--></a><a href="/projects/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 title="小项目" data-v-1791e522><!--[--><div class="size-6 i-ri-puzzle-fill"></div><!--]--></a><a href="/bangumi/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 title="追番" data-v-1791e522><!--[--><div class="size-6 i-ri-tv-line"></div><!--]--></a><a href="/girls/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 title="我の推" data-v-1791e522><!--[--><div class="size-6 i-ri-heart-2-fill"></div><!--]--></a><!--]--></div></div><div class="flex flex-1 flex-center" data-v-1791e522><div flex="~ center col h-full" class="nav-menu-title-container cursor-pointer" data-v-1791e522><!----><span class="font-light truncate">伊地知佳の博客</span></div></div><div class="inline-flex-center justify-end items-center flex-1" data-v-1791e522><!-- <template v-if="!app.isMobile && themeConfig.nav">
+          <template v-for="item in themeConfig.nav" :key="item.text">
+            <AppLink
+              v-if="'link' in item"
+              :to="item.link"
+              class="menu-btn inline-flex-center p-2 transition text-$va-c-text"
+              inline-flex cursor="pointer"
+              hover="bg-white/80 dark:bg-black/80"
+              z="$yun-z-menu-btn"
+            >
+              {{ item.text }}
+            </AppLink>
+            <template v-else-if="'items' in item" />
+          </template>
+        </template> --><button class="yun-icon-btn rounded-none! hidden sm:inline-flex" title="切换语言" style="color:var(--va-c-text);" data-v-1791e522><div i-ri-translate class="transition transform"></div></button><button class="yun-icon-btn yun-toggle-dark rounded-none!" title="切换深色模式" data-v-1791e522><div i="ri-sun-line dark:ri-moon-line"></div></button><!--[--><button class="yun-search-btn yun-icon-btn popup-trigger rounded-none! size-12 inline-flex justify-center items-center" text="xl $va-c-text" title="搜索"><div i-ri-search-line op-80 hover="op-100"></div></button><!----><!--]--></div></div><!----><!--v-if--><!----><!--[--><div class="yun-bg"></div><!--]--><!----><a href="#" class="back-to-top yun-icon-btn bg-$va-c-bg-soft shadow-md"><div class="size-8" i-ri-arrow-up-s-line></div><svg class="progress-circle-container" viewBox="0 0 100 100"><circle stroke-dasharray="301.59289474462014 301.59289474462014" stroke-dashoffset="301.59289474462014" stroke="currentColor" stroke-width="2" stroke-linecap="round" class="progress-circle" cx="50" cy="50" r="48" fill="none"></circle></svg></a><!--]--><!--[--><!--[--><div id="live2d" data-v-35ff1fd6><div id="live2d-tips" data-v-35ff1fd6></div><canvas id="live2d-canvas" data-v-35ff1fd6></canvas></div><div id="live2d-tools" class="show" data-v-6ef018f6><!--[--><span id="live2d-tool-quit" class="hide-live2d live2d-tool" style="--live2d-tool-bg: #9c27b0" data-v-6ef018f6>Hide</span><span id="live2d-tool-switch-model" class="live2d-tool" style="--live2d-tool-bg: #673ab7" data-v-6ef018f6>Char</span><span id="live2d-tool-switch-texture" class="live2d-tool" style="--live2d-tool-bg: #009688" data-v-6ef018f6>Skin</span><span id="live2d-tool-photo" class="live2d-tool" style="--live2d-tool-bg: #ff9800" data-v-6ef018f6>Cap</span><span id="live2d-hitokoto" class="live2d-tool" style="--live2d-tool-bg: #4caf50" data-v-6ef018f6>Hitokoto</span><span id="live2d-asteroids" class="live2d-tool" style="--live2d-tool-bg: #9c27b0" data-v-6ef018f6>Asteroids</span><span id="info" class="live2d-tool" style="--live2d-tool-bg: #2196f3" data-v-6ef018f6>Info</span><!--]--></div><!--]--><!--[--><!-- eslint-disable-next-line vue/component-name-in-template-casing --><meting-js fixed="true" mini="true" theme="#4CAF50" server="netease" type="artist" id="12390232" mutex="false" listFolded="false" style=""></meting-js><!--]--><!--]--><!----><!--]--><div class="min-h-screen flex flex-col"><div class="mt-12 md:mt-24 yun-layout-wrapper__content"><!--[--><div class="yun-layout-left gap-4 sticky top-$yun-margin-top w-80"><!--[--><div class="yun-card flex-center rounded-2 overflow-hidden collection p-4 justify-start items-start" flex="~ col gap-1" min-h="100px" bg="$va-c-bg-light"><!----><!----><div class="yun-card-body relative" w="full" flex="~ col" items="center"><!--[--><section class="yun-sidebar-item w-full"><a aria-current="page" href="/collections/lanqiao/" class="router-link-active router-link-exact-active title">备战传智蓝桥</a><div class="items"><!--[--><div class="item"><div class="indicator"></div><a href="/collections/lanqiao/1" class=""><p class="text">DAY-1 拓扑排序与 DP</p></a></div><div class="item"><div class="indicator"></div><a href="/collections/lanqiao/2" class=""><p class="text">DAY-2 最短路专题</p></a></div><div class="item"><div class="indicator"></div><a href="/collections/lanqiao/3" class=""><p class="text">DAY-3 最小生成树</p></a></div><div class="item"><div class="indicator"></div><a href="/collections/lanqiao/4" class=""><p class="text">DAY-4 并查集与 LCA</p></a></div><div class="item"><div class="indicator"></div><a href="/collections/lanqiao/5" class=""><p class="text">DAY-5 树状数组与线段树</p></a></div><div class="item"><div class="indicator"></div><a href="/collections/lanqiao/6" class=""><p class="text">DAY-6 字符串与哈希</p></a></div><div class="item"><div class="indicator"></div><a href="/collections/lanqiao/7" class=""><p class="text">DAY-7 数论基础</p></a></div><div class="item"><div class="indicator"></div><a href="/collections/lanqiao/8" class=""><p class="text">DAY-8 博弈论入门</p></a></div><div class="item"><div class="indicator"></div><a href="/collections/lanqiao/9" class=""><p class="text">DAY-9 计算几何</p></a></div><div class="item"><div class="indicator"></div><a href="/collections/lanqiao/10" class=""><p class="text">DAY-10 福利局</p></a></div><div class="item"><div class="indicator"></div><a href="/collections/lanqiao/11" class=""><p class="text">DAY-11 动态规划进阶</p></a></div><div class="item"><div class="indicator"></div><a href="/collections/lanqiao/12" class=""><p class="text">DAY-12 图论综合</p></a></div><div class="item"><div class="indicator"></div><a href="/collections/lanqiao/13" class=""><p class="text">DAY-13 二分查找</p></a></div><!--]--></div></section><!--]--></div><!----></div><!--]--></div><main class="yun-main lt-md:w-full" flex="~ center"><!--[--><div class="content w-full md:w-3xl lg:w-2xl xl:w-2xl 2xl:w-4xl" flex="~ col grow" p="lt-md:0"><div class="yun-card flex-center rounded-2 overflow-hidden" flex="col" min-h="100px" bg="$va-c-bg-light" m="0"><img width="640" height="360" class="yun-cover object-cover select-none" h="64 md:sm" w="full" src="/posts/备战传智蓝桥DAY-1_2025-02-10-14-13-15.png" loading="lazy" alt><!----><div class="yun-card-body relative" w="full" flex="~ col" items="center"><!--[--><!----><div class="mt-8 mb-4"><!--[--><header class="post-header" cover="/posts/备战传智蓝桥DAY-1_2025-02-10-14-13-15.png"><h1 p="2" text="2xl center" font="serif black" style="color:" class="post-title flex-center"><!----><span inline-flex class="leading-none">备战传智蓝桥</span></h1></header><!--]--></div><!--[--><!--[--><!--v-if--><!--[--><!--[--><!----><div flex="~ center" text="sm" class="post-meta-col post-meta gap-4"><div class="post-time flex items-center gap-4"><span class="posted-time inline-flex-center gap-1" title="发表于2026-06-30 00:26:47"><div class="inline-block" i-ri-calendar-line></div><time class="op-80">2026-06-30</time></span><!----></div><!--[--><!--]--><div class="inline-flex-center gap-4"><div class="inline-flex-center post-counter gap-4"><span class="word-count inline-flex-center gap-1" title="本文字数"><div class="inline-block" i-ri-file-word-line></div><span class="op-80">229</span></span><span class="reading-time inline-flex-center gap-1" title="阅读时长"><div i-ri-timer-line></div><time class="op-80">1m</time></span></div><div class="inline-flex gap-4" text="sm" h="5"><div inline-flex justify="center" items="center" title="阅读次数"><div inline-flex i-ri-eye-line></div><span ml-1 inline-flex class="waline-pageview-count op-80" data-path="/collections/lanqiao"></span></div><div inline-flex justify="center" items="center" title="评论数"><div inline-flex i-ri-chat-4-line></div><span ml-1 inline-flex class="waline-comment-count op-80" data-path="/collections/lanqiao"></span></div></div><!----></div></div><!--]--><!----><div class="inline-flex mt-2" text="sm" py="1"><!----><!----><!----></div><!--]--><!--]--><!--]--><div p="x-4 b-8" class="sm:px-6 lg:px-12 xl:px-16" w="full"><!--[--><!--]--><!--[--><!-- <Transition appear> --><article class="markdown-body"><!--[--><!----><!----><!--[--><!--]--><!--[--><h1 id="备战传智蓝桥" tabindex="-1">备战传智蓝桥 <a class="header-anchor" href="#备战传智蓝桥" aria-label="Permalink to &quot;备战传智蓝桥&quot;">​</a></h1><blockquote><p>2025.02.07 - 2025.02.23 | 13 天 | 100+ 道题目</p></blockquote><p>寒假集训期间的刷题记录，目标是备战 <strong>传智杯</strong> 和 <strong>蓝桥杯</strong> 算法竞赛。</p><h2 id="涵盖知识点" tabindex="-1">涵盖知识点 <a class="header-anchor" href="#涵盖知识点" aria-label="Permalink to &quot;涵盖知识点&quot;">​</a></h2><table><thead><tr><th>专题</th><th>涉及天数</th><th>核心算法</th></tr></thead><tbody><tr><td>最短路</td><td>DAY 2-6, 8-11</td><td>Dijkstra, SPFA (SLF/LLL), Floyd</td></tr><tr><td>图论基础</td><td>DAY 1, 7, 12</td><td>拓扑排序, 最小生成树 (Kruskal), 连通块</td></tr><tr><td>动态规划</td><td>DAY 1, 5, 8, 11, 13</td><td>状压 DP, 矩阵快速幂, 区间 DP</td></tr><tr><td>二分</td><td>DAY 5, 6, 13</td><td>二分答案, 浮点数二分</td></tr><tr><td>数据结构</td><td>DAY 5, 13</td><td>01-Trie, 优先队列</td></tr></tbody></table><h2 id="题目来源" tabindex="-1">题目来源 <a class="header-anchor" href="#题目来源" aria-label="Permalink to &quot;题目来源&quot;">​</a></h2><ul><li><strong>蓝桥云课</strong> — 算法赛真题</li><li><strong>洛谷</strong> — 经典算法题</li><li><strong>Dotcpp</strong> — OJ 练习</li></ul><p>每篇文章包含当日 <strong>刷题清单</strong>、<strong>解题思路</strong> 和 <strong>完整代码</strong>（C++20 模板），适合同样在备赛的同学参考。</p><!--]--><!--]--><!----><!----></article><!-- </Transition> --><!--]--><!--[--><!--[--><!--[--><div class="yun-sponsor-container flex-center flex-col" m="t-6"><button class="sponsor-button yun-icon-btn shadow hover:shadow-md" title="" text="red-400"><div class="mt-2px" i-ri-heart-fill></div></button><div m="y-4" class="qrcode-container qrcode flex-center flex-col"><!----><div class="flex justify-around"><!--[--><a class="flex-center flex-col animate-iteration-1 animate-fade-in" href="/QR/zfb.png" target="_blank" style="color:#00A3EE"><img class="sponsor-method-img" border="~ rounded" p="1" loading="lazy" src="/QR/zfb.png" title="支付宝"><div text="xl" m="2" class="i-ri-alipay-line"></div></a><a class="flex-center flex-col animate-iteration-1 animate-fade-in" href="/QR/qq.png" target="_blank" style="color:#12B7F5"><img class="sponsor-method-img" border="~ rounded" p="1" loading="lazy" src="/QR/qq.png" title="QQ 支付"><div text="xl" m="2" class="i-ri-qq-line"></div></a><a class="flex-center flex-col animate-iteration-1 animate-fade-in" href="/QR/wechat.png" target="_blank" style="color:#2DC100"><img class="sponsor-method-img" border="~ rounded" p="1" loading="lazy" src="/QR/wechat.png" title="微信支付"><div text="xl" m="2" class="i-ri-wechat-pay-line"></div></a><!--]--></div></div></div><ul class="post-copyright" m="y-4"><li class="post-copyright-author"><strong>本文作者：</strong><span>伊地知佳</span></li><li class="post-copyright-link"><strong>本文链接：</strong><a href="https://nijika-jia.github.io/collections/lanqiao" target="_blank" title="本文链接">https://nijika-jia.github.io/collections/lanqiao</a></li><li class="post-copyright-license"><strong>版权声明：</strong><span>本博客所有文章除特别声明外，均默认采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="noopener" title="CC BY-NC-SA 4.0 ">CC BY-NC-SA</a> 许可协议。</span></li></ul><!--]--><!--]--><!--]--></div><!--]--></div><!----></div><!--[--><!--]--><!--[--><div class="post-nav"><div class="post-nav-item"><!----></div><div class="post-nav-item"><a href="/posts/Val%2520Town%2520%25E6%258A%2598%25E8%2585%25BE%25E7%25AC%2594%25E8%25AE%25B0" class="post-nav-next" title="Val Town 折腾笔记"><span class="title truncate" text="sm">Val Town 折腾笔记</span><div class="icon" i-ri-arrow-right-s-line></div></a></div></div><!--]--><!--[--><!--]--><!--[--><div class="yun-card flex-center rounded-2 overflow-hidden comment yun-comment sm:p-6 lg:px-12 xl:px-16" flex="col" min-h="100px" bg="$va-c-bg-light" w="full" p="4"><!----><!----><div class="yun-card-body relative" w="full" flex="~ col" items="center"><!--[--><!----><!--]--></div><!----></div><!--]--><!--[--><!-- eslint-disable-next-line vue/no-lone-template empty --><template class="mt-4 lg:hidden"></template><!--]--><!--[--><!--]--><!--[--><!--]--></div><!--]--></main><!--[--><button class="xl:hidden toc-btn shadow-md fixed yun-icon-btn z-20 bg-$va-c-bg-soft" opacity="75" right="4" bottom="19"><div i-ri-file-list-line></div></button><!----><aside flex="~ col" class="va-card yun-aside min-h-sm rounded-2" text="center" overflow="auto"><div class="w-full" flex="~ col" pb-2><!--[--><h2 m="t-6 b-2" font="serif black">文章目录</h2><div style="display:none;" data-v-d9db7c40><div class="content" data-v-d9db7c40><div class="outline-title" data-v-d9db7c40>本页</div><div class="outline-marker" data-v-d9db7c40></div><nav aria-labelledby="doc-outline-aria-label" data-v-d9db7c40><span id="doc-outline-aria-label" class="visually-hidden" data-v-d9db7c40> Table of Contents for current page </span><ul class="root va-toc relative z-1 css-i18n-toc" data-v-d9db7c40 data-v-0a3661f1><!--[--><!--]--></ul></nav></div></div><!--]--><div class="flex-grow"></div><!----></div></aside><!--]--><!--]--></div><footer flex="~ col" class="relative yun-footer va-footer px-4 py-4 pt-0 text-$va-c-text-light w-full mt-14" bg="white dark:$va-c-bg-soft" text="center sm"><div class="yun-cloud absolute top--10 left-0 right-0"><svg class="waves" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" fill="var(--yun-c-cloud)"></path></defs><g class="parallax"><use xlink:href="#gentle-wave" x="48" y="0"></use><use xlink:href="#gentle-wave" x="48" y="3"></use><use xlink:href="#gentle-wave" x="48" y="5"></use><use xlink:href="#gentle-wave" x="48" y="7"></use></g></svg></div><!----><div class="copyright flex justify-center items-center gap-2" p="1"><span> © <!--[-->2025 - <!--]--> 2026</span><a class="animate-pulse inline-flex" href="https://www.yunyoujun.cn/sponsors/" target="_blank" title="Sponsor YunYouJun"><div class="i-ri-cloud-line"></div></a><span>伊地知佳</span></div><div class="powered" m="2"><span>由 <a href="https://github.com/YunYouJun/valaxy.git" target="_blank" rel="noopener">Valaxy</a> <span class="op-60">v0.28.11</span> 驱动</span><span mx-1>|</span><span><span>主题</span><span mx-1>-</span><a href="https://github.com/YunYouJun/valaxy.git" title="valaxy-theme-yun" target="_blank">Yun</a><span class="ml-1 op-60">v0.28.11</span></span></div><!--[--><!-- 自定义页脚内容 --><div>本站总访问量 <span id="busuanzi_value_site_pv"></span> 次</div><div>本站访客数 <span id="busuanzi_value_site_uv"></span> 人次</div><div class="vc-site-live-time" mt="2"><!--[--><span>本站已运行</span><!--]--><span mx-1>0 天</span><span mx-1>0 小时</span><span mx-1>0 分</span><span mx-1>0 秒</span><!--[--><!--]--></div><!--]--><div class="yun-footer-gradient"></div></footer></div><!--]--></div><script>window.__INITIAL_STATE__='{"pinia":{"yun-app":{"bannerAnimationDone":false},"app":{"showLoading":true},"site":{},"routerStore":{}}}'</script><script type="application/ld+json" data-hid="schema-org-graph">{"@context":"https://schema.org","@graph":[{"@id":"https://nijika-jia.github.io/#identity","@type":"Person","name":"伊地知佳","url":"https://nijika-jia.github.io/","image":{"@id":"https://nijika-jia.github.io/#/schema/image/1"},"sameAs":["/atom.xml","https://qm.qq.com/q/mzVydOGSly","https://github.com/Nijika-jia","https://discordapp.com/users/1303909108667121726","https://leetcode.cn/u/yi-di-zhi-jia/","https://steamcommunity.com/id/Nijika_jia/"]},{"@id":"https://nijika-jia.github.io/#website","@type":"WebSite","dateModified":"2026-06-29T16:26:47.353Z","datePublished":"2026-06-29T16:26:47.353Z","inLanguage":"zh-CN","name":"备战传智蓝桥","url":"https://nijika-jia.github.io/","publisher":{"@id":"https://nijika-jia.github.io/#identity"}},{"@id":"https://nijika-jia.github.io/#webpage","@type":"WebPage","description":"天空的湛蓝该怎样才能传达给你呢？","name":"备战传智蓝桥","url":"https://nijika-jia.github.io/","about":{"@id":"https://nijika-jia.github.io/#identity"},"isPartOf":{"@id":"https://nijika-jia.github.io/#website"},"potentialAction":[{"@type":"ReadAction","target":["https://nijika-jia.github.io/"]}]},{"@id":"https://nijika-jia.github.io/#/schema/image/1","@type":"ImageObject","contentUrl":"https://avatars.githubusercontent.com/u/181221850?v=4","inLanguage":"zh-CN","url":"https://avatars.githubusercontent.com/u/181221850?v=4"}]}</script>
+  
+</body>
+</html>
