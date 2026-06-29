@@ -24,12 +24,12 @@ aside : false
 互友链方式:请在下面留言,我一定会看的()
 ```json
 {
-    "url": "https://nijika-jia.github.io/",
-    "avatar": "https://nijika-jia.github.io/avatar/avatar.jpg",
+    "url": "#",
+    "avatar": "https://avatars.githubusercontent.com/u/181221850?v=4",
     "name": "",
     "blog": "Nijikajia's blog",
-    "desc": "妙脆性角の重度依存性",
-    "color": "#FCDB7A",
+    "desc": "橘远一生推",
+    "color": "#C6D9FA",
     "email": "2797435460@qq.com"
 },
 ```
