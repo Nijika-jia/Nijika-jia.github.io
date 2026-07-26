@@ -50,3 +50,14 @@ html.dark{
 .char-right {
   border-left:0px solid rgba(255,255,255, 0)
 }
+
+// 文章卡片摘要里的图片：限制高度，底部渐变淡出（像文字被截断一样）
+.post-card-excerpt-content img {
+  max-height: 120px;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 4px;
+  -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+  mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+}

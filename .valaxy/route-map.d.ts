@@ -248,6 +248,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/今日学习总结': RouteRecordInfo<
+      '/posts/今日学习总结',
+      '/posts/%E4%BB%8A%E6%97%A5%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/优先队列自定义排序': RouteRecordInfo<
       '/posts/优先队列自定义排序',
       '/posts/%E4%BC%98%E5%85%88%E9%98%9F%E5%88%97%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8E%92%E5%BA%8F',
@@ -286,6 +293,13 @@ declare module 'vue-router/auto-routes' {
     '/posts/崩溃了,AI': RouteRecordInfo<
       '/posts/崩溃了,AI',
       '/posts/%E5%B4%A9%E6%BA%83%E4%BA%86,AI',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/成都小厂实习第一周': RouteRecordInfo<
+      '/posts/成都小厂实习第一周',
+      '/posts/%E6%88%90%E9%83%BD%E5%B0%8F%E5%8E%82%E5%AE%9E%E4%B9%A0%E7%AC%AC%E4%B8%80%E5%91%A8',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -621,6 +635,14 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
+    'pages/posts/今日学习总结.md': {
+      routes:
+        | '/posts/今日学习总结'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
     'pages/posts/优先队列自定义排序.md': {
       routes:
         | '/posts/优先队列自定义排序'
@@ -664,6 +686,14 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/崩溃了,AI.md': {
       routes:
         | '/posts/崩溃了,AI'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/成都小厂实习第一周.md': {
+      routes:
+        | '/posts/成都小厂实习第一周'
       views:
         | never
       pathParamNames:

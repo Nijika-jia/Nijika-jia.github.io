@@ -119,9 +119,17 @@ export default defineValaxyConfig<UserThemeConfig>({
         color: '#6D2783',
         icon: 'i-ri-github-line',
       },
+      study: {
+        color: '#4CAF50',
+        icon: 'i-ri:book-line',
+      },
       AI: {
         color: '#FF5722',
         icon: 'i-ri:speak-line',
+      },
+      company: {
+        color: '#66B5A9',
+        icon: 'i-ri:building-line',
       },
     },
     footer: {
