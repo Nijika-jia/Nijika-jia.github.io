@@ -304,6 +304,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/成都小厂实习第二周': RouteRecordInfo<
+      '/posts/成都小厂实习第二周',
+      '/posts/%E6%88%90%E9%83%BD%E5%B0%8F%E5%8E%82%E5%AE%9E%E4%B9%A0%E7%AC%AC%E4%BA%8C%E5%91%A8',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/新年快乐': RouteRecordInfo<
       '/posts/新年快乐',
       '/posts/%E6%96%B0%E5%B9%B4%E5%BF%AB%E4%B9%90',
@@ -694,6 +701,14 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/成都小厂实习第一周.md': {
       routes:
         | '/posts/成都小厂实习第一周'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/成都小厂实习第二周.md': {
+      routes:
+        | '/posts/成都小厂实习第二周'
       views:
         | never
       pathParamNames:
