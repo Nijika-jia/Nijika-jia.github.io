@@ -20,6 +20,7 @@
   "pasteImage.path": "${projectRoot}/public/posts",
   "pasteImage.basePath": "${projectRoot}/public",
   "pasteImage.forceUnixStyleSeparator": true,
-  "pasteImage.prefix": "/"
+  "pasteImage.prefix": "/",
+  "commentTranslate.hover.enabled": true
   
 }
