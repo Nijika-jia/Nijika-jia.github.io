@@ -28,6 +28,8 @@
 
 文章正文使用 Markdown 富文本编辑器，可以从编辑器工具栏插入图片，也可以直接把图片拖入正文或粘贴图片。上传完成后会写入 `/posts/...` 路径。
 
+友链头像 URL 可以留空。页面会自动读取友链站点的 `favicon.ico`，失败后依次尝试 DuckDuckGo 和 Google 的 favicon 服务，最终使用默认头像。
+
 保存后 Pages CMS 会把改动提交到 GitHub；当前 GitHub Actions 会构建并发布 `main` 分支。
 
 `settings.content.merge` 已开启，因此文章里未出现在表单中的 Frontmatter 字段不会被自动删除。

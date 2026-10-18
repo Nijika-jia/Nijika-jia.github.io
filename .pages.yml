@@ -55,6 +55,20 @@ content:
         label: 标题
         type: string
         required: true
+      - name: cover
+        label: 封面图
+        description: 可从文章图片库选择或上传新图片。
+        type: image
+        options:
+          media: post-images
+      - name: body
+        label: 正文
+        description: 在 Editor 模式下可从工具栏插入图片，也可以拖拽或粘贴图片。
+        type: rich-text
+        options:
+          format: markdown
+          media: post-images
+          rename: safe
       - name: date
         label: 发布日期
         type: date
@@ -93,13 +107,6 @@ content:
       - name: excerpt
         label: 自定义摘要
         type: text
-      - name: body
-        label: 正文
-        type: rich-text
-        options:
-          format: markdown
-          media: post-images
-          rename: safe
 
   - name: pages
     label: 独立页面
@@ -681,7 +688,8 @@ content:
             type: string
             required: true
           - name: avatar
-            label: 头像 URL
+            label: 头像 URL（可留空）
+            description: 留空时会从友链网址自动获取 favicon，并在失败时使用默认头像。
             type: string
           - name: name
             label: 名称
