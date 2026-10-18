@@ -44,23 +44,27 @@ async function load() {
   }
 }
 
-onMounted(async () => {
-  hydrated.value = true
-  await load()
+onMounted(() => {
+  requestAnimationFrame(async () => {
+    hydrated.value = true
+    await load()
+  })
 })
 watch(() => [props.links, props.random], load)
 </script>
 
 <template>
   <div class="yun-links">
-    <ul v-if="hydrated && data.length" class="yun-link-items" flex="center wrap">
-      <YunLinkItem
-        v-for="(link, index) in data"
-        :key="link.url"
-        :i="index"
-        :link="link"
-        :error-img="errorImg"
-      />
-    </ul>
+    <ClientOnly>
+      <ul v-if="hydrated && data.length" class="yun-link-items" flex="center wrap">
+        <YunLinkItem
+          v-for="(link, index) in data"
+          :key="link.url"
+          :i="index"
+          :link="link"
+          :error-img="errorImg"
+        />
+      </ul>
+    </ClientOnly>
   </div>
 </template>
