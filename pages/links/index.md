@@ -15,7 +15,7 @@ aside : false
 # sidebar: true
 ---
 
-<YunLinks :links="frontmatter.links" :random="frontmatter.random" />
+<YunFriendLinks :links="frontmatter.links" :random="frontmatter.random" />
 
 
 都是随机排序的~
