@@ -2,14 +2,20 @@
   "compilerOptions": {
     "target": "ESNext",
     "jsx": "preserve",
-    "lib": ["DOM", "ESNext"],
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "baseUrl": ".",
     "module": "ESNext",
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "paths": {
-      "~/*": ["./*"]
+      "~/*": ["./*"],
+      "valaxy-addon-live2d": ["./node_modules/valaxy-addon-live2d/index.ts"],
+      "valaxy-addon-waline": ["./node_modules/valaxy-addon-waline/index.ts"]
     },
     "resolveJsonModule": true,
+    "types": [
+      "vite/client",
+      "valaxy/client"
+    ],
     "strict": true,
     "strictNullChecks": true,
     "noUnusedLocals": true,

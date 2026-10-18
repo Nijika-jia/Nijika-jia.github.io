@@ -1,4 +1,4 @@
-import type {UserThemeConfig } from 'valaxy-theme-yun'
+import type { UserThemeConfig } from 'valaxy-theme-yun'
 import { defineValaxyConfig, $t } from 'valaxy'
 import { addonLightGallery } from 'valaxy-addon-lightgallery'
 import { addonWaline } from "valaxy-addon-waline";
@@ -38,10 +38,8 @@ export default defineValaxyConfig<UserThemeConfig>({
   // site config see site.config.ts
 
   theme: 'yun',
-  vite: {
-    optimizeDeps: {
-      include: ['@braintree/sanitize-url'],
-    },
+  build: {
+    ssgForPagination: true,
   },
   themeConfig: {
     banner: themeData.banner,

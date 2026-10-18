@@ -2,6 +2,9 @@
   "name": " Nijikajia",
   "type": "module",
   "version": "0.0.0",
+  "engines": {
+    "node": ">=22.12.0"
+  },
   "packageManager": "pnpm@9.15.4",
   "private": true,
   "scripts": {
@@ -10,7 +13,7 @@
     "collections:generate": "node scripts/generate-collections.mjs",
     "friends:enrich": "node scripts/enrich-friend-links.mjs",
     "stats:update": "node scripts/update-site-stats.mjs",
-    "build": "npm run build:ssg",
+    "build": "pnpm run build:ssg",
     "build:spa": "valaxy build",
     "build:ssg": "valaxy build --ssg",
     "dev": "valaxy",
@@ -19,21 +22,28 @@
     "new": "valaxy new"
   },
   "dependencies": {
-    "valaxy": "0.28.11",
+    "valaxy": "1.1.0",
     "valaxy-addon-bangumi": "^0.4.0",
     "valaxy-addon-components": "^0.1.0",
     "valaxy-addon-hitokoto": "^0.0.1",
     "valaxy-addon-lightgallery": "^0.0.4",
     "valaxy-addon-live2d": "^0.4.0",
-    "valaxy-addon-meting": "^0.2.0",
-    "valaxy-addon-twikoo": "^0.0.3",
+    "valaxy-addon-meting": "^0.2.1",
+    "valaxy-addon-twikoo": "^0.0.4",
     "valaxy-addon-waline": "^0.2.1",
-    "valaxy-theme-yun": "0.28.11"
+    "valaxy-theme-yun": "1.1.0",
+    "vue": "3.5.44",
+    "vue-router": "5.4.0"
   },
   "devDependencies": {
     "htmlparser2": "8.0.2",
     "typescript": "^5.7.2",
-    "valaxy-addon-algolia": "^0.1.0",
+    "valaxy-addon-algolia": "^0.2.1",
     "yaml": "2.9.0"
+  },
+  "pnpm": {
+    "patchedDependencies": {
+      "valaxy@1.1.0": "patches/valaxy@1.1.0.patch"
+    }
   }
 }
