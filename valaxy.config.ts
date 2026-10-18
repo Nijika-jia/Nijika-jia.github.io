@@ -92,11 +92,15 @@ export default defineValaxyConfig<UserThemeConfig>({
       live2DCollection: {
         Tia: {
           message: '来自 Potion Maker 的 Tia 酱 ~',
-          models: 'https://cdn.jsdelivr.net/gh/fghrsh/live2d_api/model/Potion-Maker/Tia/index.json', 
+          models: [
+            'https://cdn.jsdelivr.net/gh/fghrsh/live2d_api/model/Potion-Maker/Tia/index.json',
+          ],
         },
         Pio: {
           message: '来自 Potion Maker 的 Pio 酱 ~',
-          models: 'https://cdn.jsdelivr.net/gh/fghrsh/live2d_api/model/Potion-Maker/Pio/index.json', 
+          models: [
+            'https://cdn.jsdelivr.net/gh/fghrsh/live2d_api/model/Potion-Maker/Pio/index.json',
+          ],
         },
       },
       skipHello: false,
