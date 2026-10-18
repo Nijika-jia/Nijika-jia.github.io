@@ -17,55 +17,55 @@ export default defineCollection({
   "collapse": true,
   "items": [
     {
-      "title": "DAY-1 拓扑排序与 DP",
+      "title": "备战传智蓝桥DAY-1",
       "key": "1"
     },
     {
-      "title": "DAY-2 最短路专题",
+      "title": "备战传智蓝桥DAY-2",
       "key": "2"
     },
     {
-      "title": "DAY-3 最小生成树",
+      "title": "备战传智蓝桥DAY-3",
       "key": "3"
     },
     {
-      "title": "DAY-4 并查集与 LCA",
+      "title": "备战传智蓝桥DAY-4",
       "key": "4"
     },
     {
-      "title": "DAY-5 树状数组与线段树",
+      "title": "备战传智蓝桥DAY-5",
       "key": "5"
     },
     {
-      "title": "DAY-6 字符串与哈希",
+      "title": "备战传智蓝桥DAY-6",
       "key": "6"
     },
     {
-      "title": "DAY-7 数论基础",
+      "title": "备战传智蓝桥DAY-7",
       "key": "7"
     },
     {
-      "title": "DAY-8 博弈论入门",
+      "title": "备战传智蓝桥DAY-8",
       "key": "8"
     },
     {
-      "title": "DAY-9 计算几何",
+      "title": "备战传智蓝桥DAY-9",
       "key": "9"
     },
     {
-      "title": "DAY-10 福利局",
+      "title": "备战传智蓝桥DAY-10(福利局)",
       "key": "10"
     },
     {
-      "title": "DAY-11 动态规划进阶",
+      "title": "备战传智蓝桥DAY-11",
       "key": "11"
     },
     {
-      "title": "DAY-12 图论综合",
+      "title": "备战传智蓝桥DAY-12",
       "key": "12"
     },
     {
-      "title": "DAY-13 二分查找",
+      "title": "备战传智蓝桥DAY-13",
       "key": "13"
     }
   ]
