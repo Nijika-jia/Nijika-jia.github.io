@@ -21,6 +21,32 @@ const site = computed(() => {
   }
 })
 
+const autoColors = [
+  '#7FC1F5',
+  '#C6D9FA',
+  '#65E6B1',
+  '#FAF584',
+  '#F09199',
+  '#E6BDCB',
+  '#C6B7F5',
+  '#E7D6C3',
+  '#F4B183',
+  '#FF8A80',
+]
+
+const resolvedColor = computed(() => {
+  const color = props.link.color?.trim()
+  if (color && color !== 'auto')
+    return color
+
+  const key = site.value?.hostname || props.link.blog || props.link.url || ''
+  let hash = 0
+  for (const char of key)
+    hash = ((hash << 5) - hash + char.codePointAt(0)!) | 0
+
+  return autoColors[Math.abs(hash) % autoColors.length]
+})
+
 const candidates = computed(() => {
   const urls: string[] = []
   const avatar = props.link.avatar?.trim()
@@ -63,7 +89,7 @@ function onError() {
   <li
     class="yun-link-item inline-flex"
     :style="{
-      '--primary-color': link.color,
+      '--primary-color': resolvedColor,
     }"
   >
     <a

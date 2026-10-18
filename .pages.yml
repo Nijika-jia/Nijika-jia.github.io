@@ -33,6 +33,187 @@ settings:
       delete: "content: delete {path}"
       rename: "content: rename {oldPath} -> {newPath}"
 
+components:
+  color:
+    type: select
+    label: 颜色
+    options:
+      values:
+        - name: "#D5C63A"
+          label: 主色黄
+        - name: "#C6D9FA"
+          label: 浅蓝
+        - name: "#7FC1F5"
+          label: 天蓝
+        - name: "#3384DB"
+          label: 蓝色
+        - name: "#1890ff"
+          label: 亮蓝
+        - name: "#00A3EE"
+          label: 支付宝蓝
+        - name: "#12B7F5"
+          label: 青蓝
+        - name: "#0088CC"
+          label: 海蓝
+        - name: "#5096F5"
+          label: 宝蓝
+        - name: "#65E6B1"
+          label: 薄荷绿
+        - name: "#07BF83"
+          label: 翠绿
+        - name: "#2DC100"
+          label: 微信绿
+        - name: "#13BA74"
+          label: Discord 绿
+        - name: "#4CAF50"
+          label: 绿色
+        - name: "#66B5A9"
+          label: 青绿
+        - name: "#E7EF83"
+          label: 荧光黄
+        - name: "#e4fc7a"
+          label: 青柠
+        - name: "#FAF584"
+          label: 浅黄
+        - name: "#FFC107"
+          label: 琥珀
+        - name: "#F4B183"
+          label: 杏色
+        - name: "#dd6236"
+          label: 橙棕
+        - name: "#FF5722"
+          label: 橙红
+        - name: "#FF8A80"
+          label: 珊瑚
+        - name: "#F09199"
+          label: 樱粉
+        - name: "#FF8EB3"
+          label: 粉红
+        - name: "#E6BDCB"
+          label: 粉灰
+        - name: "#C6B7F5"
+          label: 薰衣草
+        - name: "#6D2783"
+          label: 紫色
+        - name: "#6e5494"
+          label: GitHub 紫
+        - name: "#A0C8D1"
+          label: 雾蓝
+        - name: "#E7D6C3"
+          label: 沙色
+        - name: "#FDFDFD"
+          label: 近白
+        - name: "#323A5B"
+          label: 深蓝灰
+        - name: "#2652A5"
+          label: 深蓝
+        - name: "#1D2021"
+          label: 炭黑
+        - name: black
+          label: 黑色
+        - name: white
+          label: 白色
+        - name: pink
+          label: 粉色
+        - name: orange
+          label: 橙色
+        - name: dodgerblue
+          label: 道奇蓝
+
+  friend-color:
+    type: select
+    label: 主题色
+    default: auto
+    options:
+      values:
+        - name: auto
+          label: 自动配色（推荐）
+        - name: "#7FC1F5"
+          label: 天蓝
+        - name: "#C6D9FA"
+          label: 浅蓝
+        - name: "#3384DB"
+          label: 蓝色
+        - name: "#65E6B1"
+          label: 薄荷绿
+        - name: "#e4fc7a"
+          label: 青柠
+        - name: "#FAF584"
+          label: 浅黄
+        - name: "#F09199"
+          label: 樱粉
+        - name: "#E6BDCB"
+          label: 粉灰
+        - name: "#C6B7F5"
+          label: 薰衣草
+        - name: "#E7D6C3"
+          label: 沙色
+        - name: "#F4B183"
+          label: 杏色
+        - name: "#FF8A80"
+          label: 珊瑚
+        - name: "#323A5B"
+          label: 深蓝灰
+
+  text-color:
+    type: select
+    label: 文字颜色
+    options:
+      values:
+        - name: black
+          label: 黑色
+        - name: white
+          label: 白色
+        - name: "#1D2021"
+          label: 炭黑
+        - name: "#323A5B"
+          label: 深蓝灰
+        - name: "#FDFDFD"
+          label: 近白
+        - name: "#FAF584"
+          label: 浅黄
+
+  color-list:
+    type: select
+    label: 颜色
+    options:
+      multiple: true
+      values:
+        - name: "#C6D9FA"
+          label: 浅蓝
+        - name: "#7FC1F5"
+          label: 天蓝
+        - name: "#3384DB"
+          label: 蓝色
+        - name: "#65E6B1"
+          label: 薄荷绿
+        - name: "#07BF83"
+          label: 翠绿
+        - name: "#E7EF83"
+          label: 荧光黄
+        - name: "#FAF584"
+          label: 浅黄
+        - name: "#FFC107"
+          label: 琥珀
+        - name: "#F4B183"
+          label: 杏色
+        - name: "#FF8A80"
+          label: 珊瑚
+        - name: "#F09199"
+          label: 樱粉
+        - name: "#FF8EB3"
+          label: 粉红
+        - name: "#E6BDCB"
+          label: 粉灰
+        - name: "#C6B7F5"
+          label: 薰衣草
+        - name: "#6D2783"
+          label: 紫色
+        - name: "#66B5A9"
+          label: 青绿
+        - name: "#323A5B"
+          label: 深蓝灰
+
 content:
   - name: posts
     label: 文章
@@ -191,7 +372,7 @@ content:
                 type: string
           - name: color
             label: 主题色
-            type: string
+            component: color
           - name: nav
             label: 显示导航
             type: boolean
@@ -249,7 +430,7 @@ content:
                     type: text
                   - name: color
                     label: 卡片颜色
-                    type: string
+                    component: color
                   - name: gradient
                     label: 使用渐变
                     type: boolean
@@ -265,7 +446,7 @@ content:
                     type: string
                   - name: textColor
                     label: 文字颜色
-                    type: string
+                    component: text-color
 
       - name: bangumi
         label: 追番页面
@@ -312,7 +493,7 @@ content:
             required: true
           - name: color
             label: 主题色
-            type: string
+            component: color
           - name: nav
             label: 显示导航
             type: boolean
@@ -755,7 +936,8 @@ content:
             type: text
           - name: color
             label: 主题色
-            type: string
+            description: 推荐选择自动配色；颜色由域名固定生成，不会每次刷新变化。
+            component: friend-color
           - name: email
             label: 邮箱
             type: string
@@ -935,7 +1117,7 @@ content:
                 type: string
               - name: color
                 label: 颜色
-                type: string
+                component: color
           - name: sponsor
             label: 赞助
             type: object
@@ -968,7 +1150,7 @@ content:
                     required: true
                   - name: color
                     label: 颜色
-                    type: string
+                    component: color
                   - name: icon
                     label: 图标
                     type: string
@@ -1093,7 +1275,7 @@ content:
                 type: string
               - name: color
                 label: 颜色
-                type: string
+                component: color
           - name: types
             label: 文章类型标记
             type: object
@@ -1108,7 +1290,7 @@ content:
                 required: true
               - name: color
                 label: 颜色
-                type: string
+                component: color
               - name: icon
                 label: 图标
                 type: string
@@ -1181,7 +1363,7 @@ content:
             fields:
               - name: primary
                 label: 主色
-                type: string
+                component: color
           - name: fireworks
             label: 烟花效果
             type: object
@@ -1192,8 +1374,7 @@ content:
                 default: true
               - name: colors
                 label: 烟花颜色
-                type: string
-                list: true
+                component: color-list
 
       - name: site-config
         label: 站点信息
