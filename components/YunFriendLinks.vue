@@ -10,6 +10,7 @@ const props = defineProps<{
 }>()
 
 const data = ref<LinkType[]>(Array.isArray(props.links) ? [...props.links] : [])
+const hydrated = ref(false)
 const isClient = typeof window !== 'undefined'
 
 function shuffle(items: LinkType[]) {
@@ -43,13 +44,16 @@ async function load() {
   }
 }
 
-onMounted(load)
+onMounted(async () => {
+  hydrated.value = true
+  await load()
+})
 watch(() => [props.links, props.random], load)
 </script>
 
 <template>
   <div class="yun-links">
-    <ul v-if="data.length" class="yun-link-items" flex="center wrap">
+    <ul v-if="hydrated && data.length" class="yun-link-items" flex="center wrap">
       <YunLinkItem
         v-for="(link, index) in data"
         :key="link.url"
