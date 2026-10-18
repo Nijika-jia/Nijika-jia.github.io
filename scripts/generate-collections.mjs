@@ -191,10 +191,10 @@ export default defineCollection(${JSON.stringify(normalizedConfig, null, 2)})
   }
 }
 
+// Keep the overview title a plain string: Pages CMS renders it as a React text
+// node, and an object such as { "zh-CN": ..., en: ... } crashes its collection view.
 const overviewContent = `---
-title:
-  zh-CN: ${yamlString(overviewTitle['zh-CN'] ?? '合集')}
-  en: ${yamlString(overviewTitle.en ?? 'Collections')}
+title: ${yamlString(overviewTitle['zh-CN'] ?? overviewTitle.zh ?? overviewTitle.en ?? '合集')}
 layout: collections
 icon: ${yamlString(overviewIcon)}
 collections:
