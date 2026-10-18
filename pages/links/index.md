@@ -41,6 +41,11 @@ links:
     desc: Trust the process.
     color: "#e4fc7a"
     email: 2899411423@qq.com
+  - url: https://www.cuteassinass.com/
+    color: auto
+    blog: 拾页 · 博客
+    desc: 来自 www.cuteassinass.com 的友链
+    name: 拾页 · 博客
 random: true
 nav: false
 comment: true
