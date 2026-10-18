@@ -1,3 +1,5 @@
+import { readFileSync } from 'node:fs'
+import { resolve } from 'node:path'
 import type { UserThemeConfig } from 'valaxy-theme-yun'
 import { defineValaxyConfig, $t } from 'valaxy'
 import { addonLightGallery } from 'valaxy-addon-lightgallery'
@@ -8,6 +10,15 @@ import { addonComponents } from 'valaxy-addon-components'
 import { addonHitokoto, HitokotoType } from 'valaxy-addon-hitokoto';
 import { addonBangumi } from 'valaxy-addon-bangumi';
 import themeData from './data/theme.json'
+// Each skin is generated as its own model JSON by scripts/generate-live2d-skins.mjs.
+// Passing them as an array avoids the addon's GitHub API texture lookup (HTTP 403).
+function live2dSkinModels(name: 'Tia' | 'Pio') {
+  const skins: string[] = JSON.parse(
+    readFileSync(resolve(process.cwd(), `data/live2d/${name}.textures.json`), 'utf8'),
+  )
+  return skins.map(skin => `/live2d/${name}/${skin.replace(/\.png$/i, '.json')}`)
+}
+
 // add icons what you will need
 const safelist = [
   'i-ri-home-line',
@@ -92,15 +103,11 @@ export default defineValaxyConfig<UserThemeConfig>({
       live2DCollection: {
         Tia: {
           message: '来自 Potion Maker 的 Tia 酱 ~',
-          models: [
-            'https://cdn.jsdelivr.net/gh/fghrsh/live2d_api/model/Potion-Maker/Tia/index.json',
-          ],
+          models: live2dSkinModels('Tia'),
         },
         Pio: {
           message: '来自 Potion Maker 的 Pio 酱 ~',
-          models: [
-            'https://cdn.jsdelivr.net/gh/fghrsh/live2d_api/model/Potion-Maker/Pio/index.json',
-          ],
+          models: live2dSkinModels('Pio'),
         },
       },
       skipHello: false,

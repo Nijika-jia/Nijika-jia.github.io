@@ -8,9 +8,10 @@
   "packageManager": "pnpm@9.15.4",
   "private": true,
   "scripts": {
-    "predev": "node scripts/generate-collections.mjs && node scripts/enrich-friend-links.mjs",
-    "prebuild": "node scripts/generate-collections.mjs && node scripts/enrich-friend-links.mjs",
+    "predev": "node scripts/generate-collections.mjs && node scripts/generate-live2d-skins.mjs && node scripts/enrich-friend-links.mjs",
+    "prebuild": "node scripts/generate-collections.mjs && node scripts/generate-live2d-skins.mjs && node scripts/enrich-friend-links.mjs",
     "collections:generate": "node scripts/generate-collections.mjs",
+    "live2d:generate": "node scripts/generate-live2d-skins.mjs",
     "friends:enrich": "node scripts/enrich-friend-links.mjs",
     "stats:update": "node scripts/update-site-stats.mjs",
     "build": "pnpm run build:ssg",
