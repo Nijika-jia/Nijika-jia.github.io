@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import type { LinkType } from 'valaxy-theme-yun'
-import { onMounted, ref, watch } from 'vue'
+import { computed, onMounted, ref, watch } from 'vue'
 import YunLinkItem from './YunLinkItem.vue'
 
 const props = defineProps<{
@@ -12,6 +12,7 @@ const props = defineProps<{
 const data = ref<LinkType[]>(Array.isArray(props.links) ? [...props.links] : [])
 const hydrated = ref(false)
 const isClient = typeof window !== 'undefined'
+const isUrlSource = computed(() => typeof props.links === 'string')
 
 function shuffle(items: LinkType[]) {
   return [...items].sort(() => Math.random() - 0.5)
@@ -55,7 +56,7 @@ watch(() => [props.links, props.random], load)
 
 <template>
   <div class="yun-links">
-    <ClientOnly>
+    <ClientOnly v-if="isUrlSource">
       <ul v-if="hydrated && data.length" class="yun-link-items" flex="center wrap">
         <YunLinkItem
           v-for="(link, index) in data"
@@ -66,5 +67,14 @@ watch(() => [props.links, props.random], load)
         />
       </ul>
     </ClientOnly>
+    <ul v-else-if="data.length" class="yun-link-items" flex="center wrap">
+      <YunLinkItem
+        v-for="(link, index) in data"
+        :key="link.url"
+        :i="index"
+        :link="link"
+        :error-img="errorImg"
+      />
+    </ul>
   </div>
 </template>

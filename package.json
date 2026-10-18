@@ -32,6 +32,7 @@
   "devDependencies": {
     "htmlparser2": "8.0.2",
     "typescript": "^5.7.2",
-    "valaxy-addon-algolia": "^0.1.0"
+    "valaxy-addon-algolia": "^0.1.0",
+    "yaml": "2.9.0"
   }
 }

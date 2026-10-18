@@ -2,11 +2,15 @@ import fs from 'node:fs/promises'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { parseDocument } from 'htmlparser2'
+import YAML from 'yaml'
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const linksFile = process.env.FRIEND_LINKS_FILE
   ? path.resolve(process.env.FRIEND_LINKS_FILE)
   : path.join(root, 'public', 'friends', 'links.json')
+const linksPageFile = process.env.FRIEND_LINKS_PAGE
+  ? path.resolve(process.env.FRIEND_LINKS_PAGE)
+  : path.join(root, 'pages', 'links', 'index.md')
 
 const links = JSON.parse(await fs.readFile(linksFile, 'utf8'))
 if (!Array.isArray(links))
@@ -151,5 +155,16 @@ const output = `${JSON.stringify(links, null, 2)}\n`
 const current = await fs.readFile(linksFile, 'utf8')
 if (current !== output)
   await fs.writeFile(linksFile, output)
+
+const page = await fs.readFile(linksPageFile, 'utf8')
+const frontmatter = page.match(/^---\r?\n([\s\S]*?)\r?\n---/)
+if (!frontmatter)
+  throw new Error(`Missing frontmatter in ${linksPageFile}`)
+
+const document = YAML.parseDocument(frontmatter[1])
+document.set('links', links)
+const nextPage = `---\n${document.toString().trimEnd()}\n---${page.slice(frontmatter[0].length)}`
+if (nextPage !== page)
+  await fs.writeFile(linksPageFile, nextPage)
 
 console.log(`[friends] enriched ${enriched} link(s)`)
