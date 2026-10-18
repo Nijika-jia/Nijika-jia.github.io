@@ -20,13 +20,6 @@ links:
     desc: 算法，永无止境！
     color: "#3384DB"
     email: yxy3635@gmail.com
-  - url: https://fighting27.github.io
-    avatar: https://avatars.githubusercontent.com/u/192389350?v=4
-    name: fighting27's blog
-    blog: fighting27's blog
-    desc: Trust the process.
-    color: "#e4fc7a"
-    email: 2899411423@qq.com
   - url: https://lo-yce.github.io/
     avatar: https://avatars.githubusercontent.com/u/252218870?v=4
     name: Loyce - 个人网站
@@ -41,6 +34,13 @@ links:
     desc: 把想法做成能上线、能被使用的产品。
     color: "#65E6B1"
     email: 3120971328@qq.com
+  - url: https://fighting27.github.io
+    avatar: https://avatars.githubusercontent.com/u/192389350?v=4
+    name: fighting27's blog
+    blog: fighting27's blog
+    desc: Trust the process.
+    color: "#e4fc7a"
+    email: 2899411423@qq.com
 random: true
 nav: false
 comment: true

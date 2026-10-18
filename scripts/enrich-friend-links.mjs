@@ -162,7 +162,14 @@ if (!frontmatter)
   throw new Error(`Missing frontmatter in ${linksPageFile}`)
 
 const document = YAML.parseDocument(frontmatter[1])
-document.set('links', links)
+const stableHash = value => {
+  let hash = 0
+  for (const char of String(value ?? ''))
+    hash = ((hash << 5) - hash + char.codePointAt(0)) | 0
+  return Math.abs(hash)
+}
+const pageLinks = [...links].sort((a, b) => stableHash(a.url) - stableHash(b.url))
+document.set('links', pageLinks)
 const nextPage = `---\n${document.toString().trimEnd()}\n---${page.slice(frontmatter[0].length)}`
 if (nextPage !== page)
   await fs.writeFile(linksPageFile, nextPage)

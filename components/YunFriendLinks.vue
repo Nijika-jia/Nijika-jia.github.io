@@ -23,7 +23,7 @@ async function load() {
     return
 
   if (Array.isArray(props.links)) {
-    data.value = props.random ? shuffle(props.links) : [...props.links]
+    data.value = [...props.links]
     return
   }
 
