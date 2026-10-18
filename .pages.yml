@@ -467,33 +467,91 @@ content:
     description: 维护合集入口和合集内文章。
     type: group
     items:
-      - name: collections-index
-        label: 合集入口
+      - name: collection-settings
+        label: 合集定义（表单）
+        description: 保存后会生成合集的 index.ts、index.md、文章占位文件和合集入口。
         type: file
-        path: pages/collections/index.md
-        format: yaml-frontmatter
+        path: data/collections.json
+        format: json
         fields:
-          - name: title
-            label: 标题
+          - name: overview
+            label: 合集首页
             type: object
             fields:
-              - name: zh-CN
-                label: 中文
+              - name: title
+                label: 标题
+                type: object
+                fields:
+                  - name: zh-CN
+                    label: 中文
+                    type: string
+                  - name: en
+                    label: 英文
+                    type: string
+              - name: icon
+                label: 图标
                 type: string
-              - name: en
-                label: 英文
-                type: string
-          - name: layout
-            label: 布局
-            type: string
-            default: collections
-          - name: icon
-            label: 图标
-            type: string
           - name: collections
-            label: 合集 ID
-            type: string
-            list: true
+            label: 合集列表
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{title}"
+            fields:
+              - name: key
+                label: 合集 ID
+                description: 使用小写英文、数字和短横线，例如 algorithm-notes。
+                type: string
+                required: true
+                pattern:
+                  regex: "^[a-z0-9][a-z0-9-]*$"
+                  message: 只能使用小写英文、数字和短横线。
+              - name: title
+                label: 合集标题
+                type: string
+                required: true
+              - name: cover
+                label: 封面图
+                type: image
+                options:
+                  media: post-images
+              - name: description
+                label: 合集描述
+                type: text
+              - name: categories
+                label: 分类
+                type: string
+                list: true
+              - name: tags
+                label: 标签
+                type: string
+                list: true
+              - name: collapse
+                label: 在文章列表折叠展示
+                type: boolean
+                default: true
+              - name: items
+                label: 合集文章
+                description: key 与 link 二选一；key 对应同目录下的 Markdown 文件名。
+                type: object
+                list:
+                  collapsible:
+                    collapsed: true
+                    summary: "{title}"
+                fields:
+                  - name: title
+                    label: 文章标题
+                    type: string
+                    required: true
+                  - name: key
+                    label: 文章 key
+                    description: 例如 1、day-1；留空时填写 link。
+                    type: string
+                  - name: link
+                    label: 链接
+                    description: 内部链接以 / 开头，外部链接以 https:// 开头。
+                    type: string
 
       - name: collection-posts
         label: 合集文章
@@ -502,6 +560,8 @@ content:
         format: yaml-frontmatter
         subfolders: true
         exclude: [index.md]
+        operations:
+          create: false
         view:
           layout: tree
           fields: [title, date, tags, draft]
@@ -549,13 +609,6 @@ content:
               format: markdown
               media: post-images
               rename: safe
-
-      - name: lanqiao-collection
-        label: 蓝桥合集配置
-        description: 编辑 pages/collections/lanqiao/index.ts 中的合集条目。
-        type: file
-        path: pages/collections/lanqiao/index.ts
-        format: code
 
   - name: system-pages
     label: 系统页面

@@ -4,6 +4,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "predev": "node scripts/generate-collections.mjs",
+    "prebuild": "node scripts/generate-collections.mjs",
+    "collections:generate": "node scripts/generate-collections.mjs",
     "build": "npm run build:ssg",
     "build:spa": "valaxy build",
     "build:ssg": "valaxy build --ssg",
