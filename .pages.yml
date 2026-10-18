@@ -750,7 +750,7 @@ content:
           layout: tree
           node:
             filename: index.md
-            hideDirs: others
+            hideDirs: nodes
           fields: [title, date, tags, draft]
           primary: title
           sort: [date, title]
