@@ -4,7 +4,7 @@ import { defineCollection } from 'valaxy'
 export default defineCollection({
   "key": "lanqiao",
   "title": "备战传智蓝桥",
-  "cover": "/posts/图论可视化工具：一个轻量级的在线图形编辑与分析平台_2025-02-27-17-21-46.png",
+  "cover": "/posts/1792162079774.png",
   "description": "传智杯 & 蓝桥杯备战日记，从图论到二分查找，13 天刷题记录与解题思路总结。",
   "categories": [],
   "tags": [
