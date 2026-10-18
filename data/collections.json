@@ -12,7 +12,6 @@
       "title": "备战传智蓝桥",
       "cover": "/posts/图论可视化工具：一个轻量级的在线图形编辑与分析平台_2025-02-27-17-21-46.png",
       "description": "传智杯 & 蓝桥杯备战日记，从图论到二分查找，13 天刷题记录与解题思路总结。",
-      "categories": [],
       "tags": [
         "算法",
         "蓝桥杯",
@@ -21,7 +20,6 @@
         "DP"
       ],
       "collapse": true,
-      "posts": [],
       "collectionArticles": [
         "pages/collections/lanqiao/1.md",
         "pages/collections/lanqiao/2.md",
@@ -36,6 +34,20 @@
         "pages/collections/lanqiao/11.md",
         "pages/collections/lanqiao/12.md",
         "pages/collections/lanqiao/13.md"
+      ]
+    },
+    {
+      "key": "internship",
+      "title": "实习の记",
+      "cover": "/posts/1792162074335.png",
+      "tags": [
+        "实习"
+      ],
+      "collapse": true,
+      "posts": [
+        "pages/posts/成都小厂实习第二周.md",
+        "pages/posts/成都小厂实习第一周.md",
+        "pages/posts/成都小厂实习的第三周.md"
       ]
     }
   ]
