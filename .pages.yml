@@ -735,12 +735,11 @@ content:
 
       - name: collection-posts
         label: 合集文章正文
-        description: 编辑 pages/collections 下的合集专属 Markdown。引用普通博客文章时不需要在这里操作，直接去「文章」编辑原文。
+        description: 编辑 pages/collections 下的合集专属 Markdown。每个合集文件夹的 index.md 就是该合集的首页介绍，在树形视图中点击合集文件夹的节点即可编辑标题、封面和正文。根目录的 index.md 是合集总览，由生成脚本维护，请勿在这里修改。引用普通博客文章时不需要在这里操作，直接去「文章」编辑原文。
         type: collection
         path: pages/collections
         format: yaml-frontmatter
         subfolders: true
-        exclude: [index.md]
         filename:
           template: "{primary}.md"
           field: create
@@ -749,6 +748,9 @@ content:
           rename: false
         view:
           layout: tree
+          node:
+            filename: index.md
+            hideDirs: others
           fields: [title, date, tags, draft]
           primary: title
           sort: [date, title]
