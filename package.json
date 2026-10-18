@@ -40,5 +40,10 @@
     "typescript": "^5.7.2",
     "valaxy-addon-algolia": "^0.2.1",
     "yaml": "2.9.0"
+  },
+  "pnpm": {
+    "patchedDependencies": {
+      "valaxy@1.1.0": "patches/valaxy@1.1.0.patch"
+    }
   }
 }

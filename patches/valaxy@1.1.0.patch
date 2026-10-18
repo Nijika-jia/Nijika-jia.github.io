@@ -1,0 +1,37 @@
+diff --git a/client/main.ts b/client/main.ts
+index 576e65f435f6fa098305a0e24e5c47f4b0c04ede..2d553c9f1d470d405446b8bdf70d2249c3882653 100644
+--- a/client/main.ts
++++ b/client/main.ts
+@@ -25,12 +25,7 @@ const { redirectRoutes, useVueRouter } = valaxyConfig.value.runtimeConfig.redire
+ if (useVueRouter)
+   routes.push(...redirectRoutes)
+ 
+-// fix chinese path
+-routes.forEach((i) => {
+-  i?.children?.forEach((j: { path: string }) => {
+-    j.path = encodeURI(j.path)
+-  })
+-})
++// vue-router/vite already percent-encodes non-ASCII static path segments.
+ 
+ /**
+  * Flatten nested routes so that `setupLayouts` can wrap every leaf route.
+diff --git a/dist/shared/valaxy.BU27Owzs.mjs b/dist/shared/valaxy.BU27Owzs.mjs
+index c5862171440b7fcd82414a764dcdfcc196155298..f1f6536a4f3d673fe8ee0f866e06ee926effe329 100644
+--- a/dist/shared/valaxy.BU27Owzs.mjs
++++ b/dist/shared/valaxy.BU27Owzs.mjs
+@@ -8658,6 +8658,14 @@ function serializeState(state) {
+   return `<script>window.__INITIAL_STATE__='${serialised}'<\/script>`;
+ }
+ function routeToFileName(route) {
++  route = route.split("/").map((segment) => {
++    try {
++      return decodeURIComponent(segment);
++    }
++    catch {
++      return segment;
++    }
++  }).join("/");
+   if (route.endsWith("/"))
+     return `${route}index.html`.slice(1);
+   if (route.endsWith(".html"))
