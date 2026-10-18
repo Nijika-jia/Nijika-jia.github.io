@@ -7,6 +7,7 @@ import { addonMeting } from 'valaxy-addon-meting'
 import { addonComponents } from 'valaxy-addon-components'
 import { addonHitokoto, HitokotoType } from 'valaxy-addon-hitokoto';
 import { addonBangumi } from 'valaxy-addon-bangumi';
+import themeData from './data/theme.json'
 // add icons what you will need
 const safelist = [
   'i-ri-home-line',
@@ -43,132 +44,22 @@ export default defineValaxyConfig<UserThemeConfig>({
     },
   },
   themeConfig: {
-    banner: {
-      enable: true,
-      title: '伊地知佳の小站',
-      cloud :{
-        enable : true
-      },
-      duration: 500,
-    },
-    outlineTitle : '伊地知佳の小站',
-    nav: [
-      { text: '文章', link: '/posts/', icon: 'i-ri-article-line' },
-      { text: '合集', link: '/collections/', icon: 'i-ri:dashboard-line' },
-      { text: '归档', link: '/archives/', icon: 'i-ri-archive-line' },
-      { text: '分类', link: '/categories/', icon: 'i-ri:folder-5-line'},
-      { text: '标签', link: '/tags/', icon: 'i-ri-price-tag-3-line' },
-      { text: '友人帐', link: '/links/', icon: 'i-ri-links-line' },
-      { text: '相册', link: '/ablums/', icon: 'i-ri-gallery-line' },
-      { text: '小项目', link: '/projects/', icon: 'i-ri-puzzle-fill' },
-      { text: '追番', link: '/bangumi/', icon: 'i-ri-tv-line' },
-      { text: '我の推', link: '/girls/', icon: 'i-ri-heart-2-fill' }
-    ],
-    bg_image : {
-      enable : true,
-      url : 'https://pic1.imgdb.cn/item/6a4164a333bc7bc02d7ba1cc.jpg',
-      dark : 'https://pic1.imgdb.cn/item/6a41664d33bc7bc02d7ba206.jpg',
-      opacity : 0.5
-    },
-    // 自定义菜单图标（最右侧）
-    // menu: {
-    //   custom: {
-    //     title: 'menu.slides',
-    //     url: '/links/',
-    //     icon: 'i-ri-keynote-line'
-    //   }
-    // },
-    // 侧边栏配置
-    // sidebar: {},
-    pages: [
-      {
-        name: $t('pages.categories'),
-        url: '/categories/',
-        icon: 'i-ri:folder-5-line',
-        color: '#FF5722',
-      },
-      {
-        name: $t('pages.tags'),
-        url: '/tags/',
-        icon: 'i-ri-price-tag-3-line',
-        color: '#FFC107',
-      },
-      {
-        name: $t('pages.links'),
-        url: '/links/',
-        icon: 'i-ri-links-line',
-        color: 'dodgerblue',
-      },
-      {
-        name: $t('pages.projects'),
-        url: '/projects/',
-        icon: 'i-ri-puzzle-fill',
-        color: '#66B5A9',
-      },
-    ],
-    types: {
-      link: {
-        color: '#1890ff',
-        icon: 'i-ri-link',
-      },
-      bilibili: {
-        color: '#FF8EB3',
-        icon: 'i-ri-bilibili-line',
-      },
-      github: {
-        color: '#6D2783',
-        icon: 'i-ri-github-line',
-      },
-      study: {
-        color: '#4CAF50',
-        icon: 'i-ri:book-line',
-      },
-      AI: {
-        color: '#FF5722',
-        icon: 'i-ri:speak-line',
-      },
-      company: {
-        color: '#66B5A9',
-        icon: 'i-ri:building-line',
-      },
-    },
-    footer: {
-      since: 2025,
-      beian: {
-        enable: false,
-        icp: '苏ICP备17038157号',
-      },
-      cloud: {
-        enable: true,
-      },
-    },
-    // 公告横幅
-    notice: {
-      enable: false,
-      hideInPages: true,
-      content: '<span>一言: {{ hitokoto.hitokoto }}</span><span>来自: {{ hitokoto.from }}</span>',
-    },
-    say :{
-      enable : true,
-      api:'https://el-bot-api.elpsy.cn/api/setu',
-      hitokoto :{
-        enable : false,
-        api : 'https://el-bot-api.elpsy.cn/api/setu'
-      }
-    },
-    colors: {
-      primary: '#D5C63A' // 设置为橙色
-    },
-    fireworks: {
-      enable: true,
-      colors: ['#C6D9FA', '#E7EF83'] // 自定义颜色
-    },
-    // 文章类型标记
-    // types: {
-    //   tutorial: { color: '#4CAF50', icon: '📘' },
-    //   news: { color: '#FF5722', icon: '📰' }
-    // },
-    
+    banner: themeData.banner,
+    outlineTitle: themeData.outlineTitle,
+    nav: themeData.nav,
+    bg_image: themeData.bg_image,
+    pages: themeData.pages.map(({ nameKey, ...page }) => ({
+      ...page,
+      name: $t(nameKey),
+    })),
+    types: Object.fromEntries(
+      themeData.types.map(({ id, ...type }) => [id, type]),
+    ),
+    footer: themeData.footer,
+    notice: themeData.notice,
+    say: themeData.say,
+    colors: themeData.colors,
+    fireworks: themeData.fireworks,
   },
   markdown: {
     theme:{

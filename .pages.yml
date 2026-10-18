@@ -204,183 +204,61 @@ content:
           - name: projects
             label: 项目分类
             type: object
+            list:
+              min: 1
+              collapsible:
+                collapsed: false
+                summary: "{title}"
             fields:
-              - name: game
-                label: 游戏
+              - name: id
+                label: 分类 ID
+                description: 用于页面切换，使用小写英文、数字和短横线，例如 web-tools。
+                type: string
+                required: true
+                pattern:
+                  regex: "^[a-z0-9][a-z0-9-]*$"
+                  message: 只能使用小写英文、数字和短横线。
+              - name: title
+                label: 分类标题
+                type: string
+                required: true
+              - name: emoji
+                label: Emoji
+                type: string
+              - name: collection
+                label: 项目列表
                 type: object
+                list:
+                  collapsible:
+                    collapsed: true
+                    summary: "{name}"
                 fields:
-                  - name: title
-                    label: 分类标题
+                  - name: name
+                    label: 名称
+                    type: string
+                    required: true
+                  - name: desc
+                    label: 描述
+                    type: text
+                  - name: color
+                    label: 卡片颜色
+                    type: string
+                  - name: gradient
+                    label: 使用渐变
+                    type: boolean
+                    default: false
+                  - name: url
+                    label: 在线地址
+                    type: string
+                  - name: github
+                    label: GitHub 地址
                     type: string
                   - name: emoji
-                    label: Emoji
+                    label: 图标
                     type: string
-                  - name: collection
-                    label: 项目列表
-                    type: object
-                    list:
-                      collapsible:
-                        collapsed: true
-                        summary: "{name}"
-                    fields:
-                      - name: name
-                        label: 名称
-                        type: string
-                        required: true
-                      - name: desc
-                        label: 描述
-                        type: text
-                      - name: color
-                        label: 卡片颜色
-                        type: string
-                      - name: gradient
-                        label: 使用渐变
-                        type: boolean
-                        default: false
-                      - name: url
-                        label: 在线地址
-                        type: string
-                      - name: github
-                        label: GitHub 地址
-                        type: string
-                      - name: emoji
-                        label: 图标
-                        type: string
-                      - name: textColor
-                        label: 文字颜色
-                        type: string
-              - name: tools
-                label: 工具
-                type: object
-                fields:
-                  - name: title
-                    label: 分类标题
+                  - name: textColor
+                    label: 文字颜色
                     type: string
-                  - name: emoji
-                    label: Emoji
-                    type: string
-                  - name: collection
-                    label: 项目列表
-                    type: object
-                    list:
-                      collapsible:
-                        collapsed: true
-                        summary: "{name}"
-                    fields:
-                      - name: name
-                        label: 名称
-                        type: string
-                        required: true
-                      - name: desc
-                        label: 描述
-                        type: text
-                      - name: color
-                        label: 卡片颜色
-                        type: string
-                      - name: gradient
-                        label: 使用渐变
-                        type: boolean
-                        default: false
-                      - name: url
-                        label: 在线地址
-                        type: string
-                      - name: github
-                        label: GitHub 地址
-                        type: string
-                      - name: emoji
-                        label: 图标
-                        type: string
-                      - name: textColor
-                        label: 文字颜色
-                        type: string
-              - name: plugins
-                label: VS Code 插件
-                type: object
-                fields:
-                  - name: title
-                    label: 分类标题
-                    type: string
-                  - name: emoji
-                    label: Emoji
-                    type: string
-                  - name: collection
-                    label: 项目列表
-                    type: object
-                    list:
-                      collapsible:
-                        collapsed: true
-                        summary: "{name}"
-                    fields:
-                      - name: name
-                        label: 名称
-                        type: string
-                        required: true
-                      - name: desc
-                        label: 描述
-                        type: text
-                      - name: color
-                        label: 卡片颜色
-                        type: string
-                      - name: gradient
-                        label: 使用渐变
-                        type: boolean
-                        default: false
-                      - name: url
-                        label: 在线地址
-                        type: string
-                      - name: github
-                        label: GitHub 地址
-                        type: string
-                      - name: emoji
-                        label: 图标
-                        type: string
-                      - name: textColor
-                        label: 文字颜色
-                        type: string
-              - name: Steam
-                label: Steam 创意工坊
-                type: object
-                fields:
-                  - name: title
-                    label: 分类标题
-                    type: string
-                  - name: emoji
-                    label: Emoji
-                    type: string
-                  - name: collection
-                    label: 项目列表
-                    type: object
-                    list:
-                      collapsible:
-                        collapsed: true
-                        summary: "{name}"
-                    fields:
-                      - name: name
-                        label: 名称
-                        type: string
-                        required: true
-                      - name: desc
-                        label: 描述
-                        type: text
-                      - name: color
-                        label: 卡片颜色
-                        type: string
-                      - name: gradient
-                        label: 使用渐变
-                        type: boolean
-                        default: false
-                      - name: url
-                        label: 在线地址
-                        type: string
-                      - name: github
-                        label: GitHub 地址
-                        type: string
-                      - name: emoji
-                        label: 图标
-                        type: string
-                      - name: textColor
-                        label: 文字颜色
-                        type: string
 
       - name: bangumi
         label: 追番页面
@@ -665,6 +543,127 @@ content:
               media: post-images
               rename: safe
 
+      - name: lanqiao-collection
+        label: 蓝桥合集配置
+        description: 编辑 pages/collections/lanqiao/index.ts 中的合集条目。
+        type: file
+        path: pages/collections/lanqiao/index.ts
+        format: code
+
+  - name: system-pages
+    label: 系统页面
+    description: 归档、分类、标签和 404 页面的布局与开关。
+    type: group
+    items:
+      - name: archives-page
+        label: 归档页
+        type: file
+        path: pages/archives/index.md
+        format: yaml-frontmatter
+        fields:
+          - name: layout
+            label: 布局
+            type: string
+            default: archives
+          - name: nav
+            label: 显示导航
+            type: boolean
+            default: false
+          - name: comment
+            label: 启用评论
+            type: boolean
+            default: false
+          - name: aside
+            label: 显示侧栏
+            type: boolean
+            default: false
+
+      - name: categories-page
+        label: 分类页
+        type: file
+        path: pages/categories/index.md
+        format: yaml-frontmatter
+        fields:
+          - name: title
+            label: 标题
+            type: object
+            fields:
+              - name: zh-CN
+                label: 中文
+                type: string
+              - name: en
+                label: 英文
+                type: string
+          - name: layout
+            label: 布局
+            type: string
+            default: categories
+          - name: icon
+            label: 图标
+            type: string
+          - name: nav
+            label: 显示导航
+            type: boolean
+            default: false
+          - name: toc
+            label: 显示目录
+            type: boolean
+            default: false
+          - name: comment
+            label: 启用评论
+            type: boolean
+            default: false
+          - name: aside
+            label: 显示侧栏
+            type: boolean
+            default: false
+
+      - name: tags-page
+        label: 标签页
+        type: file
+        path: pages/tags/index.md
+        format: yaml-frontmatter
+        fields:
+          - name: title
+            label: 标题
+            type: object
+            fields:
+              - name: zh-CN
+                label: 中文
+                type: string
+              - name: en
+                label: 英文
+                type: string
+          - name: layout
+            label: 布局
+            type: string
+            default: tags
+          - name: icon
+            label: 图标
+            type: string
+          - name: nav
+            label: 显示导航
+            type: boolean
+            default: false
+          - name: toc
+            label: 显示目录
+            type: boolean
+            default: false
+          - name: comment
+            label: 启用评论
+            type: boolean
+            default: false
+          - name: aside
+            label: 显示侧栏
+            type: boolean
+            default: false
+
+      - name: page-404
+        label: 404 页面
+        type: file
+        path: pages/404.md
+        format: code
+
   - name: friends
     label: 友人帐
     type: group
@@ -711,18 +710,449 @@ content:
     label: 站点配置
     type: group
     items:
+      - name: site-settings
+        label: 站点设置（表单）
+        description: 编辑 data/site.json 中的站点信息、作者、社交链接和功能开关。
+        type: file
+        path: data/site.json
+        format: json
+        fields:
+          - name: url
+            label: 站点 URL
+            type: string
+            required: true
+          - name: lang
+            label: 默认语言
+            type: string
+            required: true
+          - name: languages
+            label: 支持语言
+            type: string
+            list: true
+          - name: subtitle
+            label: 副标题
+            type: string
+          - name: favicon
+            label: 站点图标 URL
+            type: string
+          - name: timezone
+            label: 时区
+            type: string
+            description: 例如 Asia/Shanghai。
+          - name: author
+            label: 作者信息
+            type: object
+            fields:
+              - name: name
+                label: 名称
+                type: string
+              - name: avatar
+                label: 头像 URL
+                type: string
+              - name: status
+                label: 在线状态
+                type: object
+                fields:
+                  - name: emoji
+                    label: Emoji
+                    type: string
+                  - name: message
+                    label: 状态文字
+                    type: string
+              - name: intro
+                label: 简介
+                type: text
+          - name: encrypt
+            label: 内容加密
+            type: object
+            fields:
+              - name: enable
+                label: 启用
+                type: boolean
+                default: false
+          - name: frontmatter
+            label: 默认文章字段
+            type: object
+            fields:
+              - name: time_warning
+                label: 更新时间警告
+                type: boolean
+                default: false
+          - name: statistics
+            label: 阅读统计
+            type: object
+            fields:
+              - name: enable
+                label: 启用
+                type: boolean
+                default: true
+              - name: readTime
+                label: 阅读时间
+                type: object
+                fields:
+                  - name: speed
+                    label: 阅读速度
+                    type: object
+                    fields:
+                      - name: cn
+                        label: 中文（字/分钟）
+                        type: number
+                      - name: en
+                        label: 英文（词/分钟）
+                        type: number
+          - name: search
+            label: 站内搜索
+            type: object
+            fields:
+              - name: enable
+                label: 启用
+                type: boolean
+                default: true
+              - name: provider
+                label: 搜索方式
+                type: select
+                options:
+                  values:
+                    - name: fuse
+                      label: 本地 Fuse 搜索
+                    - name: local
+                      label: 本地 MiniSearch
+                    - name: algolia
+                      label: Algolia
+                    - name: engine
+                      label: 外部搜索引擎
+          - name: comment
+            label: 评论区
+            type: object
+            fields:
+              - name: enable
+                label: 启用
+                type: boolean
+                default: true
+          - name: lastUpdated
+            label: 显示最后更新时间
+            type: boolean
+            default: true
+          - name: orderBy
+            label: 文章排序
+            type: select
+            options:
+              values:
+                - name: date
+                  label: 发布日期
+                - name: updated
+                  label: 更新时间
+          - name: excerpt
+            label: 自动摘要
+            type: object
+            fields:
+              - name: auto
+                label: 自动生成
+                type: boolean
+                default: true
+              - name: length
+                label: 摘要长度
+                type: number
+          - name: social
+            label: 社交链接
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{name}"
+            fields:
+              - name: name
+                label: 名称
+                type: string
+                required: true
+              - name: link
+                label: 链接
+                type: string
+                required: true
+              - name: icon
+                label: 图标
+                type: string
+              - name: color
+                label: 颜色
+                type: string
+          - name: sponsor
+            label: 赞助
+            type: object
+            fields:
+              - name: enable
+                label: 启用
+                type: boolean
+                default: true
+              - name: title
+                label: 标题
+                type: string
+              - name: description
+                label: 描述
+                type: text
+              - name: methods
+                label: 赞助方式
+                type: object
+                list:
+                  collapsible:
+                    collapsed: true
+                    summary: "{name}"
+                fields:
+                  - name: name
+                    label: 名称
+                    type: string
+                    required: true
+                  - name: url
+                    label: 二维码或链接
+                    type: string
+                    required: true
+                  - name: color
+                    label: 颜色
+                    type: string
+                  - name: icon
+                    label: 图标
+                    type: string
+          - name: pageSize
+            label: 每页文章数
+            type: number
+          - name: mediumZoom
+            label: 图片缩放
+            type: object
+            fields:
+              - name: enable
+                label: 启用
+                type: boolean
+                default: true
+          - name: vanillaLazyload
+            label: 图片懒加载
+            type: object
+            fields:
+              - name: enable
+                label: 启用
+                type: boolean
+                default: true
+          - name: codeHeightLimit
+            label: 代码块最大高度
+            type: number
+
+      - name: theme-settings
+        label: 主题设置（表单）
+        description: 编辑 data/theme.json 中的导航、背景、页面卡片、页脚和主题效果。
+        type: file
+        path: data/theme.json
+        format: json
+        fields:
+          - name: banner
+            label: 首页横幅
+            type: object
+            fields:
+              - name: enable
+                label: 启用
+                type: boolean
+                default: true
+              - name: title
+                label: 标题
+                type: string
+              - name: cloud
+                label: 云层动画
+                type: object
+                fields:
+                  - name: enable
+                    label: 启用
+                    type: boolean
+                    default: true
+              - name: duration
+                label: 动画时长
+                type: number
+          - name: outlineTitle
+            label: 文章目录标题
+            type: string
+          - name: nav
+            label: 顶部导航
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{text}"
+            fields:
+              - name: text
+                label: 文字
+                type: string
+                required: true
+              - name: link
+                label: 链接
+                type: string
+                required: true
+              - name: icon
+                label: 图标
+                type: string
+          - name: bg_image
+            label: 背景图片
+            type: object
+            fields:
+              - name: enable
+                label: 启用
+                type: boolean
+                default: true
+              - name: url
+                label: 浅色背景 URL
+                type: string
+              - name: dark
+                label: 深色背景 URL
+                type: string
+              - name: opacity
+                label: 透明度
+                type: number
+          - name: pages
+            label: 首页快捷页面
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{nameKey}"
+            fields:
+              - name: nameKey
+                label: 文案键
+                type: select
+                options:
+                  values:
+                    - name: pages.categories
+                      label: 分类
+                    - name: pages.tags
+                      label: 标签
+                    - name: pages.links
+                      label: 友人帐
+                    - name: pages.projects
+                      label: 小项目
+              - name: url
+                label: 链接
+                type: string
+                required: true
+              - name: icon
+                label: 图标
+                type: string
+              - name: color
+                label: 颜色
+                type: string
+          - name: types
+            label: 文章类型标记
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{id}"
+            fields:
+              - name: id
+                label: 类型 ID
+                type: string
+                required: true
+              - name: color
+                label: 颜色
+                type: string
+              - name: icon
+                label: 图标
+                type: string
+          - name: footer
+            label: 页脚
+            type: object
+            fields:
+              - name: since
+                label: 起始年份
+                type: number
+              - name: beian
+                label: 备案
+                type: object
+                fields:
+                  - name: enable
+                    label: 启用
+                    type: boolean
+                    default: false
+                  - name: icp
+                    label: ICP 备案号
+                    type: string
+              - name: cloud
+                label: 云层
+                type: object
+                fields:
+                  - name: enable
+                    label: 启用
+                    type: boolean
+                    default: true
+          - name: notice
+            label: 公告横幅
+            type: object
+            fields:
+              - name: enable
+                label: 启用
+                type: boolean
+                default: false
+              - name: hideInPages
+                label: 内容页隐藏
+                type: boolean
+                default: true
+              - name: content
+                label: 内容
+                type: text
+          - name: say
+            label: 首页一言
+            type: object
+            fields:
+              - name: enable
+                label: 启用
+                type: boolean
+                default: true
+              - name: api
+                label: API 地址
+                type: string
+              - name: hitokoto
+                label: 一言设置
+                type: object
+                fields:
+                  - name: enable
+                    label: 启用
+                    type: boolean
+                    default: false
+                  - name: api
+                    label: API 地址
+                    type: string
+          - name: colors
+            label: 主题颜色
+            type: object
+            fields:
+              - name: primary
+                label: 主色
+                type: string
+          - name: fireworks
+            label: 烟花效果
+            type: object
+            fields:
+              - name: enable
+                label: 启用
+                type: boolean
+                default: true
+              - name: colors
+                label: 烟花颜色
+                type: string
+                list: true
+
       - name: site-config
         label: 站点信息
-        description: 编辑 site.config.ts，修改站点标题、作者、社交链接等。
+        description: 高级：直接编辑 site.config.ts。
         type: file
         path: site.config.ts
         format: code
 
       - name: valaxy-config
         label: 主题与插件
-        description: 编辑 valaxy.config.ts，修改导航、主题、插件和功能开关。
+        description: 高级：直接编辑 valaxy.config.ts、插件和构建配置。
         type: file
         path: valaxy.config.ts
+        format: code
+
+      - name: post-scaffold
+        label: 新文章模板
+        description: 编辑 scaffolds/post.md 中的本地新建文章模板。
+        type: file
+        path: scaffolds/post.md
         format: code
 
   - name: appearance

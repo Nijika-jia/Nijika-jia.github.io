@@ -9,7 +9,7 @@ aside: false
 layout: projects
 
 projects:
-  game:
+  - id: game
     title: "无聊做的小游戏"
     emoji: ""
     collection:
@@ -37,7 +37,8 @@ projects:
         url: "https://nijika-jia.github.io/Projects/Games/pacman/"
         emoji: "i-ri:game-fill"
         github: "Nijika-jia/Projects/tree/gh-pages/Games/pacman"
-  tools:
+
+  - id: tools
     title: "可食用的工具库"
     emoji: ""
     collection:
@@ -79,7 +80,7 @@ projects:
         github: "Nijika-jia/YuKeTang-Fisher-Helper"
         gradient: false
 
-  plugins:
+  - id: plugins
     title: "VsCode plugins"
     emoji: ""
     collection:
@@ -99,7 +100,8 @@ projects:
         emoji: "i-ri:markdown-fill"
         url: "https://marketplace.visualstudio.com/items?itemName=Nijikajia.scribbleMD"
         github: "Nijika-jia/scribbleMD"
-  Steam:
+
+  - id: steam
     title: "Steam创意工坊"
     emoji: ""
     collection:
