@@ -1,0 +1,148 @@
+# Pages CMS configuration for Nijikajia.
+# Documentation: https://pagescms.org/docs/
+
+media:
+  - name: post-images
+    label: 文章图片
+    input: public/posts
+    output: /posts
+    rename: safe
+    categories: [image]
+
+settings:
+  content:
+    merge: true
+  commit:
+    templates:
+      create: "content: create {path}"
+      update: "content: update {path}"
+      delete: "content: delete {path}"
+      rename: "content: rename {oldPath} -> {newPath}"
+
+content:
+  - name: posts
+    label: 文章
+    description: 编辑 pages/posts 下的 Markdown 文章和 Frontmatter。
+    type: collection
+    path: pages/posts
+    format: yaml-frontmatter
+    subfolders: true
+    filename: "{primary}.md"
+    view:
+      fields: [title, date, categories, tags, draft]
+      primary: title
+      sort: [date, updated, title]
+      search: [title, categories, tags]
+      default:
+        sort: date
+        order: desc
+    fields:
+      - name: title
+        label: 标题
+        type: string
+        required: true
+      - name: date
+        label: 发布日期
+        type: date
+        required: true
+        options:
+          time: true
+          format: "yyyy-MM-dd HH:mm:ss"
+      - name: updated
+        label: 更新日期
+        type: date
+        options:
+          time: true
+          format: "yyyy-MM-dd HH:mm:ss"
+      - name: categories
+        label: 分类
+        type: string
+      - name: tags
+        label: 标签
+        type: string
+        list: true
+      - name: draft
+        label: 草稿
+        type: boolean
+        default: false
+      - name: layout
+        label: 布局
+        type: string
+        default: post
+      - name: type
+        label: 文章类型
+        type: string
+      - name: top
+        label: 置顶权重
+        type: number
+        default: 0
+      - name: excerpt
+        label: 自定义摘要
+        type: text
+      - name: body
+        label: 正文
+        type: rich-text
+        options:
+          format: markdown
+          media: post-images
+          rename: safe
+
+  - name: friends
+    label: 友人帐
+    type: group
+    items:
+      - name: friend-links
+        label: 友链列表
+        description: 直接维护 public/friends/links.json。
+        type: file
+        path: public/friends/links.json
+        format: json
+        list: true
+        fields:
+          - name: url
+            label: 网址
+            type: string
+            required: true
+          - name: avatar
+            label: 头像 URL
+            type: string
+          - name: name
+            label: 名称
+            type: string
+          - name: blog
+            label: 博客名称
+            type: string
+          - name: desc
+            label: 描述
+            type: text
+          - name: color
+            label: 主题色
+            type: string
+          - name: email
+            label: 邮箱
+            type: string
+
+      - name: friend-page
+        label: 友人帐页面
+        description: 编辑友人帐页面文字、Frontmatter 和留言说明。
+        type: file
+        path: pages/links/index.md
+        format: code
+
+  - name: configuration
+    label: 站点配置
+    type: group
+    items:
+      - name: site-config
+        label: 站点信息
+        description: 编辑 site.config.ts，修改站点标题、作者、社交链接等。
+        type: file
+        path: site.config.ts
+        format: code
+
+      - name: valaxy-config
+        label: 主题与插件
+        description: 编辑 valaxy.config.ts，修改导航、主题、插件和功能开关。
+        type: file
+        path: valaxy.config.ts
+        format: code
