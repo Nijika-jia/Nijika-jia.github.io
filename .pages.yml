@@ -982,6 +982,13 @@ content:
             label: 时区
             type: string
             description: 例如 Asia/Shanghai。
+          - name: startedAt
+            label: 站点启动时间
+            description: 页脚运行时长从这个时间开始按秒计算。
+            type: date
+            options:
+              time: true
+              format: "yyyy-MM-dd HH:mm:ss"
           - name: author
             label: 作者信息
             type: object

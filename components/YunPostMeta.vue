@@ -13,8 +13,8 @@ const isPost = useLayout('post')
 
 <template>
   <YunPostMeta :frontmatter="frontmatter">
-    <span v-if="isPost" id="busuanzi_container_page_pv">
-      本文总阅读量 <span id="busuanzi_value_page_pv" /> 次
+    <span v-if="isPost">
+      本文总阅读量 <span id="waline-pageview-count" class="waline-pageview-count">{{ '…' }}</span> 次
     </span>
   </YunPostMeta>
 </template>

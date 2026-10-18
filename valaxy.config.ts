@@ -81,7 +81,7 @@ export default defineValaxyConfig<UserThemeConfig>({
         placeholder: "填写qq邮箱或点击登录，可以展示个人头像",
       },
       comment: true,
-      pageview: true,
+      pageview: '#waline-pageview-count',
       search : true,
       reaction : [
 
