@@ -122,6 +122,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/collections/internship/': RouteRecordInfo<
+      '/collections/internship/',
+      '/collections/internship',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/collections/lanqiao/': RouteRecordInfo<
       '/collections/lanqiao/',
       '/collections/lanqiao',
@@ -304,6 +311,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/成都小厂实习的第四周': RouteRecordInfo<
+      '/posts/成都小厂实习的第四周',
+      '/posts/%E6%88%90%E9%83%BD%E5%B0%8F%E5%8E%82%E5%AE%9E%E4%B9%A0%E7%9A%84%E7%AC%AC%E5%9B%9B%E5%91%A8',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/成都小厂实习第一周': RouteRecordInfo<
       '/posts/成都小厂实习第一周',
       '/posts/%E6%88%90%E9%83%BD%E5%B0%8F%E5%8E%82%E5%AE%9E%E4%B9%A0%E7%AC%AC%E4%B8%80%E5%91%A8',
@@ -401,7 +415,7 @@ declare module 'vue-router/auto-routes' {
    * @internal
    */
   export interface _RouteFileInfoMap {
-    'node_modules/.pnpm/valaxy-theme-yun@0.28.11_magicast@0.5.3_vue@3.5.38_typescript@5.9.3_/node_modules/valaxy-theme-yun/pages/index.vue': {
+    'node_modules/.pnpm/valaxy-theme-yun@1.1.0_byihatqmd2fvl6rfz3x77uhjz4/node_modules/valaxy-theme-yun/pages/index.vue': {
       routes:
         | '/'
       views:
@@ -409,7 +423,7 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
-    'node_modules/.pnpm/valaxy@0.28.11_@babel+parser@7.29.7_@nuxt+kit@3.21.8_magicast@0.5.3__@types+markdown-it@14.1._rvideu56nahko2r6zzcuu27lku/node_modules/valaxy/client/pages/[...path].vue': {
+    'node_modules/.pnpm/valaxy@1.1.0_patch_hash=v72qktkdyfj7ssfxvaa6qkry3y_@devframes+agentic@1.2.0_crossws@0.4.15_sr_ru7vtmsivh5kzunm6hafiswqhi/node_modules/valaxy/client/pages/[...path].vue': {
       routes:
         | '/[...path]'
       views:
@@ -500,6 +514,14 @@ declare module 'vue-router/auto-routes' {
     'pages/collections/index.md': {
       routes:
         | '/collections/'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/collections/internship/index.md': {
+      routes:
+        | '/collections/internship/'
       views:
         | never
       pathParamNames:
@@ -633,7 +655,7 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
-    'node_modules/.pnpm/valaxy-theme-yun@0.28.11_magicast@0.5.3_vue@3.5.38_typescript@5.9.3_/node_modules/valaxy-theme-yun/pages/page/[page].vue': {
+    'node_modules/.pnpm/valaxy-theme-yun@1.1.0_byihatqmd2fvl6rfz3x77uhjz4/node_modules/valaxy-theme-yun/pages/page/[page].vue': {
       routes:
         | '/page/[page]'
       views:
@@ -641,7 +663,7 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | 'page'
     }
-    'node_modules/.pnpm/valaxy-theme-yun@0.28.11_magicast@0.5.3_vue@3.5.38_typescript@5.9.3_/node_modules/valaxy-theme-yun/pages/posts/index.vue': {
+    'node_modules/.pnpm/valaxy-theme-yun@1.1.0_byihatqmd2fvl6rfz3x77uhjz4/node_modules/valaxy-theme-yun/pages/posts/index.vue': {
       routes:
         | '/posts/'
       views:
@@ -708,6 +730,14 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/成都小厂实习的第三周.md': {
       routes:
         | '/posts/成都小厂实习的第三周'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/成都小厂实习的第四周.md': {
+      routes:
+        | '/posts/成都小厂实习的第四周'
       views:
         | never
       pathParamNames:
