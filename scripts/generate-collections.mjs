@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
+import YAML from 'yaml'
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const dataFile = process.env.COLLECTIONS_DATA_FILE
@@ -43,6 +44,81 @@ async function writeIfChanged(file, content) {
   await fs.writeFile(file, content)
 }
 
+function normalizeRepoPath(value) {
+  return String(value ?? '').trim().replace(/\\/g, '/').replace(/^\.?\//, '')
+}
+
+function referencePaths(value) {
+  if (Array.isArray(value))
+    return value.map(normalizeRepoPath).filter(Boolean)
+  const normalized = normalizeRepoPath(value)
+  return normalized ? [normalized] : []
+}
+
+async function readMarkdownTitle(file, fallback) {
+  const content = await fs.readFile(file, 'utf8')
+  const frontmatter = content.match(/^---\r?\n([\s\S]*?)\r?\n---/)
+  if (!frontmatter)
+    return fallback
+
+  try {
+    const data = YAML.parse(frontmatter[1]) ?? {}
+    const title = data.title
+    if (typeof title === 'string' && title.trim())
+      return title.trim()
+    if (title && typeof title === 'object') {
+      const localized = title['zh-CN'] ?? title.zh ?? title.en
+      if (typeof localized === 'string' && localized.trim())
+        return localized.trim()
+    }
+  }
+  catch {
+    // A malformed title should not stop the whole collection from being generated.
+  }
+
+  return fallback
+}
+
+function markdownLink(file) {
+  const route = `/${file.replace(/^pages\//, '').replace(/\.md$/i, '').replace(/\/index$/, '')}`
+  return route || '/'
+}
+
+async function resolveReferencedItems(collection, collectionKey) {
+  const blogPosts = referencePaths(collection.posts)
+  const collectionArticles = referencePaths(collection.collectionArticles)
+  const items = []
+
+  for (const file of blogPosts) {
+    if (!file.startsWith('pages/posts/'))
+      throw new Error(`Collection "${collectionKey}" post must be under pages/posts: ${file}`)
+    if (!await exists(file))
+      throw new Error(`Collection "${collectionKey}" post does not exist: ${file}`)
+
+    const fallback = path.basename(file, path.extname(file))
+    items.push({
+      title: await readMarkdownTitle(file, fallback),
+      link: markdownLink(file),
+    })
+  }
+
+  const collectionPrefix = `pages/collections/${collectionKey}/`
+  for (const file of collectionArticles) {
+    if (!file.startsWith(collectionPrefix) || file === `${collectionPrefix}index.md`)
+      throw new Error(`Collection "${collectionKey}" article must be under ${collectionPrefix}: ${file}`)
+    if (!await exists(file))
+      throw new Error(`Collection "${collectionKey}" article does not exist: ${file}`)
+
+    const key = path.basename(file, path.extname(file))
+    items.push({
+      title: await readMarkdownTitle(file, key),
+      key,
+    })
+  }
+
+  return items
+}
+
 for (const collection of collections) {
   const key = String(collection.key ?? '').trim()
   if (!/^[a-z0-9][a-z0-9-]*$/.test(key))
@@ -51,8 +127,11 @@ for (const collection of collections) {
     throw new Error(`Duplicate collection key: ${key}`)
   keys.add(key)
 
-  const items = Array.isArray(collection.items) ? collection.items : []
+  const legacyItems = Array.isArray(collection.items) ? collection.items : []
+  const referencedItems = await resolveReferencedItems(collection, key)
+  const items = [...referencedItems, ...legacyItems]
   const itemKeys = new Set()
+  const itemLinks = new Set()
 
   for (const item of items) {
     const itemKey = item.key == null ? '' : String(item.key).trim()
@@ -64,8 +143,12 @@ for (const collection of collections) {
       throw new Error(`Collection "${key}" item must define key or link`)
     if (itemKey && itemKeys.has(itemKey))
       throw new Error(`Collection "${key}" has duplicate item key: ${itemKey}`)
+    if (link && itemLinks.has(link))
+      throw new Error(`Collection "${key}" has duplicate item link: ${link}`)
     if (itemKey)
       itemKeys.add(itemKey)
+    if (link)
+      itemLinks.add(link)
   }
 
   const collectionDir = path.join(collectionsRoot, key)

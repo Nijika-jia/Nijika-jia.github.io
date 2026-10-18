@@ -649,8 +649,8 @@ content:
     type: group
     items:
       - name: collection-settings
-        label: 合集定义（表单）
-        description: 保存后会生成合集的 index.ts、index.md、文章占位文件和合集入口。
+        label: 合集管理（表单）
+        description: 选择已有文章组成合集；保存后自动生成合集配置和入口。
         type: file
         path: data/collections.json
         format: json
@@ -712,30 +712,30 @@ content:
                 label: 在文章列表折叠展示
                 type: boolean
                 default: true
-              - name: items
-                label: 合集文章
-                description: key 与 link 二选一；key 对应同目录下的 Markdown 文件名。
-                type: object
-                list:
-                  collapsible:
-                    collapsed: true
-                    summary: "{title}"
-                fields:
-                  - name: title
-                    label: 文章标题
-                    type: string
-                    required: true
-                  - name: key
-                    label: 文章 key
-                    description: 例如 1、day-1；留空时填写 link。
-                    type: string
-                  - name: link
-                    label: 链接
-                    description: 内部链接以 / 开头，外部链接以 https:// 开头。
-                    type: string
+              - name: posts
+                label: 引用博客文章
+                description: 从「文章」中多选；标题、链接和顺序会自动写入合集。
+                type: reference
+                options:
+                  collection: posts
+                  multiple: true
+                  value: "{path}"
+                  label: "{primary}"
+                  search: "title,fields.categories,fields.tags"
+              - name: collectionArticles
+                label: 合集专属文章
+                description: 从「合集文章」中多选当前合集目录下的 Markdown；普通博客文章请用上一项。
+                type: reference
+                options:
+                  collection: collection-posts
+                  multiple: true
+                  value: "{path}"
+                  label: "{primary}"
+                  search: "title,fields.categories,fields.tags"
 
       - name: collection-posts
-        label: 合集文章
+        label: 合集文章正文
+        description: 编辑 pages/collections 下的合集专属 Markdown。引用普通博客文章时不需要在这里操作，直接去「文章」编辑原文。
         type: collection
         path: pages/collections
         format: yaml-frontmatter
