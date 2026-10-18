@@ -9,6 +9,20 @@ media:
     rename: safe
     categories: [image]
 
+  - name: album-images
+    label: 相册图片
+    input: public/albums
+    output: /albums
+    rename: safe
+    categories: [image]
+
+  - name: site-assets
+    label: 站点静态图片
+    input: public
+    output: /
+    rename: safe
+    categories: [image]
+
 settings:
   content:
     merge: true
@@ -87,6 +101,570 @@ content:
           media: post-images
           rename: safe
 
+  - name: pages
+    label: 独立页面
+    description: 关于、项目、追番和我の推等固定页面。
+    type: group
+    items:
+      - name: about
+        label: 关于我
+        type: file
+        path: pages/about/index.md
+        format: yaml-frontmatter
+        fields:
+          - name: title
+            label: 标题
+            type: object
+            fields:
+              - name: zh-CN
+                label: 中文
+                type: string
+              - name: en
+                label: 英文
+                type: string
+          - name: layout
+            label: 布局
+            type: string
+            default: post
+          - name: tags
+            label: 标签
+            type: string
+            list: true
+          - name: copyright
+            label: 显示版权
+            type: boolean
+            default: false
+          - name: body
+            label: 正文
+            type: rich-text
+            options:
+              format: markdown
+              media: post-images
+              rename: safe
+
+      - name: about-site
+        label: 关于站点
+        type: file
+        path: pages/about/site.md
+        format: yaml-frontmatter
+        fields:
+          - name: title
+            label: 标题
+            type: object
+            fields:
+              - name: zh-CN
+                label: 中文
+                type: string
+              - name: en
+                label: 英文
+                type: string
+          - name: body
+            label: 正文
+            type: rich-text
+            options:
+              format: markdown
+              media: post-images
+
+      - name: projects
+        label: 小项目
+        description: 编辑项目分类和项目卡片。
+        type: file
+        path: pages/projects/index.md
+        format: yaml-frontmatter
+        fields:
+          - name: title
+            label: 标题
+            type: object
+            fields:
+              - name: zh-CN
+                label: 中文
+                type: string
+              - name: en
+                label: 英文
+                type: string
+          - name: color
+            label: 主题色
+            type: string
+          - name: nav
+            label: 显示导航
+            type: boolean
+            default: false
+          - name: comment
+            label: 启用评论
+            type: boolean
+            default: false
+          - name: aside
+            label: 显示侧栏
+            type: boolean
+            default: false
+          - name: layout
+            label: 布局
+            type: string
+            default: projects
+          - name: projects
+            label: 项目分类
+            type: object
+            fields:
+              - name: game
+                label: 游戏
+                type: object
+                fields:
+                  - name: title
+                    label: 分类标题
+                    type: string
+                  - name: emoji
+                    label: Emoji
+                    type: string
+                  - name: collection
+                    label: 项目列表
+                    type: object
+                    list:
+                      collapsible:
+                        collapsed: true
+                        summary: "{name}"
+                    fields:
+                      - name: name
+                        label: 名称
+                        type: string
+                        required: true
+                      - name: desc
+                        label: 描述
+                        type: text
+                      - name: color
+                        label: 卡片颜色
+                        type: string
+                      - name: gradient
+                        label: 使用渐变
+                        type: boolean
+                        default: false
+                      - name: url
+                        label: 在线地址
+                        type: string
+                      - name: github
+                        label: GitHub 地址
+                        type: string
+                      - name: emoji
+                        label: 图标
+                        type: string
+                      - name: textColor
+                        label: 文字颜色
+                        type: string
+              - name: tools
+                label: 工具
+                type: object
+                fields:
+                  - name: title
+                    label: 分类标题
+                    type: string
+                  - name: emoji
+                    label: Emoji
+                    type: string
+                  - name: collection
+                    label: 项目列表
+                    type: object
+                    list:
+                      collapsible:
+                        collapsed: true
+                        summary: "{name}"
+                    fields:
+                      - name: name
+                        label: 名称
+                        type: string
+                        required: true
+                      - name: desc
+                        label: 描述
+                        type: text
+                      - name: color
+                        label: 卡片颜色
+                        type: string
+                      - name: gradient
+                        label: 使用渐变
+                        type: boolean
+                        default: false
+                      - name: url
+                        label: 在线地址
+                        type: string
+                      - name: github
+                        label: GitHub 地址
+                        type: string
+                      - name: emoji
+                        label: 图标
+                        type: string
+                      - name: textColor
+                        label: 文字颜色
+                        type: string
+              - name: plugins
+                label: VS Code 插件
+                type: object
+                fields:
+                  - name: title
+                    label: 分类标题
+                    type: string
+                  - name: emoji
+                    label: Emoji
+                    type: string
+                  - name: collection
+                    label: 项目列表
+                    type: object
+                    list:
+                      collapsible:
+                        collapsed: true
+                        summary: "{name}"
+                    fields:
+                      - name: name
+                        label: 名称
+                        type: string
+                        required: true
+                      - name: desc
+                        label: 描述
+                        type: text
+                      - name: color
+                        label: 卡片颜色
+                        type: string
+                      - name: gradient
+                        label: 使用渐变
+                        type: boolean
+                        default: false
+                      - name: url
+                        label: 在线地址
+                        type: string
+                      - name: github
+                        label: GitHub 地址
+                        type: string
+                      - name: emoji
+                        label: 图标
+                        type: string
+                      - name: textColor
+                        label: 文字颜色
+                        type: string
+              - name: Steam
+                label: Steam 创意工坊
+                type: object
+                fields:
+                  - name: title
+                    label: 分类标题
+                    type: string
+                  - name: emoji
+                    label: Emoji
+                    type: string
+                  - name: collection
+                    label: 项目列表
+                    type: object
+                    list:
+                      collapsible:
+                        collapsed: true
+                        summary: "{name}"
+                    fields:
+                      - name: name
+                        label: 名称
+                        type: string
+                        required: true
+                      - name: desc
+                        label: 描述
+                        type: text
+                      - name: color
+                        label: 卡片颜色
+                        type: string
+                      - name: gradient
+                        label: 使用渐变
+                        type: boolean
+                        default: false
+                      - name: url
+                        label: 在线地址
+                        type: string
+                      - name: github
+                        label: GitHub 地址
+                        type: string
+                      - name: emoji
+                        label: 图标
+                        type: string
+                      - name: textColor
+                        label: 文字颜色
+                        type: string
+
+      - name: bangumi
+        label: 追番页面
+        type: file
+        path: pages/bangumi/index.md
+        format: yaml-frontmatter
+        fields:
+          - name: title
+            label: 标题
+            type: object
+            fields:
+              - name: zh-CN
+                label: 中文
+                type: string
+              - name: en
+                label: 英文
+                type: string
+          - name: keywords
+            label: 关键词
+            type: string
+          - name: description
+            label: 页面描述
+            type: text
+          - name: aside
+            label: 显示侧栏
+            type: boolean
+            default: false
+          - name: body
+            label: 正文
+            type: rich-text
+            options:
+              format: markdown
+              media: post-images
+
+      - name: girls
+        label: 我の推
+        type: file
+        path: pages/girls/index.md
+        format: yaml-frontmatter
+        fields:
+          - name: title
+            label: 标题
+            type: string
+            required: true
+          - name: color
+            label: 主题色
+            type: string
+          - name: nav
+            label: 显示导航
+            type: boolean
+            default: false
+          - name: toc
+            label: 显示目录
+            type: boolean
+            default: false
+          - name: comment
+            label: 启用评论
+            type: boolean
+            default: true
+          - name: aside
+            label: 显示侧栏
+            type: boolean
+            default: false
+          - name: body
+            label: 正文
+            type: rich-text
+            options:
+              format: markdown
+              media: post-images
+
+  - name: albums
+    label: 相册
+    description: 维护相册首页和各图集。
+    type: group
+    items:
+      - name: albums-index
+        label: 相册首页
+        type: file
+        path: pages/ablums/index.md
+        format: yaml-frontmatter
+        fields:
+          - name: title
+            label: 标题
+            type: object
+            fields:
+              - name: zh-CN
+                label: 中文
+                type: string
+              - name: en
+                label: 英文
+                type: string
+          - name: nav
+            label: 显示导航
+            type: boolean
+            default: false
+          - name: comment
+            label: 启用评论
+            type: boolean
+            default: false
+          - name: aside
+            label: 显示侧栏
+            type: boolean
+            default: false
+          - name: layout
+            label: 布局
+            type: string
+            default: albums
+          - name: albums
+            label: 相册列表
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{caption}"
+            fields:
+              - name: url
+                label: 页面地址
+                type: string
+                required: true
+              - name: cover
+                label: 封面
+                type: image
+                options:
+                  media: album-images
+              - name: caption
+                label: 标题
+                type: string
+              - name: desc
+                label: 描述
+                type: text
+
+      - name: album-galleries
+        label: 图集页面
+        type: collection
+        path: pages/ablums
+        format: yaml-frontmatter
+        exclude: [index.md]
+        operations:
+          create: false
+          rename: false
+          delete: false
+        view:
+          fields: [title]
+          primary: title
+        fields:
+          - name: title
+            label: 标题
+            type: object
+            fields:
+              - name: zh-CN
+                label: 中文
+                type: string
+              - name: en
+                label: 英文
+                type: string
+          - name: nav
+            label: 显示导航
+            type: boolean
+            default: false
+          - name: comment
+            label: 启用评论
+            type: boolean
+            default: true
+          - name: aside
+            label: 显示侧栏
+            type: boolean
+            default: false
+          - name: medium_zoom
+            label: 图片缩放
+            type: boolean
+            default: true
+          - name: layout
+            label: 布局
+            type: string
+            default: gallery
+          - name: photos
+            label: 照片
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "照片 {index}"
+            fields:
+              - name: src
+                label: 图片
+                type: image
+                required: true
+                options:
+                  media: album-images
+              - name: caption
+                label: 标题
+                type: string
+              - name: desc
+                label: 描述
+                type: text
+
+  - name: collections
+    label: 合集
+    description: 维护合集入口和合集内文章。
+    type: group
+    items:
+      - name: collections-index
+        label: 合集入口
+        type: file
+        path: pages/collections/index.md
+        format: yaml-frontmatter
+        fields:
+          - name: title
+            label: 标题
+            type: object
+            fields:
+              - name: zh-CN
+                label: 中文
+                type: string
+              - name: en
+                label: 英文
+                type: string
+          - name: layout
+            label: 布局
+            type: string
+            default: collections
+          - name: icon
+            label: 图标
+            type: string
+          - name: collections
+            label: 合集 ID
+            type: string
+            list: true
+
+      - name: collection-posts
+        label: 合集文章
+        type: collection
+        path: pages/collections
+        format: yaml-frontmatter
+        subfolders: true
+        exclude: [index.md]
+        view:
+          layout: tree
+          fields: [title, date, tags, draft]
+          primary: title
+          sort: [date, title]
+          search: [title, tags, categories]
+          default:
+            sort: date
+            order: desc
+        fields:
+          - name: title
+            label: 标题
+            type: string
+            required: true
+          - name: layout
+            label: 布局
+            type: string
+            default: post
+          - name: cover
+            label: 封面图
+            type: image
+            options:
+              media: post-images
+          - name: date
+            label: 发布日期
+            type: date
+            options:
+              time: true
+              format: "yyyy-MM-dd HH:mm:ss"
+          - name: tags
+            label: 标签
+            type: string
+            list: true
+          - name: categories
+            label: 分类
+            type: string
+          - name: draft
+            label: 草稿
+            type: boolean
+            default: false
+          - name: body
+            label: 正文
+            type: rich-text
+            options:
+              format: markdown
+              media: post-images
+              rename: safe
+
   - name: friends
     label: 友人帐
     type: group
@@ -145,4 +723,32 @@ content:
         description: 编辑 valaxy.config.ts，修改导航、主题、插件和功能开关。
         type: file
         path: valaxy.config.ts
+        format: code
+
+  - name: appearance
+    label: 文案与样式
+    type: group
+    items:
+      - name: locale-zh
+        label: 中文文案
+        type: file
+        path: locales/zh-CN.yml
+        format: code
+
+      - name: locale-en
+        label: 英文文案
+        type: file
+        path: locales/en.yml
+        format: code
+
+      - name: style-index
+        label: 自定义样式
+        type: file
+        path: styles/index.scss
+        format: code
+
+      - name: style-vars
+        label: 样式变量
+        type: file
+        path: styles/css-vars.scss
         format: code
