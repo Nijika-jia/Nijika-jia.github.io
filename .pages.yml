@@ -671,6 +671,7 @@ content:
                     type: string
               - name: icon
                 label: 图标
+                description: 'Remix Icon 图标名，格式为 i-ri-名称，例如 i-ri-qq-line。可在 https://icones.js.org/collection/ri 搜索后填写。'
                 type: string
           - name: collections
             label: 合集列表
@@ -847,6 +848,7 @@ content:
             default: categories
           - name: icon
             label: 图标
+            description: 'Remix Icon 图标名，格式为 i-ri-名称，例如 i-ri-qq-line。可在 https://icones.js.org/collection/ri 搜索后填写。'
             type: string
           - name: nav
             label: 显示导航
@@ -887,6 +889,7 @@ content:
             default: tags
           - name: icon
             label: 图标
+            description: 'Remix Icon 图标名，格式为 i-ri-名称，例如 i-ri-qq-line。可在 https://icones.js.org/collection/ri 搜索后填写。'
             type: string
           - name: nav
             label: 显示导航
@@ -1127,6 +1130,7 @@ content:
                 required: true
               - name: icon
                 label: 图标
+                description: 'Remix Icon 图标名，格式为 i-ri-名称，例如 i-ri-qq-line。可在 https://icones.js.org/collection/ri 搜索后填写。'
                 type: string
               - name: color
                 label: 颜色
@@ -1166,6 +1170,7 @@ content:
                     component: color
                   - name: icon
                     label: 图标
+                    description: 'Remix Icon 图标名，格式为 i-ri-名称，例如 i-ri-qq-line。可在 https://icones.js.org/collection/ri 搜索后填写。'
                     type: string
           - name: pageSize
             label: 每页文章数
@@ -1240,6 +1245,7 @@ content:
                 required: true
               - name: icon
                 label: 图标
+                description: 'Remix Icon 图标名，格式为 i-ri-名称，例如 i-ri-qq-line。可在 https://icones.js.org/collection/ri 搜索后填写。'
                 type: string
           - name: bg_image
             label: 背景图片
@@ -1285,6 +1291,7 @@ content:
                 required: true
               - name: icon
                 label: 图标
+                description: 'Remix Icon 图标名，格式为 i-ri-名称，例如 i-ri-qq-line。可在 https://icones.js.org/collection/ri 搜索后填写。'
                 type: string
               - name: color
                 label: 颜色
@@ -1306,6 +1313,7 @@ content:
                 component: color
               - name: icon
                 label: 图标
+                description: 'Remix Icon 图标名，格式为 i-ri-名称，例如 i-ri-qq-line。可在 https://icones.js.org/collection/ri 搜索后填写。'
                 type: string
           - name: footer
             label: 页脚
