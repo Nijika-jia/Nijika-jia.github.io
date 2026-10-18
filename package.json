@@ -9,6 +9,7 @@
     "prebuild": "node scripts/generate-collections.mjs && node scripts/enrich-friend-links.mjs",
     "collections:generate": "node scripts/generate-collections.mjs",
     "friends:enrich": "node scripts/enrich-friend-links.mjs",
+    "stats:update": "node scripts/update-site-stats.mjs",
     "build": "npm run build:ssg",
     "build:spa": "valaxy build",
     "build:ssg": "valaxy build --ssg",

@@ -37,6 +37,8 @@
 
 新增友链时只填 `url` 也可以。GitHub Action 会抓取网页的 `og:site_name`、`<title>` 和 description，自动补全博客名称与描述；抓取失败时使用域名兜底。
 
+站点访问量、访客数和运行时间由 GitHub Action 每 6 小时更新到 `data/site-stats.json`，不依赖浏览器端第三方统计脚本。
+
 新增合集时，在「合集定义」中添加合集和文章条目。每篇文章填写 `key` 或 `link`，二者只能选一个。保存后 GitHub Action 会运行 `npm run collections:generate`，自动生成：
 
 - `pages/collections/<key>/index.ts`
