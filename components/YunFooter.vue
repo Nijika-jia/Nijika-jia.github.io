@@ -1,10 +1,19 @@
 <script lang="ts" setup>
 import { useScriptTag } from '@vueuse/core'
+import { onMounted } from 'vue'
 import YunFooter from 'valaxy-theme-yun/components/YunFooter.vue'
 
-useScriptTag('//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js')
-// 加载动画光标脚本
-useScriptTag('/js/ani-cursor.js')
+const { load: loadBusuanzi } = useScriptTag(
+  'https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js',
+  undefined,
+  { manual: true },
+)
+const { load: loadAniCursor } = useScriptTag('/js/ani-cursor.js', undefined, { manual: true })
+
+onMounted(() => {
+  loadBusuanzi()
+  loadAniCursor()
+})
 </script>
 
 <template>
