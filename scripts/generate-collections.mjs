@@ -81,7 +81,7 @@ async function readMarkdownTitle(file, fallback) {
 
 function markdownLink(file) {
   const route = `/${file.replace(/^pages\//, '').replace(/\.md$/i, '').replace(/\/index$/, '')}`
-  return route || '/'
+  return encodeURI(route || '/')
 }
 
 async function resolveReferencedItems(collection, collectionKey) {
