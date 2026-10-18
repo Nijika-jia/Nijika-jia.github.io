@@ -49,6 +49,8 @@
 
 普通博客文章继续在「文章」里编辑。只有在 `pages/collections/<合集 ID>/` 下的合集专属 Markdown，才需要在「合集文章正文」里维护。引用已有博客文章时，生成脚本会自动从文章 Frontmatter 读取标题并生成链接，不再创建重复的文章副本。
 
+创建合集专属文章时，进入「合集 / 合集文章正文」，展开并进入目标合集目录，点击该目录右侧的加号新建 Markdown。创建后回到「合集 / 合集管理」，在「合集专属文章」中把新文章加入合集。
+
 保存后 Pages CMS 会把改动提交到 GitHub；当前 GitHub Actions 会构建并发布 `main` 分支。
 
 `settings.content.merge` 已开启，因此文章里未出现在表单中的 Frontmatter 字段不会被自动删除。

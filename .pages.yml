@@ -741,8 +741,12 @@ content:
         format: yaml-frontmatter
         subfolders: true
         exclude: [index.md]
+        filename:
+          template: "{primary}.md"
+          field: create
         operations:
-          create: false
+          create: true
+          rename: false
         view:
           layout: tree
           fields: [title, date, tags, draft]
