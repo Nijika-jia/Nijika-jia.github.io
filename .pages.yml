@@ -222,7 +222,9 @@ content:
     path: pages/posts
     format: yaml-frontmatter
     subfolders: true
-    filename: "{primary}.md"
+    filename:
+      template: "{year}-{month}-{day}-{hour}{minute}{second}.md"
+      field: create
     view:
       fields: [title, date, categories, tags, draft]
       primary: title
@@ -742,7 +744,7 @@ content:
         format: yaml-frontmatter
         subfolders: true
         filename:
-          template: "{primary}.md"
+          template: "{year}-{month}-{day}-{hour}{minute}{second}.md"
           field: create
         operations:
           create: true
