@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://nijika-jia.github.io/</id>
+    <title>$locale:site.title</title>
+    <updated>2026-10-19T14:41:06.608Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <author>
+        <name>伊地知佳</name>
+        <email>i@valaxy.site</email>
+        <uri>https://valaxy.site/</uri>
+    </author>
+    <link rel="alternate" href="https://nijika-jia.github.io/"/>
+    <link rel="self" href="https://nijika-jia.github.io/atom.xml"/>
+    <subtitle>$locale:site.description</subtitle>
+    <logo>https://avatars.githubusercontent.com/u/181221850?v=4</logo>
+    <icon>https://nijika-jia.github.io/favicon.svg</icon>
+    <rights>CC BY-NC-SA 4.0 2026 © 伊地知佳</rights>
+    <entry>
+        <title type="html"><![CDATA[静态博客没后台怎么办]]></title>
+        <id>https://nijika-jia.github.io/posts/2026-10-19-223327</id>
+        <link href="https://nijika-jia.github.io/posts/2026-10-19-223327"/>
+        <updated>2026-10-19T14:33:00.000Z</updated>
+        <content type="html"><![CDATA[<h3>找你的agent给你博客配置一下pagescms就行</h3>
+<br/><p>访问 <a href="https://nijika-jia.github.io/posts/2026-10-19-223327" target="_blank">https://nijika-jia.github.io/posts/2026-10-19-223327</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>伊地知佳</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site/</uri>
+        </author>
+        <published>2026-10-19T14:33:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[成都小厂实习的第三周]]></title>
+        <id>https://nijika-jia.github.io/posts/%E6%88%90%E9%83%BD%E5%B0%8F%E5%8E%82%E5%AE%9E%E4%B9%A0%E7%9A%84%E7%AC%AC%E4%B8%89%E5%91%A8</id>
+        <link href="https://nijika-jia.github.io/posts/%E6%88%90%E9%83%BD%E5%B0%8F%E5%8E%82%E5%AE%9E%E4%B9%A0%E7%9A%84%E7%AC%AC%E4%B8%89%E5%91%A8"/>
+        <updated>2026-08-04T14:51:01.000Z</updated>
+        <content type="html"><![CDATA[<h1>成都小厂实习的第三周</h1>
+<blockquote>
+<p><strong>时间</strong>：2026-08-03 ~ 2026-08-07</p>
+</blockquote>
+<blockquote>
+<p><strong>心情</strong>：痛并快乐着，被领导“拷打”的一周</p>
+</blockquote>
+<hr>
+<h2>📅 周一：被领导“贴脸开大”与灵</h2>
+<br/><p>访问 <a href="https://nijika-jia.github.io/posts/成都小厂实习的第三周" target="_blank">https://nijika-jia.github.io/posts/成都小厂实习的第三周</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>伊地知佳</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site/</uri>
+        </author>
+        <published>2026-08-04T14:51:01.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[成都小厂实习第二周]]></title>
+        <id>https://nijika-jia.github.io/posts/%E6%88%90%E9%83%BD%E5%B0%8F%E5%8E%82%E5%AE%9E%E4%B9%A0%E7%AC%AC%E4%BA%8C%E5%91%A8</id>
+        <link href="https://nijika-jia.github.io/posts/%E6%88%90%E9%83%BD%E5%B0%8F%E5%8E%82%E5%AE%9E%E4%B9%A0%E7%AC%AC%E4%BA%8C%E5%91%A8"/>
+        <updated>2026-08-01T16:08:16.000Z</updated>
+        <content type="html"><![CDATA[<h1>实习日记 · Week 2</h1>
+<h2>周一 · 周会 &amp; Skill收尾</h2>
+<p>早上先去开周会，汇报上周的产出。</p>
+<p>说了两件事：一是写了Markdown智能分块的功能，社区帖子基本都是MD格式，这个对</p>
+<br/><p>访问 <a href="https://nijika-jia.github.io/posts/成都小厂实习第二周" target="_blank">https://nijika-jia.github.io/posts/成都小厂实习第二周</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>伊地知佳</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site/</uri>
+        </author>
+        <published>2026-08-01T16:08:16.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[成都小厂实习第一周]]></title>
+        <id>https://nijika-jia.github.io/posts/%E6%88%90%E9%83%BD%E5%B0%8F%E5%8E%82%E5%AE%9E%E4%B9%A0%E7%AC%AC%E4%B8%80%E5%91%A8</id>
+        <link href="https://nijika-jia.github.io/posts/%E6%88%90%E9%83%BD%E5%B0%8F%E5%8E%82%E5%AE%9E%E4%B9%A0%E7%AC%AC%E4%B8%80%E5%91%A8"/>
+        <updated>2026-07-26T07:16:42.000Z</updated>
+        <content type="html"><![CDATA[<h1>实习日记 · Week 1</h1>
+<h2>Day 1 · 周一</h2>
+<p>办理入职折腾完已经快十点了。</p>
+<p>然后就是经典新人环节——什么都不熟。绿盾加密，不熟。GitLab，不熟。想申请绿盾吧，负责办这事的人刚好</p>
+<br/><p>访问 <a href="https://nijika-jia.github.io/posts/成都小厂实习第一周" target="_blank">https://nijika-jia.github.io/posts/成都小厂实习第一周</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>伊地知佳</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site/</uri>
+        </author>
+        <published>2026-07-26T07:16:42.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Val Town 折腾笔记]]></title>
+        <id>https://nijika-jia.github.io/posts/Val%20Town%20%E6%8A%98%E8%85%BE%E7%AC%94%E8%AE%B0</id>
+        <link href="https://nijika-jia.github.io/posts/Val%20Town%20%E6%8A%98%E8%85%BE%E7%AC%94%E8%AE%B0"/>
+        <updated>2026-06-17T16:54:57.000Z</updated>
+        <content type="html"><![CDATA[<h2>这玩意儿到底是啥</h2>
+<p>说白了就是个<strong>云端代码草稿本</strong>。</p>
+<p>以前想写个小脚本（比如抓个数据、转个 Webhook），脑子里第一反应是：开服务器？配环境？装依赖？搞域名？……然后想想算了，太麻烦</p>
+<br/><p>访问 <a href="https://nijika-jia.github.io/posts/Val Town 折腾笔记" target="_blank">https://nijika-jia.github.io/posts/Val Town 折腾笔记</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>伊地知佳</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site/</uri>
+        </author>
+        <published>2026-06-17T16:54:57.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[头歌包过教程(对付给看输出的那种实验)]]></title>
+        <id>https://nijika-jia.github.io/posts/%E5%A4%B4%E6%AD%8C%E5%8C%85%E8%BF%87%E6%95%99%E7%A8%8B(%E5%AF%B9%E4%BB%98%E7%BB%99%E7%9C%8B%E8%BE%93%E5%87%BA%E7%9A%84%E9%82%A3%E7%A7%8D)</id>
+        <link href="https://nijika-jia.github.io/posts/%E5%A4%B4%E6%AD%8C%E5%8C%85%E8%BF%87%E6%95%99%E7%A8%8B(%E5%AF%B9%E4%BB%98%E7%BB%99%E7%9C%8B%E8%BE%93%E5%87%BA%E7%9A%84%E9%82%A3%E7%A7%8D)"/>
+        <updated>2025-12-01T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h1>实验操作步骤（命令行 + 图形化）</h1>
+<h2>一、 命令行操作（适用于代码类实验）</h2>
+<ol>
+<li>执行命令切换到根目录<pre><code class="language-bash">cd ../
+</code></pre>
+</li>
+<li>进入指定实验目录</li>
+</ol>
+<br/><p>访问 <a href="https://nijika-jia.github.io/posts/头歌包过教程(对付给看输出的那种)" target="_blank">https://nijika-jia.github.io/posts/头歌包过教程(对付给看输出的那种)</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>伊地知佳</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site/</uri>
+        </author>
+        <published>2025-12-01T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[动漫图片分类助手：一个基于 AI 的动漫角色识别与整理工具]]></title>
+        <id>https://nijika-jia.github.io/posts/%E5%8A%A8%E6%BC%AB%E5%9B%BE%E7%89%87%E5%88%86%E7%B1%BB%E5%8A%A9%E6%89%8B%EF%BC%9A%E4%B8%80%E4%B8%AA%E5%9F%BA%E4%BA%8E%20AI%20%E7%9A%84%E5%8A%A8%E6%BC%AB%E8%A7%92%E8%89%B2%E8%AF%86%E5%88%AB%E4%B8%8E%E6%95%B4%E7%90%86%E5%B7%A5%E5%85%B7</id>
+        <link href="https://nijika-jia.github.io/posts/%E5%8A%A8%E6%BC%AB%E5%9B%BE%E7%89%87%E5%88%86%E7%B1%BB%E5%8A%A9%E6%89%8B%EF%BC%9A%E4%B8%80%E4%B8%AA%E5%9F%BA%E4%BA%8E%20AI%20%E7%9A%84%E5%8A%A8%E6%BC%AB%E8%A7%92%E8%89%B2%E8%AF%86%E5%88%AB%E4%B8%8E%E6%95%B4%E7%90%86%E5%B7%A5%E5%85%B7"/>
+        <updated>2025-03-09T07:59:17.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>一个基于 AnimeTrace API 的动漫角色图片分类工具，支持自动识别动漫角色和作品，并按角色/作品名称分类整理图片。 ✨</p>
+</blockquote>
+<h2>📥 下载</h2>
+<p>你可以通过以下方式获取本工具：</p>
+<h3></h3>
+<br/><p>访问 <a href="https://nijika-jia.github.io/posts/动漫图片分类助手：一个基于 AI 的动漫角色识别与整理工具" target="_blank">https://nijika-jia.github.io/posts/动漫图片分类助手：一个基于 AI 的动漫角色识别与整理工具</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>伊地知佳</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site/</uri>
+        </author>
+        <published>2025-03-09T07:59:17.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[使用 pyenv 管理多个 Python 版本]]></title>
+        <id>https://nijika-jia.github.io/posts/%E4%BD%BF%E7%94%A8%20pyenv%20%E7%AE%A1%E7%90%86%E5%A4%9A%E4%B8%AA%20Python%20%E7%89%88%E6%9C%AC</id>
+        <link href="https://nijika-jia.github.io/posts/%E4%BD%BF%E7%94%A8%20pyenv%20%E7%AE%A1%E7%90%86%E5%A4%9A%E4%B8%AA%20Python%20%E7%89%88%E6%9C%AC"/>
+        <updated>2025-03-04T15:23:54.000Z</updated>
+        <content type="html"><![CDATA[<p>我是伊地知佳，虽然生活坎坷，但在技术上我还是有些心得。今天就给大家详细讲讲如何利用 pyenv（在 Windows 下使用的是 pyenv-win）来管理多个 Python 版本，以及如何在项目中快</p>
+<br/><p>访问 <a href="https://nijika-jia.github.io/posts/使用 pyenv 管理多个 Python 版本" target="_blank">https://nijika-jia.github.io/posts/使用 pyenv 管理多个 Python 版本</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>伊地知佳</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site/</uri>
+        </author>
+        <published>2025-03-04T15:23:54.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[bocchi-the-rock-theme for VSCode]]></title>
+        <id>https://nijika-jia.github.io/posts/bocchi-the-rock-theme%20for%20VSCode</id>
+        <link href="https://nijika-jia.github.io/posts/bocchi-the-rock-theme%20for%20VSCode"/>
+        <updated>2025-02-27T08:35:30.000Z</updated>
+        <content type="html"><![CDATA[<h1>Bocchi The Rock Theme</h1>
+<p><img src="https://nijika-jia.github.io/posts/bocchi-the-rock-theme%20for%20VSCode_2025-02-27-16-39-53.png" alt=""><br>
+VS</p>
+<br/><p>访问 <a href="https://nijika-jia.github.io/posts/bocchi-the-rock-theme for VSCode" target="_blank">https://nijika-jia.github.io/posts/bocchi-the-rock-theme for VSCode</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>伊地知佳</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site/</uri>
+        </author>
+        <published>2025-02-27T08:35:30.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[图论可视化工具：一个轻量级的在线图形编辑与分析平台]]></title>
+        <id>https://nijika-jia.github.io/posts/%E5%9B%BE%E8%AE%BA%E5%8F%AF%E8%A7%86%E5%8C%96%E5%B7%A5%E5%85%B7%EF%BC%9A%E4%B8%80%E4%B8%AA%E8%BD%BB%E9%87%8F%E7%BA%A7%E7%9A%84%E5%9C%A8%E7%BA%BF%E5%9B%BE%E5%BD%A2%E7%BC%96%E8%BE%91%E4%B8%8E%E5%88%86%E6%9E%90%E5%B9%B3%E5%8F%B0</id>
+        <link href="https://nijika-jia.github.io/posts/%E5%9B%BE%E8%AE%BA%E5%8F%AF%E8%A7%86%E5%8C%96%E5%B7%A5%E5%85%B7%EF%BC%9A%E4%B8%80%E4%B8%AA%E8%BD%BB%E9%87%8F%E7%BA%A7%E7%9A%84%E5%9C%A8%E7%BA%BF%E5%9B%BE%E5%BD%A2%E7%BC%96%E8%BE%91%E4%B8%8E%E5%88%86%E6%9E%90%E5%B9%B3%E5%8F%B0"/>
+        <updated>2025-02-20T04:29:32.000Z</updated>
+        <content type="html"><![CDATA[<h2>前言</h2>
+<p>在学习图论或进行相关开发时，我们经常需要绘制和分析各种图形结构。为了解决这个需求，我开发了这个基于Web的图论可视化工具。它不需要安装任何软件，打开浏览器就能使用，希望能帮助到有类似需求</p>
+<br/><p>访问 <a href="https://nijika-jia.github.io/posts/图论可视化工具：一个轻量级的在线图形编辑与分析平台" target="_blank">https://nijika-jia.github.io/posts/图论可视化工具：一个轻量级的在线图形编辑与分析平台</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>伊地知佳</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site/</uri>
+        </author>
+        <published>2025-02-20T04:29:32.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[C++ STL操作优化指南：算法竞赛选手必读]]></title>
+        <id>https://nijika-jia.github.io/posts/C++%E5%AE%B9%E5%99%A8%E6%93%8D%E4%BD%9C%E4%BC%98%E5%8C%96</id>
+        <link href="https://nijika-jia.github.io/posts/C++%E5%AE%B9%E5%99%A8%E6%93%8D%E4%BD%9C%E4%BC%98%E5%8C%96"/>
+        <updated>2025-02-12T10:05:59.000Z</updated>
+        <content type="html"><![CDATA[<h3>🚀 <strong>现代 C++ 容器操作优化指南：算法竞赛选手必读</strong></h3>
+<p>在算法比赛中，时间与空间的效率是取胜的关键。掌握现代 C++ 的容器操作技巧，能够帮助你更高效地解决问题、减少代码复杂度，并</p>
+<br/><p>访问 <a href="https://nijika-jia.github.io/posts/C++容器操作优化" target="_blank">https://nijika-jia.github.io/posts/C++容器操作优化</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>伊地知佳</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site/</uri>
+        </author>
+        <published>2025-02-12T10:05:59.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[优先队列<priority_queue>自定义排序]]></title>
+        <id>https://nijika-jia.github.io/posts/%E4%BC%98%E5%85%88%E9%98%9F%E5%88%97%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8E%92%E5%BA%8F</id>
+        <link href="https://nijika-jia.github.io/posts/%E4%BC%98%E5%85%88%E9%98%9F%E5%88%97%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8E%92%E5%BA%8F"/>
+        <updated>2025-02-11T10:05:59.000Z</updated>
+        <content type="html"><![CDATA[<h1>🎯 <strong>C++ 优先队列自定义排序全指南</strong></h1>
+<p><code>std::priority_queue</code> 是 C++ 中常用的堆数据结构，默认实现最大堆（<code>top()</code> 是最大值）。在实际开发或算法竞赛中，我们</p>
+<br/><p>访问 <a href="https://nijika-jia.github.io/posts/优先队列自定义排序" target="_blank">https://nijika-jia.github.io/posts/优先队列自定义排序</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>伊地知佳</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site/</uri>
+        </author>
+        <published>2025-02-11T10:05:59.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[byd崩溃了,做这个图论工具,**AI]]></title>
+        <id>https://nijika-jia.github.io/posts/%E5%B4%A9%E6%BA%83%E4%BA%86,AI</id>
+        <link href="https://nijika-jia.github.io/posts/%E5%B4%A9%E6%BA%83%E4%BA%86,AI"/>
+        <updated>2025-02-08T17:39:17.000Z</updated>
+        <content type="html"><![CDATA[<h2>不知道是我表达有问题还是AI本来就傻</h2>
+<p>(我赞同第二个)</p>
+<h3>开始还越问越兴奋,想着我表达方式也变得真是越来越好了,可它终究是听不懂啊</h3>
+<p>![](/posts/崩溃了,AI_2025-02-09</p>
+<br/><p>访问 <a href="https://nijika-jia.github.io/posts/崩溃了,AI" target="_blank">https://nijika-jia.github.io/posts/崩溃了,AI</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>伊地知佳</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site/</uri>
+        </author>
+        <published>2025-02-08T17:39:17.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[给你的GitHubpage用上Cloudflare(只有域名即可)]]></title>
+        <id>https://nijika-jia.github.io/posts/%E7%BB%99%E4%BD%A0%E7%9A%84GitHubpage%E7%94%A8%E4%B8%8ACloudflare(%E5%8F%AA%E6%9C%89%E5%9F%9F%E5%90%8D%E5%8D%B3%E5%8F%AF)</id>
+        <link href="https://nijika-jia.github.io/posts/%E7%BB%99%E4%BD%A0%E7%9A%84GitHubpage%E7%94%A8%E4%B8%8ACloudflare(%E5%8F%AA%E6%9C%89%E5%9F%9F%E5%90%8D%E5%8D%B3%E5%8F%AF)"/>
+        <updated>2025-02-04T12:16:42.000Z</updated>
+        <content type="html"><![CDATA[<h2>🚀 给你的 GitHub Page 用上 Cloudflare（只要有域名即可！）</h2>
+<p>如果你有自己的 GitHub Pages 网站，可能已经体验过它的简洁和便捷。但如果你想让它看起来更专业、</p>
+<br/><p>访问 <a href="https://nijika-jia.github.io/posts/给你的GitHubpage用上Cloudflare(只有域名即可)" target="_blank">https://nijika-jia.github.io/posts/给你的GitHubpage用上Cloudflare(只有域名即可)</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>伊地知佳</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site/</uri>
+        </author>
+        <published>2025-02-04T12:16:42.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[更好的在.md文件粘贴图片-Paste image VScode插件推荐]]></title>
+        <id>https://nijika-jia.github.io/posts/%E6%9B%B4%E5%A5%BD%E7%9A%84%E5%9C%A8.md%E6%96%87%E4%BB%B6%E7%B2%98%E8%B4%B4%E5%9B%BE%E7%89%87-Paste%20image%20VScode%E6%8F%92%E4%BB%B6%E6%8E%A8%E8%8D%90</id>
+        <link href="https://nijika-jia.github.io/posts/%E6%9B%B4%E5%A5%BD%E7%9A%84%E5%9C%A8.md%E6%96%87%E4%BB%B6%E7%B2%98%E8%B4%B4%E5%9B%BE%E7%89%87-Paste%20image%20VScode%E6%8F%92%E4%BB%B6%E6%8E%A8%E8%8D%90"/>
+        <updated>2025-01-30T08:12:52.000Z</updated>
+        <content type="html"><![CDATA[<h1>Paste Image 插件推荐</h1>
+<h2>📌 为什么推荐 Paste Image？</h2>
+<p>在写 Markdown 文档时，插入图片通常需要手动保存截图、找到文件位置、然后再插入路径，非常麻烦。而</p>
+<br/><p>访问 <a href="https://nijika-jia.github.io/posts/更好的在.md文件粘贴图片-Paste image VScode插件推荐" target="_blank">https://nijika-jia.github.io/posts/更好的在.md文件粘贴图片-Paste image VScode插件推荐</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>伊地知佳</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site/</uri>
+        </author>
+        <published>2025-01-30T08:12:52.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[新年快乐]]></title>
+        <id>https://nijika-jia.github.io/posts/%E6%96%B0%E5%B9%B4%E5%BF%AB%E4%B9%90</id>
+        <link href="https://nijika-jia.github.io/posts/%E6%96%B0%E5%B9%B4%E5%BF%AB%E4%B9%90"/>
+        <updated>2025-01-28T03:19:04.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://nijika-jia.github.io/posts/03F12D3B338913E90D30A8BA26ECFC54.jpg" alt=""></p>
+<br/><p>访问 <a href="https://nijika-jia.github.io/posts/新年快乐" target="_blank">https://nijika-jia.github.io/posts/新年快乐</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>伊地知佳</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site/</uri>
+        </author>
+        <published>2025-01-28T03:19:04.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[我的第一篇文章——博客上线啦！]]></title>
+        <id>https://nijika-jia.github.io/posts/hello</id>
+        <link href="https://nijika-jia.github.io/posts/hello"/>
+        <updated>2025-01-20T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h1>🎉 我的第一篇博客文章！</h1>
+<p>今天是个特别的日子，因为我的博客终于上线啦！🌟<br>
+这个小小的角落将成为我分享生活、记录成长的地方，也会是我和大家交流的一个窗口。</p>
+<hr>
+<h2>🥳 为</h2>
+<br/><p>访问 <a href="https://nijika-jia.github.io/posts/hello" target="_blank">https://nijika-jia.github.io/posts/hello</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>伊地知佳</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site/</uri>
+        </author>
+        <published>2025-01-20T00:00:00.000Z</published>
+    </entry>
+</feed>
