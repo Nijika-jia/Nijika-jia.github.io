@@ -591,8 +591,8 @@ content:
           rename: false
           delete: false
         view:
-          fields: [title]
-          primary: title
+          fields: [title.zh-CN]
+          primary: title.zh-CN
         fields:
           - name: title
             label: 标题
