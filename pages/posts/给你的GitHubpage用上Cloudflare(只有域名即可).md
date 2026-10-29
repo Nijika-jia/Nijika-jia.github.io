@@ -30,6 +30,8 @@ Cloudflare 提供免费 CDN、DNS、攻击防护和 SSL/TLS 配置。对 GitHub 
 
 ---
 
+![域名经过 DNS 和 HTTPS 指向 GitHub Pages](/posts/2025-02-04-cloudflare-domain-route.webp)
+
 ### 步骤 1：添加你的域名到 Cloudflare
 
 1. **添加站点**  
