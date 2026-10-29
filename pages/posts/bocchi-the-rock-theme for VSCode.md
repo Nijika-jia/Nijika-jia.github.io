@@ -1,21 +1,19 @@
 ---
 layout: post
 title: bocchi-the-rock-theme for VSCode
-date: 2025-02-27 16:35:30
+date: 2025-02-27 16:35:00
 tags:
   - VSCode
   - 动漫
 categories: 爱制作
-#top : 1 #置顶数值(越大越在前面)
-draft: false #true为草稿记得改false发布时
-#time_warning: 30 #过多少天会警告
-#color: red  #更改进入页面的标题颜色
-#postTitleClass: "custom-title" #更改文章列表标题颜色,自定义的CSS在Style文件夹里index.scss
-cover: /posts/bocchi-the-rock-theme%20for%20VSCode_2025-02-27-16-39-53.png
+draft: false
+cover: /posts/bocchi-the-rock-theme for VSCode_2025-02-27-16-39-53.png
+updated: 2026-10-29 16:34:00
+top: 0
 ---
 # Bocchi The Rock Theme
 ![](/posts/bocchi-the-rock-theme%20for%20VSCode_2025-02-27-16-39-53.png)
-VS Code 主题包，灵感来自《孤独摇滚！》动画。包含了四个主要角色的深色和浅色主题版本。
+VS Code 主题包，配色参考《孤独摇滚！》动画，包含四个主要角色的深色和浅色版本。
 > 下载地址 [Bocchi The Rock Theme](https://marketplace.visualstudio.com/items?itemName=Nijikajia.bocchi-the-rock-theme)
 ## 主题预览
 
@@ -82,18 +80,18 @@ VS Code 主题包，灵感来自《孤独摇滚！》动画。包含了四个主
 
 ## 灵感来源
 
-主题的配色方案基于动画中角色的特征配色：
+主题配色主要取自角色的发色、服装和视觉特征：
 
 ### 后藤一里 (Hitori Gotoh)
 <div align="center">
   <img src="https://pic1.imgdb.cn/item/67bff29cd0e0a243d406b828.jpg" width="300" alt="Hitori Gotoh">
 </div>
 
-- 基于角色的粉色系配色
+- 主色取自角色的粉色系
 - 主色调：`#F4A5B0`（粉红色）
 - 强调色：`#FE01FE`（亮粉色）
 - 辅助色：`#B4698C`（暗玫瑰色）
-- 配色灵感来自后藤标志性的粉色头发和校服配色
+- 配色参考后藤的粉色头发和校服
 
 ### 伊地知虹夏 (Nijika Ijichi)
 <div align="center">
@@ -113,33 +111,33 @@ VS Code 主题包，灵感来自《孤独摇滚！》动画。包含了四个主
   </table>
 </div>
 
-- 基于角色的金色系配色
+- 主色取自角色的金色系
 - 主色调：`#F4E8DE`（浅米色）
 - 强调色：`#FEFE01`（金黄色）
 - 辅助色：`#EDCE60`（暗金色）
-- 配色灵感来自虹夏金色的头发和阳光般的性格
+- 配色参考虹夏的金发和角色形象
 
 ### 山田凉 (Ryo Yamada)
 <div align="center">
   <img src="https://pic1.imgdb.cn/item/67bff29bd0e0a243d406b826.jpg" width="300" alt="Ryo Yamada">
 </div>
 
-- 基于角色的蓝色系配色
+- 主色取自角色的蓝色系
 - 主色调：`#375B9D`（深蓝色）
 - 强调色：`#035555`（深青色）
 - 辅助色：`#0C7D7D`（青色）
-- 配色灵感来自凉冷静沉着的性格和深色系穿着
+- 配色参考凉的深色穿着和角色形象
 
 ### 喜多郁代 (Ikuyo Kita)
 <div align="center">
   <img src="https://pic1.imgdb.cn/item/67bff29bd0e0a243d406b827.jpg" width="300" alt="Ikuyo Kita">
 </div>
 
-- 基于角色的红色系配色
+- 主色取自角色的红色系
 - 主色调：`#FF0000`（亮红色）
 - 强调色：`#A52A2A`（深红色）
 - 辅助色：`#F4A5B0`（粉红色）
-- 配色灵感来自喜多充满活力的性格和红色主题
+- 配色参考喜多的红色主题和角色形象
 
 ## 主题特点
 
@@ -209,7 +207,7 @@ MIT License
 
 - 《孤独摇滚！》原作：はまじあき
 - 动画制作：CloverWorks
-- 特别感谢所有为这个主题提供建议和反馈的用户
+- 感谢所有为这个主题提供建议和反馈的用户
 
 ## 更新日志
 
