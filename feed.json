@@ -1,0 +1,230 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "$locale:site.title",
+    "home_page_url": "https://nijika-jia.github.io/",
+    "feed_url": "https://nijika-jia.github.io/feed.json",
+    "description": "$locale:site.description",
+    "icon": "https://avatars.githubusercontent.com/u/181221850?v=4",
+    "author": {
+        "name": "伊地知佳",
+        "url": "https://valaxy.site"
+    },
+    "items": [
+        {
+            "id": "https://nijika-jia.github.io/posts/2026-10-27-143921",
+            "content_html": "<p>最近在比较两个能给 AI Agent 用的浏览器工具：ego-browser 和 bsk。两者都能驱动本机已经登录的 Chrome，省去重新登录和搬 Cookie 的麻烦。我用同一个任务各跑了一遍，记</p>\n<br/><p>访问 <a href=\"https://nijika-jia.github.io/posts/2026-10-27-143921\" target=\"_blank\">https://nijika-jia.github.io/posts/2026-10-27-143921</a> 阅读全文。</p>",
+            "url": "https://nijika-jia.github.io/posts/2026-10-27-143921",
+            "title": "ego-browser 和 bsk：用同一个任务比了一下",
+            "date_modified": "2026-10-27T06:39:00.000Z",
+            "date_published": "2026-10-27T06:39:00.000Z",
+            "author": {
+                "name": "伊地知佳",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://nijika-jia.github.io/posts/2026-10-19-223327",
+            "content_html": "<h3>找你的 AI Agent 给你博客配置一下 Pages CMS 就行</h3>\n<br/><p>访问 <a href=\"https://nijika-jia.github.io/posts/2026-10-19-223327\" target=\"_blank\">https://nijika-jia.github.io/posts/2026-10-19-223327</a> 阅读全文。</p>",
+            "url": "https://nijika-jia.github.io/posts/2026-10-19-223327",
+            "title": "静态博客没后台怎么办",
+            "date_modified": "2026-10-19T14:33:00.000Z",
+            "date_published": "2026-10-19T14:33:00.000Z",
+            "author": {
+                "name": "伊地知佳",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://nijika-jia.github.io/posts/成都小厂实习的第三周",
+            "content_html": "<h1>成都小厂实习的第三周</h1>\n<blockquote>\n<p><strong>时间</strong>：2026-08-03 ~ 2026-08-07</p>\n<p><strong>心情</strong>：被领导连续追问，也在不断补窟窿。</p>\n</blockquote>\n<hr>\n<h2>周一：被领导现场检查</h2>\n<p>照常开周</p>\n<br/><p>访问 <a href=\"https://nijika-jia.github.io/posts/成都小厂实习的第三周\" target=\"_blank\">https://nijika-jia.github.io/posts/成都小厂实习的第三周</a> 阅读全文。</p>",
+            "url": "https://nijika-jia.github.io/posts/成都小厂实习的第三周",
+            "title": "成都小厂实习的第三周",
+            "date_modified": "2026-08-04T14:51:00.000Z",
+            "date_published": "2026-08-04T14:51:00.000Z",
+            "author": {
+                "name": "伊地知佳",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://nijika-jia.github.io/posts/成都小厂实习第二周",
+            "content_html": "<h1>实习日记 · Week 2</h1>\n<h2>周一 · 周会 &amp; Skill收尾</h2>\n<p>早上先去开周会，汇报上周的产出。</p>\n<p>说了两件事：一是写了Markdown智能分块的功能，社区帖子基本都是MD格式，这个对</p>\n<br/><p>访问 <a href=\"https://nijika-jia.github.io/posts/成都小厂实习第二周\" target=\"_blank\">https://nijika-jia.github.io/posts/成都小厂实习第二周</a> 阅读全文。</p>",
+            "url": "https://nijika-jia.github.io/posts/成都小厂实习第二周",
+            "title": "成都小厂实习第二周",
+            "date_modified": "2026-08-01T16:08:16.000Z",
+            "date_published": "2026-08-01T16:08:16.000Z",
+            "author": {
+                "name": "伊地知佳",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://nijika-jia.github.io/posts/成都小厂实习第一周",
+            "content_html": "<h1>实习日记 · Week 1</h1>\n<h2>Day 1 · 周一</h2>\n<p>办理入职折腾完已经快十点了。</p>\n<p>然后就是经典新人环节——什么都不熟。绿盾加密，不熟。GitLab，不熟。想申请绿盾吧，负责办这事的人刚好</p>\n<br/><p>访问 <a href=\"https://nijika-jia.github.io/posts/成都小厂实习第一周\" target=\"_blank\">https://nijika-jia.github.io/posts/成都小厂实习第一周</a> 阅读全文。</p>",
+            "url": "https://nijika-jia.github.io/posts/成都小厂实习第一周",
+            "title": "成都小厂实习第一周",
+            "date_modified": "2026-07-26T07:16:00.000Z",
+            "date_published": "2026-07-26T07:16:00.000Z",
+            "author": {
+                "name": "伊地知佳",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://nijika-jia.github.io/posts/Val Town 折腾笔记",
+            "content_html": "<h2>这玩意儿到底是啥</h2>\n<p>简单说，它是一个云端代码草稿本。</p>\n<p>以前想写个小脚本，比如抓数据或转发 Webhook，第一反应是开服务器、配环境、装依赖、搞域名。想到这里通常就算了。Val Town 省掉</p>\n<br/><p>访问 <a href=\"https://nijika-jia.github.io/posts/Val Town 折腾笔记\" target=\"_blank\">https://nijika-jia.github.io/posts/Val Town 折腾笔记</a> 阅读全文。</p>",
+            "url": "https://nijika-jia.github.io/posts/Val Town 折腾笔记",
+            "title": "Val Town 折腾笔记",
+            "date_modified": "2026-06-17T16:54:00.000Z",
+            "date_published": "2026-06-17T16:54:00.000Z",
+            "author": {
+                "name": "伊地知佳",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://nijika-jia.github.io/posts/头歌包过教程(对付给看输出的那种)",
+            "content_html": "<h1>实验操作步骤（命令行 + 图形化）</h1>\n<h2>一、命令行操作（适用于代码类实验）</h2>\n<ol>\n<li>切换到上一级目录</li>\n</ol>\n<pre><code class=\"language-bash\">  cd ../\n</code></pre>\n<ol start=\"2\">\n<li>进入指定实验目录</li>\n</ol>\n<pre><code class=\"language-b\"></code></pre>\n<br/><p>访问 <a href=\"https://nijika-jia.github.io/posts/头歌包过教程(对付给看输出的那种)\" target=\"_blank\">https://nijika-jia.github.io/posts/头歌包过教程(对付给看输出的那种)</a> 阅读全文。</p>",
+            "url": "https://nijika-jia.github.io/posts/头歌包过教程(对付给看输出的那种)",
+            "title": "头歌包过教程(对付给看输出的那种实验)",
+            "date_modified": "2025-11-30T16:00:00.000Z",
+            "date_published": "2025-11-30T16:00:00.000Z",
+            "author": {
+                "name": "伊地知佳",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://nijika-jia.github.io/posts/动漫图片分类助手：一个基于 AI 的动漫角色识别与整理工具",
+            "content_html": "<blockquote>\n<p>一个基于 AnimeTrace API 的动漫角色图片分类工具，可以识别动漫角色和作品，并按角色或作品名称整理图片。</p>\n</blockquote>\n<h2>下载</h2>\n<p>可以通过以下方式获取：</p>\n<h3>直接下载</h3>\n<ul>\n<li>[最新版本 v</li>\n</ul>\n<br/><p>访问 <a href=\"https://nijika-jia.github.io/posts/动漫图片分类助手：一个基于 AI 的动漫角色识别与整理工具\" target=\"_blank\">https://nijika-jia.github.io/posts/动漫图片分类助手：一个基于 AI 的动漫角色识别与整理工具</a> 阅读全文。</p>",
+            "url": "https://nijika-jia.github.io/posts/动漫图片分类助手：一个基于 AI 的动漫角色识别与整理工具",
+            "title": "动漫图片分类助手：一个基于 AI 的动漫角色识别与整理工具",
+            "date_modified": "2025-03-09T07:59:00.000Z",
+            "date_published": "2025-03-09T07:59:00.000Z",
+            "author": {
+                "name": "伊地知佳",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://nijika-jia.github.io/posts/使用 pyenv 管理多个 Python 版本",
+            "content_html": "<p>这篇记录我在 Windows 上用 pyenv-win 管理多个 Python 版本的流程，包括安装、切换以及项目内固定版本。</p>\n<h2>目录</h2>\n<ul>\n<li><a href=\"#%E5%89%8D%E8%A8%80\">前言</a></li>\n<li>[为什么要使用 pyenv？</li>\n</ul>\n<br/><p>访问 <a href=\"https://nijika-jia.github.io/posts/使用 pyenv 管理多个 Python 版本\" target=\"_blank\">https://nijika-jia.github.io/posts/使用 pyenv 管理多个 Python 版本</a> 阅读全文。</p>",
+            "url": "https://nijika-jia.github.io/posts/使用 pyenv 管理多个 Python 版本",
+            "title": "使用 pyenv 管理多个 Python 版本",
+            "date_modified": "2025-03-04T15:23:00.000Z",
+            "date_published": "2025-03-04T15:23:00.000Z",
+            "author": {
+                "name": "伊地知佳",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://nijika-jia.github.io/posts/bocchi-the-rock-theme for VSCode",
+            "content_html": "<h1>Bocchi The Rock Theme</h1>\n<p><img src=\"https://nijika-jia.github.io/posts/bocchi-the-rock-theme%20for%20VSCode_2025-02-27-16-39-53.png\" alt=\"\"><br>\nVS</p>\n<br/><p>访问 <a href=\"https://nijika-jia.github.io/posts/bocchi-the-rock-theme for VSCode\" target=\"_blank\">https://nijika-jia.github.io/posts/bocchi-the-rock-theme for VSCode</a> 阅读全文。</p>",
+            "url": "https://nijika-jia.github.io/posts/bocchi-the-rock-theme for VSCode",
+            "title": "bocchi-the-rock-theme for VSCode",
+            "date_modified": "2025-02-27T08:35:00.000Z",
+            "date_published": "2025-02-27T08:35:00.000Z",
+            "author": {
+                "name": "伊地知佳",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://nijika-jia.github.io/posts/图论可视化工具：一个轻量级的在线图形编辑与分析平台",
+            "content_html": "<h2>前言</h2>\n<p>学习图论或做相关开发时，经常需要绘制和分析图形结构。这个基于 Web 的工具就是为此写的，不用安装软件，打开浏览器即可使用。</p>\n<p>![工具总览](/posts/图论可视化工具：一个轻量级的</p>\n<br/><p>访问 <a href=\"https://nijika-jia.github.io/posts/图论可视化工具：一个轻量级的在线图形编辑与分析平台\" target=\"_blank\">https://nijika-jia.github.io/posts/图论可视化工具：一个轻量级的在线图形编辑与分析平台</a> 阅读全文。</p>",
+            "url": "https://nijika-jia.github.io/posts/图论可视化工具：一个轻量级的在线图形编辑与分析平台",
+            "title": "图论可视化工具：一个轻量级的在线图形编辑与分析平台",
+            "date_modified": "2025-02-20T04:29:00.000Z",
+            "date_published": "2025-02-20T04:29:00.000Z",
+            "author": {
+                "name": "伊地知佳",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://nijika-jia.github.io/posts/C++容器操作优化",
+            "content_html": "<h3>现代 C++ 容器操作优化指南</h3>\n<p>算法竞赛对时间和空间都比较敏感。选择合适的数据结构、减少临时对象和不必要的内存分配，可以让代码更简洁，也少一些性能损耗。</p>\n<hr>\n<p>![emplace 与 p</p>\n<br/><p>访问 <a href=\"https://nijika-jia.github.io/posts/C++容器操作优化\" target=\"_blank\">https://nijika-jia.github.io/posts/C++容器操作优化</a> 阅读全文。</p>",
+            "url": "https://nijika-jia.github.io/posts/C++容器操作优化",
+            "title": "C++ STL操作优化指南：算法竞赛选手必读",
+            "date_modified": "2025-02-12T10:05:00.000Z",
+            "date_published": "2025-02-12T10:05:00.000Z",
+            "author": {
+                "name": "伊地知佳",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://nijika-jia.github.io/posts/优先队列自定义排序",
+            "content_html": "<h1>C++ 优先队列自定义排序全指南</h1>\n<p><code>std::priority_queue</code> 是 C++ 中常用的堆数据结构，默认实现最大堆，<code>top()</code> 返回最大值。开发或算法竞赛中经常需要自定义排序规则，例</p>\n<br/><p>访问 <a href=\"https://nijika-jia.github.io/posts/优先队列自定义排序\" target=\"_blank\">https://nijika-jia.github.io/posts/优先队列自定义排序</a> 阅读全文。</p>",
+            "url": "https://nijika-jia.github.io/posts/优先队列自定义排序",
+            "title": "优先队列<priority_queue>自定义排序",
+            "date_modified": "2025-02-11T10:05:00.000Z",
+            "date_published": "2025-02-11T10:05:00.000Z",
+            "author": {
+                "name": "伊地知佳",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://nijika-jia.github.io/posts/崩溃了,AI",
+            "content_html": "<h2>不知道是我表达有问题还是AI本来就傻</h2>\n<p>(我赞同第二个)</p>\n<h3>开始还越问越兴奋,想着我表达方式也变得真是越来越好了,可它终究是听不懂啊</h3>\n<p>![](/posts/崩溃了,AI_2025-02-09</p>\n<br/><p>访问 <a href=\"https://nijika-jia.github.io/posts/崩溃了,AI\" target=\"_blank\">https://nijika-jia.github.io/posts/崩溃了,AI</a> 阅读全文。</p>",
+            "url": "https://nijika-jia.github.io/posts/崩溃了,AI",
+            "title": "byd崩溃了,做这个图论工具,**AI",
+            "date_modified": "2025-02-08T17:39:00.000Z",
+            "date_published": "2025-02-08T17:39:00.000Z",
+            "author": {
+                "name": "伊地知佳",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://nijika-jia.github.io/posts/给你的GitHubpage用上Cloudflare(只有域名即可)",
+            "content_html": "<h2>给你的 GitHub Pages 用上 Cloudflare（有域名即可）</h2>\n<p>GitHub Pages 可以配合自定义域名使用。把域名交给 Cloudflare 管理后，可以同时使用它的 CDN</p>\n<br/><p>访问 <a href=\"https://nijika-jia.github.io/posts/给你的GitHubpage用上Cloudflare(只有域名即可)\" target=\"_blank\">https://nijika-jia.github.io/posts/给你的GitHubpage用上Cloudflare(只有域名即可)</a> 阅读全文。</p>",
+            "url": "https://nijika-jia.github.io/posts/给你的GitHubpage用上Cloudflare(只有域名即可)",
+            "title": "给你的GitHubpage用上Cloudflare(只有域名即可)",
+            "date_modified": "2025-02-04T12:16:00.000Z",
+            "date_published": "2025-02-04T12:16:00.000Z",
+            "author": {
+                "name": "伊地知佳",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://nijika-jia.github.io/posts/更好的在.md文件粘贴图片-Paste image VScode插件推荐",
+            "content_html": "<h1>Paste Image 插件推荐</h1>\n<h2>为什么推荐 Paste Image？</h2>\n<p>写 Markdown 时，插入图片通常要先保存截图，再找文件位置，最后手动写路径。Paste Image 把这几步</p>\n<br/><p>访问 <a href=\"https://nijika-jia.github.io/posts/更好的在.md文件粘贴图片-Paste image VScode插件推荐\" target=\"_blank\">https://nijika-jia.github.io/posts/更好的在.md文件粘贴图片-Paste image VScode插件推荐</a> 阅读全文。</p>",
+            "url": "https://nijika-jia.github.io/posts/更好的在.md文件粘贴图片-Paste image VScode插件推荐",
+            "title": "更好的在.md文件粘贴图片-Paste image VScode插件推荐",
+            "date_modified": "2025-01-30T08:12:00.000Z",
+            "date_published": "2025-01-30T08:12:00.000Z",
+            "author": {
+                "name": "伊地知佳",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://nijika-jia.github.io/posts/新年快乐",
+            "content_html": "<p><img src=\"https://nijika-jia.github.io/posts/03F12D3B338913E90D30A8BA26ECFC54.jpg\" alt=\"\"></p>\n<br/><p>访问 <a href=\"https://nijika-jia.github.io/posts/新年快乐\" target=\"_blank\">https://nijika-jia.github.io/posts/新年快乐</a> 阅读全文。</p>",
+            "url": "https://nijika-jia.github.io/posts/新年快乐",
+            "title": "新年快乐",
+            "date_modified": "2025-01-28T03:19:00.000Z",
+            "date_published": "2025-01-28T03:19:00.000Z",
+            "author": {
+                "name": "伊地知佳",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://nijika-jia.github.io/posts/hello",
+            "content_html": "<h1>🎉 我的第一篇博客文章！</h1>\n<p>博客上线了。<br>\n我先把第一篇文章放在这里，之后也会在这里写技术和动漫游戏，以及生活里值得记下来的事。</p>\n<hr>\n<h2>🥳 为什么写博客？</h2>\n<p>我主要想用文字和图片</p>\n<br/><p>访问 <a href=\"https://nijika-jia.github.io/posts/hello\" target=\"_blank\">https://nijika-jia.github.io/posts/hello</a> 阅读全文。</p>",
+            "url": "https://nijika-jia.github.io/posts/hello",
+            "title": "我的第一篇文章——博客上线啦！",
+            "date_modified": "2025-01-19T16:00:00.000Z",
+            "date_published": "2025-01-19T16:00:00.000Z",
+            "author": {
+                "name": "伊地知佳",
+                "url": "https://valaxy.site"
+            }
+        }
+    ]
+}

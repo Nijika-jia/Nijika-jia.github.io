@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>$locale:site.title</title>
+        <link>https://nijika-jia.github.io/</link>
+        <description>$locale:site.description</description>
+        <lastBuildDate>Fri, 30 Oct 2026 04:56:16 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <image>
+            <title>$locale:site.title</title>
+            <url>https://avatars.githubusercontent.com/u/181221850?v=4</url>
+            <link>https://nijika-jia.github.io/</link>
+        </image>
+        <copyright>CC BY-NC-SA 4.0 2026 © 伊地知佳</copyright>
+        <atom:link href="https://nijika-jia.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[ego-browser 和 bsk：用同一个任务比了一下]]></title>
+            <link>https://nijika-jia.github.io/posts/2026-10-27-143921</link>
+            <guid isPermaLink="false">https://nijika-jia.github.io/posts/2026-10-27-143921</guid>
+            <pubDate>Tue, 27 Oct 2026 06:39:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>最近在比较两个能给 AI Agent 用的浏览器工具：ego-browser 和 bsk。两者都能驱动本机已经登录的 Chrome，省去重新登录和搬 Cookie 的麻烦。我用同一个任务各跑了一遍，记</p>
+<br/><p>访问 <a href="https://nijika-jia.github.io/posts/2026-10-27-143921" target="_blank">https://nijika-jia.github.io/posts/2026-10-27-143921</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (伊地知佳)</author>
+        </item>
+        <item>
+            <title><![CDATA[静态博客没后台怎么办]]></title>
+            <link>https://nijika-jia.github.io/posts/2026-10-19-223327</link>
+            <guid isPermaLink="false">https://nijika-jia.github.io/posts/2026-10-19-223327</guid>
+            <pubDate>Mon, 19 Oct 2026 14:33:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h3>找你的 AI Agent 给你博客配置一下 Pages CMS 就行</h3>
+<br/><p>访问 <a href="https://nijika-jia.github.io/posts/2026-10-19-223327" target="_blank">https://nijika-jia.github.io/posts/2026-10-19-223327</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (伊地知佳)</author>
+        </item>
+        <item>
+            <title><![CDATA[成都小厂实习的第三周]]></title>
+            <link>https://nijika-jia.github.io/posts/%E6%88%90%E9%83%BD%E5%B0%8F%E5%8E%82%E5%AE%9E%E4%B9%A0%E7%9A%84%E7%AC%AC%E4%B8%89%E5%91%A8</link>
+            <guid isPermaLink="false">https://nijika-jia.github.io/posts/成都小厂实习的第三周</guid>
+            <pubDate>Tue, 04 Aug 2026 14:51:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>成都小厂实习的第三周</h1>
+<blockquote>
+<p><strong>时间</strong>：2026-08-03 ~ 2026-08-07</p>
+<p><strong>心情</strong>：被领导连续追问，也在不断补窟窿。</p>
+</blockquote>
+<hr>
+<h2>周一：被领导现场检查</h2>
+<p>照常开周</p>
+<br/><p>访问 <a href="https://nijika-jia.github.io/posts/成都小厂实习的第三周" target="_blank">https://nijika-jia.github.io/posts/成都小厂实习的第三周</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (伊地知佳)</author>
+        </item>
+        <item>
+            <title><![CDATA[成都小厂实习第二周]]></title>
+            <link>https://nijika-jia.github.io/posts/%E6%88%90%E9%83%BD%E5%B0%8F%E5%8E%82%E5%AE%9E%E4%B9%A0%E7%AC%AC%E4%BA%8C%E5%91%A8</link>
+            <guid isPermaLink="false">https://nijika-jia.github.io/posts/成都小厂实习第二周</guid>
+            <pubDate>Sat, 01 Aug 2026 16:08:16 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>实习日记 · Week 2</h1>
+<h2>周一 · 周会 &amp; Skill收尾</h2>
+<p>早上先去开周会，汇报上周的产出。</p>
+<p>说了两件事：一是写了Markdown智能分块的功能，社区帖子基本都是MD格式，这个对</p>
+<br/><p>访问 <a href="https://nijika-jia.github.io/posts/成都小厂实习第二周" target="_blank">https://nijika-jia.github.io/posts/成都小厂实习第二周</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (伊地知佳)</author>
+        </item>
+        <item>
+            <title><![CDATA[成都小厂实习第一周]]></title>
+            <link>https://nijika-jia.github.io/posts/%E6%88%90%E9%83%BD%E5%B0%8F%E5%8E%82%E5%AE%9E%E4%B9%A0%E7%AC%AC%E4%B8%80%E5%91%A8</link>
+            <guid isPermaLink="false">https://nijika-jia.github.io/posts/成都小厂实习第一周</guid>
+            <pubDate>Sun, 26 Jul 2026 07:16:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>实习日记 · Week 1</h1>
+<h2>Day 1 · 周一</h2>
+<p>办理入职折腾完已经快十点了。</p>
+<p>然后就是经典新人环节——什么都不熟。绿盾加密，不熟。GitLab，不熟。想申请绿盾吧，负责办这事的人刚好</p>
+<br/><p>访问 <a href="https://nijika-jia.github.io/posts/成都小厂实习第一周" target="_blank">https://nijika-jia.github.io/posts/成都小厂实习第一周</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (伊地知佳)</author>
+        </item>
+        <item>
+            <title><![CDATA[Val Town 折腾笔记]]></title>
+            <link>https://nijika-jia.github.io/posts/Val%20Town%20%E6%8A%98%E8%85%BE%E7%AC%94%E8%AE%B0</link>
+            <guid isPermaLink="false">https://nijika-jia.github.io/posts/Val Town 折腾笔记</guid>
+            <pubDate>Wed, 17 Jun 2026 16:54:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>这玩意儿到底是啥</h2>
+<p>简单说，它是一个云端代码草稿本。</p>
+<p>以前想写个小脚本，比如抓数据或转发 Webhook，第一反应是开服务器、配环境、装依赖、搞域名。想到这里通常就算了。Val Town 省掉</p>
+<br/><p>访问 <a href="https://nijika-jia.github.io/posts/Val Town 折腾笔记" target="_blank">https://nijika-jia.github.io/posts/Val Town 折腾笔记</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (伊地知佳)</author>
+        </item>
+        <item>
+            <title><![CDATA[头歌包过教程(对付给看输出的那种实验)]]></title>
+            <link>https://nijika-jia.github.io/posts/%E5%A4%B4%E6%AD%8C%E5%8C%85%E8%BF%87%E6%95%99%E7%A8%8B(%E5%AF%B9%E4%BB%98%E7%BB%99%E7%9C%8B%E8%BE%93%E5%87%BA%E7%9A%84%E9%82%A3%E7%A7%8D)</link>
+            <guid isPermaLink="false">https://nijika-jia.github.io/posts/头歌包过教程(对付给看输出的那种)</guid>
+            <pubDate>Sun, 30 Nov 2025 16:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>实验操作步骤（命令行 + 图形化）</h1>
+<h2>一、命令行操作（适用于代码类实验）</h2>
+<ol>
+<li>切换到上一级目录</li>
+</ol>
+<pre><code class="language-bash">  cd ../
+</code></pre>
+<ol start="2">
+<li>进入指定实验目录</li>
+</ol>
+<pre><code class="language-b"></code></pre>
+<br/><p>访问 <a href="https://nijika-jia.github.io/posts/头歌包过教程(对付给看输出的那种)" target="_blank">https://nijika-jia.github.io/posts/头歌包过教程(对付给看输出的那种)</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (伊地知佳)</author>
+        </item>
+        <item>
+            <title><![CDATA[动漫图片分类助手：一个基于 AI 的动漫角色识别与整理工具]]></title>
+            <link>https://nijika-jia.github.io/posts/%E5%8A%A8%E6%BC%AB%E5%9B%BE%E7%89%87%E5%88%86%E7%B1%BB%E5%8A%A9%E6%89%8B%EF%BC%9A%E4%B8%80%E4%B8%AA%E5%9F%BA%E4%BA%8E%20AI%20%E7%9A%84%E5%8A%A8%E6%BC%AB%E8%A7%92%E8%89%B2%E8%AF%86%E5%88%AB%E4%B8%8E%E6%95%B4%E7%90%86%E5%B7%A5%E5%85%B7</link>
+            <guid isPermaLink="false">https://nijika-jia.github.io/posts/动漫图片分类助手：一个基于 AI 的动漫角色识别与整理工具</guid>
+            <pubDate>Sun, 09 Mar 2025 07:59:00 GMT</pubDate>
+            <content:encoded><![CDATA[<blockquote>
+<p>一个基于 AnimeTrace API 的动漫角色图片分类工具，可以识别动漫角色和作品，并按角色或作品名称整理图片。</p>
+</blockquote>
+<h2>下载</h2>
+<p>可以通过以下方式获取：</p>
+<h3>直接下载</h3>
+<ul>
+<li>[最新版本 v</li>
+</ul>
+<br/><p>访问 <a href="https://nijika-jia.github.io/posts/动漫图片分类助手：一个基于 AI 的动漫角色识别与整理工具" target="_blank">https://nijika-jia.github.io/posts/动漫图片分类助手：一个基于 AI 的动漫角色识别与整理工具</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (伊地知佳)</author>
+        </item>
+        <item>
+            <title><![CDATA[使用 pyenv 管理多个 Python 版本]]></title>
+            <link>https://nijika-jia.github.io/posts/%E4%BD%BF%E7%94%A8%20pyenv%20%E7%AE%A1%E7%90%86%E5%A4%9A%E4%B8%AA%20Python%20%E7%89%88%E6%9C%AC</link>
+            <guid isPermaLink="false">https://nijika-jia.github.io/posts/使用 pyenv 管理多个 Python 版本</guid>
+            <pubDate>Tue, 04 Mar 2025 15:23:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>这篇记录我在 Windows 上用 pyenv-win 管理多个 Python 版本的流程，包括安装、切换以及项目内固定版本。</p>
+<h2>目录</h2>
+<ul>
+<li><a href="#%E5%89%8D%E8%A8%80">前言</a></li>
+<li>[为什么要使用 pyenv？</li>
+</ul>
+<br/><p>访问 <a href="https://nijika-jia.github.io/posts/使用 pyenv 管理多个 Python 版本" target="_blank">https://nijika-jia.github.io/posts/使用 pyenv 管理多个 Python 版本</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (伊地知佳)</author>
+        </item>
+        <item>
+            <title><![CDATA[bocchi-the-rock-theme for VSCode]]></title>
+            <link>https://nijika-jia.github.io/posts/bocchi-the-rock-theme%20for%20VSCode</link>
+            <guid isPermaLink="false">https://nijika-jia.github.io/posts/bocchi-the-rock-theme for VSCode</guid>
+            <pubDate>Thu, 27 Feb 2025 08:35:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>Bocchi The Rock Theme</h1>
+<p><img src="https://nijika-jia.github.io/posts/bocchi-the-rock-theme%20for%20VSCode_2025-02-27-16-39-53.png" alt=""><br>
+VS</p>
+<br/><p>访问 <a href="https://nijika-jia.github.io/posts/bocchi-the-rock-theme for VSCode" target="_blank">https://nijika-jia.github.io/posts/bocchi-the-rock-theme for VSCode</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (伊地知佳)</author>
+        </item>
+        <item>
+            <title><![CDATA[图论可视化工具：一个轻量级的在线图形编辑与分析平台]]></title>
+            <link>https://nijika-jia.github.io/posts/%E5%9B%BE%E8%AE%BA%E5%8F%AF%E8%A7%86%E5%8C%96%E5%B7%A5%E5%85%B7%EF%BC%9A%E4%B8%80%E4%B8%AA%E8%BD%BB%E9%87%8F%E7%BA%A7%E7%9A%84%E5%9C%A8%E7%BA%BF%E5%9B%BE%E5%BD%A2%E7%BC%96%E8%BE%91%E4%B8%8E%E5%88%86%E6%9E%90%E5%B9%B3%E5%8F%B0</link>
+            <guid isPermaLink="false">https://nijika-jia.github.io/posts/图论可视化工具：一个轻量级的在线图形编辑与分析平台</guid>
+            <pubDate>Thu, 20 Feb 2025 04:29:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>前言</h2>
+<p>学习图论或做相关开发时，经常需要绘制和分析图形结构。这个基于 Web 的工具就是为此写的，不用安装软件，打开浏览器即可使用。</p>
+<p>![工具总览](/posts/图论可视化工具：一个轻量级的</p>
+<br/><p>访问 <a href="https://nijika-jia.github.io/posts/图论可视化工具：一个轻量级的在线图形编辑与分析平台" target="_blank">https://nijika-jia.github.io/posts/图论可视化工具：一个轻量级的在线图形编辑与分析平台</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (伊地知佳)</author>
+        </item>
+        <item>
+            <title><![CDATA[C++ STL操作优化指南：算法竞赛选手必读]]></title>
+            <link>https://nijika-jia.github.io/posts/C++%E5%AE%B9%E5%99%A8%E6%93%8D%E4%BD%9C%E4%BC%98%E5%8C%96</link>
+            <guid isPermaLink="false">https://nijika-jia.github.io/posts/C++容器操作优化</guid>
+            <pubDate>Wed, 12 Feb 2025 10:05:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h3>现代 C++ 容器操作优化指南</h3>
+<p>算法竞赛对时间和空间都比较敏感。选择合适的数据结构、减少临时对象和不必要的内存分配，可以让代码更简洁，也少一些性能损耗。</p>
+<hr>
+<p>![emplace 与 p</p>
+<br/><p>访问 <a href="https://nijika-jia.github.io/posts/C++容器操作优化" target="_blank">https://nijika-jia.github.io/posts/C++容器操作优化</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (伊地知佳)</author>
+        </item>
+        <item>
+            <title><![CDATA[优先队列<priority_queue>自定义排序]]></title>
+            <link>https://nijika-jia.github.io/posts/%E4%BC%98%E5%85%88%E9%98%9F%E5%88%97%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8E%92%E5%BA%8F</link>
+            <guid isPermaLink="false">https://nijika-jia.github.io/posts/优先队列自定义排序</guid>
+            <pubDate>Tue, 11 Feb 2025 10:05:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>C++ 优先队列自定义排序全指南</h1>
+<p><code>std::priority_queue</code> 是 C++ 中常用的堆数据结构，默认实现最大堆，<code>top()</code> 返回最大值。开发或算法竞赛中经常需要自定义排序规则，例</p>
+<br/><p>访问 <a href="https://nijika-jia.github.io/posts/优先队列自定义排序" target="_blank">https://nijika-jia.github.io/posts/优先队列自定义排序</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (伊地知佳)</author>
+        </item>
+        <item>
+            <title><![CDATA[byd崩溃了,做这个图论工具,**AI]]></title>
+            <link>https://nijika-jia.github.io/posts/%E5%B4%A9%E6%BA%83%E4%BA%86,AI</link>
+            <guid isPermaLink="false">https://nijika-jia.github.io/posts/崩溃了,AI</guid>
+            <pubDate>Sat, 08 Feb 2025 17:39:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>不知道是我表达有问题还是AI本来就傻</h2>
+<p>(我赞同第二个)</p>
+<h3>开始还越问越兴奋,想着我表达方式也变得真是越来越好了,可它终究是听不懂啊</h3>
+<p>![](/posts/崩溃了,AI_2025-02-09</p>
+<br/><p>访问 <a href="https://nijika-jia.github.io/posts/崩溃了,AI" target="_blank">https://nijika-jia.github.io/posts/崩溃了,AI</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (伊地知佳)</author>
+        </item>
+        <item>
+            <title><![CDATA[给你的GitHubpage用上Cloudflare(只有域名即可)]]></title>
+            <link>https://nijika-jia.github.io/posts/%E7%BB%99%E4%BD%A0%E7%9A%84GitHubpage%E7%94%A8%E4%B8%8ACloudflare(%E5%8F%AA%E6%9C%89%E5%9F%9F%E5%90%8D%E5%8D%B3%E5%8F%AF)</link>
+            <guid isPermaLink="false">https://nijika-jia.github.io/posts/给你的GitHubpage用上Cloudflare(只有域名即可)</guid>
+            <pubDate>Tue, 04 Feb 2025 12:16:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>给你的 GitHub Pages 用上 Cloudflare（有域名即可）</h2>
+<p>GitHub Pages 可以配合自定义域名使用。把域名交给 Cloudflare 管理后，可以同时使用它的 CDN</p>
+<br/><p>访问 <a href="https://nijika-jia.github.io/posts/给你的GitHubpage用上Cloudflare(只有域名即可)" target="_blank">https://nijika-jia.github.io/posts/给你的GitHubpage用上Cloudflare(只有域名即可)</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (伊地知佳)</author>
+        </item>
+        <item>
+            <title><![CDATA[更好的在.md文件粘贴图片-Paste image VScode插件推荐]]></title>
+            <link>https://nijika-jia.github.io/posts/%E6%9B%B4%E5%A5%BD%E7%9A%84%E5%9C%A8.md%E6%96%87%E4%BB%B6%E7%B2%98%E8%B4%B4%E5%9B%BE%E7%89%87-Paste%20image%20VScode%E6%8F%92%E4%BB%B6%E6%8E%A8%E8%8D%90</link>
+            <guid isPermaLink="false">https://nijika-jia.github.io/posts/更好的在.md文件粘贴图片-Paste image VScode插件推荐</guid>
+            <pubDate>Thu, 30 Jan 2025 08:12:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>Paste Image 插件推荐</h1>
+<h2>为什么推荐 Paste Image？</h2>
+<p>写 Markdown 时，插入图片通常要先保存截图，再找文件位置，最后手动写路径。Paste Image 把这几步</p>
+<br/><p>访问 <a href="https://nijika-jia.github.io/posts/更好的在.md文件粘贴图片-Paste image VScode插件推荐" target="_blank">https://nijika-jia.github.io/posts/更好的在.md文件粘贴图片-Paste image VScode插件推荐</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (伊地知佳)</author>
+        </item>
+        <item>
+            <title><![CDATA[新年快乐]]></title>
+            <link>https://nijika-jia.github.io/posts/%E6%96%B0%E5%B9%B4%E5%BF%AB%E4%B9%90</link>
+            <guid isPermaLink="false">https://nijika-jia.github.io/posts/新年快乐</guid>
+            <pubDate>Tue, 28 Jan 2025 03:19:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p><img src="https://nijika-jia.github.io/posts/03F12D3B338913E90D30A8BA26ECFC54.jpg" alt=""></p>
+<br/><p>访问 <a href="https://nijika-jia.github.io/posts/新年快乐" target="_blank">https://nijika-jia.github.io/posts/新年快乐</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (伊地知佳)</author>
+        </item>
+        <item>
+            <title><![CDATA[我的第一篇文章——博客上线啦！]]></title>
+            <link>https://nijika-jia.github.io/posts/hello</link>
+            <guid isPermaLink="false">https://nijika-jia.github.io/posts/hello</guid>
+            <pubDate>Sun, 19 Jan 2025 16:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>🎉 我的第一篇博客文章！</h1>
+<p>博客上线了。<br>
+我先把第一篇文章放在这里，之后也会在这里写技术和动漫游戏，以及生活里值得记下来的事。</p>
+<hr>
+<h2>🥳 为什么写博客？</h2>
+<p>我主要想用文字和图片</p>
+<br/><p>访问 <a href="https://nijika-jia.github.io/posts/hello" target="_blank">https://nijika-jia.github.io/posts/hello</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (伊地知佳)</author>
+        </item>
+    </channel>
+</rss>
