@@ -37,6 +37,8 @@ top: 0
    pyinstaller --noconsole --icon=assets/icon.ico src/main.py
    ```
 
+![散图进去，按角色和作品分好](/posts/2025-03-09-anime-sorter.webp)
+
 ## 前言
 
 整理动漫图片时，常见的麻烦有：
