@@ -5,6 +5,7 @@ updated: 2026-11-03 10:56:00
 draft: false
 layout: post
 top: 0
+cover: /posts/1776142262013.png
 ---
 # 让 GitHub Actions 自动把新 star 的仓库分进列表
 
@@ -53,7 +54,7 @@ mutation($itemId: ID!, $listIds: [ID!]!) {
 两个坑：
 
 1. **认证必须是 classic PAT 并勾选整个 `user` scope。** fine-grained PAT 不支持 GraphQL。
-2. **`listIds` 是全量替换，不是追加。** 直接传目标列表 ID，仓库会从其他列表里被挤掉。得先读现有成员再合并：`viewer { lists }` 拿全部列表，`node(id: ...) { ... on UserList { items } }` 分页读每个列表的成员，取并集后写回。
+2. `**listIds` 是全量替换，不是追加。** 直接传目标列表 ID，仓库会从其他列表里被挤掉。得先读现有成员再合并：`viewer { lists }` 拿全部列表，`node(id: ...) { ... on UserList { items } }` 分页读每个列表的成员，取并集后写回。
 
 star 列表本身走 REST `/user/starred`（分页），因为规则匹配需要 description 和 topics，GraphQL 的 starred 字段给不全。这套查询结构参考了开源项目 petarov/starghlist。
 
