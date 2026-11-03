@@ -10,6 +10,8 @@ top: 0
 
 GitHub 的 star 列表（Lists）没有 REST API，也没有"你 star 了别人仓库"的 webhook。想要新 star 自动归类，只能自己搭个定时轮询。我把这套东西跑起来了，记录一下选型和踩过的坑。
 
+![148 个散着的 star，被规则分进 7 个抽屉](/posts/2026-11-03-star-sorter-drawers.webp)
+
 ## 存量：148 个 star，7 个列表
 
 先把已有的 148 个 star 分好：
@@ -33,6 +35,8 @@ GitHub 的 star 列表（Lists）没有 REST API，也没有"你 star 了别人�
 **怎么分类。** 关键词规则还是 LLM？选了规则：可解释、免费、改个配置文件下个整点就生效。匹配不到的落默认组，不会卡住。
 
 **怎么触发。** GitHub 不给 star 事件发 webhook，Lists 也没有 REST API（gh CLI 的相关 issue #13226 还开着），所以只能定时拉 star 列表，找出不在任何列表里的新仓库。
+
+![listIds 是全量替换，不是追加](/posts/2026-11-03-star-sorter-full-replace.webp)
 
 ## 写入列表：GraphQL mutation
 
