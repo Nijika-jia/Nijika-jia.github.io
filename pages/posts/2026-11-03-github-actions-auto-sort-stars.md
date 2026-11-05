@@ -5,7 +5,7 @@ updated: 2026-11-03 10:56:00
 draft: false
 layout: post
 top: 0
-cover: /posts/1776142262013.png
+cover: /posts/92ee9dc3d6fd49da63c9303ff9e0349a.jpg
 ---
 # 让 GitHub Actions 自动把新 star 的仓库分进列表
 
