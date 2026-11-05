@@ -51,6 +51,13 @@ html.dark{
   border-left:0px solid rgba(255,255,255, 0)
 }
 
+// 文章卡片封面：完整显示整张图片，避免 object-fit: cover 裁切放大
+// .yun-cover 来自 ValaxyCover 的 scoped 样式，用更高的选择器优先级覆盖
+.yun-cover.post-card-cover .valaxy-cover-image {
+  object-fit: contain;
+  background-color: var(--va-c-bg-light);
+}
+
 // 文章卡片摘要里的图片：限制高度，底部渐变淡出（像文字被截断一样）
 .post-card-excerpt-content img {
   max-height: 120px;
