@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Hidden",
+    "artist": "tatsu",
+    "url": "https://archive.org/download/bump006/bump006_01-tatsu-hidden.mp3",
+    "cover": "https://archive.org/services/img/bump006",
+    "lrc": ""
+  },
+  {
+    "name": "Hidamari",
+    "artist": "zucchini",
+    "url": "https://archive.org/download/bump006/bump006_02-zucchini-hidamari.mp3",
+    "cover": "https://archive.org/services/img/bump006",
+    "lrc": ""
+  },
+  {
+    "name": "Cuty Cloud",
+    "artist": "tayutafu",
+    "url": "https://archive.org/download/bump006/bump006_03-tayutafu-cuty_cloud.mp3",
+    "cover": "https://archive.org/services/img/bump006",
+    "lrc": ""
+  },
+  {
+    "name": "Long Way",
+    "artist": "zucchini",
+    "url": "https://archive.org/download/bump006/bump006_04-zucchini-long_way.mp3",
+    "cover": "https://archive.org/services/img/bump006",
+    "lrc": ""
+  },
+  {
+    "name": "The World Inside the World Outside",
+    "artist": "Tangent Precipitate",
+    "url": "https://archive.org/download/pmc027/tangent-precipitate-outside-the-inside-01-the-world-inside-the-world-outside.mp3",
+    "cover": "https://archive.org/services/img/pmc027",
+    "lrc": ""
+  },
+  {
+    "name": "Outside the Inside",
+    "artist": "Tangent Precipitate",
+    "url": "https://archive.org/download/pmc027/tangent-precipitate-outside-the-inside-02-outside-the-inside.mp3",
+    "cover": "https://archive.org/services/img/pmc027",
+    "lrc": ""
+  },
+  {
+    "name": "The World Outside the World Inside",
+    "artist": "Tangent Precipitate",
+    "url": "https://archive.org/download/pmc027/tangent-precipitate-outside-the-inside-03-the-world-outside-the-world-inside.mp3",
+    "cover": "https://archive.org/services/img/pmc027",
+    "lrc": ""
+  },
+  {
+    "name": "Disturbed Bits #004",
+    "artist": "Tangent Precipitate",
+    "url": "https://archive.org/download/pmc010/tangent-precipitate-disturbed-bits-004-01-disturbed-bits-004-001.mp3",
+    "cover": "https://archive.org/services/img/pmc010",
+    "lrc": ""
+  }
+]

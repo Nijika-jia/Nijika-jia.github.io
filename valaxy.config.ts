@@ -124,17 +124,17 @@ export default defineValaxyConfig<UserThemeConfig>({
       // 设为 `global: true` 可在每个页面显示固定播放器
         global: true,
         props: {
+          // 静态播放列表，见 public/music/playlist.json。
+          // 曲目来自 Internet Archive 的 CC 授权作品（CC BY-NC-SA 2.5 / CC BY-NC 3.0 NZ）。
+          api: '/music/playlist.json',
           mini: true,
           fixed: true,
           theme: '#4CAF50',
-          server: 'netease',
-          type: 'artist',
-          id: '12390232',
         },
         options: {
           animationIn: true,
           autoHidden: true,
-          lyricHidden: false,
+          lyricHidden: true,
         },
     }),
     addonComponents(),
