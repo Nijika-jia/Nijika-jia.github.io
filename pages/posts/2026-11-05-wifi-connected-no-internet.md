@@ -5,7 +5,7 @@ updated: 2026-11-05 10:20:00
 draft: false
 layout: post
 top: 0
-cover: /posts/838aae99e4579bfe0df3f17e2987d39e.jpg
+cover: /posts/db6b199020af175908590f6756a58ded.jpg
 categories: 爱记录
 tags:
   - Windows
