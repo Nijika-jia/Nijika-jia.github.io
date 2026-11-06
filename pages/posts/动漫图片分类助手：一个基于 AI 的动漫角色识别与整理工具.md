@@ -12,7 +12,7 @@ updated: 2026-10-29 16:34:00
 draft: false
 top: 0
 ---
-> 一个基于 AnimeTrace API 的动漫角色图片分类工具，可以识别动漫角色和作品，并按角色或作品名称整理图片。
+基于 AnimeTrace API 的动漫角色图片分类工具，可以识别动漫角色和作品，并按角色或作品名称整理图片。
 
 ## 下载
 
@@ -36,6 +36,8 @@ top: 0
    ```bash
    pyinstaller --noconsole --icon=assets/icon.ico src/main.py
    ```
+
+![散图进去，按角色和作品分好](/posts/2025-03-09-anime-sorter.webp)
 
 ## 前言
 
