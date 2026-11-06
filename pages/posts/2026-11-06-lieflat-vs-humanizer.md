@@ -11,6 +11,7 @@ tags:
   - 开源项目
   - 写作
   - 调研
+cover: /posts/c53f71dc1742606de89ff14b26ae1b71.jpg
 ---
 # Lieflat Less AI Tone vs Humanizer：两种去 AI 味思路的对比
 
