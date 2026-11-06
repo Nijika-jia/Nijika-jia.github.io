@@ -134,7 +134,7 @@ export default defineValaxyConfig<UserThemeConfig>({
         options: {
           animationIn: true,
           autoHidden: true,
-          lyricHidden: true,
+          lyricHidden: false,
         },
     }),
     addonComponents(),
