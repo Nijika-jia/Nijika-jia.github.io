@@ -11,6 +11,7 @@ tags:
   - GitHub
   - Python
   - GitHub Actions
+  - 自动化
 ---
 # 让 GitHub Actions 自动把新 star 的仓库分进列表
 
