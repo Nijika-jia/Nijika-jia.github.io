@@ -6,6 +6,8 @@ draft: false
 layout: post
 top: 0
 categories: 爱分享
+tags:
+  - AI
 ---
 # DSH Go 与 Mika 对比：两种手机 AI Agent 的不同定位
 
