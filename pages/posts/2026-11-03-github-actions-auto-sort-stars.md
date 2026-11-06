@@ -9,6 +9,7 @@ cover: /posts/92ee9dc3d6fd49da63c9303ff9e0349a.jpg
 categories: 爱制作
 tags:
   - GitHub
+  - Python
 ---
 # 让 GitHub Actions 自动把新 star 的仓库分进列表
 
