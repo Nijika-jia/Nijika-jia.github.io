@@ -11,6 +11,7 @@ tags:
   - 开源项目
   - AI Agent
   - 调研
+cover: /posts/272644877e22f7161a85ced99dc7d6d8.jpg
 ---
 # DSH Go 与 Mika 对比：两种手机 AI Agent 的不同定位
 
