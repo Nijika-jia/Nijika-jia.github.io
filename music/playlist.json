@@ -1,0 +1,58 @@
+[
+  {
+    "name": "春泥棒",
+    "artist": "ヨルシカ",
+    "url": "/music/yorushika/01.mp3",
+    "cover": "/music/yorushika/01.jpg",
+    "lrc": "/music/yorushika/01.lrc"
+  },
+  {
+    "name": "冬眠",
+    "artist": "ヨルシカ",
+    "url": "/music/yorushika/02.mp3",
+    "cover": "/music/yorushika/02.jpg",
+    "lrc": "/music/yorushika/02.lrc"
+  },
+  {
+    "name": "雨とカプチーノ",
+    "artist": "ヨルシカ",
+    "url": "/music/yorushika/03.mp3",
+    "cover": "/music/yorushika/03.jpg",
+    "lrc": "/music/yorushika/03.lrc"
+  },
+  {
+    "name": "斜陽",
+    "artist": "ヨルシカ",
+    "url": "/music/yorushika/04.mp3",
+    "cover": "/music/yorushika/04.jpg",
+    "lrc": "/music/yorushika/04.lrc"
+  },
+  {
+    "name": "ただ君に晴れ",
+    "artist": "ヨルシカ",
+    "url": "/music/yorushika/05.mp3",
+    "cover": "/music/yorushika/05.jpg",
+    "lrc": "/music/yorushika/05.lrc"
+  },
+  {
+    "name": "老人と海",
+    "artist": "ヨルシカ",
+    "url": "/music/yorushika/06.mp3",
+    "cover": "/music/yorushika/06.jpg",
+    "lrc": "/music/yorushika/06.lrc"
+  },
+  {
+    "name": "思想犯",
+    "artist": "ヨルシカ",
+    "url": "/music/yorushika/07.mp3",
+    "cover": "/music/yorushika/07.jpg",
+    "lrc": "/music/yorushika/07.lrc"
+  },
+  {
+    "name": "花に亡霊",
+    "artist": "ヨルシカ",
+    "url": "/music/yorushika/08.mp3",
+    "cover": "/music/yorushika/08.jpg",
+    "lrc": "/music/yorushika/08.lrc"
+  }
+]
