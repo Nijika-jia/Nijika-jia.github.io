@@ -1,7 +1,7 @@
 // you can custom css here
 :root {
-  --yun-c-cloud-light: #C6D9FA;
-  --yun-c-cloud-dark: #E7EF83;
+  --yun-c-cloud-light: #C9D6E8;
+  --yun-c-cloud-dark: #E8C86A;
 }
 
 .yun-cloud {
@@ -28,19 +28,39 @@ input:active, textarea:active, [contenteditable]:active {
   cursor: url('/cursor/Text.ani'), text;
 }
 
-// styles/css-vars.scss
+// 夜航配色：从站点背景图提取的深夜蓝、月光金、丝带白与暮紫
 :root {
-  // 白天模式下文章框的底色
-  --va-c-bg-light: rgba(255, 255, 255, 0.8);
-  // 边栏背景图片
-  // --yun-sidebar-bg-img: url('https://cdn.yuumi.link/images/settings/Yuumi_Icon.png');
+  // 白天模式
+  --va-c-primary: #9A7620;
+  --va-c-link: #9A7620;
+  --va-c-text: #1E2536;
+  --va-c-bg-light: rgba(250, 248, 242, 0.84);
+  --va-c-border: rgba(30, 37, 54, 0.14);
+  --va-c-divider: rgba(30, 37, 54, 0.1);
+  --yun-nav-bg-color: rgba(250, 248, 242, 0.72);
+  --yun-nav-border-color: rgba(30, 37, 54, 0.1);
+  --yun-post-title-color: #1E2536;
+  --yun-post-title-hover-color: #9A7620;
+  --yun-tag-color: #5C6678;
+  --yun-tag-hover-color: #9A7620;
   // 边栏背景颜色透明
   --yun-sidebar-bg-color: rgba(255, 255, 255, 0);
 }
 
-// 夜晚模式下文章框的底色
-html.dark{
-  --va-c-bg-light:rgba(5, 16, 29, 0.8);
+// 夜晚模式
+html.dark {
+  --va-c-primary: #E8C86A;
+  --va-c-link: #E8C86A;
+  --va-c-text: #E9EDF5;
+  --va-c-bg-light: rgba(13, 20, 34, 0.84);
+  --va-c-border: rgba(233, 237, 245, 0.14);
+  --va-c-divider: rgba(233, 237, 245, 0.1);
+  --yun-nav-bg-color: rgba(13, 20, 34, 0.72);
+  --yun-nav-border-color: rgba(233, 237, 245, 0.1);
+  --yun-post-title-color: #EDF1F8;
+  --yun-post-title-hover-color: #E8C86A;
+  --yun-tag-color: #A8B4C8;
+  --yun-tag-hover-color: #E8C86A;
 }
 
 // 首页大字两边的背景
