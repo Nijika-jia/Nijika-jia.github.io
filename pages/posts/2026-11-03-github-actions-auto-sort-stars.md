@@ -5,7 +5,7 @@ updated: 2026-11-03 10:56:00
 draft: false
 layout: post
 top: 0
-cover: /posts/1949298f4402e55628366db05e40fb51.jpg
+cover: /posts/0c773e3e13b2ea868a73c4eb4bb730a4.jpg
 categories: 爱制作
 tags:
   - GitHub
