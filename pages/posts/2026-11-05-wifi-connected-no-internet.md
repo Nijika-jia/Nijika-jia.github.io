@@ -9,6 +9,7 @@ cover: /posts/838aae99e4579bfe0df3f17e2987d39e.jpg
 categories: 爱记录
 tags:
   - Windows
+  - 网络
 ---
 # Wi-Fi 一直连着，网却突然没了
 
