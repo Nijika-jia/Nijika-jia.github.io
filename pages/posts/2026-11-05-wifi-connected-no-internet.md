@@ -10,6 +10,7 @@ categories: 爱记录
 tags:
   - Windows
   - 网络
+  - 排查
 ---
 # Wi-Fi 一直连着，网却突然没了
 
