@@ -6,6 +6,7 @@ draft: false
 layout: post
 top: 0
 cover: /posts/838aae99e4579bfe0df3f17e2987d39e.jpg
+categories: 爱记录
 ---
 # Wi-Fi 一直连着，网却突然没了
 
