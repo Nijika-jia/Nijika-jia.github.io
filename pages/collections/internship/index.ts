@@ -4,7 +4,7 @@ import { defineCollection } from 'valaxy'
 export default defineCollection({
   "key": "internship",
   "title": "实习の记",
-  "cover": "/posts/1792162074335.png",
+  "cover": "/posts/15d64eff25de61f902a5fb3f1da938a0.jpg",
   "description": "",
   "categories": [],
   "tags": [
