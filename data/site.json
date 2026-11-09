@@ -85,7 +85,7 @@
     }
   ],
   "sponsor": {
-    "enable": true,
+    "enable": false,
     "title": "",
     "description": "",
     "methods": [
