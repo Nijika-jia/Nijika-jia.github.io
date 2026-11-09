@@ -31,6 +31,9 @@ export default defineSiteConfig({
   social: siteData.social,
   sponsor: siteData.sponsor,
   pageSize: siteData.pageSize,
+  llms: {
+    enable: true,
+  },
   mediumZoom: siteData.mediumZoom,
   vanillaLazyload: siteData.vanillaLazyload,
   codeHeightLimit: siteData.codeHeightLimit,
