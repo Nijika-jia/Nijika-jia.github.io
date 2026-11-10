@@ -64,53 +64,53 @@
     "enable": true,
     "url": "https://pic1.imgdb.cn/item/6a4164a333bc7bc02d7ba1cc.jpg",
     "dark": "https://pic1.imgdb.cn/item/6a41664d33bc7bc02d7ba206.jpg",
-    "opacity": 0.35
+    "opacity": 0.3
   },
   "pages": [
     {
       "nameKey": "pages.categories",
       "url": "/categories/",
       "icon": "i-ri:folder-5-line",
-      "color": "#6D8FBF"
+      "color": "#B3323F"
     },
     {
       "nameKey": "pages.tags",
       "url": "/tags/",
       "icon": "i-ri-price-tag-3-line",
-      "color": "#C9A227"
+      "color": "#C9A441"
     },
     {
       "nameKey": "pages.links",
       "url": "/links/",
       "icon": "i-ri-links-line",
-      "color": "#8B7BB8"
+      "color": "#8B6BB1"
     },
     {
       "nameKey": "pages.projects",
       "url": "/projects/",
       "icon": "i-ri-puzzle-fill",
-      "color": "#5E9E8A"
+      "color": "#3E8E6E"
     }
   ],
   "types": [
     {
       "id": "link",
-      "color": "#6D8FBF",
+      "color": "#6371BE",
       "icon": "i-ri-link"
     },
     {
       "id": "bilibili",
-      "color": "#D98BA6",
+      "color": "#D06B74",
       "icon": "i-ri-bilibili-line"
     },
     {
       "id": "github",
-      "color": "#8B7BB8",
+      "color": "#8B6BB1",
       "icon": "i-ri-github-line"
     },
     {
       "id": "study",
-      "color": "#6FA37A",
+      "color": "#51896A",
       "icon": "i-ri:book-line"
     },
     {
@@ -120,7 +120,7 @@
     },
     {
       "id": "company",
-      "color": "#5E9E8A",
+      "color": "#B19A4D",
       "icon": "i-ri:building-line"
     }
   ],
@@ -148,7 +148,7 @@
     }
   },
   "colors": {
-    "primary": "#C9A227"
+    "primary": "#B3323F"
   },
   "fireworks": {
     "enable": true,

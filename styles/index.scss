@@ -1,20 +1,61 @@
-// you can custom css here
+@import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.css');
+
+// 《魔法少女的魔女审判》设计语言翻译：
+// 近黑档案纸、细双线、朱红菱形印章、明朝体标题。
+// 只使用抽象视觉元素，不引用任何游戏素材。
+
 :root {
-  --yun-c-cloud-light: #C9D6E8;
-  --yun-c-cloud-dark: #E8C86A;
+  // 浅色：做旧纸面
+  --va-c-primary: #8C1F2D;
+  --va-c-link: #8C1F2D;
+  --va-c-text: #1C171A;
+  --va-c-bg-light: rgba(250, 246, 239, 0.88);
+  --va-c-bg-soft: #F2ECE3;
+  --va-c-border: #B9AB9B;
+  --va-c-divider: #D8CCBE;
+  --yun-nav-bg-color: rgba(242, 236, 227, 0.84);
+  --yun-nav-border-color: #A89785;
+  --yun-post-title-color: #1C171A;
+  --yun-post-title-hover-color: #8C1F2D;
+  --yun-post-meta-color: #5E5559;
+  --yun-tag-color: #5E5559;
+  --yun-tag-hover-color: #8C1F2D;
+  --yun-sidebar-bg-color: transparent;
+  --yun-c-cloud-light: #D8CCBE;
+  --yun-c-cloud-dark: #B3323F;
+}
+
+// 深色：审判庭的黑色卷宗
+html.dark {
+  --va-c-primary: #B3323F;
+  --va-c-link: #D4606B;
+  --va-c-text: #EDE6DF;
+  --va-c-bg: #121014;
+  --va-c-bg-light: rgba(26, 21, 26, 0.88);
+  --va-c-bg-soft: #211A20;
+  --va-c-border: #75636E;
+  --va-c-divider: #332B32;
+  --yun-nav-bg-color: rgba(18, 16, 20, 0.84);
+  --yun-nav-border-color: #75636E;
+  --yun-post-title-color: #EDE6DF;
+  --yun-post-title-hover-color: #D4606B;
+  --yun-post-meta-color: #ABA2A8;
+  --yun-tag-color: #ABA2A8;
+  --yun-tag-hover-color: #D4606B;
+  --yun-sidebar-bg-color: transparent;
+  --yun-c-cloud-light: #D8CCBE;
+  --yun-c-cloud-dark: #B3323F;
 }
 
 .yun-cloud {
-  --yun-c-cloud: var(--yun-c-cloud-light); /* 默认浅色主题 */
+  --yun-c-cloud: var(--yun-c-cloud-light);
 }
 
 .dark .yun-cloud {
-  --yun-c-cloud: var(--yun-c-cloud-dark); /* 深色主题覆盖 */
+  --yun-c-cloud: var(--yun-c-cloud-dark);
 }
 
-  
 // 光标样式由 /js/ani-cursor.js 动态加载 .ani 动画光标文件处理
-// 备用静态光标（动画光标加载失败时使用）
 body {
   cursor: url('/cursor/Normal.ani'), auto;
 }
@@ -28,56 +69,170 @@ input:active, textarea:active, [contenteditable]:active {
   cursor: url('/cursor/Text.ani'), text;
 }
 
-// 夜航配色：从站点背景图提取的深夜蓝、月光金、丝带白与暮紫
-:root {
-  // 白天模式
-  --va-c-primary: #9A7620;
-  --va-c-link: #9A7620;
-  --va-c-text: #1E2536;
-  --va-c-bg-light: rgba(250, 248, 242, 0.84);
-  --va-c-border: rgba(30, 37, 54, 0.14);
-  --va-c-divider: rgba(30, 37, 54, 0.1);
-  --yun-nav-bg-color: rgba(250, 248, 242, 0.72);
-  --yun-nav-border-color: rgba(30, 37, 54, 0.1);
-  --yun-post-title-color: #1E2536;
-  --yun-post-title-hover-color: #9A7620;
-  --yun-tag-color: #5C6678;
-  --yun-tag-hover-color: #9A7620;
-  // 边栏背景颜色透明
-  --yun-sidebar-bg-color: rgba(255, 255, 255, 0);
+// 导航、按钮、标签使用霞鹜文楷，接近游戏菜单的手写标注
+.yun-nav-menu,
+.yun-site-link-item,
+.post-link-btn,
+.post-tag,
+.yun-link-blog,
+button[type="submit"] {
+  font-family: 'LXGW WenKai', 'Kaiti SC', 'STKaiti', 'KaiTi', 'Noto Serif SC', serif;
+  letter-spacing: 0.06em;
 }
 
-// 夜晚模式
-html.dark {
-  --va-c-primary: #E8C86A;
-  --va-c-link: #E8C86A;
-  --va-c-text: #E9EDF5;
-  --va-c-bg-light: rgba(13, 20, 34, 0.84);
-  --va-c-border: rgba(233, 237, 245, 0.14);
-  --va-c-divider: rgba(233, 237, 245, 0.1);
-  --yun-nav-bg-color: rgba(13, 20, 34, 0.72);
-  --yun-nav-border-color: rgba(233, 237, 245, 0.1);
-  --yun-post-title-color: #EDF1F8;
-  --yun-post-title-hover-color: #E8C86A;
-  --yun-tag-color: #A8B4C8;
-  --yun-tag-hover-color: #E8C86A;
+// 导航：细线、朱红菱形标记当前项
+html.dark .yun-nav-menu,
+html.dark .yun-nav {
+  border-bottom: 1px solid var(--va-c-border);
+  box-shadow: 0 1px 0 color-mix(in srgb, var(--va-c-border) 40%, transparent);
+}
+
+.yun-site-link-item {
+  position: relative;
+}
+
+.yun-site-link-item.router-link-active::before {
+  content: '';
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin-right: 0.45em;
+  vertical-align: 0.12em;
+  background: var(--va-c-primary);
+  transform: rotate(45deg);
+  box-shadow: 0 0 0 1px var(--va-c-primary);
+}
+
+// 标题默认被 yun 套上主色渐变，改为纸白纯色；hover 才变成判决红
+.post-title-link.gradient-text,
+.post-card-title.gradient-text {
+  background-image: none !important;
+  -webkit-text-fill-color: currentColor !important;
+  background-clip: border-box !important;
+  color: var(--yun-post-title-color) !important;
+}
+
+.post-title-link.gradient-text:hover,
+.post-card-title.gradient-text:hover {
+  color: var(--yun-post-title-hover-color) !important;
+}
+
+// 文章卡片：2px 圆角 + 双层细线，像摊开的档案卡
+.post-card-wrapper {
+  border: 1px solid var(--va-c-border);
+  border-radius: 2px;
+  box-shadow:
+    inset 0 0 0 3px var(--va-c-bg-light),
+    inset 0 0 0 4px color-mix(in srgb, var(--va-c-border) 55%, transparent);
+}
+
+.post-card-wrapper:hover {
+  border-color: color-mix(in srgb, var(--va-c-primary) 65%, var(--va-c-border));
+  transform: translateY(-2px);
+  transition: transform 200ms cubic-bezier(0.2, 0, 0, 1), border-color 200ms;
+}
+
+// 友链卡片：左侧朱红书脊
+.yun-link-url {
+  border-radius: 2px;
+  box-shadow: inset 2px 0 0 var(--va-c-primary);
+}
+
+.yun-link-url:hover {
+  border-color: color-mix(in srgb, var(--va-c-primary) 55%, var(--va-c-border));
+  transform: translateY(-2px);
+}
+
+.yun-link-avatar-img {
+  border-radius: 1px;
+  filter: grayscale(0.3) sepia(0.08);
+}
+
+.yun-link-url:hover .yun-link-avatar-img {
+  filter: none;
+}
+
+// 标签：去掉胶囊，改为纸面印章式小标签
+.post-tag {
+  border-radius: 0;
+  border-color: transparent;
+  background: transparent;
+}
+
+.post-tag:hover {
+  background: transparent !important;
+  color: var(--va-c-link) !important;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+// 正文标题：双细线 + 菱形朱印
+.markdown-body h2,
+.yun-prose h2 {
+  position: relative;
+  padding-top: 0.65em;
+  border-top: 3px double var(--va-c-border);
+}
+
+.markdown-body h2::before,
+.yun-prose h2::before {
+  content: '';
+  position: absolute;
+  top: -4px;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  background: var(--va-c-primary);
+  transform: translateY(-50%) rotate(45deg);
+}
+
+.markdown-body h3,
+.yun-prose h3 {
+  position: relative;
+  padding-left: 0.9em;
+}
+
+.markdown-body h3::before,
+.yun-prose h3::before {
+  content: '';
+  position: absolute;
+  top: 0.62em;
+  left: 0;
+  width: 5px;
+  height: 5px;
+  border: 1px solid var(--va-c-primary);
+  transform: rotate(45deg);
+}
+
+// 引用块：左侧细双线，不做撕纸效果，避免长文阅读干扰
+.markdown-body blockquote,
+.yun-prose blockquote {
+  border-left: 3px double var(--va-c-border);
+  background: color-mix(in srgb, var(--va-c-bg-soft) 55%, transparent);
 }
 
 // 首页大字两边的背景
 .char-left {
-  border-right:0px solid rgba(255,255,255, 0)
+  border-right: 0 solid rgba(255, 255, 255, 0);
 }
 .char-right {
-  border-left:0px solid rgba(255,255,255, 0)
+  border-left: 0 solid rgba(255, 255, 255, 0);
 }
 
-// 文章卡片摘要里的图片：限制高度，底部渐变淡出（像文字被截断一样）
+// 文章卡片摘要里的图片：限制高度，底部渐变淡出
 .post-card-excerpt-content img {
   max-height: 120px;
   width: 100%;
   object-fit: cover;
   object-position: top;
-  border-radius: 4px;
+  border-radius: 0;
   -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
   mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .post-card-wrapper:hover,
+  .yun-link-url:hover {
+    transform: none;
+  }
 }
