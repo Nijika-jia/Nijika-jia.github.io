@@ -1,7 +1,6 @@
 import { readFileSync } from 'node:fs'
 import { resolve } from 'node:path'
-import type { UserThemeConfig } from 'valaxy-theme-yun'
-import { defineValaxyConfig, $t } from 'valaxy'
+import { defineValaxyConfig } from 'valaxy'
 import { addonLightGallery } from 'valaxy-addon-lightgallery'
 import { addonWaline } from "valaxy-addon-waline";
 import { addonLive2d } from 'valaxy-addon-live2d'
@@ -9,7 +8,6 @@ import { addonMeting } from 'valaxy-addon-meting'
 import { addonComponents } from 'valaxy-addon-components'
 import { addonHitokoto, HitokotoType } from 'valaxy-addon-hitokoto';
 import { addonBangumi } from 'valaxy-addon-bangumi';
-import themeData from './data/theme.json'
 // Each skin is generated as its own model JSON by scripts/generate-live2d-skins.mjs.
 // Passing them as an array avoids the addon's GitHub API texture lookup (HTTP 403).
 function live2dSkinModels(name: 'Tia' | 'Pio') {
@@ -45,30 +43,12 @@ const safelist = [
 /**
  * User Config
  */
-export default defineValaxyConfig<UserThemeConfig>({
+export default defineValaxyConfig({
   // site config see site.config.ts
 
-  theme: 'yun',
+  theme: 'mwt',
   build: {
     ssgForPagination: true,
-  },
-  themeConfig: {
-    banner: themeData.banner,
-    outlineTitle: themeData.outlineTitle,
-    nav: themeData.nav,
-    bg_image: themeData.bg_image,
-    pages: themeData.pages.map(({ nameKey, ...page }) => ({
-      ...page,
-      name: $t(nameKey),
-    })),
-    types: Object.fromEntries(
-      themeData.types.map(({ id, ...type }) => [id, type]),
-    ),
-    footer: themeData.footer,
-    notice: themeData.notice,
-    say: themeData.say,
-    colors: themeData.colors,
-    fireworks: themeData.fireworks,
   },
   markdown: {
     theme:{

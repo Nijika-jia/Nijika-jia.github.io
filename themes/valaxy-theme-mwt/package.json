@@ -1,0 +1,31 @@
+{
+  "name": "valaxy-theme-mwt",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "A dossier / trial-archive theme for Valaxy inspired by Magical Girl Witch Trials",
+  "license": "MIT",
+  "exports": {
+    ".": "./index.ts",
+    "./client": "./client/index.ts",
+    "./*": "./*"
+  },
+  "main": "index.ts",
+  "files": [
+    "client",
+    "components",
+    "composables",
+    "index.ts",
+    "layouts",
+    "node",
+    "pages",
+    "setup",
+    "styles",
+    "types",
+    "valaxy.config.ts"
+  ],
+  "peerDependencies": {
+    "valaxy": ">=1.2.1 <2",
+    "vue": "^3.5.0",
+    "vue-router": "^5.0.0"
+  }
+}

@@ -33,6 +33,7 @@
     "valaxy-addon-twikoo": "^0.0.4",
     "valaxy-addon-waline": "^0.2.1",
     "valaxy-theme-yun": "1.2.1",
+    "valaxy-theme-mwt": "link:./themes/valaxy-theme-mwt",
     "vue": "3.5.44",
     "vue-router": "5.4.0"
   },
