@@ -15,6 +15,11 @@
       "icon": "i-ri-article-line"
     },
     {
+      "text": "小随想",
+      "link": "/moments/",
+      "icon": "i-ri-chat-1-line"
+    },
+    {
       "text": "合集",
       "link": "/collections/",
       "icon": "i-ri:dashboard-line"
@@ -90,6 +95,12 @@
       "url": "/projects/",
       "icon": "i-ri-puzzle-fill",
       "color": "#5E9E8A"
+    },
+    {
+      "nameKey": "pages.moments",
+      "url": "/moments/",
+      "icon": "i-ri-chat-1-line",
+      "color": "#C9A227"
     }
   ],
   "types": [

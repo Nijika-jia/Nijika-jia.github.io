@@ -34,6 +34,7 @@ const safelist = [
   'i-ri-user-line',
   'i-ri-heart-2-fill',
   'i-ri-article-line',
+  'i-ri-chat-1-line',
   // 主题组件响应式断点类（UnoCSS 未扫描 node_modules 时需要手动添加）
   'lg:hidden',
   'lg:contents',
