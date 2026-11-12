@@ -9,6 +9,8 @@ import { addonMeting } from 'valaxy-addon-meting'
 import { addonComponents } from 'valaxy-addon-components'
 import { addonHitokoto, HitokotoType } from 'valaxy-addon-hitokoto';
 import { addonBangumi } from 'valaxy-addon-bangumi';
+import { addonMoments } from 'valaxy-addon-moments'
+import { addonMermaid } from 'valaxy-addon-mermaid'
 import themeData from './data/theme.json'
 // Each skin is generated as its own model JSON by scripts/generate-live2d-skins.mjs.
 // Passing them as an array avoids the addon's GitHub API texture lookup (HTTP 403).
@@ -69,6 +71,7 @@ export default defineValaxyConfig<UserThemeConfig>({
     say: themeData.say,
     colors: themeData.colors,
     fireworks: themeData.fireworks,
+    notFound: themeData.notFound,
   },
   markdown: {
     theme:{
@@ -142,7 +145,12 @@ export default defineValaxyConfig<UserThemeConfig>({
       args:[HitokotoType.Animation],
       minLength:0,
       maxLength:30
-    })
+    }),
+    addonMoments({
+      title: '小随想',
+      description: '日常碎片与随手记',
+    }),
+    addonMermaid(),
   ],
   unocss: { safelist},
 })

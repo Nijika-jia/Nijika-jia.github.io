@@ -132,6 +132,14 @@
     },
     "cloud": {
       "enable": true
+    },
+    "icon": {
+      "enable": true,
+      "name": "i-ri-heart-fill",
+      "animated": true,
+      "color": "#E8C86A",
+      "url": "",
+      "title": ""
     }
   },
   "notice": {
@@ -156,5 +164,8 @@
       "#C6D9FA",
       "#E7EF83"
     ]
+  },
+  "notFound": {
+    "issueLink": "https://github.com/Nijika-jia/Nijika-jia.github.io/issues/new"
   }
 }
