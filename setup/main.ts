@@ -40,13 +40,16 @@ export default defineAppSetup(async ({ isClient }) => {
     if (!viewer || !model)
       return
 
-    viewer.dataset.model = model.internalModel.settings.name
+    const name = model.internalModel.settings.name
+    viewer.dataset.model = name
     viewer.style.setProperty('--live2d-canvas-height', `${Live2DApp.pixiApp.renderer.screen.height}px`)
 
-    // 艾玛只有一套外观，隐藏没有意义的换装按钮；Tia/Pio 仍保留。
+    // 艾玛和雪莉只有一套外观，隐藏没有意义的换装按钮；Tia/Pio 仍保留。
     const skinTool = document.getElementById('live2d-tool-switch-texture')
     if (skinTool)
-      skinTool.style.display = model.internalModel.settings.name === 'Emma' ? 'none' : ''
+      skinTool.style.display = ['Emma', 'Sherry'].includes(name) ? 'none' : ''
+
+    applyTipsForModel(name)
   }
 
   // 把插件默认的通用提示替换成艾玛的台词。
@@ -108,26 +111,80 @@ export default defineAppSetup(async ({ isClient }) => {
     '0-5': ['还没睡吗？……我陪着你。'],
   }
 
-  const tipsTimer = setInterval(() => {
+  const sherryMouseover: Record<string, string[]> = {
+    '#live2d-canvas': [
+      '名侦探橘雪莉，登场！',
+      '这个谜题，就由我来解开吧。',
+      '没破过案？那只是还没遇到值得我出手的案件而已。',
+      '家族游戏？……我最讨厌那个了。',
+      '苹果？你要给我苹果吗？',
+      '真相只有一个——大概。',
+      '你的表情告诉我，你在隐瞒什么。',
+      '怪力？只是稍微用力了一点而已。',
+      '要一起玩推理游戏吗？',
+    ],
+    '#live2d-tool-switch-model': [
+      '要换别的嫌疑人吗？不过，我还没问完话呢。',
+      '换人可以，但真相不会自己消失哦。',
+    ],
+    '#live2d-tool-hitokoto': [
+      '一句话？那我说：所有谜题都有答案。',
+      '想听侦探的格言吗？……我现编一句。',
+    ],
+    '#live2d-tool-photo': [
+      '拍照？这是现场取证吗？',
+      '要拍得像个名侦探哦。',
+    ],
+    '#live2d-tool-info': [
+      '橘雪莉，囚犯编号 667，自称名侦探。',
+      '我的档案？这可是重要线索。',
+    ],
+    '#live2d-tool-quit': [
+      '要离开现场了吗？……案子还没结呢。',
+      '下次见面时，记得带上新的谜题。',
+    ],
+  }
+
+  const sherryClick = [
+    '诶？突然碰侦探，是想提供线索吗？',
+    '调查开始！',
+    '别乱动，我正在观察你。',
+    '怪力警告——开玩笑的。',
+  ]
+
+  const sherryTime: Record<string, string[]> = {
+    '6-7': ['早上好！名侦探的一天从早餐开始。'],
+    '8-11': ['上午好！有案件发生吗？'],
+    '12-13': ['中午了，先吃饭。推理也需要体力。'],
+    '14-17': ['午后最适合整理线索了。'],
+    '18-19': ['傍晚了，现场调查的最佳时间。'],
+    '20-21': ['晚上好！要一起复盘今天的谜题吗？'],
+    '22-23': ['这么晚了，侦探也要休息的。'],
+    '0-5': ['深夜还在调查？……真有干劲。'],
+  }
+
+  function applyTipsForModel(name: string) {
     const tips = (Live2DApp as any).live2dTips
     if (!tips)
       return
 
+    const set = name === 'Sherry'
+      ? { mouseover: sherryMouseover, click: sherryClick, time: sherryTime }
+      : { mouseover: emmaMouseover, click: emmaClick, time: emmaTime }
+
     for (const tip of tips.mouseover ?? []) {
-      if (emmaMouseover[tip.selector])
-        tip.text = emmaMouseover[tip.selector]
+      if (set.mouseover[tip.selector])
+        tip.text = set.mouseover[tip.selector]
     }
     for (const tip of tips.click ?? []) {
       if (tip.selector === '#live2d')
-        tip.text = emmaClick
+        tip.text = set.click
     }
     for (const tip of tips.time ?? []) {
-      if (emmaTime[tip.hour])
-        tip.text = emmaTime[tip.hour]
+      if (set.time[tip.hour])
+        tip.text = set.time[tip.hour]
     }
-    clearInterval(tipsTimer)
-  }, 300)
-  cleanups.push(() => clearInterval(tipsTimer))
+  }
 
   const originalMount = Live2DApp.mount
   Live2DApp.mount = function (model) {

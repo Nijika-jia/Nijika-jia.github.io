@@ -102,7 +102,7 @@ export default defineValaxyConfig<UserThemeConfig>({
     }),
     addonLive2d({
       global: true,
-      enableLive2D: ['Tia', 'Pio', 'Emma'],
+      enableLive2D: ['Tia', 'Pio', 'Emma', 'Sherry'],
       widthLimit: 290,
       live2DCollection: {
         Tia: {
@@ -116,6 +116,10 @@ export default defineValaxyConfig<UserThemeConfig>({
         Emma: {
           message: '艾玛来啦 ~',
           models: ['/live2d/Emma/Emma.model3.json'],
+        },
+        Sherry: {
+          message: '名侦探雪莉，登场！',
+          models: ['/live2d/Sherry/Sherry.model3.json'],
         },
       },
       skipHello: false,
