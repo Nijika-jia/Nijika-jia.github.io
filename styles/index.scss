@@ -81,3 +81,10 @@ html.dark {
   -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
   mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
 }
+
+// 艾玛以半身看板娘展示，裁掉画布下半部后仍贴齐屏幕底边。
+#live2d[data-model='Emma'] {
+  height: calc(var(--live2d-canvas-height) * 0.56);
+  align-items: flex-start;
+  overflow: clip;
+}
