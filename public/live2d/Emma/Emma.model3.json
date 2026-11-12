@@ -20,7 +20,16 @@
         "Name": "monvhua",
         "File": "monvhua.exp3.json"
       }
-    ]
+    ],
+    "Motions": {
+      "Idle": [
+        {
+          "File": "Emma.idle.motion3.json",
+          "FadeInTime": 0.6,
+          "FadeOutTime": 0.6
+        }
+      ]
+    }
   },
   "Groups": [
     {
