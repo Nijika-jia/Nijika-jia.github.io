@@ -42,6 +42,11 @@ export default defineAppSetup(async ({ isClient }) => {
 
     viewer.dataset.model = model.internalModel.settings.name
     viewer.style.setProperty('--live2d-canvas-height', `${Live2DApp.pixiApp.renderer.screen.height}px`)
+
+    // 艾玛只有一套外观，隐藏没有意义的换装按钮；Tia/Pio 仍保留。
+    const skinTool = document.getElementById('live2d-tool-switch-texture')
+    if (skinTool)
+      skinTool.style.display = model.internalModel.settings.name === 'Emma' ? 'none' : ''
   }
 
   // 把插件默认的通用提示替换成艾玛的台词。
