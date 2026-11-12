@@ -12,8 +12,12 @@ export default defineAppSetup(async ({ isClient }) => {
   const configuredModels = new WeakSet<Model>()
   const cleanups: (() => void)[] = []
 
-  function configureEmma(model?: Model) {
-    if (model?.internalModel.settings.name !== 'Emma' || configuredModels.has(model))
+  // 艾玛和雪莉都把 Param85/86/87 当作物理输入，需要同样的头部与眨眼适配。
+  const customModels = ['Emma', 'Sherry']
+  const isCustomModel = (name?: string) => !!name && customModels.includes(name)
+
+  function configureModel(model?: Model) {
+    if (!model || !isCustomModel(model.internalModel.settings.name) || configuredModels.has(model))
       return
 
     configuredModels.add(model)
@@ -47,7 +51,7 @@ export default defineAppSetup(async ({ isClient }) => {
     // 艾玛和雪莉只有一套外观，隐藏没有意义的换装按钮；Tia/Pio 仍保留。
     const skinTool = document.getElementById('live2d-tool-switch-texture')
     if (skinTool)
-      skinTool.style.display = ['Emma', 'Sherry'].includes(name) ? 'none' : ''
+      skinTool.style.display = isCustomModel(name) ? 'none' : ''
 
     applyTipsForModel(name)
   }
@@ -188,16 +192,16 @@ export default defineAppSetup(async ({ isClient }) => {
 
   const originalMount = Live2DApp.mount
   Live2DApp.mount = function (model) {
-    configureEmma(model)
+    configureModel(model)
     originalMount.call(this, model)
     updateModelLayout(model)
   }
-  configureEmma(Live2DApp.model?.live2dModel)
+  configureModel(Live2DApp.model?.live2dModel)
   updateModelLayout(Live2DApp.model?.live2dModel)
 
   const onPointerMove = (event: PointerEvent) => {
     const model = Live2DApp.model?.live2dModel
-    if (event.pointerType === 'touch' || model?.internalModel.settings.name !== 'Emma' || !model.parent)
+    if (event.pointerType === 'touch' || !model || !isCustomModel(model.internalModel.settings.name) || !model.parent)
       return
 
     const canvas = document.getElementById('live2d-canvas')
@@ -215,7 +219,7 @@ export default defineAppSetup(async ({ isClient }) => {
 
   const resetFocus = () => {
     const model = Live2DApp.model?.live2dModel
-    if (model?.internalModel.settings.name === 'Emma')
+    if (model && isCustomModel(model.internalModel.settings.name))
       model.internalModel.focusController.focus(0, 0)
   }
   const onVisibilityChange = () => {
