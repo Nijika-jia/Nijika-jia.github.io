@@ -291,6 +291,77 @@ content:
         label: 自定义摘要
         type: text
 
+  - name: moments
+    label: 小随想
+    description: 管理 pages/moments 下的说说动态，保存后自动出现在 /moments/ 时间线。
+    type: collection
+    path: pages/moments
+    format: yaml-frontmatter
+    filename:
+      template: "{year}-{month}-{day}-{hour}{minute}.md"
+      field: create
+    operations:
+      create: true
+      rename: false
+    view:
+      fields: [date, location, draft, hide]
+      primary: date
+      sort: [date]
+      default:
+        sort: date
+        order: desc
+    fields:
+      - name: date
+        label: 日期时间
+        type: date
+        required: true
+        options:
+          time: true
+          format: "yyyy-MM-dd HH:mm"
+      - name: title
+        label: 标题（可选）
+        type: string
+      - name: location
+        label: 地点（可选）
+        type: string
+      - name: top
+        label: 置顶权重
+        type: number
+        default: 0
+      - name: images
+        label: 图片（最多 9 张）
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "图片 {index}"
+        fields:
+          - name: src
+            label: 图片
+            type: image
+            required: true
+            options:
+              media: post-images
+          - name: alt
+            label: 替代文字
+            type: string
+      - name: draft
+        label: 草稿
+        type: boolean
+        default: false
+      - name: hide
+        label: 从时间线隐藏
+        description: 开启后仍可通过直链访问，但不会出现在 /moments/ 时间线。
+        type: boolean
+        default: false
+      - name: body
+        label: 正文
+        type: rich-text
+        options:
+          format: markdown
+          media: post-images
+          rename: safe
+
   - name: pages
     label: 独立页面
     description: 关于、项目、追番和我の推等固定页面。
