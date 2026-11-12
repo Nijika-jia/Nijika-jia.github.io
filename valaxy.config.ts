@@ -102,7 +102,7 @@ export default defineValaxyConfig<UserThemeConfig>({
     }),
     addonLive2d({
       global: true,
-      enableLive2D: ['Tia', 'Pio'],
+      enableLive2D: ['Tia', 'Pio', 'Emma'],
       widthLimit: 290,
       live2DCollection: {
         Tia: {
@@ -112,6 +112,10 @@ export default defineValaxyConfig<UserThemeConfig>({
         Pio: {
           message: '来自 Potion Maker 的 Pio 酱 ~',
           models: live2dSkinModels('Pio'),
+        },
+        Emma: {
+          message: '艾玛来啦 ~',
+          models: ['/live2d/Emma/Emma.model3.json'],
         },
       },
       skipHello: false,
