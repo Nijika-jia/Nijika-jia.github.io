@@ -1,0 +1,218 @@
+---
+layout: post
+title: bocchi-the-rock-theme for VSCode
+date: '2025-02-27 16:35:00'
+tags:
+  - VSCode
+  - 动漫
+categories: 爱制作
+cover: /posts/bocchi-the-rock-theme for VSCode_2025-02-27-16-39-53.png
+updated: '2026-10-29 16:34:00'
+top: 0
+---
+
+# Bocchi The Rock Theme
+![](/posts/bocchi-the-rock-theme%20for%20VSCode_2025-02-27-16-39-53.png)
+VS Code 主题包，配色参考《孤独摇滚！》动画，包含四个主要角色的深色和浅色版本。
+> 下载地址 [Bocchi The Rock Theme](https://marketplace.visualstudio.com/items?itemName=Nijikajia.bocchi-the-rock-theme)
+## 主题预览
+
+### 深色主题
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="400px">
+        <img src="https://i.ejiaimg.cn/255/2025/02/27/67c004b49107b.png" width="400" alt="Hitori Dark">
+        <br>
+        <em>后藤一里 深色主题</em>
+      </td>
+      <td align="center" width="400px">
+        <img src="https://i.ejiaimg.cn/255/2025/02/27/67c004af91434.png" width="400" alt="Ikuyo Dark">
+        <br>
+        <em>喜多郁代 深色主题</em>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="https://i.ejiaimg.cn/255/2025/02/27/67c004af931c2.png" width="400" alt="Nijika Dark">
+        <br>
+        <em>伊地知虹夏 深色主题</em>
+      </td>
+      <td align="center">
+        <img src="https://i.ejiaimg.cn/255/2025/02/27/67c004af49167.png" width="400" alt="Ryo Dark">
+        <br>
+        <em>山田凉 深色主题</em>
+      </td>
+    </tr>
+  </table>
+</div>
+
+### 浅色主题
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="400px">
+        <img src="https://i.ejiaimg.cn/255/2025/02/27/67c004b4874c8.png" width="400" alt="Hitori Light">
+        <br>
+        <em>后藤一里 浅色主题</em>
+      </td>
+      <td align="center" width="400px">
+        <img src="https://i.ejiaimg.cn/255/2025/02/27/67c004b42cf02.png" width="400" alt="Ikuyo Light">
+        <br>
+        <em>喜多郁代 浅色主题</em>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="https://i.ejiaimg.cn/255/2025/02/27/67c004af7647b.png" width="400" alt="Nijika Light">
+        <br>
+        <em>伊地知虹夏 浅色主题</em>
+      </td>
+      <td align="center">
+        <img src="https://i.ejiaimg.cn/255/2025/02/27/67c004af7b24a.png" width="400" alt="Ryo Light">
+        <br>
+        <em>山田凉 浅色主题</em>
+      </td>
+    </tr>
+  </table>
+</div>
+
+
+## 灵感来源
+
+主题配色主要取自角色的发色、服装和视觉特征：
+
+### 后藤一里 (Hitori Gotoh)
+<div align="center">
+  <img src="https://pic1.imgdb.cn/item/67bff29cd0e0a243d406b828.jpg" width="300" alt="Hitori Gotoh">
+</div>
+
+- 主色取自角色的粉色系
+- 主色调：`#F4A5B0`（粉红色）
+- 强调色：`#FE01FE`（亮粉色）
+- 辅助色：`#B4698C`（暗玫瑰色）
+- 配色参考后藤的粉色头发和校服
+
+### 伊地知虹夏 (Nijika Ijichi)
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="https://pic1.imgdb.cn/item/67bff29cd0e0a243d406b82a.jpg" width="300" alt="Nijika Light">
+        <br>
+        <em>浅色主题参考</em>
+      </td>
+      <td align="center">
+        <img src="https://pic1.imgdb.cn/item/67bff347d0e0a243d406b879.jpg" width="300" alt="Nijika Dark">
+        <br>
+        <em>深色主题参考</em>
+      </td>
+    </tr>
+  </table>
+</div>
+
+- 主色取自角色的金色系
+- 主色调：`#F4E8DE`（浅米色）
+- 强调色：`#FEFE01`（金黄色）
+- 辅助色：`#EDCE60`（暗金色）
+- 配色参考虹夏的金发和角色形象
+
+### 山田凉 (Ryo Yamada)
+<div align="center">
+  <img src="https://pic1.imgdb.cn/item/67bff29bd0e0a243d406b826.jpg" width="300" alt="Ryo Yamada">
+</div>
+
+- 主色取自角色的蓝色系
+- 主色调：`#375B9D`（深蓝色）
+- 强调色：`#035555`（深青色）
+- 辅助色：`#0C7D7D`（青色）
+- 配色参考凉的深色穿着和角色形象
+
+### 喜多郁代 (Ikuyo Kita)
+<div align="center">
+  <img src="https://pic1.imgdb.cn/item/67bff29bd0e0a243d406b827.jpg" width="300" alt="Ikuyo Kita">
+</div>
+
+- 主色取自角色的红色系
+- 主色调：`#FF0000`（亮红色）
+- 强调色：`#A52A2A`（深红色）
+- 辅助色：`#F4A5B0`（粉红色）
+- 配色参考喜多的红色主题和角色形象
+
+## 主题特点
+
+### 语法高亮
+- 关键字使用角色主题色，加粗显示
+- 类型和类名使用强调色
+- 函数和方法使用辅助色
+- 字符串和注释使用柔和的配色
+- 变量使用基础文本色
+- 特殊语法（如装饰器、正则表达式）使用特殊高亮
+
+### UI 设计
+- 编辑器背景采用柔和的基色
+- 活动栏和状态栏使用主题色
+- 文件树和面板使用渐变色
+- 选中和高亮使用半透明主题色
+- 图标和徽章使用对比色
+
+### 多语言支持
+为以下语言提供优化的语法高亮：
+- JavaScript/TypeScript
+- Python
+- Java
+- C/C++
+- HTML/CSS
+- Markdown
+- JSON/YAML
+- 等更多语言
+
+## 安装
+
+1. 打开 VS Code
+2. 按下 `Ctrl+P` / `Cmd+P`
+3. 输入 `ext install bocchi-the-rock-theme`
+
+## 使用方法
+
+1. 按下 `Ctrl+K Ctrl+T` / `Cmd+K Cmd+T` 打开主题选择器
+2. 选择你喜欢的 Bocchi 主题：
+   - Bocchi - Hitori (Dark/Light)
+   - Bocchi - Nijika (Dark/Light)
+   - Bocchi - Ryo (Dark/Light)
+   - Bocchi - Ikuyo (Dark/Light)
+
+## 自定义
+
+如果你想要自定义主题，可以在设置中覆盖颜色配置：
+```json
+{
+    "workbench.colorCustomizations": {
+        "[Bocchi - Character Theme]": {
+            // 你的自定义颜色
+        }
+    }
+}
+```
+
+## 贡献
+
+欢迎在 [GitHub](https://github.com/Nijika-jia/bocchi-the-rock-theme) 上提交问题和建议。
+
+## 许可
+
+MIT License
+
+## 致谢
+
+- 《孤独摇滚！》原作：はまじあき
+- 动画制作：CloverWorks
+- 感谢所有为这个主题提供建议和反馈的用户
+
+## 更新日志
+
+### 1.0.0
+- 初始发布
+- 包含四个角色的深色和浅色主题
+- 支持多种编程语言
+- 优化的 UI 配色
