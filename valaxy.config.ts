@@ -1,5 +1,3 @@
-import { readFileSync } from 'node:fs'
-import { resolve } from 'node:path'
 import type { UserThemeConfig } from 'valaxy-theme-yun'
 import { defineValaxyConfig, $t } from 'valaxy'
 import { addonLightGallery } from 'valaxy-addon-lightgallery'
@@ -12,14 +10,6 @@ import { addonBangumi } from 'valaxy-addon-bangumi';
 import { addonMoments } from 'valaxy-addon-moments'
 import { addonMermaid } from 'valaxy-addon-mermaid'
 import themeData from './data/theme.json'
-// Each skin is generated as its own model JSON by scripts/generate-live2d-skins.mjs.
-// Passing them as an array avoids the addon's GitHub API texture lookup (HTTP 403).
-function live2dSkinModels(name: 'Tia' | 'Pio') {
-  const skins: string[] = JSON.parse(
-    readFileSync(resolve(process.cwd(), `data/live2d/${name}.textures.json`), 'utf8'),
-  )
-  return skins.map(skin => `/live2d/${name}/${skin.replace(/\.png$/i, '.json')}`)
-}
 
 // add icons what you will need
 const safelist = [
@@ -102,17 +92,10 @@ export default defineValaxyConfig<UserThemeConfig>({
     }),
     addonLive2d({
       global: true,
-      enableLive2D: ['Tia', 'Pio', 'Emma', 'Sherry'],
+      // 只保留艾玛与雪莉两位本地看板娘。
+      enableLive2D: ['Emma', 'Sherry'],
       widthLimit: 290,
       live2DCollection: {
-        Tia: {
-          message: '来自 Potion Maker 的 Tia 酱 ~',
-          models: live2dSkinModels('Tia'),
-        },
-        Pio: {
-          message: '来自 Potion Maker 的 Pio 酱 ~',
-          models: live2dSkinModels('Pio'),
-        },
         Emma: {
           message: '艾玛来啦 ~',
           models: ['/live2d/Emma/Emma.model3.json'],

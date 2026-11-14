@@ -48,15 +48,15 @@ export default defineAppSetup(async ({ isClient }) => {
     viewer.dataset.model = name
     viewer.style.setProperty('--live2d-canvas-height', `${Live2DApp.pixiApp.renderer.screen.height}px`)
 
-    // 艾玛和雪莉只有一套外观，隐藏没有意义的换装按钮；Tia/Pio 仍保留。
+    // 艾玛和雪莉都只有一套外观，换装按钮没有意义，始终隐藏。
     const skinTool = document.getElementById('live2d-tool-switch-texture')
     if (skinTool)
-      skinTool.style.display = isCustomModel(name) ? 'none' : ''
+      skinTool.style.display = 'none'
 
     applyTipsForModel(name)
   }
 
-  // 把插件默认的通用提示替换成艾玛的台词。
+  // 把插件默认的通用提示替换成艾玛或雪莉的台词。
   const emmaMouseover: Record<string, string[]> = {
     '#live2d-canvas': [
       'ボク、桜羽エマ。よろしくね。',
