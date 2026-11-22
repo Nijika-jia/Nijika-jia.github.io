@@ -5,9 +5,11 @@
     "cloud": {
       "enable": true
     },
+    "navStyle": "glass",
     "duration": 500
   },
   "outlineTitle": "伊地知佳の小站",
+  "outlineCollapsible": "auto",
   "nav": [
     {
       "text": "文章",
