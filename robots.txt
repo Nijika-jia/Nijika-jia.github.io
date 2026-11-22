@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nijika-jia.github.io/sitemap.xml

@@ -1,0 +1,1 @@
+var e={easeIn:[.18,.66,.05,.96],easeInOut:[.77,0,.17,1.02]};function t(t){return{initial:{opacity:0,y:t.y??40},enter:{opacity:1,y:0,transition:{delay:t.i*(t.delay??50),type:`spring`,ease:e.easeIn,damping:8,duration:t.duration??400,...t.onComplete?{onComplete:t.onComplete}:{}}}}}export{t};

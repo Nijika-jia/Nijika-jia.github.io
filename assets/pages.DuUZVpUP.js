@@ -1,0 +1,1 @@
+import{t as e}from"./YunPostList.DtACekHE.js";import"./chunks/vue-i18n.D4SepLhJ.js";import{t}from"./route-block.ChiJXsfH.js";import{N as n,b as r,q as i,t as a}from"./framework.Duihb1Od.js";n();var o={};function s(t,n){let a=e;return i(),r(a)}typeof t==`function`&&t(o);var c=a(o,[[`render`,s]]);export{c as default};

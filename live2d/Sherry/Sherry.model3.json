@@ -1,0 +1,55 @@
+{
+  "Version": 3,
+  "FileReferences": {
+    "Moc": "Sherry.moc3",
+    "Textures": [
+      "Sherry.8192/texture_00.png",
+      "Sherry.8192/texture_01.png"
+    ],
+    "Physics": "Sherry.physics3.json",
+    "DisplayInfo": "Sherry.cdi3.json",
+    "Expressions": [
+      {
+        "Name": "taishou",
+        "File": "taishou.exp3.json"
+      },
+      {
+        "Name": "jushou",
+        "File": "jushou.exp3.json"
+      },
+      {
+        "Name": "pingguo",
+        "File": "pingguo.exp3.json"
+      },
+      {
+        "Name": "monv",
+        "File": "monv.exp3.json"
+      }
+    ],
+    "Motions": {
+      "Idle": [
+        {
+          "File": "Sherry.idle.motion3.json",
+          "FadeInTime": 0.6,
+          "FadeOutTime": 0.6
+        }
+      ]
+    }
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": []
+    },
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "ParamEyeLOpen",
+        "ParamEyeROpen"
+      ]
+    }
+  ],
+  "HitAreas": []
+}

@@ -1,0 +1,29 @@
+# 伊地知佳の博客
+
+> 天空的湛蓝该怎样才能传达给你呢？
+
+## Posts
+
+- [桜坂 · 春日微缩景观](https://nijika-jia.github.io/posts/2026-11-12-sakura-3d-scene.md)
+- [Lieflat Less AI Tone vs Humanizer：两种去 AI 味思路的对比](https://nijika-jia.github.io/posts/2026-11-06-lieflat-vs-humanizer.md)
+- [DSH Go 与 Mika 对比：两种手机 AI Agent 的不同定位](https://nijika-jia.github.io/posts/2026-11-06-dsh-go-vs-mika.md)
+- [Wi-Fi 一直连着，网却突然没了](https://nijika-jia.github.io/posts/2026-11-05-wifi-connected-no-internet.md)
+- [让 GitHub Actions 自动把新 star 的仓库分进列表](https://nijika-jia.github.io/posts/2026-11-03-github-actions-auto-sort-stars.md)
+- [ego-browser 和 bsk：用同一个任务比了一下](https://nijika-jia.github.io/posts/2026-10-27-143921.md)
+- [静态博客没后台怎么办](https://nijika-jia.github.io/posts/2026-10-19-223327.md)
+- [成都小厂实习的第三周](https://nijika-jia.github.io/posts/成都小厂实习的第三周.md)
+- [成都小厂实习第二周](https://nijika-jia.github.io/posts/成都小厂实习第二周.md)
+- [成都小厂实习第一周](https://nijika-jia.github.io/posts/成都小厂实习第一周.md)
+- [Val Town 折腾笔记](https://nijika-jia.github.io/posts/Val Town 折腾笔记.md)
+- [头歌包过教程(对付给看输出的那种实验)](https://nijika-jia.github.io/posts/头歌包过教程(对付给看输出的那种).md)
+- [动漫图片分类助手：一个基于 AI 的动漫角色识别与整理工具](https://nijika-jia.github.io/posts/动漫图片分类助手：一个基于 AI 的动漫角色识别与整理工具.md)
+- [使用 pyenv 管理多个 Python 版本](https://nijika-jia.github.io/posts/使用 pyenv 管理多个 Python 版本.md)
+- [bocchi-the-rock-theme for VSCode](https://nijika-jia.github.io/posts/bocchi-the-rock-theme for VSCode.md)
+- [图论可视化工具：一个轻量级的在线图形编辑与分析平台](https://nijika-jia.github.io/posts/图论可视化工具：一个轻量级的在线图形编辑与分析平台.md)
+- [C++ STL操作优化指南：算法竞赛选手必读](https://nijika-jia.github.io/posts/C++容器操作优化.md)
+- [优先队列<priority_queue>自定义排序](https://nijika-jia.github.io/posts/优先队列自定义排序.md)
+- [byd崩溃了,做这个图论工具,**AI](https://nijika-jia.github.io/posts/崩溃了,AI.md)
+- [给你的GitHubpage用上Cloudflare(只有域名即可)](https://nijika-jia.github.io/posts/给你的GitHubpage用上Cloudflare(只有域名即可).md)
+- [更好的在.md文件粘贴图片-Paste image VScode插件推荐](https://nijika-jia.github.io/posts/更好的在.md文件粘贴图片-Paste image VScode插件推荐.md)
+- [新年快乐](https://nijika-jia.github.io/posts/新年快乐.md)
+- [我的第一篇文章——博客上线啦！](https://nijika-jia.github.io/posts/hello.md)

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html  lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="https://avatars.githubusercontent.com/u/181221850?v=4">
+    <script>
+    ;(function () {
+      const prefersDark =
+        window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches
+      const setting = localStorage.getItem('vueuse-color-scheme') || 'auto'
+      if (setting === 'dark' || (prefersDark && setting !== 'light'))
+        document.documentElement.classList.toggle('dark', true)
+    })()
+    </script>
+  <style type="text/css">
+    :root { color-scheme: light dark; --va-c-bg: #fff; }
+    html.dark { --va-c-bg: #000; }
+    html { background-color: var(--va-c-bg); }
+  </style><style id="valaxy-fouc">body{margin:0;opacity:0!important}</style><noscript><style>body{opacity:1!important}</style></noscript><script>(function foucGuardScript(maxDuration) {
+  var done = 0;
+  var observer = new MutationObserver(check);
+  var timer = maxDuration ? setTimeout(reveal, maxDuration) : void 0;
+  function reveal() {
+    if (done) return;
+    done = 1;
+    observer.disconnect();
+    clearTimeout(timer);
+    document.removeEventListener("load", check, true);
+    removeEventListener("load", reveal);
+    var s = document.getElementById("valaxy-fouc");
+    if (s) s.remove();
+  }
+  function check() {
+    if (!document.body) return;
+    var links = document.head.querySelectorAll('link[rel~="stylesheet"]');
+    for (var i = 0; i < links.length; i++) {
+      var link = links[i];
+      if (!link.disabled && !link.sheet) return;
+    }
+    reveal();
+  }
+  observer.observe(document.documentElement, { childList: true });
+  observer.observe(document.head, {
+    childList: true,
+    subtree: true,
+    attributes: true,
+    attributeFilter: ["media", "rel", "disabled"]
+  });
+  document.addEventListener("load", check, true);
+  addEventListener("load", reveal);
+})(5000)</script>
+    <script>
+    const locale = localStorage.getItem('valaxy-locale') || "zh-CN";
+    document.documentElement.setAttribute('lang', locale);
+    </script>
+    
+  <script type="module" crossorigin src="/assets/index.CZ4b_Wgy.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/rolldown-runtime.BWaJ3C7D.js">
+  <link rel="modulepreload" crossorigin href="/assets/framework.Duihb1Od.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/vue-i18n.D4SepLhJ.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/vue-router.DUfE2Tws.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/dayjs.CmmmqirO.js">
+  <link rel="modulepreload" crossorigin href="/assets/vue.DKb5ZKVl.B84PCVIN.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/pinia.DqkwfT7x.js">
+  <link rel="modulepreload" crossorigin href="/assets/client.DzWot2eY.js">
+  <link rel="modulepreload" crossorigin href="/assets/module.BgIevNHr.js">
+  <link rel="modulepreload" crossorigin href="/assets/composables.3RdTFZqy.js">
+  <link rel="modulepreload" crossorigin href="/assets/YunFooter.B2jtNXBy.js">
+  <link rel="modulepreload" crossorigin href="/assets/YunLayoutWrapper.CRv22Lz9.js">
+  <link rel="modulepreload" crossorigin href="/assets/utils.CMCSrxue.js">
+  <link rel="modulepreload" crossorigin href="/assets/YunOverlay.BU1VGqIT.js">
+  <link rel="modulepreload" crossorigin href="/assets/YunAdBoard.DTtZNNzD.js">
+  <link rel="modulepreload" crossorigin href="/assets/YunCard.CJbbvoRA.js">
+  <link rel="modulepreload" crossorigin href="/assets/sanitize.DgVZ_sV9.js">
+  <link rel="modulepreload" crossorigin href="/assets/AppLink.DSayAUqj.js">
+  <link rel="modulepreload" crossorigin href="/assets/VisuallyHidden.CZymd5m7.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/@vueuse/motion.TjeSWgja.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/nprogress.B1osA4lt.js">
+  <link rel="stylesheet" crossorigin href="/assets/style.DP1KZAlt.css">
+<link rel="preload" href="/assets/bg-img.kXdNMxcF.jpg" as="image">
+<link rel="preload" href="/assets/sidebar-bg-img.mp54gEws.webp" as="image">
+<link rel="modulepreload" crossorigin href="/assets/AppLink.DSayAUqj.js">
+<link rel="modulepreload" crossorigin href="/assets/collection.z6gZQIFU.js">
+<link rel="modulepreload" crossorigin href="/assets/YunLayoutWrapper.CRv22Lz9.js">
+<link rel="modulepreload" crossorigin href="/assets/YunCard.CJbbvoRA.js">
+<link rel="modulepreload" crossorigin href="/assets/YunCollectionMobile.yt1UY87a.js">
+<link rel="modulepreload" crossorigin href="/assets/YunOverlay.BU1VGqIT.js">
+<link rel="modulepreload" crossorigin href="/assets/internship.CX45cC9Q.js">
+<link rel="modulepreload" crossorigin href="/assets/ValaxyMain.YpAb0kvY.js">
+<link rel="modulepreload" crossorigin href="/assets/YunPageHeader.BqhBSayi.js">
+<link rel="modulepreload" crossorigin href="/assets/YunComment.D2PU2yDn.js">
+<link rel="modulepreload" crossorigin href="/assets/YunAdBoard.DTtZNNzD.js">
+<link rel="modulepreload" crossorigin href="/assets/YunFooter.B2jtNXBy.js">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>实习の记 - 伊地知佳の博客</title>
+<link rel="stylesheet" href="https://unpkg.com/aplayer/dist/APlayer.min.css">
+<meta property="og:locale:alternate" content="en">
+<meta name="description" content="天空的湛蓝该怎样才能传达给你呢？">
+<meta property="og:description" content="天空的湛蓝该怎样才能传达给你呢？">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:site_name" content="伊地知佳の博客">
+<meta property="og:title" content="实习の记">
+<meta property="og:image" content="https://nijika-jia.github.io/posts/1792162074335.png">
+<meta property="og:image:alt" content="实习の记">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://nijika-jia.github.io/collections/internship/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:description" content="天空的湛蓝该怎样才能传达给你呢？">
+<meta name="twitter:image" content="https://nijika-jia.github.io/posts/1792162074335.png">
+<meta name="twitter:title" content="实习の记">
+<link rel="icon" href="https://avatars.githubusercontent.com/u/181221850?v=4" type="image/png">
+<meta name="generator" content="Valaxy 1.5.0">
+<link rel="canonical" href="https://nijika-jia.github.io/collections/internship/">
+<meta name="theme-color" content="#fff">
+<meta name="msapplication-TileColor" content="#fff">
+</head>
+<body>
+  <div id="app"><!--[--><!--[--><!--[--><!--v-if--><div class="yun-page-header-gradient"></div><div class="yun-nav-menu z-$yun-z-nav-menu fixed bg-transparent" data-v-1acd9498><!--  --><div class="inline-flex justify-start items-center flex-1 gap-1" data-v-1acd9498><button type="button" class="vt-hamburger menu-btn sidebar-toggle yun-action-btn leading-4 lg:hidden!" aria-label="mobile navigation" aria-expanded="false" z="$yun-z-menu-btn" data-v-1acd9498><span class="vt-hamburger-container"><span class="vt-hamburger-top"></span><span class="vt-hamburger-middle"></span><span class="vt-hamburger-bottom"></span></span></button><a href="/" class="va-link yun-nav-menu-item yun-action-btn z-$yun-z-nav-menu" aria-label="首页" title="首页" data-v-1acd9498 data-v-ac9880e1><!--[--><div class="i-ri-home-4-line" aria-hidden="true" data-v-ac9880e1></div><!--]--></a><div class="hidden lg:contents" data-v-1acd9498><!--[--><a href="/posts/" class="va-link yun-nav-menu-item yun-action-btn z-$yun-z-nav-menu" aria-label="文章" title="文章" data-v-1acd9498 data-v-ac9880e1><!--[--><div class="i-ri-article-line" aria-hidden="true" data-v-ac9880e1></div><!--]--></a><a href="/moments/" class="va-link yun-nav-menu-item yun-action-btn z-$yun-z-nav-menu" aria-label="小随想" title="小随想" data-v-1acd9498 data-v-ac9880e1><!--[--><div class="i-ri-chat-1-line" aria-hidden="true" data-v-ac9880e1></div><!--]--></a><a href="/collections/" class="va-link yun-nav-menu-item yun-action-btn z-$yun-z-nav-menu" aria-label="合集" title="合集" data-v-1acd9498 data-v-ac9880e1><!--[--><div class="i-ri:dashboard-line" aria-hidden="true" data-v-ac9880e1></div><!--]--></a><a href="/archives/" class="va-link yun-nav-menu-item yun-action-btn z-$yun-z-nav-menu" aria-label="归档" title="归档" data-v-1acd9498 data-v-ac9880e1><!--[--><div class="i-ri-archive-line" aria-hidden="true" data-v-ac9880e1></div><!--]--></a><a href="/categories/" class="va-link yun-nav-menu-item yun-action-btn z-$yun-z-nav-menu" aria-label="分类" title="分类" data-v-1acd9498 data-v-ac9880e1><!--[--><div class="i-ri:folder-5-line" aria-hidden="true" data-v-ac9880e1></div><!--]--></a><a href="/tags/" class="va-link yun-nav-menu-item yun-action-btn z-$yun-z-nav-menu" aria-label="标签" title="标签" data-v-1acd9498 data-v-ac9880e1><!--[--><div class="i-ri-price-tag-3-line" aria-hidden="true" data-v-ac9880e1></div><!--]--></a><a href="/links/" class="va-link yun-nav-menu-item yun-action-btn z-$yun-z-nav-menu" aria-label="友人帐" title="友人帐" data-v-1acd9498 data-v-ac9880e1><!--[--><div class="i-ri-links-line" aria-hidden="true" data-v-ac9880e1></div><!--]--></a><a href="/ablums/" class="va-link yun-nav-menu-item yun-action-btn z-$yun-z-nav-menu" aria-label="相册" title="相册" data-v-1acd9498 data-v-ac9880e1><!--[--><div class="i-ri-gallery-line" aria-hidden="true" data-v-ac9880e1></div><!--]--></a><a href="/projects/" class="va-link yun-nav-menu-item yun-action-btn z-$yun-z-nav-menu" aria-label="小项目" title="小项目" data-v-1acd9498 data-v-ac9880e1><!--[--><div class="i-ri-puzzle-fill" aria-hidden="true" data-v-ac9880e1></div><!--]--></a><a href="/bangumi/" class="va-link yun-nav-menu-item yun-action-btn z-$yun-z-nav-menu" aria-label="追番" title="追番" data-v-1acd9498 data-v-ac9880e1><!--[--><div class="i-ri-tv-line" aria-hidden="true" data-v-ac9880e1></div><!--]--></a><a href="/girls/" class="va-link yun-nav-menu-item yun-action-btn z-$yun-z-nav-menu" aria-label="我の推" title="我の推" data-v-1acd9498 data-v-ac9880e1><!--[--><div class="i-ri-heart-2-fill" aria-hidden="true" data-v-ac9880e1></div><!--]--></a><!--]--></div></div><div class="flex flex-1 flex-center" data-v-1acd9498><div flex="~ center col h-full" class="nav-menu-title-container cursor-pointer" data-v-1acd9498><!----><span class="font-light truncate">伊地知佳の博客</span></div></div><div class="inline-flex justify-end items-center flex-1 gap-1" data-v-1acd9498><!-- <template v-if="!app.isMobile && themeConfig.nav">
+        <template v-for="item in themeConfig.nav" :key="item.text">
+          <AppLink
+            v-if="'link' in item"
+            :to="item.link"
+            class="menu-btn inline-flex-center p-2 transition text-$va-c-text"
+            inline-flex cursor="pointer"
+            hover="bg-white/80 dark:bg-black/80"
+            z="$yun-z-menu-btn"
+          >
+            {{ item.text }}
+          </AppLink>
+          <template v-else-if="'items' in item" />
+        </template>
+      </template> --><button type="button" class="yun-action-btn hidden sm:inline-flex" title="切换语言" aria-label="切换语言" data-v-1acd9498><div i-ri-translate class="transition transform" aria-hidden="true"></div></button><button type="button" class="yun-action-btn yun-toggle-dark" title="切换深色模式" aria-label="切换深色模式" data-v-1acd9498><div i="ri-sun-line dark:ri-moon-line" aria-hidden="true"></div></button><!--[--><button type="button" class="yun-search-btn yun-action-btn popup-trigger" title="搜索" aria-label="搜索"><div i-ri-search-line aria-hidden="true"></div></button><!----><!--]--></div></div><!----><!--v-if--><!----><!--[--><div class="yun-bg"></div><!--]--><!----><button type="button" class="back-to-top yun-icon-btn" aria-label="回到顶部" title="回到顶部" tabindex="-1" aria-hidden="true" style="--yun-back-top-progress:0deg;"><div class="back-to-top-arrow" i-ri-arrow-up-s-line aria-hidden="true"></div></button><!--]--><!--[--><!--[--><div id="live2d" data-v-e08a23be><div id="live2d-tips" data-v-e08a23be></div><canvas id="live2d-canvas" data-v-e08a23be></canvas></div><div id="live2d-tools" class="show" data-v-bea695e6><!--[--><span id="live2d-tool-quit" class="hide-live2d live2d-tool" style="--live2d-tool-bg: #9c27b0" data-v-bea695e6>Hide</span><span id="live2d-tool-switch-model" class="live2d-tool" style="--live2d-tool-bg: #673ab7" data-v-bea695e6>Char</span><span id="live2d-tool-switch-texture" class="live2d-tool" style="--live2d-tool-bg: #009688" data-v-bea695e6>Skin</span><span id="live2d-tool-photo" class="live2d-tool" style="--live2d-tool-bg: #ff9800" data-v-bea695e6>Cap</span><span id="live2d-hitokoto" class="live2d-tool" style="--live2d-tool-bg: #4caf50" data-v-bea695e6>Hitokoto</span><span id="live2d-asteroids" class="live2d-tool" style="--live2d-tool-bg: #9c27b0" data-v-bea695e6>Asteroids</span><span id="info" class="live2d-tool" style="--live2d-tool-bg: #2196f3" data-v-bea695e6>Info</span><!--]--></div><!--]--><!--[--><!-- eslint-disable-next-line vue/component-name-in-template-casing --><meting-js fixed="true" api="/music/playlist.json" mini="true" theme="#4CAF50" id="308168565" server="netease" type="playlist" style=""></meting-js><!--]--><!--]--><!----><!--]--><div class="min-h-screen flex flex-col"><div class="yun-local-outline-nav" data-v-1a1fc99d><button type="button" class="yun-local-nav-trigger yun-local-menu-trigger" aria-expanded="false" aria-controls="yun-collection-menu" data-v-1a1fc99d><span i-ri-list-check class="yun-local-nav-icon" aria-hidden="true" data-v-1a1fc99d></span> 合集目录</button><!----></div><div class="mt-12 md:mt-24 has-local-menu yun-layout-wrapper-content yun-layout-wrapper__content"><!--[--><div class="yun-layout-left gap-4 sticky top-$yun-margin-top w-80"><!--[--><div class="yun-card flex-center overflow-hidden yun-collection-sidebar p-4" flex="col" min-h="100px" bg="$va-c-bg-light" data-v-29a5349b data-v-3babb338><!----><!----><div class="yun-card-body relative" w="full" flex="~ col" items="center" data-v-3babb338><!--[--><nav class="yun-sidebar-item w-full" aria-label="合集目录" data-v-29a5349b><div class="collection-switcher" data-v-29a5349b><span data-v-29a5349b>切换合集</span><!--[--><!--[--><button class="yun-select-trigger is-block" aria-label="切换合集" role="combobox" type="button" aria-expanded="false" aria-required="false" aria-autocomplete="none" dir="ltr" data-state="closed"><!--[--><span style="pointer-events:none;" data-placeholder class="yun-select-value"><!--[-->实习の记<!--]--></span><span i-ri-arrow-down-s-line class="yun-select-chevron" aria-hidden="true"></span><!--]--></button><!--v-if--><!--]--><!--v-if--><!--]--></div><a aria-current="page" href="/collections/internship/" class="router-link-active router-link-exact-active title" data-v-29a5349b>合集首页</a><ol class="items" data-v-29a5349b><!--[--><li class="item" data-v-29a5349b><a href="/posts/%E6%88%90%E9%83%BD%E5%B0%8F%E5%8E%82%E5%AE%9E%E4%B9%A0%E7%AC%AC%E4%B8%80%E5%91%A8" class="" data-v-29a5349b>成都小厂实习第一周</a></li><li class="item" data-v-29a5349b><a href="/posts/%E6%88%90%E9%83%BD%E5%B0%8F%E5%8E%82%E5%AE%9E%E4%B9%A0%E7%AC%AC%E4%BA%8C%E5%91%A8" class="" data-v-29a5349b>成都小厂实习第二周</a></li><li class="item" data-v-29a5349b><a href="/posts/%E6%88%90%E9%83%BD%E5%B0%8F%E5%8E%82%E5%AE%9E%E4%B9%A0%E7%9A%84%E7%AC%AC%E4%B8%89%E5%91%A8" class="" data-v-29a5349b>成都小厂实习的第三周</a></li><!--]--></ol><a href="/collections/" class="collection-all" data-v-29a5349b>合集 → </a></nav><!--]--></div><!----></div><!--]--></div><!--[--><!----><!----><!--]--><main class="yun-main lt-md:w-full" flex="~ center"><!--[--><div class="content w-full md:w-3xl lg:w-2xl xl:w-2xl 2xl:w-4xl" flex="~ col grow" p="lt-md:0"><div class="yun-card flex-center overflow-hidden" flex="col" min-h="100px" bg="$va-c-bg-light" m="0" data-v-3babb338><div class="valaxy-cover yun-cover h-64 md:h-sm" data-v-3babb338 data-v-1ca9ee18><img src="/posts/1792162074335.png" alt="" class="valaxy-cover-image" width="640" height="360" loading="lazy" data-v-1ca9ee18><!----><!----></div><!----><div class="yun-card-body relative" w="full" flex="~ col" items="center" data-v-3babb338><!--[--><div class="yun-reading-actions"><div data-yun-author-note-actions></div><!----></div><div class="mt-8 mb-4"><!--[--><header class="post-header" cover="/posts/1792162074335.png"><h1 p="2" text="2xl center" font="serif black" style="color:" class="post-title flex-center"><!----><span inline-flex class="leading-none">实习の记</span></h1></header><!--]--></div><!--[--><!--]--><div p="x-4 b-8" class="sm:px-6 md:px-10 lg:px-12 xl:px-16" w="full"><!--[--><!--]--><!--[--><!-- <Transition appear> --><article class="markdown-body"><!--[--><!----><!----><!--[--><!--]--><!--[--><!--]--><!--]--><!----><!----></article><!-- </Transition> --><!--]--><!--[--><!--]--></div><!--]--></div><!----></div><!--[--><!--]--><!--[--><nav class="post-nav" aria-label="文章导航"><div class="post-nav-item"><!----></div><div class="post-nav-item"><a href="/posts/2026-11-12-sakura-3d-scene" class="post-nav-link post-nav-next" title="桜坂 · 春日微缩景观"><span class="title">桜坂 · 春日微缩景观</span><span class="icon i-ri-arrow-right-s-line" aria-hidden="true"></span></a></div></nav><!--]--><!--[--><!--]--><!--[--><div class="yun-card flex-center overflow-hidden comment yun-comment sm:p-6 lg:px-12 xl:px-16" flex="col" min-h="100px" bg="$va-c-bg-light" w="full" p="4" data-v-3babb338><!----><!----><div class="yun-card-body relative" w="full" flex="~ col" items="center" data-v-3babb338><!--[--><!----><!--]--></div><!----></div><!--]--><span class="yun-ad-board yun-main-ad-board mt-4 lg:hidden" aria-hidden="true"></span><!--[--><!--]--><!--[--><!--]--></div><!--]--></main><!--[--><!----><!----><!----><!--]--><!--]--><!----></div><footer flex="~ col" class="relative yun-footer va-footer px-4 py-4 pt-0 text-$va-c-text-light w-full mt-14" bg="white dark:$va-c-bg-soft" text="center sm"><div class="yun-cloud absolute top--10 left-0 right-0"><svg class="waves" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" fill="var(--yun-c-cloud)"></path></defs><g class="parallax"><use xlink:href="#gentle-wave" x="48" y="0"></use><use xlink:href="#gentle-wave" x="48" y="3"></use><use xlink:href="#gentle-wave" x="48" y="5"></use><use xlink:href="#gentle-wave" x="48" y="7"></use></g></svg></div><!----><div class="copyright flex justify-center items-center gap-2" p="1"><span> © <!--[-->2025 - <!--]--> 2026</span><a class="animate-pulse inline-flex" href="" target="_blank" title=""><div class="i-ri-heart-fill"></div></a><span>伊地知佳</span></div><div class="powered" m="2"><span>由 <a href="https://github.com/YunYouJun/valaxy.git" target="_blank" rel="noopener">Valaxy</a> <span class="op-60">v1.5.0</span> 驱动</span><span mx-1>|</span><span><span>主题</span><span mx-1>-</span><a href="https://github.com/YunYouJun/valaxy.git" title="valaxy-theme-yun" target="_blank">Yun</a><span class="ml-1 op-60">v1.5.0</span></span></div><!--[--><!-- 自定义页脚内容 --><div>本站总访问量 <span>2156</span> 次</div><div>本站访客数 <span>486</span> 人次</div><div>本站已运行 -- 天 -- 小时 -- 分 -- 秒</div><!--]--><div class="yun-footer-gradient"></div></footer></div><!--]--></div><script>window.__INITIAL_STATE__='{"pinia":{"yun-app":{"bannerAnimationDone":false},"app":{"showLoading":true},"site":{},"routerStore":{}}}'</script><script type="application/ld+json" data-hid="schema-org-graph">{"@context":"https://schema.org","@graph":[{"@id":"https://nijika-jia.github.io/#identity","@type":"Person","name":"伊地知佳","url":"https://nijika-jia.github.io/","image":{"@id":"https://nijika-jia.github.io/#/schema/image/1"},"sameAs":["https://qm.qq.com/q/mzVydOGSly","https://github.com/Nijika-jia","https://discordapp.com/users/1303909108667121726","https://leetcode.cn/u/yi-di-zhi-jia/","https://steamcommunity.com/id/Nijika_jia/"]},{"@id":"https://nijika-jia.github.io/#website","@type":"WebSite","description":"天空的湛蓝该怎样才能传达给你呢？","inLanguage":"zh-CN","name":"伊地知佳の博客","url":"https://nijika-jia.github.io/","publisher":{"@id":"https://nijika-jia.github.io/#identity"}},{"@id":"https://nijika-jia.github.io/collections/internship/#webpage","@type":"WebPage","dateModified":"2026-11-22T14:41:33.000Z","datePublished":"2026-11-22T14:41:33.000Z","description":"天空的湛蓝该怎样才能传达给你呢？","name":"实习の记","url":"https://nijika-jia.github.io/collections/internship/","isPartOf":{"@id":"https://nijika-jia.github.io/#website"},"potentialAction":[{"@type":"ReadAction","target":["https://nijika-jia.github.io/collections/internship/"]}]},{"@id":"https://nijika-jia.github.io/#/schema/image/1","@type":"ImageObject","contentUrl":"https://avatars.githubusercontent.com/u/181221850?v=4","inLanguage":"zh-CN","url":"https://avatars.githubusercontent.com/u/181221850?v=4"}]}</script>
+  <div id="valaxy-teleports"></div>
+  
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html  lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="https://avatars.githubusercontent.com/u/181221850?v=4">
+    <script>
+    ;(function () {
+      const prefersDark =
+        window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches
+      const setting = localStorage.getItem('vueuse-color-scheme') || 'auto'
+      if (setting === 'dark' || (prefersDark && setting !== 'light'))
+        document.documentElement.classList.toggle('dark', true)
+    })()
+    </script>
+  <style type="text/css">
+    :root { color-scheme: light dark; --va-c-bg: #fff; }
+    html.dark { --va-c-bg: #000; }
+    html { background-color: var(--va-c-bg); }
+  </style><style id="valaxy-fouc">body{margin:0;opacity:0!important}</style><noscript><style>body{opacity:1!important}</style></noscript><script>(function foucGuardScript(maxDuration) {
+  var done = 0;
+  var observer = new MutationObserver(check);
+  var timer = maxDuration ? setTimeout(reveal, maxDuration) : void 0;
+  function reveal() {
+    if (done) return;
+    done = 1;
+    observer.disconnect();
+    clearTimeout(timer);
+    document.removeEventListener("load", check, true);
+    removeEventListener("load", reveal);
+    var s = document.getElementById("valaxy-fouc");
+    if (s) s.remove();
+  }
+  function check() {
+    if (!document.body) return;
+    var links = document.head.querySelectorAll('link[rel~="stylesheet"]');
+    for (var i = 0; i < links.length; i++) {
+      var link = links[i];
+      if (!link.disabled && !link.sheet) return;
+    }
+    reveal();
+  }
+  observer.observe(document.documentElement, { childList: true });
+  observer.observe(document.head, {
+    childList: true,
+    subtree: true,
+    attributes: true,
+    attributeFilter: ["media", "rel", "disabled"]
+  });
+  document.addEventListener("load", check, true);
+  addEventListener("load", reveal);
+})(5000)</script>
+    <script>
+    const locale = localStorage.getItem('valaxy-locale') || "zh-CN";
+    document.documentElement.setAttribute('lang', locale);
+    </script>
+    
+  <script type="module" crossorigin src="/assets/index.CZ4b_Wgy.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/rolldown-runtime.BWaJ3C7D.js">
+  <link rel="modulepreload" crossorigin href="/assets/framework.Duihb1Od.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/vue-i18n.D4SepLhJ.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/vue-router.DUfE2Tws.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/dayjs.CmmmqirO.js">
+  <link rel="modulepreload" crossorigin href="/assets/vue.DKb5ZKVl.B84PCVIN.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/pinia.DqkwfT7x.js">
+  <link rel="modulepreload" crossorigin href="/assets/client.DzWot2eY.js">
+  <link rel="modulepreload" crossorigin href="/assets/module.BgIevNHr.js">
+  <link rel="modulepreload" crossorigin href="/assets/composables.3RdTFZqy.js">
+  <link rel="modulepreload" crossorigin href="/assets/YunFooter.B2jtNXBy.js">
+  <link rel="modulepreload" crossorigin href="/assets/YunLayoutWrapper.CRv22Lz9.js">
+  <link rel="modulepreload" crossorigin href="/assets/utils.CMCSrxue.js">
+  <link rel="modulepreload" crossorigin href="/assets/YunOverlay.BU1VGqIT.js">
+  <link rel="modulepreload" crossorigin href="/assets/YunAdBoard.DTtZNNzD.js">
+  <link rel="modulepreload" crossorigin href="/assets/YunCard.CJbbvoRA.js">
+  <link rel="modulepreload" crossorigin href="/assets/sanitize.DgVZ_sV9.js">
+  <link rel="modulepreload" crossorigin href="/assets/AppLink.DSayAUqj.js">
+  <link rel="modulepreload" crossorigin href="/assets/VisuallyHidden.CZymd5m7.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/@vueuse/motion.TjeSWgja.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/nprogress.B1osA4lt.js">
+  <link rel="stylesheet" crossorigin href="/assets/style.DP1KZAlt.css">
+<link rel="preload" href="/assets/bg-img.kXdNMxcF.jpg" as="image">
+<link rel="preload" href="/assets/sidebar-bg-img.mp54gEws.webp" as="image">
+<link rel="modulepreload" crossorigin href="/assets/AppLink.DSayAUqj.js">
+<link rel="modulepreload" crossorigin href="/assets/404.CWa9uX6O.js">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>伊地知佳の博客</title>
+<link rel="stylesheet" href="https://unpkg.com/aplayer/dist/APlayer.min.css">
+<meta property="og:locale:alternate" content="en">
+<meta name="description" content="天空的湛蓝该怎样才能传达给你呢？">
+<meta property="og:description" content="天空的湛蓝该怎样才能传达给你呢？">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:site_name" content="伊地知佳の博客">
+<meta property="og:title" content="伊地知佳の博客">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://nijika-jia.github.io/404">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:description" content="天空的湛蓝该怎样才能传达给你呢？">
+<meta name="twitter:title" content="伊地知佳の博客">
+<link rel="icon" href="https://avatars.githubusercontent.com/u/181221850?v=4" type="image/png">
+<meta name="generator" content="Valaxy 1.5.0">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#fff">
+<meta name="msapplication-TileColor" content="#fff">
+</head>
+<body>
+  <div id="app"><!--[--><!--[--><!--[--><!--v-if--><div class="yun-page-header-gradient"></div><div class="yun-nav-menu z-$yun-z-nav-menu fixed bg-transparent" data-v-1acd9498><!--  --><div class="inline-flex justify-start items-center flex-1 gap-1" data-v-1acd9498><button type="button" class="vt-hamburger menu-btn sidebar-toggle yun-action-btn leading-4 lg:hidden!" aria-label="mobile navigation" aria-expanded="false" z="$yun-z-menu-btn" data-v-1acd9498><span class="vt-hamburger-container"><span class="vt-hamburger-top"></span><span class="vt-hamburger-middle"></span><span class="vt-hamburger-bottom"></span></span></button><a href="/" class="va-link yun-nav-menu-item yun-action-btn z-$yun-z-nav-menu" aria-label="首页" title="首页" data-v-1acd9498 data-v-ac9880e1><!--[--><div class="i-ri-home-4-line" aria-hidden="true" data-v-ac9880e1></div><!--]--></a><div class="hidden lg:contents" data-v-1acd9498><!--[--><a href="/posts/" class="va-link yun-nav-menu-item yun-action-btn z-$yun-z-nav-menu" aria-label="文章" title="文章" data-v-1acd9498 data-v-ac9880e1><!--[--><div class="i-ri-article-line" aria-hidden="true" data-v-ac9880e1></div><!--]--></a><a href="/moments/" class="va-link yun-nav-menu-item yun-action-btn z-$yun-z-nav-menu" aria-label="小随想" title="小随想" data-v-1acd9498 data-v-ac9880e1><!--[--><div class="i-ri-chat-1-line" aria-hidden="true" data-v-ac9880e1></div><!--]--></a><a href="/collections/" class="va-link yun-nav-menu-item yun-action-btn z-$yun-z-nav-menu" aria-label="合集" title="合集" data-v-1acd9498 data-v-ac9880e1><!--[--><div class="i-ri:dashboard-line" aria-hidden="true" data-v-ac9880e1></div><!--]--></a><a href="/archives/" class="va-link yun-nav-menu-item yun-action-btn z-$yun-z-nav-menu" aria-label="归档" title="归档" data-v-1acd9498 data-v-ac9880e1><!--[--><div class="i-ri-archive-line" aria-hidden="true" data-v-ac9880e1></div><!--]--></a><a href="/categories/" class="va-link yun-nav-menu-item yun-action-btn z-$yun-z-nav-menu" aria-label="分类" title="分类" data-v-1acd9498 data-v-ac9880e1><!--[--><div class="i-ri:folder-5-line" aria-hidden="true" data-v-ac9880e1></div><!--]--></a><a href="/tags/" class="va-link yun-nav-menu-item yun-action-btn z-$yun-z-nav-menu" aria-label="标签" title="标签" data-v-1acd9498 data-v-ac9880e1><!--[--><div class="i-ri-price-tag-3-line" aria-hidden="true" data-v-ac9880e1></div><!--]--></a><a href="/links/" class="va-link yun-nav-menu-item yun-action-btn z-$yun-z-nav-menu" aria-label="友人帐" title="友人帐" data-v-1acd9498 data-v-ac9880e1><!--[--><div class="i-ri-links-line" aria-hidden="true" data-v-ac9880e1></div><!--]--></a><a href="/ablums/" class="va-link yun-nav-menu-item yun-action-btn z-$yun-z-nav-menu" aria-label="相册" title="相册" data-v-1acd9498 data-v-ac9880e1><!--[--><div class="i-ri-gallery-line" aria-hidden="true" data-v-ac9880e1></div><!--]--></a><a href="/projects/" class="va-link yun-nav-menu-item yun-action-btn z-$yun-z-nav-menu" aria-label="小项目" title="小项目" data-v-1acd9498 data-v-ac9880e1><!--[--><div class="i-ri-puzzle-fill" aria-hidden="true" data-v-ac9880e1></div><!--]--></a><a href="/bangumi/" class="va-link yun-nav-menu-item yun-action-btn z-$yun-z-nav-menu" aria-label="追番" title="追番" data-v-1acd9498 data-v-ac9880e1><!--[--><div class="i-ri-tv-line" aria-hidden="true" data-v-ac9880e1></div><!--]--></a><a href="/girls/" class="va-link yun-nav-menu-item yun-action-btn z-$yun-z-nav-menu" aria-label="我の推" title="我の推" data-v-1acd9498 data-v-ac9880e1><!--[--><div class="i-ri-heart-2-fill" aria-hidden="true" data-v-ac9880e1></div><!--]--></a><!--]--></div></div><div class="flex flex-1 flex-center" data-v-1acd9498><div flex="~ center col h-full" class="nav-menu-title-container cursor-pointer" data-v-1acd9498><!----><span class="font-light truncate">伊地知佳の博客</span></div></div><div class="inline-flex justify-end items-center flex-1 gap-1" data-v-1acd9498><!-- <template v-if="!app.isMobile && themeConfig.nav">
+        <template v-for="item in themeConfig.nav" :key="item.text">
+          <AppLink
+            v-if="'link' in item"
+            :to="item.link"
+            class="menu-btn inline-flex-center p-2 transition text-$va-c-text"
+            inline-flex cursor="pointer"
+            hover="bg-white/80 dark:bg-black/80"
+            z="$yun-z-menu-btn"
+          >
+            {{ item.text }}
+          </AppLink>
+          <template v-else-if="'items' in item" />
+        </template>
+      </template> --><button type="button" class="yun-action-btn hidden sm:inline-flex" title="切换语言" aria-label="切换语言" data-v-1acd9498><div i-ri-translate class="transition transform" aria-hidden="true"></div></button><button type="button" class="yun-action-btn yun-toggle-dark" title="切换深色模式" aria-label="切换深色模式" data-v-1acd9498><div i="ri-sun-line dark:ri-moon-line" aria-hidden="true"></div></button><!--[--><button type="button" class="yun-search-btn yun-action-btn popup-trigger" title="搜索" aria-label="搜索"><div i-ri-search-line aria-hidden="true"></div></button><!----><!--]--></div></div><!----><!--v-if--><!----><!--[--><div class="yun-bg"></div><!--]--><!----><button type="button" class="back-to-top yun-icon-btn" aria-label="回到顶部" title="回到顶部" tabindex="-1" aria-hidden="true" style="--yun-back-top-progress:0deg;"><div class="back-to-top-arrow" i-ri-arrow-up-s-line aria-hidden="true"></div></button><!--]--><!--[--><!--[--><div id="live2d" data-v-e08a23be><div id="live2d-tips" data-v-e08a23be></div><canvas id="live2d-canvas" data-v-e08a23be></canvas></div><div id="live2d-tools" class="show" data-v-bea695e6><!--[--><span id="live2d-tool-quit" class="hide-live2d live2d-tool" style="--live2d-tool-bg: #9c27b0" data-v-bea695e6>Hide</span><span id="live2d-tool-switch-model" class="live2d-tool" style="--live2d-tool-bg: #673ab7" data-v-bea695e6>Char</span><span id="live2d-tool-switch-texture" class="live2d-tool" style="--live2d-tool-bg: #009688" data-v-bea695e6>Skin</span><span id="live2d-tool-photo" class="live2d-tool" style="--live2d-tool-bg: #ff9800" data-v-bea695e6>Cap</span><span id="live2d-hitokoto" class="live2d-tool" style="--live2d-tool-bg: #4caf50" data-v-bea695e6>Hitokoto</span><span id="live2d-asteroids" class="live2d-tool" style="--live2d-tool-bg: #9c27b0" data-v-bea695e6>Asteroids</span><span id="info" class="live2d-tool" style="--live2d-tool-bg: #2196f3" data-v-bea695e6>Info</span><!--]--></div><!--]--><!--[--><!-- eslint-disable-next-line vue/component-name-in-template-casing --><meting-js fixed="true" api="/music/playlist.json" mini="true" theme="#4CAF50" id="308168565" server="netease" type="playlist" style=""></meting-js><!--]--><!--]--><!----><!--]--><main class="yun-404 va-main w-full min-h-screen" text="center" flex="~ col" justify="center" items="center" data-v-13690ecd><div class="yun-404-line top" data-v-13690ecd></div><h1 class="yun-404-code" aria-label="404" data-v-13690ecd><!--[--><span class="yun-404-char" style="--char-index:0;" aria-hidden="true" data-v-13690ecd>4</span><span class="yun-404-char" style="--char-index:1;" aria-hidden="true" data-v-13690ecd>0</span><span class="yun-404-char" style="--char-index:2;" aria-hidden="true" data-v-13690ecd>4</span><!--]--></h1><div class="yun-404-line bottom" data-v-13690ecd></div><p class="yun-404-title yun-404-fade" data-v-13690ecd>页面不存在</p><code class="yun-404-path yun-404-fade" data-v-13690ecd></code><div class="yun-404-actions yun-404-fade" flex="~ wrap" justify="center" items="center" gap="3" data-v-13690ecd><button class="btn rounded-full" p="x-6 y-2" text="sm" title="返回" data-v-13690ecd>返回</button><!-- a 元素自带 text 属性，不能用 attributify 的 text="sm" --><!----></div></main><!--]--></div><script>window.__INITIAL_STATE__='{"pinia":{"yun-app":{"bannerAnimationDone":false},"app":{"showLoading":true}}}'</script><script type="application/ld+json" data-hid="schema-org-graph">{"@context":"https://schema.org","@graph":[{"@id":"https://nijika-jia.github.io/#identity","@type":"Person","name":"伊地知佳","url":"https://nijika-jia.github.io/","image":{"@id":"https://nijika-jia.github.io/#/schema/image/1"},"sameAs":["https://qm.qq.com/q/mzVydOGSly","https://github.com/Nijika-jia","https://discordapp.com/users/1303909108667121726","https://leetcode.cn/u/yi-di-zhi-jia/","https://steamcommunity.com/id/Nijika_jia/"]},{"@id":"https://nijika-jia.github.io/#website","@type":"WebSite","description":"天空的湛蓝该怎样才能传达给你呢？","inLanguage":"zh-CN","name":"伊地知佳の博客","url":"https://nijika-jia.github.io/","publisher":{"@id":"https://nijika-jia.github.io/#identity"}},{"@id":"https://nijika-jia.github.io/#webpage","@type":"WebPage","dateModified":"2026-11-22T14:41:33.000Z","datePublished":"2026-11-22T14:41:33.000Z","description":"天空的湛蓝该怎样才能传达给你呢？","name":"伊地知佳の博客","url":"https://nijika-jia.github.io/404","about":{"@id":"https://nijika-jia.github.io/#identity"},"isPartOf":{"@id":"https://nijika-jia.github.io/#website"},"potentialAction":[{"@type":"ReadAction","target":["https://nijika-jia.github.io/"]}]},{"@id":"https://nijika-jia.github.io/#/schema/image/1","@type":"ImageObject","contentUrl":"https://avatars.githubusercontent.com/u/181221850?v=4","inLanguage":"zh-CN","url":"https://avatars.githubusercontent.com/u/181221850?v=4"}]}</script>
+  <div id="valaxy-teleports"></div>
+  
+</body>
+</html>

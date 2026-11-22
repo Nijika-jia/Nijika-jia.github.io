@@ -1,0 +1,1 @@
+import{N as e,O as t,Q as n,b as r,q as i}from"./framework.Duihb1Od.js";import"./chunks/vue-i18n.D4SepLhJ.js";import"./client.DzWot2eY.js";import{et as a,nt as o,tt as s}from"./index.CZ4b_Wgy.js";e();var c=t({__name:`YunArtalk`,setup(e){return o(a)||s(a).useArtalkWithOptions?.(),(e,t)=>{let a=n(`ArtalkClient`);return i(),r(a)}}});export{c as default};

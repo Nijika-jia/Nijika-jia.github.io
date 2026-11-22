@@ -1,0 +1,50 @@
+{
+  "Version": 3,
+  "FileReferences": {
+    "Moc": "Emma.moc3",
+    "Textures": [
+      "Emma.8192/texture_00.png"
+    ],
+    "Physics": "Emma.physics3.json",
+    "DisplayInfo": "Emma.cdi3.json",
+    "Expressions": [
+      {
+        "Name": "taishou",
+        "File": "taishou.exp3.json"
+      },
+      {
+        "Name": "liulei",
+        "File": "liulei.exp3.json"
+      },
+      {
+        "Name": "monvhua",
+        "File": "monvhua.exp3.json"
+      }
+    ],
+    "Motions": {
+      "Idle": [
+        {
+          "File": "Emma.idle.motion3.json",
+          "FadeInTime": 0.6,
+          "FadeOutTime": 0.6
+        }
+      ]
+    }
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": []
+    },
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "ParamEyeLOpen",
+        "ParamEyeROpen"
+      ]
+    }
+  ],
+  "HitAreas": []
+}

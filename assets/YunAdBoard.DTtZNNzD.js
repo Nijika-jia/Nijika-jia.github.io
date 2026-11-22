@@ -1,0 +1,1 @@
+import"./chunks/vue-i18n.D4SepLhJ.js";import{N as e,S as t,q as n,t as r}from"./framework.Duihb1Od.js";e();var i={},a={class:`yun-ad-board`,"aria-hidden":`true`};function o(e,r){return n(),t(`span`,a)}var s=r(i,[[`render`,o]]);export{s as t};
