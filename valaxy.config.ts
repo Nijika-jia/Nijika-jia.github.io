@@ -48,6 +48,7 @@ export default defineValaxyConfig<UserThemeConfig>({
   themeConfig: {
     banner: themeData.banner,
     outlineTitle: themeData.outlineTitle,
+    outlineCollapsible: themeData.outlineCollapsible as boolean | 'auto' | undefined,
     nav: themeData.nav,
     bg_image: themeData.bg_image,
     pages: themeData.pages.map(({ nameKey, ...page }) => ({
